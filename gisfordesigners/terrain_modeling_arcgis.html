@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+<head>
+    <title>LAR 582.017 GIS for Designers</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="layout.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="style.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="code.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+<body>
+<div id="outercontainer">
+<div id="container">
+<header>
+<div id="header-image"><p>GIS for Designers</p></div>
+<nav>
+<ul class="nav">
+<li><a href="index.html">Syllabus</a></li>
+<li><a href="resources.html">Resources</a></li>
+<li><a href="software.html">Software</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<h1>Terrain modeling</h1>
+
+<h3>Data</h3>
+<p><a href="data/arcgis/lake_raleigh.gdb.zip">Download</a> and unzip the Lake Raleigh geodatabase.
+
+<h3>Model and analyze terrain data in ArcMap</h3>
+<i>Compute contours, slope, hillshade, and visibility from terrain data.</i>
+<p>Add and symbolize the DEM
+<pre>
+In ArcMap
+Click the 'Add Data' button and select 'lake_raleigh_dem'
+In the Layer Manager
+Right click on the 'lake_raleigh_dem' layer and select 'Layer Properties'
+In 'Layer Properties -> Display'
+Set 'Resampling during display' to 'Bilinear interpolation'
+In 'Layer Properties -> Symbology'
+Set 'Color ramp' to your choice of color ramps
+Set 'Stretch type' to 'Percent clip'
+</pre>
+
+<p>Turn on the 3D Analyst Extension
+<pre>
+In the Customize menu
+Select 'Extensions…'
+Check the '3D Analyst'
+</pre>
+
+<p>Environment settings
+<pre>
+In ArcToolbox
+Right click in the white space of the ArcToolbox pane and select 'Environments…'
+Set 'Workspace -> Current Workspace' to 'lake_raleigh.gdb'
+Set 'Workspace -> Scratch Workspace' to 'lake_raleigh.gdb'
+</pre>
+
+<p>Compute contour lines
+<pre>
+In ArcToolbox
+Select '3D Analyst Tools -> Raster Surface -> <a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//00q900000021000000">Contour</a>'
+Set 'Input Raster' to 'lake_raleigh_dem'
+Set 'Output Polyline Feature' to 'lake_raleigh_contours_1ft'
+Set 'Contour Interval' to '1'
+</pre>
+
+<p>Symbolize the contours
+<pre>
+In the Layer Manager
+Right click on the 'lake_raleigh_contours_1ft' layer and select 'Layer Properties'
+In 'Layer Properties -> Symbology -> Symbol'
+Choose a color and line width
+</pre>
+
+<p>Compute the hillshade
+<pre>
+In ArcToolbox
+Select '3D Analyst Tools -> Raster Surface -> <a href="http://resources.arcgis.com/en/help/main/10.2/index.html#/Hillshade/00q900000036000000/">Hillshade</a>'
+Set 'Input Raster' to 'lake_raleigh_dem' 
+Set 'Output Raster' to 'lake_raleigh_hillshade'
+Check 'Model Shadows'
+</pre>
+
+<p>Symbolize the hillshade
+<pre>
+In the Layer Manager
+Drag 'lake_raleigh_hillshade' underneath 'lake_raleigh_dem'
+Right click on the 'lake_raleigh_dem' layer and select 'Layer Properties'
+In 'Layer Properties -> Display'
+Set 'Transparency' to '15%'
+</pre>
+
+<p>Compute the slope
+<pre>
+In ArcToolbox
+Select '3D Analyst Tools -> Raster Surface -> <a href="http://resources.arcgis.com/en/help/main/10.2/index.html#/Slope/00q900000058000000/">Slope</a>'
+Set 'Input Raster' to 'lake_raleigh_dem' 
+Set 'Output Raster' to 'lake_raleigh_slope'
+Set 'Output Measurement' to 'PERCENT_RISE'
+</pre>
+
+<p>Compute the difference between the digital surface model (DSM) and <a href="http://en.wikipedia.org/wiki/Digital_elevation_model">digital elevation model (DEM)</a>
+<pre>
+In ArcToolbox
+Select '3D Analyst Tools -> Raster Surface -> <a href="http://resources.arcgis.com/en/help/main/10.2/index.html#/Cut_Fill/00q90000001z000000/">Cut Fill</a>'
+Set 'Input before raster surface' to 'lake_raleigh_dem' 
+Set 'Input after raster surface' to 'lake_raleigh_dsm'
+Set 'Output raster' to 'lake_raleigh_difference'
+</pre>
+
+<p>Export map
+<pre>
+File -> Export map...
+</pre>
+
+<h3>Optional</h3>
+
+<p>Turn on the Spatial Analyst Extension
+<pre>
+In the Customize menu
+Select 'Extensions…'
+Check the 'Spatial Analyst'
+</pre>
+
+<p>Compute the tree canopy from the difference between the DSM and the DEM
+<pre>
+In ArcToolbox
+Select 'Spatial Analyst Tools -> Local -> <a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//009z0000007q000000">Cell Statistics</a>'
+Set 'Input rasters' to 'lake_raleigh_dem' and 'lake_raleigh_dsm'
+Set 'Output raster' to 'lake_raleigh_canopy'
+Set 'Overlay statistic' to 'RANGE'
+</pre>
+
+</main>
+</body>
+</html>
+
+
+

@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+    <title>LAR 582.017 GIS for Designers</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="layout.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="style.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="code.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+<body>
+<div id="outercontainer">
+<div id="container">
+<header>
+<div id="header-image"><p>GIS for Designers</p></div>
+<nav>
+<ul class="nav">
+<li><a href="index.html">Syllabus</a></li>
+<li><a href="resources.html">Resources</a></li>
+<li><a href="software.html">Software</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<h1>Lidar</h1>
+<p><i>Generate a digital elevation model (DEM) and digital surface model (DSM) from lidar data</i>
+
+<h3>Data</h3>
+<p>Download nc_spf and the las directory from ClassStore or <a href="http://fatra.cnr.ncsu.edu/gisfordesigners/">http://fatra.cnr.ncsu.edu/gisfordesigners/</a>
+
+<h3>Preview</h3>
+<p>load the las tiles in <a href="http://plas.io/">plas.io</a> in the chrome browser to explore the data
+
+<h3>Setup</h3>
+<p>
+start GRASS 7
+
+<p>
+in startup pannel<br>
+set <b>GIS Data Directory</b> path to your datasets<br>
+for example, C:\Users\myname\grassdata<br>
+for <b>Project location</b> select nc_spf (North Carolina, State Plane, feet)<br>
+for <b>Accessible mapset</b> select lake_raleigh<br>
+click <b>Start GRASS</b><br>
+
+<p>set the region
+<pre>
+g.region res=3 
+</pre>
+
+<p>set the mask
+<pre>r.mask raster=mask@lake_raleigh</pre>
+
+<h3>Compute the digital elevation model (DEM)
+<h4>Import lidar data</h4>
+<p>import las files using <a href="http://grass.osgeo.org/grass70/manuals/v.in.lidar.html">v.in.lidar</a>
+<p>filter using lidar class 2 to extract the bare earth points
+<pre>
+v.in.lidar -t -o input=0793_009.las output=ground_0793_009 class_filter=2
+v.in.lidar -t -o -b input=0793_010.las output=ground_0793_010 class_filter=2
+v.in.lidar -t -o -b input=0793_011.las output=ground_0793_011 class_filter=2
+v.in.lidar -t -o -b input=0793_013.las output=ground_0793_013 class_filter=2
+v.in.lidar -t -o -b input=0793_014.las output=ground_0793_014 class_filter=2
+v.in.lidar -t -o -b input=0793_015.las output=ground_0793_015 class_filter=2
+v.in.lidar -t -o -b input=0793_017.las output=ground_0793_017 class_filter=2
+v.in.lidar -t -o -b input=0793_018.las output=ground_0793_018 class_filter=2
+v.in.lidar -t -o -b input=0793_019.las output=ground_0793_019 class_filter=2
+</pre>
+
+<p>list the imported lidar tiles
+<pre>
+g.list type=vect pattern=ground_*
+</pre>
+
+<p>combine the lidar tiles with <a href="http://grass.osgeo.org/grass70/manuals/v.patch.html">v.patch</a>
+<pre>
+v.patch -b --overwrite input=ground_0793_009,ground_0793_010,ground_0793_011,ground_0793_013,ground_0793_014,ground_0793_015,ground_0793_017,ground_0793_018,ground_0793_019 output=ground
+</pre>
+
+<h4>Interpolate the DEM</h4>
+<!--<p>use map algebra to compute a mask for the buildings and lake
+<pre>
+r.mapcalc "mask = if( isnull( buildings@lake_raleigh ||| lake_raleigh@lake_raleigh),1,0)" --overwrite
+</pre>
+-->
+<p>compute the DEM using <a href="http://grass.osgeo.org/grass65/manuals/v.surf.rst.html">regularized spline with tension</a> interpolation
+<pre>
+v.surf.rst -t --overwrite input=ground@lidar elevation=lake_raleigh_dem tension=100 npmin=250 dmin=2
+<!--
+mask=mask@lidar 
+-->
+</pre>
+
+<p>compute the DEM using <a href="http://grass.osgeo.org/grass65/manuals/v.surf.bspline.html">bilinear spline</a> interpolation
+<pre>
+v.surf.bspline input=ground@lidar raster_output=lake_raleigh_dem_bspline ew_step=6 ns_step=6 method=bicubic lambda_i=0.02 memory=12000
+</pre>
+
+<h3>Compute the digital surface model (DSM)
+<h4>Import lidar data</h4>
+<p>import las files using <a href="http://grass.osgeo.org/grass70/manuals/v.in.lidar.html">v.in.lidar</a>
+<p>filter using the first return and classes 1 and 2
+<pre>
+v.in.lidar -t -o input=H:\gisfordesigners\las\0793_009.las output=first_0793_009 return_filter=first class_filter=1,2 --overwrite
+v.in.lidar -t -o input=H:\gisfordesigners\las\0793_010.las output=first_0793_010 return_filter=first class_filter=1,2 --overwrite
+v.in.lidar -t -o input=H:\gisfordesigners\las\0793_011.las output=first_0793_011 return_filter=first class_filter=1,2 --overwrite
+v.in.lidar -t -o input=H:\gisfordesigners\las\0793_013.las output=first_0793_013 return_filter=first class_filter=1,2 --overwrite
+v.in.lidar -t -o input=H:\gisfordesigners\las\0793_014.las output=first_0793_014 return_filter=first class_filter=1,2 --overwrite
+v.in.lidar -t -o input=H:\gisfordesigners\las\0793_015.las output=first_0793_015 return_filter=first class_filter=1,2 --overwrite
+v.in.lidar -t -o input=H:\gisfordesigners\las\0793_017.las output=first_0793_017 return_filter=first class_filter=1,2 --overwrite
+v.in.lidar -t -o input=H:\gisfordesigners\las\0793_018.las output=first_0793_018 return_filter=first class_filter=1,2 --overwrite
+v.in.lidar -t -o input=H:\gisfordesigners\las\0793_019.las output=first_0793_019 return_filter=first class_filter=1,2 --overwrite
+</pre>
+
+<p>list the imported lidar tiles
+<pre>
+g.list type=vect pattern=first*
+</pre>
+
+<p>combine the lidar tiles with <a href="http://grass.osgeo.org/grass70/manuals/v.patch.html">v.patch</a>
+<pre>
+v.patch -b --overwrite v.patch -b --overwrite input=first_0793_009,first_0793_010,first_0793_011,first_0793_013,first_0793_014,first_0793_015,first_0793_017,first_0793_018,first_0793_019 output=first_return
+</pre>
+
+<h4>Interpolate the DSM</h4>
+<p>compute the DSM using the <a href="http://grass.osgeo.org/grass65/manuals/v.surf.rst.html">regularized spline with tension</a> interpolation
+<pre>
+v.surf.rst -t --overwrite input=first_return@lidar elevation=lake_raleigh_dsm tension=200 smooth=0.5 npmin=120 dmin=2
+</pre>
+
+</main>
+</body>
+</html>
+

@@ -1,0 +1,185 @@
+<!doctype html>
+<html>
+<head>
+    <title>LAR 582.017 GIS for Designers</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="layout.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="style.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="code.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+<body>
+<div id="outercontainer">
+<div id="container">
+<header>
+<div id="header-image"><p>GIS for Designers</p></div>
+<nav>
+<ul class="nav">
+<li><a href="index.html">Syllabus</a></li>
+<li><a href="resources.html">Resources</a></li>
+<li><a href="software.html">Software</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<h1>Trail planning seminar</h1>
+
+<h4>Seminar topics</h3>
+<p>r.walk function & parameters, walking parameters, mountain biking parameters, trailheads and scenic spots, viewsheds and viewpoints, existing informal trails, the masterplan, scenarios, preferences, tradeoffs, and map overlay logic models</p>
+
+<h2>Walking</h2>
+<h3>Walking function</h3>
+<p><a href="http://en.wikipedia.org/wiki/Naismith's_rule">Naismith's Rule with Langmuir's Corrections</a>
+<p>implemented as<a href="http://grass.osgeo.org/grass70/manuals/r.walk.html">r.walk</a> in GRASS GIS
+<pre>
+T = [(a)*(Delta S)] + [(b)*(Delta H uphill)] + [(c)*(Delta H moderate downhill)] + [(d)*(Delta H steep downhill)]
+
+T = time of movement in seconds
+Delta S = distance covered in meters
+Delta H = altitude difference in meters
+
+Default walking coefficients (in meters/second)
+a = 1 / walking speed (1.3889 m/s) = 0.72 m/s
+b = 1 / uphill walking speed (0.1667 m/s) = 6.0 m/s
+c = 1 / moderate downhill walking speed (0.5 m/s) = 1.9998 m/s
+d = 1 / steep downhill walking speed (-0.5 m/s) = -1.9998 m/s
+</pre>
+
+<h3>Slope factor</h3>
+<p>The slope factor is the break value between the moderate and steep downhill slope
+<p>The default slope factor is -0.2125 or tan(-12) for a break value at 12 degrees or an 21.3% slope</p><br/>
+<p><a title="By Darekk2 (Own work) [CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons" href="http://commons.wikimedia.org/wiki/File%3AHiking_speed.gif"><img width="256" alt="Hiking speed" src="//upload.wikimedia.org/wikipedia/commons/2/29/Hiking_speed.gif"/></a>
+<p>Walking velocity vs. slope angle, source: Wikimedia Commons
+
+<h2>Cycling<h2>
+<h3>Mountain biking parameters</h3>
+<p><a href="http://cotamtb.com/wp-content/uploads/MTB_Trail_Standards_Difficulty_Ratings.pdf">Mountain Biking Trail Standards</a>
+<h4>Beginners | Green Circle</h4>
+<h5>Green standards</h5>
+<ul>
+<li>maximum sustained grade: 10% (~5.71 degrees)</li>
+<li>short pitch max grade while climbing: 15% (~8.55 degrees) for &lt;200'</li>
+<li>short pitch max grade while descending: 35% (~19.33 degrees) for &lt;100'</li>
+<li>max pitch density: 5-20% of trail</li>
+</ul>
+<h5>Green slope factor</h5>
+<p>10% slope or 5.71 degrees
+<p>tan(-5.71 degrees)=<strong>-0.0999</strong>
+<br/>
+<h5>Green coefficients</h5>
+<p>(in meters/second)
+<pre>
+a = 1 / cycling speed (7.5mph or 3.3528 m/s) = 0.2983 m/s
+b = 1 / uphill cycling speed (5mph or 2.2352 m/s) = 0.4474 m/s
+c = 1 / moderate downhill cycling speed (15mph or 6.7056) = 0.1491 m/s
+d = 1 / steep downhill cycling speed (5mph or 2.2352 m/s) = 0.4474 m/s
+</pre>
+
+<h4>Intermediate | Blue Square</h4>
+<h5>Blue standards</h5>
+<ul>
+<li>maximum sustained grade: 15% (~8.55 degrees)</li>
+<li>short pitch max grade while climbing: 20% (~11.31 degrees) for &lt;200'</li>
+<li>short pitch max grade while descending: 70% (35 degrees) for &lt;100'</li>
+<li>max pitch density: 10-30% of trail</li>
+</ul>
+<h5>Blue slope factor</h5>
+<p>15% slope or 8.55 degrees
+<p>tan(-8.55 degrees)=<strong>-0.1503</strong>
+<br/>
+<h5>Blue coefficients</h5>
+<p>(in meters/second)
+<pre>
+a = 1 / cycling speed (10mph or 4.4704 m/s) = 0.2237 m/s
+b = 1 / uphill cycling speed (7.5mph or 3.3528 m/s) = 0.2983 m/s
+c = 1 / moderate downhill cycling speed (17.5mph or 7.8232 m/s) = 0.1278 m/s
+d = 1 / steep downhill cycling speed (7.5mph or 3.3528 m/s) = 0.2983 m/s
+</pre>
+
+<h4>Expert | Black Diamond</h4>
+<h5>Black standards</h5>
+<ul>
+<li>maximum sustained grade: 20% (~11.31 degrees)</li>
+<li>short pitch max grade while climbing: 30% (~16.75 degrees) for &lt;200'</li>
+<li>short pitch max grade while descending: 100% (45 degrees) for &lt;100'</li>
+<li>max pitch density: 20-40% of trail</li>
+</ul>
+<h5>Black slope factor</h5>
+<p>20% slope or 11.31 degrees
+<p>tan(-11.31 degrees)=<strong>-0.2</strong>
+<br/>
+<h5>Black coefficients</h5>
+<p>(in meters/second)
+<pre>
+a = 1 / cycling speed (15mph or 6.7056 m/s) = 0.1491 m/s
+b = 1 / uphill cycling speed (10mph or 4.4704 m/s) = 0.2237 m/s
+c = 1 / moderate downhill cycling speed (20mph or 8.9408 m/s) = 0.1118 m/s
+d = 1 / steep downhill cycling speed (17.5mph or 7.8232 m/s) = 0.1278 m/s
+</pre>
+
+<h2>Scenarios
+<h3>Trail types</h3>
+<ul>
+<li>accessible walking trail</li>
+<li>boardwalk</li> 
+<li>hiking trail</li>
+<li>easy mountain biking trails</li>
+<li>moderate mountain biking trails</li>
+</ul>
+
+<h3>Potential scenarios</h3>
+<ul>
+<li>combined accessible walking trail / boardwalk</li>
+<li>combined accessible walking trail / boardwalk + mountain biking trails</li>
+<li>hiking trails</li>
+<li>combined hiking / biking trails</li>
+<li>hiking trails + mountain biking trails</li>
+<li>combined hiking trails / boardwalk + mountain biking trails</li>
+</ul>
+
+<h3>Preferences</h3>
+<li>use (mixed user types vs. separate user types)</li>
+<li>accessibility</li>
+<li>experience</li>
+<li>costs</li>
+<li>aesthetics</li>
+<li>conservation</li>
+<p>Discuss tradeoffs...</p>
+
+<h3>Logic models</h3>
+<p>Weighted overlay</p>
+<img src="images/weighted_overlay.png" alt="Weighted overlay" width="760px">
+<br/>
+<p>Weights</p>
+<img src="images/weighted_overlay_dialog.png" alt="Weighted overlay dialog" width="760px">
+<br/>
+<p>Weighted sum</p>
+<img src="images/weighted_sum.png" alt="Weighted sum" width="760px">
+<br/>
+
+<h2>Team assignment</h2>
+<ul>
+<li>Digitize trailheads and scenic spots
+<p><i>in GRASS: create a new mapset in the ncspf location and add points
+<p>in ArcGIS: add points to the trails geodatabase</i></li>
+<li>Prepare a presentation outlining the scenarios your team will address. Explain your scenario objectives and preferences, your map overlay logic model and weights, and your walking and biking parameters. 
+<p><i>create in google docs and share with the instructors</i></li>
+<li>Prepare supplies for the first charrette
+<ul>
+<li>12" or 18" tracing paper</li>
+<li>24" or 36" tracing paper</li>
+<li>markers</li>
+<li>pens</li>
+<li>scales</li>
+<li>masking tape</li>
+<li>an aerial photograph of your site</li>
+<li>a contour map of your site</li>
+</ul>
+</li>
+</ul>
+
+</main>
+</body>
+</html>
+
+
+

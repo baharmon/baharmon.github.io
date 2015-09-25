@@ -1,0 +1,227 @@
+<!doctype html>
+<html>
+<head>
+    <title>LAR 582.017 GIS for Designers</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="layout.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="style.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="code.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+<body>
+<div id="outercontainer">
+<div id="container">
+<header>
+<div id="header-image"><p>GIS for Designers</p></div>
+<nav>
+<ul class="nav">
+<li><a href="index.html">Syllabus</a></li>
+<li><a href="resources.html">Resources</a></li>
+<li><a href="software.html">Software</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<h1>Fuzzy membership</h1>
+
+<h3>Data</h3>
+<p>Download lake_raleigh.gdb, conversion.gdb, reclassification.gdb, and membership.gdb from ClassStore
+<!--<p><a href="data/arcgis/lake_raleigh.gdb.zip">Download</a> and unzip the Lake Raleigh geodatabase.-->
+
+<h3>Fuzzy membership</h3>
+<p><i>Reclassify the data with <a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//009z000000rz000000">fuzzy membership</a> functions</i>
+<p>Nota bene: sybmolize the fuzzy membership layers with the 'Histogram Equalize' stretch type
+
+<p>Add and symbolize the DEM
+<pre>
+In ArcMap
+Click the 'Add Data' button and select 'lake_raleigh_dem'
+In the Layer Manager
+Right click on the 'lake_raleigh_dem' layer and select 'Layer Properties'
+In 'Layer Properties -> Display'
+Set 'Resampling during display' to 'Bilinear interpolation'
+In 'Layer Properties -> Symbology'
+Set 'Color ramp' to your choice of color ramps
+Set 'Stretch type' to 'Percent clip' or 'Histogram Equalize'
+</pre>
+
+<p>Turn on the Spatial Analyst Extension
+<pre>
+In the Customize menu
+Select 'Extensions…'
+Check the 'Spatial Analyst'
+</pre>
+
+<p>Environment settings
+<pre>
+In ArcToolbox
+Right click in the white space of the ArcToolbox pane and select 'Environments…'
+Set 'Workspace -> Current Workspace' to 'reclassification.gdb'
+Set 'Workspace -> Scratch Workspace' to 'membership.gdb'
+Set 'Raster Storage -> Pyramid -> Pyramid resampling technique' to 'NEAREST'
+Set 'Raster Storage -> Resampling Method' to 'NEAREST'
+</pre>
+
+<h4>Slope</h4>
+<p>Compute the fuzzy membership for 'reclass_slope_naturalbreaks'
+<p>on a scale from 0 to 1 where 0 is accessible and 1 is inaccessible
+
+<pre>In ArcToolbox
+Select 'Spatial Analyst Tools -> Overlay -> <a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//009z000000rn000000">Fuzzy Membership</a>'
+Set 'Input raster' to 'reclass_slope_naturalbreaks'
+Set 'Output raster' to 'fuzzy_slope_naturalbreaks'
+Set 'Membership type' to 'Large'
+Set 'Midpoint' to '5.5'
+Set 'Spread' to '1'
+</pre>
+
+<h4>Soils</h4>
+<p>Compute the fuzzy membership for 'reclass_soils_for_trails'
+<p>on a scale from 0 to 1 where 0 is suitable and 1 is unsuitable
+
+<pre>
+In ArcToolbox
+Select 'Spatial Analyst Tools -> Overlay -> Fuzzy Membership'
+Set 'Input raster' to 'reclass_soils_for_trails'
+Set 'Output raster' to 'fuzzy_soils_for_trails'
+Set 'Membership type' to 'Large'
+Set 'Midpoint' to '50'
+Set 'Spread' to '1'
+</pre>
+
+<p>Compute the fuzzy membership for 'reclass_soils_for_sites'
+<p>on a scale from 0 to 1 where 0 is suitable and 1 is unsuitable
+
+<pre>
+In ArcToolbox
+Select 'Spatial Analyst Tools -> Overlay -> Fuzzy Membership'
+Set 'Input raster' to 'reclass_soils_for_sites'
+Set 'Output raster' to 'fuzzy_soils_for_sites'
+Set 'Membership type' to 'Large'
+Set 'Midpoint' to '50'
+Set 'Spread' to '1'
+</pre>
+
+<h4>Parking</h4>
+<p>Compute the fuzzy membership for 'reclass_parking'
+<p>on a scale from 0 to 1 where 0 is suitable and 1 is unsuitable
+
+<pre>
+In ArcToolbox
+Select 'Spatial Analyst Tools -> Overlay -> Fuzzy Membership'
+Set 'Input raster' to 'reclass_parking'
+Set 'Output raster' to 'fuzzy_parking'
+Set 'Membership type' to 'Large'
+Set 'Midpoint' to '5.5'
+Set 'Spread' to '5'
+</pre>
+
+<h4>Roads</h4>
+<p>Compute the fuzzy membership for 'reclass_roads'
+<p>on a scale from 0 to 1 where 0 is suitable and 1 is unsuitable
+
+<pre>
+In ArcToolbox
+Select 'Spatial Analyst Tools -> Overlay -> Fuzzy Membership'
+Set 'Input raster' to 'reclass_roads'
+Set 'Output raster' to 'fuzzy_roads'
+Set 'Membership type' to 'Large'
+Set 'Midpoint' to '5.5'
+Set 'Spread' to '5'
+</pre>
+
+<h4>Streets</h4>
+<p>Compute the fuzzy membership for 'reclass_streets'
+<p>on a scale from 0 to 1 where 0 is suitable and 1 is unsuitable
+
+<pre>
+In ArcToolbox
+Select 'Spatial Analyst Tools -> Overlay -> Fuzzy Membership'
+Set 'Input raster' to 'reclass_streets'
+Set 'Output raster' to 'fuzzy_streets'
+Set 'Membership type' to 'Linear'
+Set 'Minimum' to '1'
+Set 'Maximum' to '10'
+</pre>
+
+<h4>Floodplain</h4>
+<p>Compute the fuzzy membership for 'reclass_floodplain'
+<p>on a scale from 0 to 1 where 0 is safe and 1 is risky
+
+<pre>In ArcToolbox
+Select 'Spatial Analyst Tools -> Overlay -> Fuzzy Membership'
+Set 'Input raster' to 'reclass_floodplain'
+Set 'Output raster' to 'fuzzy_floodplain'
+Set 'Membership type' to 'Large'
+Set 'Midpoint' to '5.5'
+Set 'Spread' to '5'
+</pre>
+
+<h4>Trails</h4>
+<p>Compute the fuzzy membership for 'reclass_trail_areas'
+<p>on a scale from 0 to 1 where 0 is accessible and 1 is inaccessible
+
+<pre>In ArcToolbox
+Select 'Spatial Analyst Tools -> Overlay -> Fuzzy Membership'
+Set 'Input raster' to 'reclass_trail_areas'
+Set 'Output raster' to 'fuzzy_trail_areas'
+Set 'Membership type' to 'Linear'
+Set 'Minimum' to '1'
+Set 'Maximum' to '10'
+</pre>
+
+<p>Compute the fuzzy membership for 'reclass_greenways'
+<p>on a scale from 0 to 1 where 0 is accessible and 1 is inaccessible
+
+<pre>In ArcToolbox
+Select 'Spatial Analyst Tools -> Overlay -> Fuzzy Membership'
+Set 'Input raster' to 'reclass_greenways'
+Set 'Output raster' to 'fuzzy_greenways'
+Set 'Membership type' to 'Linear'
+Set 'Minimum' to '1'
+Set 'Maximum' to '10'
+</pre>
+
+<h4>Hydrology</h4>
+<p>Compute the fuzzy membership for 'reclass_hydrology'
+<p>on a scale from 0 to 1 where 0 is dry and 1 is wet
+
+<pre>In ArcToolbox
+Select 'Spatial Analyst Tools -> Overlay -> Fuzzy Membership'
+Set 'Input raster' to 'reclass_hydrology'
+Set 'Output raster' to 'fuzzy_hydrology'
+Set 'Membership type' to 'Linear'
+Set 'Minimum' to '1'
+Set 'Maximum' to '10'
+</pre>
+
+<p>Compute the fuzzy membership for 'reclass_hydrology_areas'
+<p>on a scale from 0 to 1 where 0 is dry and 1 is wet
+
+<pre>In ArcToolbox
+Select 'Spatial Analyst Tools -> Overlay -> Fuzzy Membership'
+Set 'Input raster' to 'reclass_hydrology_areas'
+Set 'Output raster' to 'fuzzy_hydrology_areas'
+Set 'Membership type' to 'Linear'
+Set 'Minimum' to '1'
+Set 'Maximum' to '10'
+</pre>
+
+<p>Compute the fuzzy membership for 'reclass_major_streams'
+<p>on a scale from 0 to 1 where 0 is dry and 1 is wet
+
+<pre>In ArcToolbox
+Select 'Spatial Analyst Tools -> Overlay -> Fuzzy Membership'
+Set 'Input raster' to 'reclass_major_streams'
+Set 'Output raster' to 'fuzzy_streams'
+Set 'Membership type' to 'Linear'
+Set 'Minimum' to '1'
+Set 'Maximum' to '10'
+</pre>
+
+
+</main>
+</body>
+</html>
+
+
+

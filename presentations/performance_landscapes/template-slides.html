@@ -1,0 +1,133 @@
+<section class="textimg">
+    <h2>Possible layouts in the left-right template</h2>
+    <ul>
+        <li>text on left, image on right</li>
+        <li>image on right, text on left</li>
+        <li>text can be:
+            <ul>
+                <li><code>p</code></li>
+                <li><code>ul</code></li>
+                <li><code>ol</code></li>
+            </ul>
+        </li>
+        <li>image can be:
+            <ul>
+                <li><code>img</code></li>
+                <li><code>video</code></li>
+                <li><code>iframe</code>
+                    <ul>
+                        <li>Vimeo video</li>
+                        <li>YouTube video</li>
+                        <li>any web page</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <img src="img/elevation.png">
+</section>
+<section class="imgtext">
+    <h2>Applying left-right layout</h2>
+    <ul>
+        <li>set <code>section</code> element class to:
+            <ul>
+                <li><code>imgtext</code> for image on left</li>
+                <li><code>textimg</code> for image on right</li>
+            </ul>
+        </li>
+        <li>example of setting a class:
+            <pre>&lt;section class="imgtext"&gt;</pre>
+        </li>
+    </ul>
+    <img src="img/elevation.png">
+</section>
+<section class="imgtext">
+    <h2>Details about left-right template</h2>
+    <ul>
+        <li>
+            difference between having image on right or left is in the class, not the order
+            <ul>
+                <li>but perhaps it is better to keep the order also in the code, not only by styles</li>
+                <li>anyway, when changing the layout to the other one, it is enough just to change the class</li>
+            </ul>
+        </li>
+    </ul>
+    <img src="img/elevation.png">
+</section>
+<section class="imgtext">
+    <h2>Details about left-right template</h2>
+    <img src="img/elevation.png">
+    <ul>
+        <li>vertical size of text or image is not limited which means that one has to keep the right ratio</li>
+        <li>there are always just two elements under the <code>section</code> element</li>
+        <li>
+            any heading level can be used
+            <ul>
+                <li>heading element is not involved in the layout</li>
+            </ul>
+        </li>
+    </ul>
+</section>
+<section class="imgtext">
+    <h2>Image size in left-right template</h2>
+    <ul>
+        <li>the width:height ratio should be 9:10</li>
+        <li>square image (1:1) is safe way</li>
+    </ul>
+    <img src="img/elevation.png">
+</section>
+<section class="imgtext">
+    <h2>Disadvantages of left-right template</h2>
+    <ul>
+        <li>text is pushed</li>
+        <li>to the left/right</li>
+        <li>if the lines are</li>
+        <li>short</li>
+    </ul>
+    <img src="img/elevation.png">
+</section>
+<section class="imgtext">
+    <h2>Vimeo video as <code>iframe</code></h2>
+    <h3>GRASS GIS 7: your reliable geospatial number cruncher &mdash; Markus Neteler</h3>
+    <!-- using a bit lighter green color for vimeo then for headings -->
+    <iframe src="http://player.vimeo.com/video/106874424?color=00AA00" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <p>
+        GRASS&nbsp;GIS looks
+        back to the longest development history in the FOSS4G community.
+        Having been available for 30 years, a lot of innovation has been
+        put into the new GRASS&nbsp;GIS&nbsp;7 release...
+    </p>
+</section>
+<section>
+    <h2>Left-right layout with arbitrary elements</h2>
+    <div class="left">
+        <p>
+            Left
+        <ul>
+            <li>set class left for the element which should be on left</li>
+            <li>any element be used</li>
+            <li>common choice is <code>div</code> element which then contains more elements</li>
+        </ul>
+    </div>
+    <div class="right">
+        <p>
+            Right-aligned
+        <ul>
+            <li>set class right for the element which should be on right</li>
+            <li>the right element can be the same as left one or different</li>
+            <li>text is still aligned to the left</li>
+        </ul>
+    </div>
+</section>
+<section>
+    <h2>Left-right test slide</h2>
+    <div class="left" style="background-color: yellow;">class="left"</div>
+    <div class="right" style="background-color: green;">class="right"</div>
+</section>
+<!--
+<section>
+    <h2>Top-bottom test slide</h2>
+    <div class="top" style="background-color: yellow;">class="top"</div>
+    <div class="bottom" style="background-color: green;">class="bottom"</div>
+</section>
+-->

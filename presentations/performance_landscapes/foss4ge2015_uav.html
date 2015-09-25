@@ -1,0 +1,264 @@
+<section> 
+<h2>Flow analysis using sUAS and lidar data</h2>
+    <h4 style="margin-top: 2em"> Helena Mitasova, Justyna Jeziorska, Anna Petrasova, Vaclav Petras, Thomas Zajkowski</h4>
+    <h4 style="margin-top: 1em">North Carolina State University, Raleigh, NC</h4>
+    <h4> Center for Geospatial Analytics, 
+         Department of Marine, Earth and Atmospheric Sciences, 
+         NextGen Air Transportation </h4>
+    <h4>Wroclaw University, Poland</h4>
+<p>
+</section>
+
+<section>
+    <h3>Advances in 3D mapping</h3>
+<ul>
+<li>Lidar and sUAS: increased capacity to
+map 3D landscapes and assess the change on (almost) continuous basis
+<li>Improved prediction of flooding and surface water flow
+</ul>
+<p>
+    <img height="200" src="img/mapping.jpg">
+</section>
+
+<section>
+    <h3>Study site</h3>
+<ul>
+<li>NCSU experimental farms
+<li>Surveyed by airborne lidar: 2001, 2013, 2015
+<li>Test area for sUAS technologies 
+</ul>
+<p>
+    <img height="300" src="img/Raleigh.jpg">
+    <img height="300" src="img/lw_farms_google.jpg">
+<p class="credit">Image source: Google Maps</p>
+</section>
+
+<section>
+    <h3>Lidar data</h3>
+<ul>
+<li>Lidar survey by Leica ALS-70 in 2013
+<li>multiple return point cloud with point density ~2 pts/m<sup style="small">2</sup>
+<li>DEM and DSM interpolated at 0.3m resolution
+</ul>
+<p>
+    <img width="40%" src="img/2013_lidar_bare.jpg">
+    &nbsp;&nbsp;
+    <img width="40%" src="img/2013_lidar_surf.jpg">
+<!--    <img height="350" src="img/lidar_dsm_uavarea.jpg">-->
+</section>
+
+<section>
+    <h3>sUAS data </h3>
+<ul>
+<li> Trimble UX5 system, flying at 138 m, camera 4900 x 3200 
+<li> Orthophoto 0.04 m resolution
+<li> Digital Surface Model 0.15 m res, 172 pts/m<sup>2</sup>
+<li> Repeated surveys for crop growth monitoring
+</ul>
+<p>
+    <img width=15% src="img/takeoff.jpg"> &nbsp;
+    <img width=35% src="img/ngat2_dem02m_3d.jpg">
+    <img width=30% src="img/2015_06_15_DSM_GCP_3dlg.jpg">
+<p>
+winter and summer DSM
+</section>
+
+<section>
+    <h3>sUAS data properties</h3>
+<p>
+<ul>
+<li> image overlap > 9, almost 1 million tie points
+<li> processed by AGISOFT, Trimble, OpenDroneMap
+<li> 11 GCPs installed to improve accuracy 
+</ul>
+<p>
+    <img height=150 src="img/errorlg.png">
+    <img width=320 src="img/errorimg.png">
+    <img width=320 src="img/GCP_imagery.jpg">
+<p>
+<font size=2> distribution of vertical and horizontal error, avg. camera error 0.3,1.9,0.6 m</font>
+</section>
+
+<!--
+<section>
+    <h3>sUAS data processing: GCP</h3>
+<p>
+Registration without and with GCPs (AGISOFT) 
+    <img width=70% src="img/DSM_comparison_NGAT_Agisoft.jpg">
+</section>
+-->
+
+<section>
+    <h3>sUAS data processing: bowl effect</h3>
+<p>
+Difference between DSM processed without GCPs and with 11 GCPs (AGISOFT)
+(mean=0.06m, mean_abs=2.8m)
+    <img width=50% src="img/diff_DEM_GCPyesno_bowlall.jpg">
+    <img width=35% src="img/diff_DEM_GCPyesno_bowlzoom.jpg">
+</section>
+
+<section>
+    <h3>sUAS data processing comparison</h3>
+Difference between DSM processed by AGISOFT with 11 GCPs and ODM with 6 GCPs
+<p>
+   <img width=50% src="img/diff_odm_agisGCPmarchjuneall.jpg">
+   <img width=35% src="img/diff_odm_agisGCPmarchjune.jpg">
+</section>
+
+<section>
+    <h3>sUAS data processing comparison</h3>
+Difference between AGISOFT and Trimble (11 GCPs): 
+<br>mean=-0.14m, mean_abs=0.30m, 
+<br>bare < 15cm dif, corn < 50cm dif, NS tilt
+<p>
+   <img width=50% src="img/diff_trimb_agisGCPjuneall.jpg">
+   <img width=35% src="img/diff_trimb_agisGCPjune.jpg">
+</section>
+
+<section>
+    <h3>Lidar and sUAS data comparison</h3>
+<p>
+<ul>
+<li> Lidar bare 2013 - AGISOFT_GCP 2014: mean=-0.29m, mean_abs=0.40m
+<li> reflects mapping errors and terrain/vegetation changes 
+</ul>
+<p>
+   <img width=40% src="img/diff_lid_uavGCPjune.jpg">
+    &nbsp; &nbsp; &nbsp;
+   <img width=25% src="img/diff_lid_uavGCPjune_gully.jpg">
+</section>
+
+<section>
+    <h3>LCP MFD flowrouting  </h3>
+<p>
+<ul>
+<p><li> DSMs with many true depressions 
+<p><li> least cost path method (LCP): no depression filling 
+<p><li> multiple flow direction (MFD) routing: captures flow dispersion
+</ul>
+</section>
+
+<section>
+    <h3>Flow pattern analysis based on sUAS DSM  </h3>
+<ul>
+<li> LCP MFD flowtracing - includes dispersed water but no accumulated water in depressions
+<!--<li> improved representation of streams compared to county data -->
+</ul>
+<p>
+    <img width=40% src="img/accum_uavjune_03m.jpg">
+    <img width=40% src="img/accum_uavjune_03mzoom.jpg">
+<!--    <img height=230 src="img/stream_extraction_lidarc.png"> -->
+</section>
+
+<section>
+    <h3>Watersheds from lidar and sUAS DSM </h3>
+Watershed boundaries derived on sUAS data (color) and lidar (lines):
+tillage impact is captured by sUAS
+<p>
+    <img width=55% src="img/basins_lid_uav.jpg">
+</section>
+
+<section>
+    <h3>LCP MFD flowaccumulation: lidar, sUAS </h3>
+<p>
+<ul>
+<p><li>level of detail and noise influence the LCP MFD flowrouting (0.3m, 0.3m, 0.18m)
+<p><li>tillage impact can be modeled directly, based on microtopography captured by sUAS 
+</ul>
+<p>
+    <img width=90% src="img/flowaccum_lid_ngat_trimb_zoom.jpg">
+</section>
+
+<!--
+<section>
+    <h3>Watershed analysis on fused UAS DSM  and lidar DEM </h3>
+<p>
+<ul>
+<li>patch or reinterpolate the fused DSM at 0.2 or 0.3m resolution
+<li> compare results, show smooth flow along the border of the patched area
+<li> ADD FIGURE
+</ul>
+<p>
+<br>
+   <img height=200 src="img/diffmap_uav2_lidg.png">
+</section>
+-->
+
+<section>
+    <h3>Path sampling method for flow simulations </h3>
+<p>
+   Robust stochastic method for rough surfaces implemented in GRASS GIS
+<p>
+    <img width=40% src="img/fanimwalk.gif"> &nbsp; &nbsp; &nbsp; &nbsp;
+    <img width=40% src="img/fanimhhcolp.gif">
+</section>
+
+<section>
+    <h3>Sensitivity to sUAS DSM artifacts</h3>
+Shifts between swaths on Trimble processed DSM (without GCPs?)
+ leads to artificial flow pattern
+<p>
+   <img width=40% src="img/diff_trimb_ngat.jpg">
+    <img width=40% src="img/trimb_depth120.jpg">
+<P>
+<font size=-1>left: difference between trimble and agisoft processed DSM without GCPs - demo flight</font>
+</section>
+
+<section>
+    <h3>Simulated water depth on sUAS DSM </h3>
+<p>
+Simulated surface water depth captures flow redirection by tillage and a small gully
+<p>
+    <img width=35% src="img/gullyDSC06027.jpg">
+    &nbsp; &nbsp; &nbsp; 
+    <img width=45% src="img/field_waterdepth_simwe0008.png">
+</section>
+
+<section>
+    <h3>Change in flow pattern based on sUAS data </h3>
+<p>
+GRASS GIS flow simulation for January and June 2015 
+<p>
+    <img height=350 src="img/simwe_jan.jpg">
+    &nbsp; &nbsp; &nbsp; 
+    <img height=350 src="img/simwe_june.jpg">
+</section>
+
+<section>
+    <h3>Evolving overland flow based on sUAS data </h3>
+<p> June DSM (AGISOFT) with flow dynamics as color map
+<p>
+    <img width=70% src="img/agisoft_june.gif">
+</section>
+
+<section>
+    <h3>Evolving overland flow based on sUAS data </h3>
+<p> June DSM (Trimble) with overland flow dynamics as color map
+<p>
+    <img width=70% src="img/trimble_june.gif">
+</section>
+
+<section>
+    <h3>Conclusions </h3>
+<p>
+<ul>
+<li> GCP were crucial for accurate DSM geometry
+<li> High level of detail in DSMs requires robust flowrouting that can handle depressions
+<li> Open source based processing of sUAV data would help to understand the results
+<li> Coordinated effort is needed to develop open source sUAV data processing
+tools such as Open Drone Map   
+</ul>
+</section>
+
+<section>
+    <h2>NCSU OSGeoREL</h2>
+    <h3><a href="http://geospatial.ncsu.edu/osgeorel/">geospatial.ncsu.edu/osgeorel</a></h3>
+<p>
+<ul>
+<p><li>NCSU Open Source Geospatial Research and Education Laboratory
+<p><li>Member of Geo4all initiative: global network for foss4g education</li>
+<p><li>NCSU NA leading lab: GRASS GIS development, courses, research projects </li>
+<p><li>GitHub: <a href="https://github.com/ncsu-osgeorel">https://github.com/ncsu-osgeorel</a>
+</ul>
+</section>
+
