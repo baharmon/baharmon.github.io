@@ -1,0 +1,356 @@
+<!doctype html>
+<html>
+<head>
+    <title>LAR 582.017 GIS for Designers</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="layout.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="style.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="code.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+<body>
+<div id="outercontainer">
+<div id="container">
+<header>
+<div id="header-image"><p>GIS for Designers</p></div>
+<nav>
+<ul class="nav">
+<li><a href="index.html">Syllabus</a></li>
+<li><a href="resources.html">Resources</a></li>
+<li><a href="software.html">Software</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<h1>Reclassification</h1>
+
+<h3>Data</h3>
+<p>Download lake_raleigh.gdb, conversion.gdb, and reclassification.gdb from ClassStore
+<!--<p><a href="data/arcgis/lake_raleigh.gdb.zip">Download</a> and unzip the Lake Raleigh geodatabase.-->
+
+<h3>Reclassify the data for suitability</h3>
+
+<p>Add and symbolize the DEM
+<pre>
+In ArcMap
+Click the 'Add Data' button and select 'lake_raleigh_dem'
+In the Layer Manager
+Right click on the 'lake_raleigh_dem' layer and select 'Layer Properties'
+In 'Layer Properties -> Display'
+Set 'Resampling during display' to 'Bilinear interpolation'
+In 'Layer Properties -> Symbology'
+Set 'Color ramp' to your choice of color ramps
+Set 'Stretch type' to 'Percent clip'
+</pre>
+
+<p>Turn on the Spatial Analyst Extension
+<pre>
+In the Customize menu
+Select 'Extensions…'
+Check the 'Spatial Analyst'
+</pre>
+
+<p>Environment settings
+<pre>
+In ArcToolbox
+Right click in the white space of the ArcToolbox pane and select 'Environments…'
+Set 'Workspace -> Current Workspace' to 'conversion.gdb'
+Set 'Workspace -> Scratch Workspace' to 'reclassification.gdb'
+</pre>
+
+
+<h4>Slope</h4>
+
+<p>Reclassify the slope using the natural breaks method
+<pre>
+In ArcToolbox
+Select 'Spatial Analyst Tools -> Reclass -> Reclassify'
+Set 'Input raster' to 'lake_raleigh_slope'
+Set 'Reclass field' to 'Value'
+Set 'Reclassification -> Classify -> Classification Method' to 'Natural Breaks (Jencks)' with 10 Classes
+Set 'Output raster' to 'reclass_naturalbreaks'
+</pre>
+
+<p>Symbolize 'reclass_slope_naturalbreaks'
+<pre>
+In the Layer Manager
+Right click on the 'reclass_slope_naturalbreaks' layer and select 'Layer Properties'
+In 'Layer Properties -> Symbology -> Color Scheme' choose the 'Slope' color scheme
+</pre>
+
+<p>Reclassify the slope using the quantile method
+<pre>
+In ArcToolbox
+Select 'Spatial Analyst Tools -> Reclass -> Reclassify'
+Set 'Input raster' to 'lake_raleigh_slope'
+Set 'Reclass field' to 'Value'
+Set 'Reclassification -> Classify -> Classification Method' to 'Quantile' with 10 Classes
+Set 'Output raster' to 'reclass_slope_quantile'
+</pre>
+
+<p>Symbolize 'reclass_slope_quantile'
+<pre>
+In the Layer Manager
+Right click on the 'reclass_slope_quantile' layer and select 'Layer Properties'
+In 'Layer Properties -> Symbology -> Color Scheme' choose the 'Slope' color scheme
+</pre>
+
+<h4>Floodplain</h4>
+<p>Reclassify the floodplain
+<p>on a scale from 1 to 10 where 1 is safe and 10 is risky
+
+<pre>
+In ArcToolbox
+Select 'Spatial Analyst Tools -> Reclass -> Reclassify'
+Set 'Input raster' to 'floodplain_2006'
+Set 'Reclass field' to 'FLOODZONE'
+In 'Reclassification'
+Set 'AEFW' to '10'
+Set '1pct annual chance flood' to '3'
+Set 'AE' to '5'
+Set 'NoData' to '1'
+Set 'Output raster' to 'reclass_floodplain'
+</pre>
+
+<h4>Soils</h4>
+<p><a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//009z000000sr000000">Reclassify</a> soils by suitability for trails
+<p> on a scale from 1 to 100 1 is suitable and 100 is suitable
+
+<pre>
+In ArcToolbox
+Select 'Spatial Analyst Tools -> Reclass -> Reclassify'
+Set 'Input raster' to 'soils_2013'
+Set 'Reclass field' to 'MUSYM'
+In 'Reclassification'
+Set values according to <a href="soils_for_trails.html">soils table for trail suitability</a>
+Set 'Output raster' to 'reclass_soils_for_trails'
+</pre>
+
+<p><a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//009z000000sr000000">Reclassify</a> soils by suitability for sites
+<p> on a scale from 1 to 100 where 1 is suitable and 100 is suitable
+
+<pre>
+In ArcToolbox
+Select 'Spatial Analyst Tools -> Reclass -> Reclassify'
+Set 'Input raster' to 'soils_2013'
+Set 'Reclass field' to 'MUSYM'
+In 'Reclassification'
+Set values according to <a href="soils_for_sites.html">soils table for site suitability</a>
+Set 'Output raster' to 'reclass_soils_for_sites'
+</pre>
+
+<!--
+<p>Convert the integer raster values to <a href="http://resources.arcgis.com/en/help/main/10.2/index.html#/Float/009z0000008w000000/">floating point values</a> for soils suitability for trails
+
+<pre>
+In ArcToolbox
+Select 'Spatial Analyst Tools -> Math -> Float'
+Set 'Input raster or constant value 1' to 'float_soils_for_trails'
+Set 'Input raster or constant value 1' to '100'
+Set 'Output raster' to 'float_soils_for_trails'
+</pre>
+
+<p><a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//009z0000008r000000">Divide</a> by 100 to rescale the values for soils suitability for trails
+
+<pre>
+In ArcToolbox
+Select 'Spatial Analyst Tools -> Math -> Divide'
+Set 'Input raster' to 'reclass_soils_for_trails'
+Set 'Output raster' to 'float_soils_for_trails'
+</pre>
+
+<p>Convert the integer raster values to <a href="http://resources.arcgis.com/en/help/main/10.2/index.html#/Float/009z0000008w000000/">floating point values</a> for soils suitability for sites
+
+<pre>
+In ArcToolbox
+Select 'Spatial Analyst Tools -> Math -> Float'
+Set 'Input raster or constant value 1' to 'float_soils_for_sites'
+Set 'Input raster or constant value 1' to '100'
+Set 'Output raster' to 'float_soils_for_sites'
+</pre>
+
+<p><a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//009z0000008r000000">Divide</a> by 100 to rescale the values for soils suitability for sites
+
+<pre>
+In ArcToolbox
+Select 'Spatial Analyst Tools -> Math -> Divide'
+Set 'Input raster' to 'reclass_soils_for_sites'
+Set 'Output raster' to 'float_soils_for_sites'
+</pre>
+-->
+
+<h4>Parking</h4>
+<p><a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//009z000000sr000000">Reclassify</a> parking
+<p> on a scale from 1 to 10 where 1 is suitable and 10 is unsuitable
+
+<pre>
+In ArcToolbox
+Select 'Spatial Analyst Tools -> Reclass -> Reclassify'
+Set 'Input raster' to 'parking_2013'
+Set 'Reclass field' to 'Value'
+In 'Reclassification'
+Set '1' to '10'
+Set '2' to '5'
+Set 'NoData' to '1'
+Set 'Output raster' to 'reclass_parking'
+</pre>
+
+<h4>Roads</h4>
+<p><a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//009z000000sr000000">Reclassify</a> roads
+<p> on a scale from 1 to 10 where 1 is suitable and 10 is unsuitable
+
+<pre>
+In ArcToolbox
+Select 'Spatial Analyst Tools -> Reclass -> Reclassify'
+Set 'Input raster' to 'roads_2013'
+Set 'Reclass field' to 'Value'
+In 'Reclassification'
+Set '1' to '10'
+Set '4' to '5'
+Set '5' to '10'
+Set '6' to '5'
+Set 'NoData' to '1'
+Set 'Output raster' to 'reclass_roads'
+</pre>
+
+<h4>Streets</h4>
+<p><a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//009z000000sr000000">Reclassify</a> streets
+<p> on a scale from 1 to 10 where 1 is suitable and 10 is unsuitable
+
+<pre>
+In ArcToolbox
+Select 'Spatial Analyst Tools -> Reclass -> Reclassify'
+Set 'Input raster' to 'streets_2014'
+Set 'Reclass field' to 'Value'
+In 'Reclassification'
+Set all values to '10'
+Set 'NoData' to '1'
+Set 'Output raster' to 'reclass_streets'
+</pre>
+
+<h4>Trails</h4>
+<p><a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//009z000000sr000000">Reclassify</a> trails
+<p> on a scale from 1 to 10 where 1 is suitable and 10 is unsuitable
+
+<pre>
+In ArcToolbox
+Select 'Spatial Analyst Tools -> Reclass -> Reclassify'
+Set 'Input raster' to 'trail_areas_2013'
+Set 'Reclass field' to 'Value'
+In 'Reclassification'
+Set '1' to '1'
+Set 'NoData' to '10'
+Set 'Output raster' to 'reclass_trail_areas'
+</pre>
+
+<p><a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//009z000000sr000000">Reclassify</a> greenways
+<p> on a scale from 1 to 10 where 1 is suitable and 10 is unsuitable
+
+<pre>
+In ArcToolbox
+Select 'Spatial Analyst Tools -> Reclass -> Reclassify'
+Set 'Input raster' to 'greenways_2014'
+Set 'Reclass field' to 'Value'
+In 'Reclassification'
+Set all values to '1'
+Set 'NoData' to '10'
+Set 'Output raster' to 'reclass_greenways'
+</pre>
+
+<h4>Hydrology</h4>
+<p><a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//009z000000sr000000">Reclassify</a> hydrology
+<p> on a scale from 1 to 10 where 1 is suitable and 10 is unsuitable
+
+<pre>
+In ArcToolbox
+Select 'Spatial Analyst Tools -> Reclass -> Reclassify'
+Set 'Input raster' to 'hydrology_2013'
+Set 'Reclass field' to 'FTYPE'
+In 'Reclassification'
+Set 'CONNECTOR' to '1'
+Set 'STREAM/RIVER' to '10'
+Set 'CANAL/DITCH' to '10'
+Set 'ARTIFICIAL PATH' to '1'
+Set 'NoData' to '1'
+Set 'Output raster' to 'reclass_hydrology'
+</pre>
+
+<p><a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//009z000000sr000000">Reclassify</a> hydrology areas
+<p> on a scale from 1 to 10 where 1 is suitable and 10 is unsuitable
+
+<pre>
+In ArcToolbox
+Select 'Spatial Analyst Tools -> Reclass -> Reclassify'
+Set 'Input raster' to 'hydrology_areas_2013'
+Set 'Reclass field' to 'DESCRIPTIO'
+In 'Reclassification'
+Set 'STREAM/RIVER' to '10'
+Set 'TUNNEL/CULVERT' to '1'
+Set 'LAKE/POND' to '10'
+Set 'SPILLWAY' to '10'
+Set DAM/WEIR' to '10'
+Set 'RESERVOIR' to '10'
+Set 'NoData' to '1'
+Set 'Output raster' to 'reclass_hydrology_areas'
+</pre>
+
+<p><a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//009z000000sr000000">Reclassify</a> major streams
+<p> on a scale from 1 to 10 where 1 is suitable and 10 is unsuitable
+
+<pre>
+In ArcToolbox
+Select 'Spatial Analyst Tools -> Reclass -> Reclassify'
+Set 'Input raster' to 'major_streams_2011'
+Set 'Reclass field' to 'FTYPE'
+In 'Reclassification'
+Set 'STREAM/RIVER' to '10'
+Set 'CONNECTOR' to '1'
+Set 'ARTIFICIAL PATH' to '1'
+Set 'NoData' to '1'
+Set 'Output raster' to 'reclass_major_streams'
+</pre>
+
+<h4>Buildings</h4>
+<p><a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//009z000000sr000000">Reclassify</a> buildings
+<p> on a scale from 1 to 10 where 1 is suitable and 10 is unsuitable
+
+<pre>
+In ArcToolbox
+Select 'Spatial Analyst Tools -> Reclass -> Reclassify'
+Set 'Input raster' to 'buildings_2013'
+Set all values to '10'
+Set 'NoData' to '1'
+Set 'Output raster' to 'reclass_buildings'
+</pre>
+
+<p><a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//009z000000sr000000">Reclassify</a> the chancellor's property
+<p> on a scale from 1 to 10 where 1 is suitable and 10 is unsuitable
+
+<pre>
+In ArcToolbox
+Select 'Spatial Analyst Tools -> Reclass -> Reclassify'
+Set 'Input raster' to 'chancellors'
+Set '1' to '10'
+Set 'NoData' to '1'
+Set 'Output raster' to 'reclass_chancellors'
+</pre>
+
+<h4>Lake</h4>
+<p><a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//009z000000sr000000">Reclassify</a> the lake
+<p> on a scale from 1 to 10 where 1 is suitable and 10 is unsuitable
+
+<pre>
+In ArcToolbox
+Select 'Spatial Analyst Tools -> Reclass -> Reclassify'
+Set 'Input raster' to 'lake_raleigh'
+Set '1' to '10'
+Set 'NoData' to '1'
+Set 'Output raster' to 'reclass_lake'
+</pre>
+
+
+</main>
+</body>
+</html>
+
+
+

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="cp1252"?>
+<!DOCTYPE gxw SYSTEM "grass-gxw.dtd">
+<gxw>
+    <layer_manager dim="0,0,525,600">
+    </layer_manager>
+    <display name="Display 1" render="1" mode="0" showCompExtent="0" alignExtent="1" constrainRes="0" dim="530,0,800,600" extent="2089998.002620,729999.000000,2100000.002620,737502.000000,0.000000,1.000000" tbres="1.000000" viewMode="2d" >
+        <layer type="raster" name="cost_route@lake_raleigh" checked="1" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>cost_route@lake_raleigh</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="walking_route@lake_raleigh" checked="1" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>walking_route@lake_raleigh</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="cost@lake_raleigh" checked="0" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>cost@lake_raleigh</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="accessibility@lake_raleigh" checked="0" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>accessibility@lake_raleigh</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="suitability@lake_raleigh" checked="0" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>suitability@lake_raleigh</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="friction@lake_raleigh" checked="0" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>friction@lake_raleigh</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="soils_for_trails@lake_raleigh" checked="0" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>soils_for_trails@lake_raleigh</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="mask@lake_raleigh" checked="0" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>mask@lake_raleigh</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="vector" name="lake_raleigh_woods@lake_raleigh" checked="0" opacity="1.000000">
+            <task name="d.vect">
+                <parameter name="map">
+                    <value>lake_raleigh_woods@lake_raleigh</value>
+                </parameter>
+                <parameter name="fcolor">
+                    <value>none</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="chancellors@lake_raleigh" checked="0" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>chancellors@lake_raleigh</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="lake_raleigh_dem_masked@lake_raleigh" checked="1" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>lake_raleigh_dem_masked@lake_raleigh</value>
+                </parameter>
+            </task>
+        </layer>
+    </display>
+</gxw>

@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+    <title>LAR 582.017 GIS for Designers</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="layout.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="style.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="code.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+<body>
+<div id="outercontainer">
+<div id="container">
+<header>
+<div id="header-image"><p>GIS for Designers</p></div>
+<nav>
+<ul class="nav">
+<li><a href="index.html">Syllabus</a></li>
+<li><a href="resources.html">Resources</a></li>
+<li><a href="software.html">Software</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<h1>Terrain visualization</h1>
+<h3>Data</h3>
+<p><a href="data/rhino/chancellors_house.3dm.zip">Download a 3dm model of the Chancellor’s House</a>
+
+<h3>Visualize data in Rhino in 3D</h3>
+<p>Open the model of the Chancellor’s House
+<pre>
+In Rhino
+File -> Open
+Select 'chancellors_house.3dm'
+</pre>
+
+<p>Set the viewport to rendered mode
+<pre>
+Click on the Perspective viewport dropdown tab
+Set the mode to 'Rendered' or 'Raytraced with Neon' (if installed)
+</pre>
+
+<p>Turn on the sun 
+<pre>
+In the command line type 'sun'
+In the <a href="http://docs.mcneel.com/rhino/5/help/en-us/commands/sun.htm">'Sun'</a> dialog box
+Check 'On'
+Set 'Time' to 'Now'
+Set 'Location' to 'Here'
+</pre>
+
+<p>Experiment and adjust the time
+
+<p>Render the scene
+<pre>
+In the command line type '_DocumentProperties'
+In the Rhino Render tab choose your settings
+For example set 'Resolution' to '640x480'
+For example set 'DPI' to '72'
+For example set 'Anti-aliasing' to 'Normal (x2)'
+In the command line type 'Render'
+</pre>
+
+</main>
+</body>
+</html>
+
+
+

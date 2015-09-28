@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+    <title>LAR 582.017 GIS for Designers</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="layout.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="style.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="code.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+<body>
+<div id="outercontainer">
+<div id="container">
+<header>
+<div id="header-image"><p>GIS for Designers</p></div>
+<nav>
+<ul class="nav">
+<li><a href="index.html">Syllabus</a></li>
+<li><a href="resources.html">Resources</a></li>
+<li><a href="software.html">Software</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<h1>Hydrological Modeling</h1>
+<h3>Compute hydrology from terrain data in GRASS</h3>
+<p><i>Compute streams, overland flow, and flooding from terrain data.</i>
+
+<p>
+start GRASS 7
+
+<p>
+in startup pannel<br>
+set <b>GIS Data Directory</b> path to your datasets<br>
+for example, C:\Users\myname\grassdata<br>
+for <b>Project location</b> select nc_spf (North Carolina, State Plane, feet)<br>
+for <b>Accessible mapset</b> select lake_raleigh<br>
+click <b>Start GRASS</b><br>
+
+<p>add the DEM
+<pre>d.rast lake_raleigh_dem</pre>
+
+<p>add the lake
+<pre>d.vect map=lake_raleigh fcolor=none</pre>
+
+<p>set region with 3 foot resolution
+<pre>g.region rast=lake_raleigh_dem res=3</pre>
+
+<p>convert the lake from vector to raster
+<pre>v.to.rast input=lake_raleigh@lake_raleigh output=lake_raleigh use=cat</pre>
+
+<p>compute flow direction, flow accumulation and subwatersheds
+<pre>r.watershed lake_raleigh_dem thresh=10000 accum=accum_10K drain=draindir_10K basin=basin_10K</pre>
+
+<p>use map algebra to remove the lake
+<pre>r.mapcalc "accum_10k_lake = if( isnull( lake_raleigh ), accum_10k , null())"
+r.colors map=accum_10k_lake raster=accum_10k
+r.mapcalc "draindir_10k_lake = if( isnull( lake_raleigh ), draindir_10k , null())"
+r.colors map=draindir_10k_lake raster=draindirm_10k
+r.mapcalc "basin_10k_lake = if( isnull( lake_raleigh ), basin_10k , null())"
+r.colors map=basin_10k_lake raster=basin_10k</pre>
+
+<p>extract more detailed streams from flow accumulation raster
+<p>run r.mapcalc from GUI: type r.mapcalc and ENTER
+<p>provide name of the resulting map in the relevant field
+<p>paste or type the expression into the expression field and Run
+<pre>r.mapcalc "streams = if(abs(accum_10K) > 100, 1, null())"</pre>
+
+<p>convert rasters to vectors
+<pre>r.to.vect -s input=basin_10K output=basin_10K type=area
+r.thin input=streams output=streams_thinned
+r.to.vect -s input=streams_thinned output=streams type=line</pre>
+
+<p>overland flow hydrologic simulation using path sampling method
+<p><a href="http://grass.osgeo.org/grass64/manuals/r.sim.water.html">r.sim.water</a>
+
+<p>compute the partial derivatives of the DEM
+<pre>r.slope.aspect elevation=lake_raleigh_dem dx=lake_raleigh_dem_dx dy=lake_raleigh_dem_dy zfactor=3.28084</pre>
+
+<p>set resolution
+<pre>g.region res=10</pre>
+
+<p>run the overland flow hydrological simulation
+<pre>r.sim.water --overwrite elevation=lake_raleigh_dem dx=lake_raleigh_dem_dx dy=lake_raleigh_dem_dy rain_value=500 depth=depth nwalk=10000 niter=4</pre>
+
+<p>flooding
+
+<p>add the wake county flood plain map
+<pre>d.vect map=floodplain_2006 fcolor=none</pre>
+
+<p>create a flood map for a given water level and seed point
+<pre>r.lake elevation=lake_raleigh_dem water_level=280 lake=lake_280 coordinates=2094295.68641,733625.679405</pre>
+
+<p>create a flood map for a higher water level
+<pre>r.lake elevation=lake_raleigh_dem water_level=288 lake=lake_288 coordinates=2094295.68641,733625.679405</pre>
+
+<p>compare with the wake county flood plain map
+
+</main>
+</body>
+</html>
+

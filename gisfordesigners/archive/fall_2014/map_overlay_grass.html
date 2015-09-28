@@ -1,0 +1,192 @@
+<!doctype html>
+<html>
+<head>
+    <title>LAR 582.017 GIS for Designers</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="layout.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="style.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="code.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+<body>
+<div id="outercontainer">
+<div id="container">
+<header>
+<div id="header-image"><p>GIS for Designers</p></div>
+<nav>
+<ul class="nav">
+<li><a href="index.html">Syllabus</a></li>
+<li><a href="resources.html">Resources</a></li>
+<li><a href="software.html">Software</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<h1>Map Overlay Analysis</h1>
+<h3>Perform a suitability analysis in GRASS</h3>
+<p><i>Use map algebra to overlay maps</i>
+
+<h3>Data</h3>
+<p>Download nc_spf from ClassStore or <a href="http://fatra.cnr.ncsu.edu/gisfordesigners/">http://fatra.cnr.ncsu.edu/gisfordesigners/</a>
+<p>Download <a href="/media/recode_hydrology.txt">recode_hydrology.txt</a>, <a href="/media/recode_hydrology_areas.txt">recode_hydrology_areas.txt</a>, and <a href="/media/recode_slope.txt">recode_slope.txt</a>
+
+<h3>Setup</h3>
+
+<p>
+start GRASS 7
+
+<p>
+in startup pannel<br>
+set <b>GIS Data Directory</b> path to your datasets<br>
+for example, C:\Users\myname\grassdata<br>
+for <b>Project location</b> select nc_spf (North Carolina, State Plane, feet)<br>
+for <b>Accessible mapset</b> select lake_raleigh<br>
+click <b>Start GRASS</b><br>
+
+<p>add the DEM
+<pre>d.rast lake_raleigh_dem@lake_raleigh</pre>
+
+<p>add the lake
+<pre>d.vect map=lake_raleigh@lake_raleigh fcolor=none</pre>
+
+<p>set region with 3 foot resolution
+<pre>g.region rast=lake_raleigh_dem@lake_raleigh res=3</pre>
+
+<p>add the Lake Raleigh Woods boundary
+<pre>
+d.vect map=lake_raleigh_woods@lake_raleigh fcolor=none
+</pre>
+
+<!--
+<p>convert the lake from vector to raster
+<pre>v.to.rast input=lake_raleigh@lake_raleigh output=lake_raleigh use=val</pre>
+
+<p><a href="http://grass.osgeo.org/grass70/manuals/r.mapcalc.html">map algebra</a>
+<p>remove the lake from the DEM
+<pre>r.mapcalc "lake_raleigh_dem_masked = if( isnull( lake_raleigh@lake_raleigh ) , lake_raleigh_dem@lake_raleigh , null() )"</pre>
+
+<p>set color table
+<pre>r.colors map=lake_raleigh_dem_masked@lake_raleigh color=elevation</pre>
+-->
+
+<p>buffer greenways by 5ft
+<pre>
+v.buffer input=greenways_2014@lake_raleigh output=greenways distance=5
+</pre>
+
+
+<h3>conversion</h3>
+
+<p>convert from vector to raster
+<pre>
+v.to.rast input=lake_raleigh@lake_raleigh output=lake_raleigh use=val
+v.to.rast input=chancellors@lake_raleigh output=chancellors use=val
+v.to.rast input=buildings_2013@lake_raleigh output=buildings use=val
+v.to.rast input=hydrology_2013@lake_raleigh output=hydrology use=attr attrcolumn=FCODE labelcolumn=FTYPE
+v.to.rast input=hydrology_areas_2013@lake_raleigh output=hydrology_areas use=attr attrcolumn=FCODE
+v.to.rast input=floodplain_2006@lake_raleigh output=floodplain use=attr attrcolumn=SFHATF
+v.to.rast input=streets_2014@lake_raleigh output=streets use=val
+v.to.rast input=roads_2013@lake_raleigh output=roads use=val
+v.to.rast input=trail_areas_2013@lake_raleigh output=trail_areas use=val
+v.to.rast input=greenways@lake_raleigh output=greenways use=val
+</pre>
+
+<h3>mask</h3>
+<p>create a <a href="http://grass.osgeo.org/grass70/manuals/r.mask.html">mask</a> using map algebra
+<pre>
+r.mapcalc "mask = if( isnull( buildings@lake_raleigh ||| chancellors@lake_raleigh ||| lake_raleigh@lake_raleigh),1,null())" --overwrite
+</pre>
+
+<h3>slope</h3>
+<p>compute the slope
+<pre>
+r.slope.aspect --overwrite elevation=lake_raleigh_dem@lake_raleigh slope=lake_raleigh_slope format=percent
+</pre>
+
+<h3>recoding</h3>
+<p>recode raster maps 
+<p>on a scale from 1 to 10 where 1 is suitable and 10 is unsuitable
+<pre>
+r.recode --overwrite input=lake_raleigh_slope@lake_raleigh output=slope rules=recode_slope.txt
+r.colors -n map=slope@lake_raleigh color=ryg
+r.recode --overwrite input=hydrology_areas@lake_raleigh output=hydrology rules=C:\Users\Brendan\Documents\grassdata\recode_hydrology.txt
+r.recode --overwrite input=hydrology_areas@lake_raleigh output=hydrology_areas rules=recode_hydrology_areas.txt
+</pre>
+
+<h3>map overlay</h3>
+<p>overlay the maps using map algebra
+<pre>
+r.mapcalc "hydro = if( isnull(hydrology_areas@lake_raleigh ||| hydrology@lake_raleigh),1,10 )"
+r.colors -n map=hydro@lake_raleigh color=ryg
+
+r.mapcalc "paths = if( isnull( trails@lake_raleigh ||| greenways@lake_raleigh),10,1)"
+r.colors -n map=paths@lake_raleigh color=ryg
+
+<!-- vary values to change weight -->
+r.mapcalc "flood = if( isnull( floodplain@lake_raleigh ),1,10)"
+r.colors -n map=flood@lake_raleigh color=ryg
+
+r.mapcalc "transit = if(isnull( streets@lake_raleigh ||| roads@lake_raleigh ),1,10)"
+r.colors -n map=transit@lake_raleigh color=ryg
+<!--
+r.colors -n map=soils_for_trails@lake_raleigh color=ryg
+r.colors -n map=soils_for_sites@lake_raleigh color=ryg
+-->
+</pre>
+
+<h3>cost mapping</h3>
+
+<p>create a friction map with map overlay analysis
+<p>use <a href="http://grass.osgeo.org/grass70/manuals/r.series.html">r.series</a> to overlay the hydro, paths, flood, transit, and soils maps using the average operation
+<pre>
+r.series --overwrite input=flood@lake_raleigh,hydro@lake_raleigh,paths@lake_raleigh,transit@lake_raleigh,soils_for_trails@lake_raleigh output=friction method=average
+r.colors -n map=friction@lake_raleigh color=ryg
+</pre>
+
+<p>create a suitabilty map with map overlay analysis
+<p>use <a href="http://grass.osgeo.org/grass70/manuals/r.series.html">r.series</a> to overlay the hydro, flood, and soils maps using the average operation
+<pre>
+r.series --overwrite input=hydro@lake_raleigh,floodplain@lake_raleigh,soils_for_trails@lake_raleigh output=suitability method=average
+r.colors -n map=suitability@lake_raleigh color=ryg
+</pre>
+
+<p>create an accessiblity map with map overlay analysis
+<p>use <a href="http://grass.osgeo.org/grass70/manuals/r.series.html">r.series</a> to overlay the paths and transit maps using the minimum operation
+<pre>
+r.series --overwrite input=paths@lake_raleigh,transit@lake_raleigh output=accessibility method=minimum
+r.colors -n map=accessibility@lake_raleigh color=ryg
+</pre>
+
+<p>create a cost map with map overlay analysis
+<p>use <a href="http://grass.osgeo.org/grass70/manuals/r.series.html">r.series</a> to overlay the accessibility and suitability maps using the average operation
+<pre>
+r.series --overwrite input=accessibility@lake_raleigh,suitability@lake_raleigh output=cost method=average
+r.colors -n map=cost@lake_raleigh color=ryg
+</pre>
+
+<h3>least cost path analysis</h3>
+<h4>cumulative cost mapping with r.walk</h4>
+<p>compute the cumulative cost of walking across the terrain and the friction maps using <a href="http://grass.osgeo.org/grass70/manuals/r.walk.html">r.walk</a>
+<pre>
+r.walk -k --overwrite elevation=lake_raleigh_dem@lake_raleigh friction=friction@lake_raleigh output=walk outdir=walking_direction start_coordinates=2095852.63735,735068.392216 stop_coordinates=2093366.6134,732627.296407
+</pre>
+
+<p>compute the least cost path using <a href="http://grass.osgeo.org/grass70/manuals/r.drain.html">r.drain</a>
+<pre>
+r.drain -d --overwrite input=walk@lake_raleigh indir=walking_direction@lake_raleigh output=walking_route start_coordinates=2095852.63735,735068.392216,2093366.6134,732627.296407
+</pre>
+
+<h4>cumulative cost mapping with r.cost</h4>
+<p>compute the cumulative cost allocation using <a href="http://grass.osgeo.org/grass70/manuals/r.cost.html">r.cost</a>
+<pre>
+r.cost -k --overwrite input=cost@lake_raleigh output=cost_accumulation outdir=cost_direction start_coordinates=2095852.63735,735068.392216 stop_coordinates=2093366.6134,732627.296407
+</pre>
+
+<p>compute the least cost path using <a href="http://grass.osgeo.org/grass70/manuals/r.drain.html">r.drain</a>
+<pre>
+r.drain -d --overwrite input=cost_accumulation@lake_raleigh indir=cost_direction@lake_raleigh output=cost_route start_coordinates=2095852.63735,735068.392216,2093366.6134,732627.296407
+</pre>
+
+</main>
+</body>
+</html>
+

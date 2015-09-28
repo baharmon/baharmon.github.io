@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+    <title>LAR 582.017 GIS for Designers</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="layout.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="style.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="code.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+<body>
+<div id="outercontainer">
+<div id="container">
+<header>
+<div id="header-image"><p>GIS for Designers</p></div>
+<nav>
+<ul class="nav">
+<li><a href="index.html">Syllabus</a></li>
+<li><a href="resources.html">Resources</a></li>
+<li><a href="software.html">Software</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<h1>Fuzzy overlay analysis</h1>
+
+<h3>Data</h3>
+<p>Download lake_raleigh.gdb, intermediate_data.gdb, map_overlay.gdb, and fuzzy.gdb from ClassStore
+<!--<p><a href="data/arcgis/lake_raleigh.gdb.zip">Download</a> and unzip the Lake Raleigh geodatabase.-->
+
+<h3>Setup</h3>
+<p>Add and symbolize the DEM
+<pre>
+In ArcMap
+Click the 'Add Data' button and select 'lake_raleigh_dem'
+In the Layer Manager
+Right click on the 'lake_raleigh_dem' layer and select 'Layer Properties'
+In 'Layer Properties -> Display'
+Set 'Resampling during display' to 'Bilinear interpolation'
+In 'Layer Properties -> Symbology'
+Set 'Color ramp' to your choice of color ramps
+Set 'Stretch type' to 'Percent clip'
+</pre>
+
+<p>Turn on the Spatial Analyst Extension
+<pre>
+In the Customize menu
+Select 'Extensions…'
+Check the 'Spatial Analyst'
+</pre>
+
+<p>Geoprocessing options
+<pre>
+In the Geoprocessing -> Geoprocessing Options menu
+Check the 'Overwrite the output of geoprocessing operations'
+Uncheck 'Background Processing -> Enable'
+</pre>
+
+<p>Environment settings
+<pre>
+In ArcToolbox
+Right click in the white space of the ArcToolbox pane and select 'Environments…'
+Set 'Workspace -> Current Workspace' to 'lake_raleigh.gdb'
+Set 'Workspace -> Scratch Workspace' to 'fuzzy.gdb'
+Set 'Processing Extent -> Extent' to 'Same as layer lake_raleigh_dem'
+Set 'Processing Extent -> Snap Raster' to 'lake_raleigh_dem'
+Set 'Raster Analysis -> Cell Size' to 'same as lake_raleigh_dem'
+Check 'Raster Storage -> Pyramid -> Build pyramids'
+Set 'Raster Storage -> Pyramid -> Pyramid resampling technique' to 'NEAREST'
+Set 'Raster Storage -> Resampling Method' to 'NEAREST'
+</pre>
+
+<h3>Fuzzy Membership</h3>
+
+<h4>Slope</h4>
+<p>Compute the fuzzy membership for 'lake_raleigh_slope'
+<p>on a scale from 0 to 1 where 0 is inaccessible and 1 is accessible
+
+<pre>In ArcToolbox
+Select 'Spatial Analyst Tools -> Overlay -> <a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//009z000000rn000000">Fuzzy Membership</a>'
+Set 'Input raster' to 'lake_raleigh_slope'
+Set 'Output raster' to 'fuzzy_slope'
+Set 'Membership type' to 'Small'
+Set 'Midpoint' to '5.5'
+Set 'Spread' to '1'
+</pre>
+
+
+<h4>Floodplain</h4>
+<p>Compute the fuzzy membership for 'reclass_floodplain'
+<p>on a scale from 0 to 1 where 0 is risky and 1 is safe
+
+<pre>In ArcToolbox
+Select 'Spatial Analyst Tools -> Overlay -> Fuzzy Membership'
+Set 'Input raster' to 'reclass_floodplain'
+Set 'Output raster' to 'fuzzy_floodplain'
+Set 'Membership type' to 'Large'
+Set 'Midpoint' to '5.5'
+Set 'Spread' to '5'
+</pre>
+
+<h3>Perform <a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//009z000000rv000000">fuzzy overlay analysis</a></h3>
+
+<!--
+<p>Create this model:
+<img src="images/terrain_modeling.png" alt="terrain modeling" width="760px">
+
+-->
+
+<p>under construction....
+
+</main>
+</body>
+</html>
+
+
+

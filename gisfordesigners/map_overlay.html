@@ -1,0 +1,209 @@
+<!doctype html>
+<html>
+<head>
+    <title>LAR 582.017 GIS for Designers</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="layout.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="style.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="code.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+<body>
+<div id="outercontainer">
+<div id="container">
+<header>
+<div id="header-image"><p>GIS for Designers</p></div>
+<nav>
+<ul class="nav">
+<li><a href="index.html">Syllabus</a></li>
+<li><a href="resources.html">Resources</a></li>
+<li><a href="software.html">Software</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<h1>Map overlay analysis</h1>
+
+<h3>Data</h3>
+<p>Download lake_raleigh.gdb, scratch.gdb conversion.gdb, reclassification.gdb, and map_overlay.gdb from ClassStore or <a href="http://fatra.cnr.ncsu.edu/gisfordesigners/">http://fatra.cnr.ncsu.edu/gisfordesigners/</a>
+
+<h3>Setup</h3>
+<!--
+<p>Add and symbolize the DEM
+<pre>
+In ArcMap
+Click the 'Add Data' button and select 'lake_raleigh_dem'
+In the Layer Manager
+Right click on the 'lake_raleigh_dem' layer and select 'Layer Properties'
+In 'Layer Properties -> Display'
+Set 'Resampling during display' to 'Bilinear interpolation'
+In 'Layer Properties -> Symbology'
+Set 'Color ramp' to your choice of color ramps
+Set 'Stretch type' to 'Percent clip'
+</pre>
+-->
+<p>Turn on the Spatial Analyst Extension
+<pre>
+In the Customize menu
+Select 'Extensions…'
+Check the 'Spatial Analyst'
+</pre>
+
+<p>Geoprocessing options
+<pre>
+In the Geoprocessing -> Geoprocessing Options menu
+Check the 'Overwrite the output of geoprocessing operations'
+Uncheck 'Background Processing -> Enable'
+</pre>
+
+<p>Environment settings
+<pre>
+In ArcToolbox
+Right click in the white space of the ArcToolbox pane and select 'Environments…'
+Set 'Workspace -> Current Workspace' to 'reclassification.gdb'
+Set 'Workspace -> Scratch Workspace' to 'map_overlay.gdb'
+Set 'Processing Extent -> Extent' to 'Same as layer lake_raleigh_dem'
+Set 'Processing Extent -> Snap Raster' to 'lake_raleigh_dem'
+Set 'Raster Analysis -> Cell Size' to 'same as lake_raleigh_dem'
+Check 'Raster Storage -> Pyramid -> Build pyramids'
+Set 'Raster Storage -> Pyramid -> Pyramid resampling technique' to 'NEAREST'
+Set 'Raster Storage -> Resampling Method' to 'NEAREST'
+</pre>
+
+<h3>Reclassify the data for suitability</h3>
+
+<h4>Floodplain</h4>
+<p><a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//009z000000sr000000">Reclassify</a> the floodplain
+<p>on a scale from 1 to 10 where 1 is safe and 10 is risky
+<pre>
+Review the attribute table for 'floodplain_2006'
+Refer to <a href="http://www.fema.gov/floodplain-management/flood-zones">FEMA Flood Zones"</a>
+</pre>
+<pre>
+In ArcToolbox
+Select 'Spatial Analyst Tools -> Reclass -> Reclassify'
+Set 'Input raster' to 'floodplain_2006'
+Set 'Reclass field' to 'FLOODZONE'
+In 'Reclassification'
+Set 'AEFW' to '10'
+Set '1pct annual chance flood' to '3'
+Set 'AE' to '5'
+Set 'NoData' to '1'
+Set 'Output raster' to 'reclass_floodplain'
+</pre>
+
+<h4>Slope</h4>
+
+<p>Reclassify the slope using the natural breaks method
+<pre>
+In ArcToolbox
+Select 'Spatial Analyst Tools -> Reclass -> Reclassify'
+Set 'Input raster' to 'lake_raleigh_slope'
+Set 'Reclass field' to 'Value'
+Set 'Reclassification -> Classify -> Classification Method' to 'Natural Breaks (Jencks)' with 10 Classes
+Set 'Output raster' to 'reclass_naturalbreaks'
+</pre>
+
+<p>Symbolize 'reclass_slope_naturalbreaks'
+<pre>
+In the Layer Manager
+Right click on the 'reclass_slope_naturalbreaks' layer and select 'Layer Properties'
+In 'Layer Properties -> Symbology -> Color Scheme' choose the 'Slope' color scheme
+</pre>
+
+<!--
+<p>Reclassify the slope using the quantile method
+<pre>
+In ArcToolbox
+Select 'Spatial Analyst Tools -> Reclass -> Reclassify'
+Set 'Input raster' to 'lake_raleigh_slope'
+Set 'Reclass field' to 'Value'
+Set 'Reclassification -> Classify -> Classification Method' to 'Quantile' with 10 Classes
+Set 'Output raster' to 'reclass_slope_quantile'
+</pre>
+
+<p>Symbolize 'reclass_slope_quantile'
+<pre>
+In the Layer Manager
+Right click on the 'reclass_slope_quantile' layer and select 'Layer Properties'
+In 'Layer Properties -> Symbology -> Color Scheme' choose the 'Slope' color scheme
+</pre>
+-->
+
+<h3>Overlay analysis</h3>
+<h4>Weighted overlay</h4>
+<p>Use <a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//009z000000rq000000">weighted overlay analysis</a> to compute a cost map
+<pre>
+In ArcToolbox
+Select 'Spatial Analyst Tools -> Overlay -> Weighted Overlay'
+Add raster rows 'reclass_slope_naturalbreaks'
+Add raster rows 'reclass_floodplain'
+Set '% Influence'
+Set 'Scale Value' as the reverse of 'Field Value'
+Set 'Output  raster' to 'weightedoverlay'
+</pre>
+
+<p>For example:
+<img src="images/weighted_overlay_dialog.png" alt="weighted overlay dialog" width="760px">
+
+<h4>Mask</h4>
+<p>Use map algebra to combine the buildings, chancellor's property, and lake raleigh rasters for use as a mask
+<pre>
+In ArcToolbox
+Select 'Spatial Analyst Tools -> Map Algebra -> <a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//009z000000z7000000">Raster Calculator</a>'
+In the Raster Caclulator
+Set the expression to 'Con( ~IsNull("%buildings_2013%" )|  ~IsNull("%chancellors%") |  ~IsNull("%lake_raleigh%"),1)'
+Set 'Output raster' to 'map_overlay.gdb\mapalgebra_mask'
+</pre>
+
+<p>Use map algebra to mask the cost map
+<pre>
+In ArcToolbox
+Select 'Spatial Analyst Tools -> Map Algebra -> <a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//009z000000z7000000">Raster Calculator</a>'
+In the Raster Caclulator
+Set the expression to 'Con(IsNull("%mapalgebra_mask%"),"%weightedoverlay%")'
+Set 'Output raster' to 'map_overlay.gdb\weightedoverlay_costmap'
+</pre>
+
+<h3>Least cost path</h3>
+
+<h4>Cost distance</h4>
+<p>Compute the <a href="http://resources.arcgis.com/en/help/main/10.2/index.html#/Cost_Distance/009z00000018000000/">cost distance</a>
+<pre>
+In ArcToolbox
+Select 'Spatial Analyst Tools -> Distance -> Cost Distance'
+Set 'Input raster or feature source data' to 'site_1'
+Set 'Input cost raster' to 'weightedoverlay_costmap'
+Set 'Output distance raster' to 'weightedoverlay_costdistance'
+Set 'Output backlink raster' to 'weightedoverlay_backlink'
+</pre>
+
+<h4>Cost path</h4>
+<p>Compute the <a href="http://resources.arcgis.com/en/help/main/10.2/index.html#/Cost_Path/009z00000019000000/">cost path</a>
+<pre>
+In ArcToolbox
+Select 'Spatial Analyst Tools -> Distance -> Cost Path'
+Set 'Input raster or feature source data' to 'site_2'
+Set 'Input cost distance raster' to 'weightedoverlay_costdistance'
+Set 'Input backlink raster' to 'weightedoverlay_backlink'
+Set 'Output raster' to 'weightedoverlay_costpath'
+Set 'Path type' to 'EACH_CELL'
+</pre>
+
+<h4>Raster to polyline</h4>
+<p>Convert the raster cost path <a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//001200000009000000">to a vector cost path</a>
+<pre>
+In ArcToolbox
+Select 'Conversion -> From Raster -> Raster to Polyline'
+Set 'Input raster' to 'site_2'
+Set 'Input cost distance raster' to 'weightedoverlay_costpath'
+Set 'Output polyline features' to 'weightedoverlay_costpath'
+</pre>
+
+<p>Under construction....
+
+</main>
+</body>
+</html>
+
+
+
