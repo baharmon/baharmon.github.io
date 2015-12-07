@@ -1,0 +1,78 @@
+
+<html>
+<head>
+<title>ODM UAV analytics</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="layout.css" rel="stylesheet" type="text/css" media="screen">
+<link href="style.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+<div id="outercontainer">
+<div id="container">
+<body>
+<header>
+<div id="header-image"><p>ODM UAV analytics</p></div>
+<!--
+<nav>
+<ul class="nav">
+<li><a href="index.html">About</a></li>
+<li><a href="research.html">Research</a></li>
+<li><a href="publications.html">Publications</a></li>
+<li><a href="teaching.html">Teaching</a></li>
+</ul>
+</nav
+-->
+</header>
+<main>
+<h2>Methodology</h2>
+<p>I computed a digital surface model and orthophotography for 06.20.2015 UAV flight with OpenDroneMap. I binned and interpolated the digital surface model and computed the slope, aspect, relief, skyview factor, principal component analysis, and water flow in GRASS GIS with a Python script. My DSM processed with OpenDroneMap had holes where there were trees. In terms of microtopography the crops and agricultural furrows are clearly visible.</p>
+
+<h2>Script</h3>
+<a href="uav_analytics_odm.py">uav_analytics_odm.py</a>
+
+<h4>Binned digital elevation model</h4>
+<p style="text-align:center;">
+<img src="overview_odm.png" width="760px">
+</p>
+
+<h4>Interpolated digital elevation model</h4>
+<p style="text-align:center;">
+<img src="overview_elevation_odm.png" width="760px">
+</p>
+
+<h4>Slope</h4>
+<p style="text-align:center;">
+<img src="overview_slope_odm.png" width="760px">
+</p>
+
+<h4>Detail: slope</h4>
+<p style="text-align:center;">
+<img src="slope_odm.png" width="760px">
+</p>
+
+<h4>Aspect</h4>
+<p style="text-align:center;">
+<img src="overview_aspect_odm.png" width="760px">
+</p>
+
+<h4>Detail: aspect</h4>
+<p style="text-align:center;">
+<img src="aspect_odm.png" width="760px">
+</p>
+
+<h4>Detail: skyview</h4>
+<p style="text-align:center;">
+<img src="skyview_odm.png" width="760px">
+</p>
+
+<h4>Detail: pca</h4>
+<p style="text-align:center;">
+<img src="pca_odm.png" width="760px">
+</p>
+
+
+<br/>
+<br/>
+<br/>
+</main>
+</body>
+</html>

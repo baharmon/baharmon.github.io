@@ -1,0 +1,100 @@
+
+<html>
+<head>
+<title>UAV analytics</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="layout.css" rel="stylesheet" type="text/css" media="screen">
+<link href="style.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+<div id="outercontainer">
+<div id="container">
+<body>
+<header>
+<div id="header-image"><p>UAV analytics</p></div>
+<!--
+<nav>
+<ul class="nav">
+<li><a href="index.html">About</a></li>
+<li><a href="research.html">Research</a></li>
+<li><a href="publications.html">Publications</a></li>
+<li><a href="teaching.html">Teaching</a></li>
+</ul>
+</nav
+-->
+</header>
+<main>
+<h2>Methodology</h2>
+<p>I compared the sample DSMs with and without GCPs and also the full Agisoft and Pix4D DSMs for the June flight with and without GCPs. There distinct bowl-shaped distortion. The bivariate scatterplots of the difference between the DSM with and without GCPs for Agisoft shows that there is a better fit for the lower and higher values, while the middle values (towards the center of the bowl) systematically diverge.</p>
+
+<h4>Difference between sample DSMs with and without GCPs</h4>
+<p style="text-align:center;">
+<img src="difference_gcp_nogcp.png" width="760px">
+</p>
+
+<h4>Difference between Agisoft DSMs with and without GCPs</h4>
+<p style="text-align:center;">
+<img src="difference_agisoft_2015_06_20_gcp_nogcp.png" width="760px">
+</p>
+
+<h4>Difference between Pix4D DSMs with and without GCPs </h4>
+<p style="text-align:center;">
+<img src="difference_pix4d_2015_06_20_gcp_nogcp.png" width="760px">
+</p>
+
+<h4>Scatterplot of sample DSMs with and without GCPs</h4>
+<p style="text-align:center;">
+<img src="scatterplot_gcp_nogcp.png" width="760px">
+</p>
+
+<h4>Scatterplot of Agisoft DSMs with and without GCPs</h4>
+<p style="text-align:center;">
+<img src="scatterplot_agisoft_2015_06_20_gcp_nogcp.png" width="760px">
+</p>
+
+<h4>Scatterplot of Pix4D DSMs with and without GCPs</h4>
+<p style="text-align:center;">
+<img src="scatterplot_pix4d_2015_06_20_gcp_nogcp.png" width="760px">
+</p>
+
+<p>I also compared DSMs for the June flight computed in Trimble, Agisoft, and Pix4D. The Agisoft imagery has bowl-shaped distortion, while the Trimble imagery has linear distortion in roughly east-west bands.</p>
+
+<h4>Difference between Agisoft and Trimble</h4>
+<p style="text-align:center;">
+<img src="agi_trimble.png" width="760px">
+</p>
+
+<h4>Difference between Pix4D and Agisoft</h4>
+<p style="text-align:center;">
+<img src="p4d_agisoft.png" width="760px">
+</p>
+
+<h4>Difference between Pix4D and Trimble</h4>
+<p style="text-align:center;">
+<img src="p4d_trimble.png" width="760px">
+</p>
+
+<p>I analyzed the sample DSMs for artifacts using slope, aspect, relief, and principle component analysis. The GCPs appear to significantly alter complex high elevation microtopography such as the tree canopy.</p>
+
+<h4>PCA of DSM without GCPs </h4>
+<p style="text-align:center;">
+<img src="pca.png" width="760px">
+</p>
+
+<h4>PCA of DSM with GCPs </h4>
+<p style="text-align:center;">
+<img src="pca_nogcp.png" width="760px">
+</p>
+
+<p>Finally, I compared the difference between the DSMs for June and October flights. Both were processed with Agisoft. This time series analysis clearly shows crop rotation. The corn fields were mowed (showing a subtraction) and the fallow fields were planted (showing an addition). While there is substantial noise due to distortion in the periphery, there appears to be a substantial overall decrease in the tree canopy as leaf-off begins.</p>
+
+<h4>The difference between the DSMs for the June and October flights</h4>
+<p style="text-align:center;">
+<img src="diff_agisoft_jun_oct.png" width="760px">
+</p>
+
+<br/>
+<br/>
+<br/>
+</main>
+</body>
+</html>
