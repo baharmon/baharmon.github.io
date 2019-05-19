@@ -1,6 +1,6 @@
 basic_settings:
   site_title: Brendan Harmon
-  site_tagline: Landscape Architecture | Digital Design | Geospatial Modeling
+  site_tagline: ...
   favicon_image: /images/favicon.png
 
 header_settings:
@@ -15,10 +15,16 @@ menu_settings:
       url: '/blog/'
     - title: 'About'
       url: '/about'
-    - title: 'Sketchfab'
+    - title: 'Courses'
+      url: '/courses'
+    - title: 'Models'
       url: 'https://sketchfab.com/lsu-landscape-architecture'
-    - title: 'GitHub'
+    - title: 'Code'
       url: 'https://github.com/baharmon/'
+    - title: 'Data'
+      url: '/data'
+    - title: 'Publications'
+      url: '/publications'
 
 grid_settings:
   overlay_opacity: 0.8

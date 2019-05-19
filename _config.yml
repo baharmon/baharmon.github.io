@@ -45,13 +45,18 @@ kramdown:
 sass:
   style: compressed
 
+gems:
+  - jekyll-font-awesome-sass
+
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll/scholar
 
-gems:
-  - jekyll-font-awesome-sass
-
 paginate: 6
 paginate_path: "/blog/page:num/"
+
+scholar:
+  style: apa
+  source: ./_bibliography
+  bibliography: publications.bib

@@ -1,0 +1,9 @@
+---
+title: Brendan Harmon
+subtitle: ...
+description: ...
+featured_image:
+---
+
+## Publications
+...
