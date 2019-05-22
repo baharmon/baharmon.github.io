@@ -354,7 +354,9 @@ body.loading {
 	}
 }
 
-
+.sketchfab-embed-wrapper {
+  text-align: center;
+}
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Page sections
 
@@ -388,6 +390,6 @@ section {
 	}
 
 	@include mq(laptop) {
-		
+
 	}
 }

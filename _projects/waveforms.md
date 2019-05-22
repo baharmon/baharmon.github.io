@@ -1,7 +1,7 @@
 ---
 title: 'Waveforms'
 subtitle: 'Generative design of sculptural forms from poetry'
-date: 2019-05-15 12:00:00
+date: 2019-03-03 00:00:00
 description: Generative design of sculptural forms from poetry
 featured_image: '/images/fabform-rendering-1.png'
 ---
@@ -34,8 +34,6 @@ the one prototype for change
    more giving systems
 ```
 
-![Perspective rendering of Dystopianform](/images/fabform-rendering-1.png "Rendering of Dystopianform")
-
 ![Elevational rendering of Dystopianform](/images/fabform-rendering-2.png "Rendering of Dystopianform")
 
 ![Rendering of Dystopianform armature](/images/fabform-rendering-3.png "Rendering of Dystopianform")
@@ -55,3 +53,5 @@ I love you.
 ```
 
 ![Rendering of the Loveform ceramic vessel](/images/loveform-rendering-1.png "Loveform Rendering")
+
+![3D printed Loveform vessels](/images/loveform-1.jpg)

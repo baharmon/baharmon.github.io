@@ -1,22 +1,25 @@
 ---
-title: Brendan Harmon
-subtitle: ...
-description: ...
-featured_image: /images/demo/demo-landscape.jpg
+title: Data
+subtitle:
+description:
+featured_image:
 ---
 
-![](/images/demo/demo-landscape.jpg)
-
-## Data
-
+<i class="fab fa-github"></i>
 [Landscape Evolution Dataset](https://github.com/baharmon/landscape_evolution_dataset)
 
-[Geospatial Data Sources](https://github.com/baharmon/geospatial-modeling-course/blob/master/geospatial-data-sources.md)
+<i class="fab fa-github"></i>
+[List of Geospatial Data Sources](https://github.com/baharmon/geospatial-modeling-course/blob/master/geospatial-data-sources.md)
 
-Open Science Framework
+<i class="ai ai-osf"></i>
+[Greater Panama Canal Zone Watershed Dataset](https://osf.io/d5h7s/)
 
 Louisiana Dataset
 
+New Orleans Dataset
+
 Amite Dataset
 
-New Orleans Dataset
+Amite Sand and Gravel Mine Dataset
+
+Sichuan Dataset

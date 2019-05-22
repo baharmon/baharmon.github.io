@@ -1,7 +1,7 @@
 ---
 title: 'Hydrology of Panama'
 subtitle: 'Spatio-temporal analysis of the physical, chemical, and climatic processes that control the chemistry of rivers in Panama.'
-date: 2019-05-15 12:00:00
+date: 2019-01-17 00:00:00
 description: Spatio-temporal analysis of large data sets to better understand and quantify the physical, chemical, and climatic processes that control the chemistry of rivers in Panama, in particular, and across the tropics, in general.
 featured_image: '/images/study_area_landcover_labeled.png'
 ---

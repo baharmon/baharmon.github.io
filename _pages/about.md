@@ -1,21 +1,22 @@
 ---
-title: Brendan Harmon
-subtitle: Index is a minimal, fixed sidebar grid portfolio Jekyll theme. Perfect for designers, artists, photographers and developers to use for their portfolio website.
-description: Index is a minimal, fixed sidebar grid portfolio Jekyll theme.
+title: About
+subtitle:
+description:
 featured_image: /images/demo/demo-landscape.jpg
 ---
 
-![](/images/demo/demo-landscape.jpg)
+![Brendan Harmon](/images/baharmon.jpg)
 
-## About
+Assistant Professor of Landscape Architecture at
+[Louisiana State University](https://design.lsu.edu/faculty/brendan-harmon/).
 
-...
+* Geographic information systems
+* Geospatial modeling
+* Generative design
+* Digital fabrication
 
-[LSU Art + Design](https://design.lsu.edu/faculty/brendan-harmon/)
 
 ## Links
-
-<!--<a href="https://design.lsu.edu/faculty/brendan-harmon/" class="button button--large">LSU Art + Design</a>-->
 
 <i class="fab fa-github"></i>
 [GitHub](https://github.com/baharmon/)
@@ -31,3 +32,6 @@ featured_image: /images/demo/demo-landscape.jpg
 
 <i class="ai ai-academia"></i>
 [Academia](http://lsu.academia.edu/BrendanHarmon)
+
+<i class="fas fa-cube"></i>
+[Sketchfab](https://sketchfab.com/lsu-landscape-architecture)
