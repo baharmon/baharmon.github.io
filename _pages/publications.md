@@ -11,7 +11,6 @@ featured_image:
 3. [Workshops](#workshops)
 4. [Presentations](#presentations)
 
-
 ---
 
 ## Books
