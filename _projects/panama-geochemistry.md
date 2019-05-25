@@ -28,4 +28,11 @@ The data and results for this project are hosted in the repository under the CC0
 ---
 
 ### Publications
-...
+
+Smith, Devin F., Brendan A. Harmon, Jorge Espinosa, Steven T. Goldsmith, and Russell S. Harmon. 2017. “Evaluation of Climatic and Physical Controls and the Influence of ENSO Events on Long-Term Weathering and CO2 Consumption across the Panama Canal Watershed.” In Geological Society of America Abstracts with Programs. Vol. 49. Seattle, Washington. [https://doi.org/10.1130/abs/2017AM-298750](https://doi.org/10.1130/abs/2017AM-298750).
+
+Harmon, R.S., G. Wörner, S.T. Goldsmith, B.A. Harmon, C.B. Gardner, W. Berry Lyons, F.L. Ogden, et al. 2016. “Linking Silicate Weathering to Riverine Geochemistry-A Case Study from a Mountainous Tropical Setting in West-Central Panama.” Bulletin of the Geological Society of America 128 (11–12). [https://doi.org/10.1130/B31388.1](https://doi.org/10.1130/B31388.1).
+
+Goldsmith, Steven T., W. Berry Lyons, Russell S. Harmon, Brendan a. Harmon, Anne E. Carey, and Gregg T. McElwee. 2015. “Organic Carbon Concentrations and Transport in Small Mountain Rivers, Panama.” Applied Geochemistry. [https://doi.org/10.1016/j.apgeochem.2015.04.014](https://doi.org/10.1016/j.apgeochem.2015.04.014).
+
+Goldsmith, S. T., R. S. Harmon, W. B. Lyons, B. A. Harmon, F. L. Ogden, and C. B. Gardner. 2015. “Evaluation of Controls on Silicate Weathering in Tropical Mountainous Rivers: Insights from the Isthmus of Panama.” Geology 43 (7): 563–566. [https://doi.org/10.1130/G36082.1](https://doi.org/10.1130/G36082.1).

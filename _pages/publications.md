@@ -5,11 +5,19 @@ description:
 featured_image:
 ---
 
+**Contents**
+1. [Books](#books)
+2. [Papers](#papers)
+3. [Workshops](#workshops)
+4. [Presentations](#presentations)
+
+
+---
+
 ## Books
 Petrasova, Anna, Brendan Harmon, Vaclav Petras, Payam Tabrizian, and Helena Mitasova. 2018. *Tangible Modeling with Open Source GIS.* 2nd ed. Springer International Publishing. [https://doi.org/10.1007/978-3-319-89303-7](https://doi.org/10.1007/978-3-319-89303-7).
 
 Petrasova, Anna, Brendan Harmon, Vaclav Petras, and Helena Mitasova. 2015. *Tangible Modeling with Open Source GIS.* 1st ed. Springer International Publishing. [https://doi.org/10.1007/978-3-319-25775-4](https://doi.org/10.1007/978-3-319-25775-4).
-
 
 ---
 
@@ -57,11 +65,15 @@ Tateosian, Laura, Helena Mitasova, Brendan A Harmon, Brent Fogleman, Katherine W
 
 Levine, Jay, Christopher Eads, Karl Wegmann, Helena Mitasova, Nathan Lyons, Brendan Harmon, Chanelle McCarther, Samantha Peart, Nicholas Oberle, and Mike Walter. 2018. “Freshwater Bivalve Survey for Endangered Species Branch Fort Bragg, NC.” [https://doi.org/10.13140/RG.2.2.17512.11521](https://doi.org/10.13140/RG.2.2.17512.11521).
 
+---
+
 ## Workshops
 
-Drone Workshop
+Jeziorska, Justyna and Harmon, Brendan. 2018. "Unmanned Aerial Systems Workshop". Hilltop Arboretum, Baton Rouge, LA.
 
 Petrasova, Anna, Vaclav Petras, Brendan A Harmon, and Helena Mitasova. 2016. “Using GRASS GIS through Python and Tangible Interfaces.” In FOSS4G NA 2016. Raleigh, NC. [https://grasswiki.osgeo.org/](https://grasswiki.osgeo.org/wiki/Using_GRASS_GIS_through_Python_and_tangible_interfaces_(workshop_at_FOSS4G_NA_2016)).
+
+---
 
 ## Presentations
 
