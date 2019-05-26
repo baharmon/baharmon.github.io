@@ -5,15 +5,8 @@ description:
 featured_image:
 ---
 
-**Contents**
-1. [Books](#books)
-2. [Papers](#papers)
-3. [Workshops](#workshops)
-4. [Presentations](#presentations)
-
----
-
 ## Books
+
 Petrasova, Anna, Brendan Harmon, Vaclav Petras, Payam Tabrizian, and Helena Mitasova. 2018. *Tangible Modeling with Open Source GIS.* 2nd ed. Springer International Publishing. [https://doi.org/10.1007/978-3-319-89303-7](https://doi.org/10.1007/978-3-319-89303-7).
 
 Petrasova, Anna, Brendan Harmon, Vaclav Petras, and Helena Mitasova. 2015. *Tangible Modeling with Open Source GIS.* 1st ed. Springer International Publishing. [https://doi.org/10.1007/978-3-319-25775-4](https://doi.org/10.1007/978-3-319-25775-4).
@@ -21,6 +14,8 @@ Petrasova, Anna, Brendan Harmon, Vaclav Petras, and Helena Mitasova. 2015. *Tang
 ---
 
 ## Papers
+
+Harmon, Brendan A, Helena Mitasova, Anna Petrasova, and Vaclav Petras. 2019. “r.sim.terrain: a dynamic landscape evolution model.” Geoscientific Model Development Discussions 2019: 1–23. [https://doi.org/10.5194/gmd-2019-18](https://doi.org/10.5194/gmd-2019-18).
 
 Millar, Garrett C, Payam Tabrizian, Anna Petrasova, Vaclav Petras, Brendan Harmon, and Ross K Meentemeyer. 2018. “Tangible Landscape : A Hands-on Method for Teaching Terrain Analysis.” CHI ’18 Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. [https://doi.org/https://doi.org/10.1145/3173574.3173954](https://doi.org/https://doi.org/10.1145/3173574.3173954).
 
@@ -62,13 +57,17 @@ Tateosian, Laura, Helena Mitasova, Brendan A Harmon, Brent Fogleman, Katherine W
 
 ## Reports
 
+Black, Josh, Peihong Han, Chadd Hippensteel, Xiaoman Ji, Sophie Lott, Murong Xu, Yue Zhang, and Brendan Harmon. 2019. “Spring Up! Denham Springs Masterplan.” LSU Coastal Sustainability Studio, Baton Rouge, LA.
+
+Hammons, Hayden, Taylor Jacobson, Nguyet Nguyen, Elizabeth Peterson, Tanvi Shah, Xi Stich, Andrew Wright, and Brendan Harmon. 2019. “The Hungry River: Designing a Future for the Amite River’s Former Sand and Gravel Mines.” LSU Coastal Sustainability Studio, Baton Rouge, LA.
+
 Levine, Jay, Christopher Eads, Karl Wegmann, Helena Mitasova, Nathan Lyons, Brendan Harmon, Chanelle McCarther, Samantha Peart, Nicholas Oberle, and Mike Walter. 2018. “Freshwater Bivalve Survey for Endangered Species Branch Fort Bragg, NC.” [https://doi.org/10.13140/RG.2.2.17512.11521](https://doi.org/10.13140/RG.2.2.17512.11521).
 
 ---
 
 ## Workshops
 
-Jeziorska, Justyna and Harmon, Brendan. 2018. "Unmanned Aerial Systems Workshop". Hilltop Arboretum, Baton Rouge, LA.
+Jeziorska, Justyna and Brendan Harmon. 2018. "Unmanned Aerial Systems Workshop". Hilltop Arboretum, Baton Rouge, LA.
 
 Petrasova, Anna, Vaclav Petras, Brendan A Harmon, and Helena Mitasova. 2016. “Using GRASS GIS through Python and Tangible Interfaces.” In FOSS4G NA 2016. Raleigh, NC. [https://grasswiki.osgeo.org/](https://grasswiki.osgeo.org/wiki/Using_GRASS_GIS_through_Python_and_tangible_interfaces_(workshop_at_FOSS4G_NA_2016)).
 
@@ -95,3 +94,16 @@ Petrasova, Anna, Brendan Harmon, and Helena Mitasova. 2014. “GIS-Based Modelin
 Harmon, Brendan A, Helena Mitasova, and Anna Petrasova. 2014. “Tangible Geospatial Modeling for Landscape Architects.” In 2014 Geodesign Summit. Redlands, California: Esri. [http://video.esri.com/watch/3170/tangible-geospatial-modeling-for-landscape-architects](http://video.esri.com/watch/3170/tangible-geospatial-modeling-for-landscape-architects).
 
 Mitasova, Helena, Brendan A Harmon, and Stephen B Blundell. 2013. “Exploring Topographic Changes Impacts on Land Surface Processes Using Tangible Interfaces.” In Geological Society of America Abstracts with Programs, 723. Denver, CO: Geological Society of America. [https://gsa.confex.com/gsa/2013AM/webprogram/Paper229789.html](https://gsa.confex.com/gsa/2013AM/webprogram/Paper229789.html).
+
+---
+
+## Sponsored Research
+
+Harmon, Brendan, Hye Yeon Nam, Marcio de Queiroz, Hunter Gilbert, Tracy Quirk. Robots in Nature: Human-Robot-Environment Interaction for Advanced Ecosystem Services. LSU Faculty Research Grant. Louisiana State University. 2019-2021. $72,500.
+
+Carney, Jeff et al. [Inland from the Coast: A multi-scalar approach to regional climate change responses](https://css.lsu.edu/project/inland-from-the-coast/). Gulf Research Program. National Academy of Science & Robert Wood
+Johnson Foundation. 2017-2020. $2,936,000. Award: 2000008299.
+
+Birch, Traci, Kris Palagi, and Brendan Harmon. [Improving Quality of Life in the Amite River Watershed through Strategic Community-level Green Infrastructure Planning](https://css.lsu.edu/project/strategic-community-level-green-infrastructure-planning-for-the-amite-river-watershed/). Lamar Family Foundation. 2018-2019. $100,000.
+
+Brendan Harmon. Dynamic Landscape Evolution. LSU Council on Research Summer Stipend. Louisiana State University. 2018. $5,000.

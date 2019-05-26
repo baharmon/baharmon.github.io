@@ -3,10 +3,10 @@ title: 'Tangible Landscape'
 subtitle: ''
 date: 2019-05-15 00:00:00
 description: ...
-featured_image: '/images/tl_planting_3.jpg'
+featured_image: '/images/tangible-landscape-1.jpg'
 ---
 
-![Planting design with Tangible Landscape](/images/tl_planting_3.jpg)
+![Planting design with Tangible Landscape](/images/tangible-landscape-1.jpg)
 
 ---
 

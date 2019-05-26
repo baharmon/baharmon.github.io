@@ -50,9 +50,11 @@ a) water depth,
 b) erosion and deposition,
 c) net difference in elevation,
 and d) landforms
-for a simulated 2 hour storm with 50 mm/hr of rainfall. 
+for a simulated 2 hour storm with 50 mm/hr of rainfall.
 
 
 ---
 
 ### Publications
+
+Harmon, Brendan A, Helena Mitasova, Anna Petrasova, and Vaclav Petras. 2019. “r.sim.terrain: a dynamic landscape evolution model.” Geoscientific Model Development Discussions 2019: 1–23. [https://doi.org/10.5194/gmd-2019-18](https://doi.org/10.5194/gmd-2019-18).

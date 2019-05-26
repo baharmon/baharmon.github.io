@@ -10,11 +10,19 @@ featured_image: /images/demo/demo-landscape.jpg
 Assistant Professor of Landscape Architecture at
 [Louisiana State University](https://design.lsu.edu/faculty/brendan-harmon/).
 
+[Curriculum Vitae](https://github.com/baharmon/curriculum-vitae/blob/master/baharmon_cv.pdf)
+
+---
+
+## Research Interests
+
 * Geographic information systems
-* Geospatial modeling
+* Geospatial modeling and simulation
 * Generative design
 * Digital fabrication
+* Robotics
 
+---
 
 ## Links
 

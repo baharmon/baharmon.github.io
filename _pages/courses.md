@@ -2,18 +2,11 @@
 title: Courses
 subtitle:
 description: Open educational content on digital design, digital fabrication, and geospatial modeling.
-featured_image: /images/demo/demo-landscape.jpg
+featured_image: images/kayaking-the-amite.jpg
 ---
 
-<div class="gallery" data-columns="2">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
+<div class="gallery" data-columns="1">
+    <img src="images/kayaking-the-amite.jpg" alt="Kayaking the Amite River with LA 7031 Water Systems Studio students">
 </div>
 
 ---
@@ -26,7 +19,7 @@ featured_image: /images/demo/demo-landscape.jpg
 <i class="fab fa-github"></i>
 [Landscape Evolution Tutorial](https://github.com/baharmon/landscape_evolution/blob/master/tutorial.md)
 
-<i class="fas fa-video"></i> [Videos](https://lecture.lsu.edu/Panopto/Pages/Sessions/List.aspx#query=%22brendan%20harmon%22&maxResults=250&sortColumn=3&sortAscending=true)
+<i class="fas fa-video"></i> [Video Tutorials](https://lecture.lsu.edu/Panopto/Pages/Sessions/List.aspx#query=%22brendan%20harmon%22&maxResults=250&sortColumn=3&sortAscending=true)
 
 <i class="fab fa-github"></i>
 [Presentations](https://github.com/baharmon/presentations)
@@ -57,13 +50,24 @@ featured_image: /images/demo/demo-landscape.jpg
 
 ## Student work
 
+---
+
+### LA 7031 Water Systems Studio
+Andrew Wright, Consider the Heelsplitter, Fall 2018
 <div class="gallery" data-columns="2">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
+    <img src="images/LA7031-F2018-andrew-wright-1.jpg" alt="Student work by Andrew Wright, Fall 2018">
+    <img src="images/LA7031-F2018-andrew-wright-2.jpg" alt="Student work by Andrew Wright, Fall 2018">
+    <img src="images/LA7031-F2018-andrew-wright-3.jpg" alt="Student work by Andrew Wright, Fall 2018">
+    <img src="images/LA7031-F2018-andrew-wright-4.jpg" alt="Student work by Andrew Wright, Fall 2018">
+</div>
+
+---
+
+### LA 7061 Advanced Topics Studio
+Sophie Lott, Re-arrange North Range, Spring 2019
+<div class="gallery" data-columns="2">
+    <img src="images/LA7061-S2019-sophie-lott-1.jpg" alt="Student work by Sophie Lott, Spring 2019">
+    <img src="images/LA7061-S2019-sophie-lott-2.jpg" alt="Student work by Sophie Lott, Spring 2019">
+    <img src="images/LA7061-S2019-sophie-lott-3.jpg" alt="Student work by Sophie Lott, Spring 2019">
+    <img src="images/LA7061-S2019-sophie-lott-4.jpg" alt="Student work by Sophie Lott, Spring 2019">
 </div>
