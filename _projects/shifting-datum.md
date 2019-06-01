@@ -25,6 +25,16 @@ Exhibited at the
 [Baton Rouge Gallery](https://www.batonrougegallery.org/nam-may2019)
 in May 2019.
 
+<i class="fas fa-cube"></i>
+[Sketchfab Repository](https://skfb.ly/6KSUo):
+Hexagonal model tiles for 3D printing New Orleans.
+Licensed under Creative Commons Attribution-ShareAlike 4.0.
+
+<i class="fab fa-github"></i>
+[GitHub Repository](https://github.com/baharmon/3d-printing-new-orleans):
+Python scripts processing the New Orleans lidar survey data in GRASS GIS.
+Licensed under the GNU General Public License Version 2.
+
 ---
 
 ## Shifting Datum I
