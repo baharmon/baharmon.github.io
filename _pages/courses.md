@@ -39,13 +39,15 @@ featured_image: images/kayaking-the-amite.jpg
 
 ## Courses
 
-* LA 2101 Representation III | [Syllabus 2018](https://github.com/baharmon/syllabi/blob/master/3d-modeling-syllabus-2018.pdf) | [Syllabus 2019](https://github.com/baharmon/syllabi/blob/master/3d-modeling-syllabus-2019.pdf)
-* LA 7102 Media II | [Syllabus 2018](https://github.com/baharmon/syllabi/blob/master/3d-modeling-syllabus-2018.pdf) | [Syllabus 2019](https://github.com/baharmon/syllabi/blob/master/3d-modeling-syllabus-2019.pdf)
-* LA 7032 Media III: [Geospatial Modeling](https://github.com/baharmon/geospatial-modeling-course) | [Syllabus 2017](https://github.com/baharmon/syllabi/blob/master/geospatial-modeling-syllabus-2017.pdf) | [Syllabus 2018](https://github.com/baharmon/syllabi/blob/master/geospatial-modeling-syllabus-2018.pdf)
-* LA 7031 Water Systems Studio [Syllabus 2018](https://github.com/baharmon/syllabi/blob/master/water-systems-syllabus-2018.pdf)
-* LA 7061 Advanced Topics Studio
-* DART 7003 Digital Culture Seminar: [Open Culture](https://github.com/baharmon/digital-culture-seminar) | [Syllabus 2018](https://github.com/baharmon/syllabi/blob/master/digital-culture-syllabus-2018.pdf)
-* LA 7051 Option Studio [Syllabus 2019](https://github.com/baharmon/syllabi/blob/master/landscape-ecology-syllabus-2019.pdf)
+| Course | Website | Syllabi |
+| -------|---------|:-------:|
+| LA 2101 Representation III | 3D Modeling | [2018](https://github.com/baharmon/syllabi/blob/master/3d-modeling-syllabus-2018.pdf) [2019](https://github.com/baharmon/syllabi/blob/master/3d-modeling-syllabus-2019.pdf) |
+| LA 7102 Media II | 3D Modeling | [2018](https://github.com/baharmon/syllabi/blob/master/3d-modeling-syllabus-2018.pdf) [2019](https://github.com/baharmon/syllabi/blob/master/3d-modeling-syllabus-2019.pdf) |
+| LA 7032 Media III | [Geospatial Modeling](https://github.com/baharmon/geospatial-modeling-course) | [2017](https://github.com/baharmon/syllabi/blob/master/geospatial-modeling-syllabus-2017.pdf) [2018](https://github.com/baharmon/syllabi/blob/master/geospatial-modeling-syllabus-2018.pdf) |
+| LA 7031 Water Systems Studio |  | [2018](https://github.com/baharmon/syllabi/blob/master/water-systems-syllabus-2018.pdf) |
+| DART 7003 Digital Culture Seminar | [Open Culture](https://github.com/baharmon/digital-culture-seminar) | [ 2018](https://github.com/baharmon/syllabi/blob/master/digital-culture-syllabus-2018.pdf) |
+| LA 7051 Option Studio | Giant Panda Studio | [2019](https://github.com/baharmon/syllabi/blob/master/landscape-ecology-syllabus-2019.pdf) |
+| LA 7061 Advanced Topics Studio |  |  |
 
 ---
 
