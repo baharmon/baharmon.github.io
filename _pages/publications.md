@@ -15,7 +15,7 @@ Petrasova, Anna, Brendan Harmon, Vaclav Petras, and Helena Mitasova. 2015. *Tang
 
 ## Papers
 
-Harmon, Brendan A, Helena Mitasova, Anna Petrasova, and Vaclav Petras. 2019. “r.sim.terrain: a dynamic landscape evolution model.” Geoscientific Model Development Discussions 2019: 1–23. [https://doi.org/10.5194/gmd-2019-18](https://doi.org/10.5194/gmd-2019-18).
+Harmon, Brendan A, Helena Mitasova, Anna Petrasova, and Vaclav Petras. 2019. “r.sim.terrain 1.0: a landscape evolution model with dynamic hydrology.” Geoscientific Model Development, 12(7), 2837–2854. [https://doi.org/10.5194/gmd-12-2837-2019](https://doi.org/10.5194/gmd-12-2837-2019).
 
 Millar, Garrett C, Payam Tabrizian, Anna Petrasova, Vaclav Petras, Brendan Harmon, and Ross K Meentemeyer. 2018. “Tangible Landscape : A Hands-on Method for Teaching Terrain Analysis.” CHI ’18 Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. [https://doi.org/https://doi.org/10.1145/3173574.3173954](https://doi.org/https://doi.org/10.1145/3173574.3173954).
 
@@ -57,7 +57,7 @@ Tateosian, Laura, Helena Mitasova, Brendan A Harmon, Brent Fogleman, Katherine W
 
 ## Reports
 
-Black, Josh, Peihong Han, Chadd Hippensteel, Xiaoman Ji, Sophie Lott, Murong Xu, Yue Zhang, and Brendan Harmon. 2019. “Spring Up! Denham Springs Masterplan.” LSU Coastal Sustainability Studio, Baton Rouge, LA.
+Black, Josh, Peihong Han, Chadd Hippensteel, Xiaoman Ji, Sophie Lott, Murong Xu, Yue Zhang, and Brendan Harmon. 2019. “Spring Up! Denham Springs Masterplan.” LSU Coastal Sustainability Studio, Baton Rouge, LA. [https://www.blurb.com/b/9534482-spring-up-denham-springs-masterplan](https://www.blurb.com/b/9534482-spring-up-denham-springs-masterplan).
 
 Hammons, Hayden, Taylor Jacobson, Nguyet Nguyen, Elizabeth Peterson, Tanvi Shah, Xi Stich, Andrew Wright, and Brendan Harmon. 2019. “The Hungry River: Designing a Future for the Amite River’s Former Sand and Gravel Mines.” LSU Coastal Sustainability Studio, Baton Rouge, LA.
 
