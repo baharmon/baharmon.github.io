@@ -30,15 +30,15 @@ featured_image: images/kayaking-the-amite.jpg
 
 | Course | Website | Syllabi |
 | -------|---------|:-------:|
-| LA 2101 Representation III | 3D Modeling | [2018](https://github.com/baharmon/syllabi/blob/master/3d-modeling-syllabus-2018.pdf) [2019](https://github.com/baharmon/syllabi/blob/master/3d-modeling-syllabus-2019.pdf) |
+| LA 2101 Representation III: 3D Modeling |  | [2018](https://github.com/baharmon/syllabi/blob/master/3d-modeling-syllabus-2018.pdf) [2019](https://github.com/baharmon/syllabi/blob/master/3d-modeling-syllabus-2019.pdf) |
 | LA 4201 GIS for Designers |  | [2019](https://github.com/baharmon/syllabi/blob/master/gis-for-designers-syllabus-2019.pdf) |
-| LA 7102 Media II | 3D Modeling | [2018](https://github.com/baharmon/syllabi/blob/master/3d-modeling-syllabus-2018.pdf) [2019](https://github.com/baharmon/syllabi/blob/master/3d-modeling-syllabus-2019.pdf) |
-| LA 7032 Media III | [Geospatial Modeling](https://github.com/baharmon/geospatial-modeling-course) | [2017](https://github.com/baharmon/syllabi/blob/master/geospatial-modeling-syllabus-2017.pdf) [2018](https://github.com/baharmon/syllabi/blob/master/geospatial-modeling-syllabus-2018.pdf) |
+| LA 7102 Media II: 3D Modeling |  | [2018](https://github.com/baharmon/syllabi/blob/master/3d-modeling-syllabus-2018.pdf) [2019](https://github.com/baharmon/syllabi/blob/master/3d-modeling-syllabus-2019.pdf) |
+| LA 7032 Media III: Geospatial Modeling | [Geospatial Modeling Tutorial](https://github.com/baharmon/geospatial-modeling-course) | [2017](https://github.com/baharmon/syllabi/blob/master/geospatial-modeling-syllabus-2017.pdf) [2018](https://github.com/baharmon/syllabi/blob/master/geospatial-modeling-syllabus-2018.pdf) |
 | LA 7031 Water Systems Studio |  | [2018](https://github.com/baharmon/syllabi/blob/master/water-systems-syllabus-2018.pdf) |
-| DART 7003 Digital Culture Seminar | [Open Culture](https://github.com/baharmon/digital-culture-seminar) | [ 2018](https://github.com/baharmon/syllabi/blob/master/digital-culture-syllabus-2018.pdf) |
-| LA 7051 Option Studio | Giant Panda Studio | [2019](https://github.com/baharmon/syllabi/blob/master/giant-panda-syllabus-2019.pdf) |
+| DART 7003 Digital Culture Seminar: Open Culture | [Open Culture Tutorials](https://github.com/baharmon/digital-culture-seminar) | [ 2018](https://github.com/baharmon/syllabi/blob/master/digital-culture-syllabus-2018.pdf) |
+| LA 7051 Option Studio: Giant Panda Studio | | [2019](https://github.com/baharmon/syllabi/blob/master/giant-panda-syllabus-2019.pdf) |
 | LA 7055 GIS for Designers |  | [2019](https://github.com/baharmon/syllabi/blob/master/gis-for-designers-syllabus-2019.pdf) |
-| LA 7504 Special Topics | Ecological Robotics | [2020](https://github.com/baharmon/syllabi/blob/master/ecological-robotics-syllabus-2020.pdf) |
+| LA 7504 Special Topics: Ecological Robotics |  | [2020](https://github.com/baharmon/syllabi/blob/master/ecological-robotics-syllabus-2020.pdf) |
 
 ---
 
