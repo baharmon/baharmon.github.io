@@ -42,4 +42,4 @@ featured_image:
 [Louisiana Geodatabase](https://doi.org/10.5281/zenodo.3484055)
 
 <i class="ai ai-doi"></i>
-[New Orleans Geodatabase](https://doi.org/10.5281/zenodo.3483791)
+[New Orleans Geodatabase](https://doi.org/10.5281/zenodo.3484059)
