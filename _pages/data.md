@@ -5,8 +5,16 @@ description:
 featured_image:
 ---
 
+---
+
+## Data sources
+
 <i class="fab fa-github"></i>
 [List of Geospatial Data Sources](https://github.com/baharmon/geospatial-modeling-course/blob/master/geospatial-data-sources.md)
+
+---
+
+## GRASS GIS datasets
 
 <i class="fab fa-github"></i>
 [Landscape Evolution Dataset](https://github.com/baharmon/landscape_evolution_dataset)
@@ -26,6 +34,12 @@ featured_image:
 <i class="ai ai-doi"></i>
 [New Orleans Dataset](https://doi.org/10.5281/zenodo.3359642)
 
-Amite Dataset
+---
 
-Amite Sand and Gravel Mine Dataset
+## ArcGIS datasets
+
+<i class="ai ai-doi"></i>
+[Louisiana Geodatabase](https://doi.org/10.5281/zenodo.3484055)
+
+<i class="ai ai-doi"></i>
+[New Orleans Geodatabase](https://doi.org/10.5281/zenodo.3483791)
