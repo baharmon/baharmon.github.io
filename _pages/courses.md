@@ -2,14 +2,13 @@
 title: Courses
 subtitle:
 description: Open educational content on landscape architecture, landscape ecology, digital design, digital fabrication, and geospatial modeling.
-featured_image: images/kayaking-the-amite.jpg
+featured_image: images/
 ---
 
-<div class="gallery" data-columns="1">
-    <img src="images/kayaking-the-amite.jpg" alt="Kayaking the Amite River with LA 7031 Water Systems Studio students">
-</div>
 
----
+## Lectures
+
+[Generative Landscapes](generative-landscapes)
 
 ## Open education content
 
