@@ -10,6 +10,8 @@ featured_image: images/
 
 [Generative Landscapes](generative-landscapes)
 
+[Digital Landscapes](digital-landscapes)
+
 ## Open education content
 
 <i class="fab fa-github"></i>
