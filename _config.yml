@@ -60,3 +60,6 @@ scholar:
   style: apa
   source: ./_bibliography
   bibliography: publications.bib
+
+font-awesome:
+  assets: true
