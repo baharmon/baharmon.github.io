@@ -23,6 +23,11 @@ featured_image: images/
 [Landscape Evolution Tutorial](https://github.com/baharmon/landscape_evolution/blob/master/tutorial.md):
 A guide on how to use the landscape evolution model r.sim.terrain in GRASS GIS.
 
+<i class="fab fa-github"></i>
+[Tools for Open Spatial Science](open-spatial-science):
+A brief introduction to tools for open spatial science.
+
+
 ---
 
 ## Course data
