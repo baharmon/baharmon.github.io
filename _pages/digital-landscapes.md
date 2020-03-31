@@ -24,6 +24,10 @@ or [archived syllabi](https://github.com/baharmon/syllabi).
 
 [<i class="fab fa-youtube"></i> Rendering a planter in Lumion](https://youtu.be/qY6TfyDswFs)
 
+[<i class="fab fa-youtube"></i>](https://youtu.be/ltwXCHx20zU)
+[<i class="fab fa-vimeo-v"></i>]()
+[Rendering a strange attractor with Thea for Rhino](https://youtu.be/ltwXCHx20zU) + [strange-attractor.3dm](https://github.com/baharmon/baharmon.github.io/blob/master/data/strange-attractor.3dm?raw=true)
+
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLOZRfOojyTZpMqTLmKCTasF9LkPIYLoHQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
