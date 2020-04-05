@@ -7,6 +7,11 @@ featured_image:
 
 ---
 
+## 3D Models
+[<i class="fas fa-pencil-alt"></i> Sketchfab](https://sketchfab.com/lsu-landscape-architecture)
+
+---
+
 ## Data sources
 
 <i class="fab fa-github"></i>
