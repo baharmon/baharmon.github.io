@@ -51,3 +51,9 @@ Data:
 [strange-attractor.3dm](https://github.com/baharmon/baharmon.github.io/blob/master/data/strange-attractor.3dm?raw=true)
 
 ---
+
+[<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/sculptural-wall)
+[<i class="fab fa-youtube"></i> Rendering a sculptural wall with Thea for Rhino](https://youtu.be/lYDG9_4m9kw)
+
+Data:
+[strange-attractor.3dm](https://github.com/baharmon/baharmon.github.io/blob/master/data/sculptural-wall.3dm?raw=true)
