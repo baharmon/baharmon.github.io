@@ -16,7 +16,7 @@ menu_settings:
     - title: 'Projects'
       url: '/'
     - title: 'Courses'
-      url: '/courses/'
+      url: '/courses'
     - title: 'Code'
       url: 'https://github.com/baharmon/'
     - title: 'Data'
