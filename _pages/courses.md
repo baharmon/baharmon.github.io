@@ -27,7 +27,6 @@ A guide on how to use the landscape evolution model r.sim.terrain in GRASS GIS.
 [Tools for Open Spatial Science](open-spatial-science):
 A brief introduction to tools for open spatial science.
 
-
 ---
 
 ## Course data
