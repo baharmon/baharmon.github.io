@@ -57,3 +57,20 @@ Data:
 
 Data:
 [strange-attractor.3dm](https://github.com/baharmon/baharmon.github.io/blob/master/data/sculptural-wall.3dm?raw=true)
+
+---
+
+[<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/rendering-a-tree)
+[<i class="fab fa-youtube"></i> Rendering a photorealistic tree with Thea for Rhino](https://youtu.be/MPoksbmbFt8)
+
+Library: [Xfrog Plants](http://xfrog.com/category/libraries.html), free [Xfrog Samples](http://xfrog.com/category/samples.html), or free [Thea Libraries](https://www.thearender.com/resources/libraries/)
+
+---
+
+[<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/terrain-modeling)
+[<i class="fab fa-youtube"></i> Terrain modeling in Grasshopper](https://youtu.be/WTY78FIPegc)
+
+Data:
+[terrain-modeling.gh](https://github.com/baharmon/baharmon.github.io/blob/master/data/terrain-modeling.gh?raw=true),
+[https://github.com/baharmon/baharmon.github.io/blob/master/data/elevation.xyz?raw=true](elevation.xyz), &
+[http://doi.org/10.5281/zenodo.3749397](Hilltop Arboretum Dataset for GRASS GIS)
