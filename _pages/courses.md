@@ -32,6 +32,9 @@ A brief introduction to tools for open spatial science.
 
 ## Course data
 
+<i class="ai ai-doi"></i>
+[Hilltop Arboretum Landform Dataset for GRASS GIS](http://doi.org/10.5281/zenodo.3749397)
+
 <i class="fab fa-github"></i>
 [Landscape Evolution Dataset](https://github.com/baharmon/landscape_evolution_dataset)
 
