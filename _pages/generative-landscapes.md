@@ -93,6 +93,6 @@ Library: [Xfrog Plants](http://xfrog.com/category/libraries.html), free [Xfrog S
 [<i class="fab fa-youtube"></i> Terrain modeling in Grasshopper](https://youtu.be/WTY78FIPegc)
 
 Data:
-[terrain-modeling.gh](https://github.com/baharmon/baharmon.github.io/blob/master/data/terrain-modeling.gh?raw=true),
-[https://github.com/baharmon/baharmon.github.io/blob/master/data/elevation.xyz?raw=true](elevation.xyz), &
-[http://doi.org/10.5281/zenodo.3749397](Hilltop Arboretum Dataset for GRASS GIS)
+[Hilltop Arboretum Dataset for GRASS GIS](http://doi.org/10.5281/zenodo.3749397),
+[elevation.xyz](https://github.com/baharmon/baharmon.github.io/blob/master/data/elevation.xyz?raw=true), &
+[terrain-modeling.gh](https://github.com/baharmon/baharmon.github.io/blob/master/data/terrain-modeling.gh?raw=true)
