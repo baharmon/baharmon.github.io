@@ -96,3 +96,29 @@ Data:
 [Hilltop Arboretum Dataset for GRASS GIS](http://doi.org/10.5281/zenodo.3749397),
 [elevation.xyz](https://github.com/baharmon/baharmon.github.io/blob/master/data/elevation.xyz?raw=true), &
 [terrain-modeling.gh](https://github.com/baharmon/baharmon.github.io/blob/master/data/terrain-modeling.gh?raw=true)
+
+---
+
+[<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/terrain-analysis)
+[<i class="fab fa-youtube"></i> Terrain analysis in Grasshopper](https://youtu.be/U13smFPDVWQ)
+
+Data:
+[elevation.xyz](https://github.com/baharmon/baharmon.github.io/blob/master/data/elevation.xyz?raw=true) &
+[terrain-analysis.gh](https://github.com/baharmon/baharmon.github.io/blob/master/data/terrain-analysis.gh?raw=true)
+
+---
+
+[<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/grading-terrain)
+[<i class="fab fa-youtube"></i> Grading terrain in Grasshopper](https://youtu.be/Eih1g-tjFpc)
+
+Data:
+[elevation.xyz](https://github.com/baharmon/baharmon.github.io/blob/master/data/elevation.xyz?raw=true) &
+[terrain-grading.gh](https://github.com/baharmon/baharmon.github.io/blob/master/data/terrain-grading.gh?raw=true)
+
+---
+
+[<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/random-meadow)
+[<i class="fab fa-youtube"></i> Rendering a random meadow in Grasshopper](https://youtu.be/tvF8LVJp6DA)
+
+Data:
+[random-meadow.gh](https://github.com/baharmon/baharmon.github.io/blob/master/data/random-meadow.gh?raw=true)
