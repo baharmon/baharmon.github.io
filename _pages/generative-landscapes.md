@@ -148,3 +148,13 @@ Software: Rhino, Thea Render, and Grasshopper with the Elefront, EdiTree, and Pu
 
 Data:
 [random-meadow.gh](https://github.com/baharmon/baharmon.github.io/blob/master/data/random-meadow.gh?raw=true)
+
+---
+
+[<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/random-forest)
+[<i class="fab fa-youtube"></i> Rendering a random forest in Grasshopper](https://youtu.be/S4ui7_0CCm0)
+
+Software: Rhino, Thea Render, and Grasshopper with the Elefront, EdiTree, and Pufferfish plugins
+
+Data:
+[random-grove.gh](https://github.com/baharmon/baharmon.github.io/blob/master/data/random-grove.gh?raw=true)
