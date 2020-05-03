@@ -5,7 +5,7 @@ description: Tutorials on visual programming, parametric modeling, and geospatia
 featured_image: /images/
 ---
 
-![Random grove](/images/random-grove-1.jpg)
+![Random grove](/images/random-grove-2.jpg)
 
 ## Tutorials
 
