@@ -15,6 +15,8 @@ Petrasova, Anna, Brendan Harmon, Vaclav Petras, and Helena Mitasova. 2015. *Tang
 
 ## Papers
 
+Smith, Devin F, Goldsmith, Steven T, Harmon, Brendan A, Harmon, Russell S, and Espinosa, Jorge A. 2020. “Physical Controls and ENSO Event Influence on Weathering in the Panama Canal Watershed.” Scientific Reports 10(1): 10861. [https://doi.org/10.1038/s41598-020-67797-7](https://doi.org/10.1038/s41598-020-67797-7).
+
 Harmon, Brendan A, Helena Mitasova, Anna Petrasova, and Vaclav Petras. 2019. “r.sim.terrain 1.0: a landscape evolution model with dynamic hydrology.” Geoscientific Model Development, 12(7), 2837–2854. [https://doi.org/10.5194/gmd-12-2837-2019](https://doi.org/10.5194/gmd-12-2837-2019).
 
 Millar, Garrett C, Payam Tabrizian, Anna Petrasova, Vaclav Petras, Brendan Harmon, and Ross K Meentemeyer. 2018. “Tangible Landscape : A Hands-on Method for Teaching Terrain Analysis.” CHI ’18 Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. [https://doi.org/https://doi.org/10.1145/3173574.3173954](https://doi.org/https://doi.org/10.1145/3173574.3173954).

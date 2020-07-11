@@ -9,11 +9,15 @@ featured_image: images/
 
 ---
 
-[Generative Landscapes](generative-landscapes): An introduction to visual programming for 3D modeling, geospatial modeling, and geospatial analysis of landscapes. Software covered includes Rhino, Grasshopper, GRASS GIS, ArcGIS, and Metashape. Tutorials are posted on [<i class="fab fa-youtube"></i>](https://www.youtube.com/playlist?list=PLOZRfOojyTZq7UyGd-uTx1HfQ2g3Bdo5y) Youtube and [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon) Vimeo.
+[GIS for Designers](gis-for-designers): A guide to Geographic Information Systems for landscape architects, urban planners, and other designers. Topics include terrain modeling, hydrology, landscape ecology, and urban analytics. Software covered includes GRASS GIS, QGIS, and ArcGIS. Tutorials are posted on [<i class="fab fa-youtube"></i>](https://www.youtube.com/channel/UCmGEF6Bf1SO92oLQoGCPDTw/) Youtube and [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmo) Vimeo.
 
 ---
 
-[Digital Landscapes](digital-landscapes): An introduction to 3D modeling and 3D rendering landscapes. Software covered includes Rhino, Lumion, and Adobe CC. Tutorials are posted on [<i class="fab fa-youtube"></i>](https://www.youtube.com/playlist?list=PLOZRfOojyTZpMqTLmKCTasF9LkPIYLoHQ) Youtube and [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon) Vimeo.
+[Generative Landscapes](generative-landscapes): A guide to visual programming for 3D modeling, geospatial modeling, and geospatial analysis of landscapes. Software covered includes Rhino, Grasshopper, GRASS GIS, ArcGIS, and Metashape. Tutorials are posted on [<i class="fab fa-youtube"></i>](https://www.youtube.com/playlist?list=PLOZRfOojyTZq7UyGd-uTx1HfQ2g3Bdo5y) Youtube and [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon) Vimeo.
+
+---
+
+[Digital Landscapes](digital-landscapes): An introduction to 3D modeling and 3D rendering landscapes. Software covered includes Rhino, Lumion, Thea Render, and Adobe CC. Tutorials are posted on [<i class="fab fa-youtube"></i>](https://www.youtube.com/playlist?list=PLOZRfOojyTZpMqTLmKCTasF9LkPIYLoHQ) Youtube and [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon) Vimeo.
 
 ---
 
@@ -30,6 +34,14 @@ A brief introduction to tools for open spatial science.
 ---
 
 ## Course data
+
+Governor's Island Dataset for GRASS GIS
+
+Governor's Island Dataset for QGIS
+
+Governor's Island Dataset for ArcGIS
+
+Hilltop Arboretum Time Series
 
 <i class="ai ai-doi"></i>
 [Hilltop Arboretum Landform Dataset for GRASS GIS](http://doi.org/10.5281/zenodo.3749397)
