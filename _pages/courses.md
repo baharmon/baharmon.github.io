@@ -35,7 +35,11 @@ A brief introduction to tools for open spatial science.
 
 ## Course data
 
-Governor's Island Dataset for GRASS GIS
+<i class="ai ai-doi"></i>
+[Natural Earth Dataset for GRASS GIS](https://zenodo.org/record/3762852/files/natural-earth-dataset.zip?download=1)
+
+<i class="ai ai-doi"></i>
+[Governor's Island Dataset for GRASS GIS](https://zenodo.org/record/3940780/files/nyspf_govenors_island.zip?download=1)
 
 Governor's Island Dataset for QGIS
 
