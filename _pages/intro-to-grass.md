@@ -115,9 +115,9 @@ in the console:
 v.extract input=countries where="ADMIN = 'Brazil'" output=brazil
 ```
 
-Zoom to Brazil by right clicking on the map layer and selecting `zoom to selected map`. Then use the module [v.select](https://grass.osgeo.org/grass78/manuals/v.select.html) to create a vector map of rivers in Brazil. Set the `a` input to `rivers` and the `b` input to `brazil`. Use the `within` operator to select only rivers within the country of Brazil.
+Zoom to Brazil by right clicking on the map layer and selecting `zoom to selected map`. Then use the module [v.clip](https://grass.osgeo.org/grass78/manuals/v.clip.html) to create a vector map of rivers in Brazil. Set the input to `rivers`, the clipping mask to `brazil`, and the output to `brazilian_rivers`. 
 ```
-v.select ainput=rivers binput=brazil output=brazilian_rivers operator=within
+v.clip input=rivers clip=brazil output=brazilian_rivers
 ```
 
 Set a color table for the Brazilian rivers based on their stream order, i.e. their relative size, using [v.colors](https://grass.osgeo.org/grass78/manuals/v.colors.html). Right click on the `brazilian_rivers` layer and select `set color table` or run the command `v.colors` in the console. Set source values to the attribute table, set the attribute column to `scalerank`, and the color table to `water`.
