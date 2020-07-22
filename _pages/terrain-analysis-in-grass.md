@@ -88,15 +88,21 @@ d.legend raster=slope_2017
 ---
 
 # Categorized Slope
-To create a categorized slope map,
-first smooth the slope map to reduce noise using the module
-[r.neighbors](https://grass.osgeo.org/grass78/manuals/r.neighbors.html).
-Then reclassify the continuous data into discrete classes
+Create a categorized slope map
+showing gentle, moderate, and steep slopes.
+To reduce noise smooth the digital elevation model using the module
+[r.neighbors](https://grass.osgeo.org/grass78/manuals/r.neighbors.html)
+with a circular neighborhood with a 9 ft diameter.
+Then re-compute the slope using
+[r.slope.aspect](https://grass.osgeo.org/grass78/manuals/r.slope.aspect.html)
+with the smoothed digital elevation model.
+Reclassify the continuous slope data into discrete classes
 using the module
 [r.reclass](https://grass.osgeo.org/grass78/manuals/r.reclass.html).
 ```
-r.neighbors -c input=slope_2017 output=smoothed_slope_2017 size=9
-r.reclass input=slope_2017 output=slope_classes_2017
+r.neighbors -c input=elevation_2017 output=smoothed_elevation_2017 size=9
+r.slope.aspect -e elevation=smoothed_elevation_2017 slope=smoothed_slope_2017 format=degrees
+r.reclass input=smoothed_slope_2017 output=slope_classes_2017
 ```
 with the following values:
 ```
@@ -130,15 +136,12 @@ d.legend raster=slope_classes_2017
 ---
 
 # Contours
-To reduce noise smooth the digital elevation model using the module
-[r.neighbors](https://grass.osgeo.org/grass78/manuals/r.neighbors.html)
-with a circular neighborhood with a 9 ft diameter.
-Then compute contours at 3 ft intervals using the module
+Compute contours at 3 ft intervals
+from the smoothed digital elevation model using the module
 [r.contour](https://grass.osgeo.org/grass78/manuals/r.contour.html).
 To further reduce noise, use the `cut` parameter
 to specify the minimum number of points per contour curve.
 ```
-r.neighbors -c input=elevation_2017 output=smoothed_elevation_2017 size=9
 r.contour input=smoothed_elevation_2017 output=contours_3ft step=3 cut=100
 ```
 

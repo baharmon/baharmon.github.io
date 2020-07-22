@@ -89,6 +89,10 @@ and then use
 [v.extract](https://grass.osgeo.org/grass78/manuals/v.extract.html)
 to extract it by category value.
 ```
+v.extract input=NYC_2017_LiDAR_Low_Tide_Shoreline cats=184 output=shoreline
+```
+Or use an SQL query to select the category value.
+```
 v.extract input=NYC_2017_LiDAR_Low_Tide_Shoreline where="Cat = '184'" output=shoreline
 ```
 
