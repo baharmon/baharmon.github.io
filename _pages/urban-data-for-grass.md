@@ -16,7 +16,8 @@ featured_image:
 # Data Sources
 
 In this tutorial we will use geospatial data from
-New York City's Open Data portal.
+[GIS.NY.GOV](http://gis.ny.gov/) and
+New York City's [Open Data](https://data.cityofnewyork.us) portal.
 See my list of [geospatial data sources](geospatial-data-sources)
 for further sources of urban data.
 
@@ -40,7 +41,7 @@ For Governor's Island download DEM and DSM tiles
 [hh_NYC_020.tif](ftp://ftp.gis.ny.gov/elevation/DEM/NYC_TopoBathymetric2017_DSM/hh_NYC_020.tif).
 Extract both zip archives.
 Download
-[shoreline]((https://data.cityofnewyork.us/Recreation/Shoreline/2qj2-cctx))
+[shoreline](https://data.cityofnewyork.us/Recreation/Shoreline/2qj2-cctx)
 data from NYC Open Data.
 Select `Export`, `Download`, and then `Shapefile`
 to download `Shoreline.zip.`
