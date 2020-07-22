@@ -15,7 +15,10 @@ featured_image:
 
 # Data Sources
 
-See my list of [geospatial data sources](geospatial-data-sources).
+In this tutorial we will use geospatial data from
+New York City's Open Data portal.
+See my list of [geospatial data sources](geospatial-data-sources)
+for further sources of urban data.
 
 ---
 
@@ -36,9 +39,9 @@ For Governor's Island download DEM and DSM tiles
 [be_NYC_020.tif](ftp://ftp.gis.ny.gov/elevation/DEM/NYC_TopoBathymetric2017/be_NYC_020.tif) and
 [hh_NYC_020.tif](ftp://ftp.gis.ny.gov/elevation/DEM/NYC_TopoBathymetric2017_DSM/hh_NYC_020.tif).
 Extract both zip archives.
-
-Download shoreline data from
-[NYC Open Data](https://data.cityofnewyork.us/Recreation/Shoreline/2qj2-cctx).
+Download
+[shoreline]((https://data.cityofnewyork.us/Recreation/Shoreline/2qj2-cctx))
+data from NYC Open Data.
 Select `Export`, `Download`, and then `Shapefile`
 to download `Shoreline.zip.`
 Extract this archive containing
@@ -119,10 +122,6 @@ r.colors -e map=elevation_2017 color=viridis
 r.colors -e map=surface_2017 color=viridis
 ```
 
-| Digital elevation model|
-|:---:|
-| ![Digital elevation model](/images/governors-island/elevation.png) |
-
-| Digital surface model|
-|:---:|
-| ![Digital surface model](/images/governors-island/surface.png) |
+| Digital elevation model| Digital surface model|
+|:---:|:---:|
+| ![Digital elevation model](/images/governors-island/elevation.png) | ![Digital surface model](/images/governors-island/surface.png) |

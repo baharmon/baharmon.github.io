@@ -12,7 +12,7 @@ featured_image: /images/
 Watch tutorials on visual programming and parametric modeling of landscapes with Grasshopper on
 [<i class="fab fa-youtube"></i> Youtube](https://www.youtube.com/playlist?list=PLOZRfOojyTZq7UyGd-uTx1HfQ2g3Bdo5y)
 or
-[<i class="fab fa-vimeo-v"></i> Vimeo](https://vimeo.com/baharmon).
+[<i class="fab fa-vimeo-v"></i> Vimeo](https://vimeo.com/showcase/7366606).
 Read the [latest syllabus](https://github.com/baharmon/syllabi/blob/master/generative-landscapes-syllabus-2020.pdf?raw=true)
 or [archived syllabi](https://github.com/baharmon/syllabi).
 

@@ -11,7 +11,7 @@ featured_image: /images/
 ## Tutorials
 
 Watch tutorials on 3D modeling and rendering landscapes with Rhino on
-[<i class="fab fa-vimeo-v"></i> Vimeo](https://vimeo.com/baharmon) or
+[<i class="fab fa-vimeo-v"></i> Vimeo](https://vimeo.com/showcase/7366624) or
 [<i class="fab fa-youtube"></i> Youtube](https://www.youtube.com/playlist?list=PLOZRfOojyTZpMqTLmKCTasF9LkPIYLoHQ).
 Read the [latest syllabus](https://github.com/baharmon/syllabi/blob/master/digital-landscapes-syllabus-2020.pdf?raw=true)
 or [archived syllabi](https://github.com/baharmon/syllabi).
