@@ -25,7 +25,9 @@ in US Surveyor's Feet.
 Inside the location there is the `PERMANENT` mapset,
 a license file, data record, readme file, workspace, color table,
 category rules, and scripts for data processing.
-Data sources include [https://orthos.dhses.ny.gov/](https://orthos.dhses.ny.gov/)
+Data sources include
+[http://gis.ny.gov/](http://gis.ny.gov/),
+[https://orthos.dhses.ny.gov/](https://orthos.dhses.ny.gov/)
 and [https://data.cityofnewyork.us/](https://data.cityofnewyork.us/).
 
 Create a directory on your computer called `grassdata`.
