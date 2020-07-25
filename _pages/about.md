@@ -5,12 +5,15 @@ description:
 featured_image: /images/demo/demo-landscape.jpg
 ---
 
-![Brendan Harmon](/images/baharmon.jpg)
+![Brendan Harmon](/images/baharmon-round.png)
 
-Assistant Professor of Landscape Architecture at
-[Louisiana State University](https://design.lsu.edu/faculty/brendan-harmon/).
+## Brendan Harmon
 
-[Curriculum Vitae](https://github.com/baharmon/curriculum-vitae/blob/master/baharmon_cv.pdf)
+Assistant Professor of Landscape Architecture
+
+[<i class="fa fa-university"></i> Louisiana State University](https://design.lsu.edu/faculty/brendan-harmon/)
+
+[<i class="fa fa-graduation-cap"></i> Curriculum Vitae](https://github.com/baharmon/curriculum-vitae/blob/master/baharmon_cv.pdf)
 
 ---
 

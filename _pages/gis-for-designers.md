@@ -13,13 +13,13 @@ for landscape architects, urban planners, and other designers.
 Topics include terrain modeling, hydrology, landscape ecology, and urban analytics.
 
 **Syllabus:**
-[<i class="fa fa-graduation-cap "></i> GIS for Designers 2019](https://github.com/baharmon/syllabi/blob/master/gis-for-designers-syllabus-2019.pdf?raw=true)
+[<i class="fa fa-graduation-cap"></i> GIS for Designers 2019](https://github.com/baharmon/syllabi/blob/master/gis-for-designers-syllabus-2019.pdf?raw=true)
 
 **Lectures:**
 [<i class="fa fa-comment"></i> Online](https://baharmon.github.io/lectures)
 
 **Videos:**
-[<i class="fab fa-youtube"></i> Youtube](https://www.youtube.com/channel/UCmGEF6Bf1SO92oLQoGCPDTw/)
+[<i class="fab fa-youtube"></i> Youtube](https://www.youtube.com/playlist?list=PLOZRfOojyTZooO3HMd8dTp8Wk37cdbY6C)
 &
 [<i class="fab fa-vimeo-v"></i> Vimeo](https://vimeo.com/showcase/7356098)
 

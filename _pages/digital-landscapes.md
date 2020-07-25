@@ -7,16 +7,27 @@ featured_image: /images/
 
 ![Strange attractor](/images/strange-attractor-8.jpg)
 
+## Introduction
+
+A course on 3D modeling and rendering landscapes for landscape architects.
+
+**Syllabus:**
+[<i class="fa fa-graduation-cap "></i> Digital Landscapes 2020](https://github.com/baharmon/syllabi/blob/master/digital-landscapes-syllabus-2020.pdf?raw=true)
+
+**Videos:**
+[<i class="fab fa-youtube"></i> Youtube](https://www.youtube.com/playlist?list=PLOZRfOojyTZpMqTLmKCTasF9LkPIYLoHQ)
+&
+[<i class="fab fa-vimeo-v"></i> Vimeo](https://vimeo.com/showcase/7366624)
+
+**Software:**
+[Rhino](https://www.rhino3d.com/),
+[Thea for Rhino](https://www.thearender.com/products/thea-for-rhino/),
+& [Lumion](https://lumion.com/)
+
+---
 
 ## Tutorials
 
-Watch tutorials on 3D modeling and rendering landscapes with Rhino on
-[<i class="fab fa-vimeo-v"></i> Vimeo](https://vimeo.com/showcase/7366624) or
-[<i class="fab fa-youtube"></i> Youtube](https://www.youtube.com/playlist?list=PLOZRfOojyTZpMqTLmKCTasF9LkPIYLoHQ).
-Read the [latest syllabus](https://github.com/baharmon/syllabi/blob/master/digital-landscapes-syllabus-2020.pdf?raw=true)
-or [archived syllabi](https://github.com/baharmon/syllabi).
-
----
 
 [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/modeling-a-bioswale)
 [<i class="fab fa-youtube"></i> Modeling a bioswale in Rhino](https://youtu.be/HwCRlvX7lFc)
