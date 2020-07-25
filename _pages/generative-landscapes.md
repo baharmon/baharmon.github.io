@@ -7,16 +7,25 @@ featured_image: /images/
 
 ![Random grove](/images/random-grove-2.jpg)
 
-## Tutorials
+## Introduction
 
-Watch tutorials on visual programming and parametric modeling of landscapes with Grasshopper on
+Visual programming and parametric modeling of landscapes with GIS and Grasshopper.
+
+**Syllabus:**
+[<i class="fa fa-graduation-cap "></i> Generative Landscapes 2020](https://github.com/baharmon/syllabi/blob/master/generative-landscapes-syllabus-2020.pdf?raw=true)
+
+**Videos:**
 [<i class="fab fa-youtube"></i> Youtube](https://www.youtube.com/playlist?list=PLOZRfOojyTZq7UyGd-uTx1HfQ2g3Bdo5y)
-or
-[<i class="fab fa-vimeo-v"></i> Vimeo](https://vimeo.com/showcase/7366606).
-Read the [latest syllabus](https://github.com/baharmon/syllabi/blob/master/generative-landscapes-syllabus-2020.pdf?raw=true)
-or [archived syllabi](https://github.com/baharmon/syllabi).
+&
+[<i class="fab fa-vimeo-v"></i> Vimeo](https://vimeo.com/showcase/7366606)
 
----
+**Software:**
+[GRASS GIS](https://grass.osgeo.org/)
+&
+[Rhino](https://www.rhino3d.com/)
+
+
+## Tutorials
 
 [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/parametric-tree)
 [<i class="fab fa-youtube"></i> Modeling a parametric tree in Grasshopper](https://youtu.be/pV7G3abiA1I)

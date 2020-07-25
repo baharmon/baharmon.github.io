@@ -11,11 +11,17 @@ featured_image: /images/
 A guide to Geographic Information Systems
 for landscape architects, urban planners, and other designers.
 Topics include terrain modeling, hydrology, landscape ecology, and urban analytics.
-Watch tutorials on
+
+**Syllabus:**
+[<i class="fa fa-graduation-cap "></i> GIS for Designers 2019](https://github.com/baharmon/syllabi/blob/master/gis-for-designers-syllabus-2019.pdf?raw=true)
+
+**Lectures:**
+[<i class="fa fa-comment"></i> Online](https://baharmon.github.io/lectures)
+
+**Videos:**
 [<i class="fab fa-youtube"></i> Youtube](https://www.youtube.com/channel/UCmGEF6Bf1SO92oLQoGCPDTw/)
-or [<i class="fab fa-vimeo-v"></i> Vimeo](https://vimeo.com/showcase/7356098).
-Read the [latest syllabus](https://github.com/baharmon/syllabi/blob/master/gis-for-designers-syllabus-2019.pdf?raw=true)
-or [archived syllabi](https://github.com/baharmon/syllabi).
+&
+[<i class="fab fa-vimeo-v"></i> Vimeo](https://vimeo.com/showcase/7356098)
 
 **Software:**
 [GRASS GIS](https://grass.osgeo.org/),
@@ -24,10 +30,8 @@ or [archived syllabi](https://github.com/baharmon/syllabi).
 [Rhino](https://www.rhino3d.com/)
 
 **Data:**
-<i class="ai ai-doi"></i>
-[Natural Earth Dataset for GRASS GIS](https://zenodo.org/record/3762852/files/natural-earth-dataset.zip?download=1) &
-<i class="ai ai-doi"></i>
-[Governor's Island Dataset for GRASS GIS](https://zenodo.org/record/3940780/files/nyspf_govenors_island.zip?download=1)
+[<i class="fa fa-globe"></i> Natural Earth Dataset for GRASS GIS](https://zenodo.org/record/3762852/files/natural-earth-dataset.zip?download=1) &
+[<i class="fa fa-globe"></i> Governor's Island Dataset for GRASS GIS](https://zenodo.org/record/3940780/files/nyspf_govenors_island.zip?download=1)
 
 ---
 
@@ -37,3 +41,9 @@ or [archived syllabi](https://github.com/baharmon/syllabi).
 * [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/global-data-for-grass)[<i class="fab fa-youtube"></i>](https://youtu.be/vqH-DL4sgXU)[ Acquiring Global Data for GRASS GIS](global-data-for-grass)
 * [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/urban-data)[<i class="fab fa-youtube"></i>](https://youtu.be/yQuDPCMqWMw)[ Acquiring Urban Data for GRASS GIS](urban-data-for-grass)
 * [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/terrain-anlaysis)[<i class="fab fa-youtube"></i>](https://youtu.be/LVwwqYV5p58)[ Terrain Analysis in GRASS GIS](terrain-analysis-in-grass)
+
+---
+
+## Lectures
+
+* [<i class="fa fa-comment"></i> Geodesy](https://baharmon.github.io/lectures/geodesy)
