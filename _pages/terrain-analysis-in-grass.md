@@ -47,7 +47,7 @@ Start GRASS GIS,
 set the GRASS GIS database directory to `grassdata` directory,
 select `nyspf_governors_island` as your location,
 and create a new mapset called `terrain_analysis`.
-While will have access to reference data in the `PERMANENT` mapset,
+While we will have access to reference data in the `PERMANENT` mapset,
 all new data will be created in the new `terrain_analysis` mapset.
 See this [guide to starting GRASS GIS](https://grass.osgeo.org/grass78/manuals/helptext.html).
 
@@ -60,7 +60,7 @@ to the raster map `elevation_2017` at 1 foot resolution with the module
 Then set a mask to the vector map `shoreline` with the module
 [r.mask](https://grass.osgeo.org/grass78/manuals/r.mask.html).
 ```
-g.region raster=elevation_2017
+g.region raster=elevation_2017 res=1
 r.mask vector=shoreline
 ```
 
