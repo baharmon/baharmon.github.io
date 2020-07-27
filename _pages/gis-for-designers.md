@@ -40,8 +40,8 @@ Topics include terrain modeling, hydrology, landscape ecology, and urban analyti
 * [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/intro-to-grass)[<i class="fab fa-youtube"></i>](https://youtu.be/QldQuhxS4X8)[ An Introduction to GRASS GIS](intro-to-grass)
 * [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/global-data-for-grass)[<i class="fab fa-youtube"></i>](https://youtu.be/vqH-DL4sgXU)[ Acquiring Global Data for GRASS GIS](global-data-for-grass)
 * [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/urban-data)[<i class="fab fa-youtube"></i>](https://youtu.be/yQuDPCMqWMw)[ Acquiring Urban Data for GRASS GIS](urban-data-for-grass)
-* [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/terrain-anlaysis)[<i class="fab fa-youtube"></i>](https://youtu.be/LVwwqYV5p58)[ Terrain Analysis in GRASS GIS](terrain-analysis-in-grass)
-* [Map Algebra in GRASS GIS](map-algebra-in-grass)
+* [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/terrain-analysis-in-grass)[<i class="fab fa-youtube"></i>](https://youtu.be/LVwwqYV5p58)[ Terrain Analysis in GRASS GIS](terrain-analysis-in-grass)
+* [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/map-algebra-in-grass)[<i class="fab fa-youtube"></i>](...)[Map Algebra in GRASS GIS](map-algebra-in-grass)
 
 ---
 
