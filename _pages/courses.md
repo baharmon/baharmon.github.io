@@ -35,35 +35,17 @@ A brief introduction to tools for open spatial science.
 
 ## Course data
 
-<i class="ai ai-doi"></i>
+<i class="ms ms-grass-gis"></i>
 [Natural Earth Dataset for GRASS GIS](https://zenodo.org/record/3762852/files/natural-earth-dataset.zip?download=1)
 
-<i class="ai ai-doi"></i>
+<i class="ms ms-grass-gis"></i>
 [Governor's Island Dataset for GRASS GIS](https://zenodo.org/record/3940780/files/nyspf_govenors_island.zip?download=1)
 
-Governor's Island Dataset for QGIS
-
-Governor's Island Dataset for ArcGIS
-
-Hilltop Arboretum Time Series
-
-<i class="ai ai-doi"></i>
+<i class="ms ms-grass-gis"></i>
 [Hilltop Arboretum Landform Dataset for GRASS GIS](http://doi.org/10.5281/zenodo.3749397)
 
-<i class="fab fa-github"></i>
+<i class="ms ms-grass-gis"></i>
 [Landscape Evolution Dataset](https://github.com/baharmon/landscape_evolution_dataset)
-
-<i class="ai ai-doi"></i>
-[Global Dataset](https://doi.org/10.5281/zenodo.3359632)
-
-<i class="ai ai-doi"></i>
-[Sichuan Dataset](https://doi.org/10.5281/zenodo.3359070)
-
-<i class="ai ai-doi"></i>
-[Louisiana Dataset](https://doi.org/10.5281/zenodo.3359620)
-
-<i class="ai ai-doi"></i>
-[New Orleans Dataset](https://doi.org/10.5281/zenodo.3359642)
 
 ---
 

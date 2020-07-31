@@ -23,9 +23,9 @@ Topics include terrain modeling, hydrology, landscape ecology, and urban analyti
 [<i class="fab fa-vimeo-v"></i> Vimeo](https://vimeo.com/showcase/7356098)
 
 **Software:**
-[GRASS GIS](https://grass.osgeo.org/),
-[QGIS](https://qgis.org/),
-[ArcGIS](https://www.esri.com/), &
+[<i class="ms ms-grass-gis"></i> GRASS GIS](https://grass.osgeo.org/),
+[<i class="ms ms-qgis"></i> QGIS](https://qgis.org/),
+[<i class="ms ms-shp"></i> ArcGIS](https://www.esri.com/), &
 [Rhino](https://www.rhino3d.com/)
 
 **Data:**

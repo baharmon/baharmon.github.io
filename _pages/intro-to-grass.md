@@ -17,6 +17,7 @@ featured_image: /images/landcover_screenshot.png
 
 # What is GRASS GIS?
 
+<i class="ms ms-grass-gis"></i>
 The Geographic Resource Analysis Support System (GRASS) is a free and open source geographic information systemms (GIS). This cross platform GIS runs on Windows, Mac, and Linux. GRASS GIS is released under the GNU General Public License with [source code](https://github.com/OSGeo/grass) on GitHub. Go to the [GRASS GIS Website](https://grass.osgeo.org/) to download it, find datasets, find tutorials, and read the documentation. GRASS GIS has more than 500 modules for working with geospatial data. The GRASS GIS tutorials in this [course](gis-for-designers) will cover terrain analysis,  geomorphometry, map algebra, hydrology, landscape ecology, solar analysis, lidar data analytics, urban modeling, and more.
 
 ---
@@ -115,7 +116,7 @@ in the console:
 v.extract input=countries where="ADMIN = 'Brazil'" output=brazil
 ```
 
-Zoom to Brazil by right clicking on the map layer and selecting `zoom to selected map`. Then use the module [v.clip](https://grass.osgeo.org/grass78/manuals/v.clip.html) to create a vector map of rivers in Brazil. Set the input to `rivers`, the clipping mask to `brazil`, and the output to `brazilian_rivers`. 
+Zoom to Brazil by right clicking on the map layer and selecting `zoom to selected map`. Then use the module [v.clip](https://grass.osgeo.org/grass78/manuals/v.clip.html) to create a vector map of rivers in Brazil. Set the input to `rivers`, the clipping mask to `brazil`, and the output to `brazilian_rivers`.
 ```
 v.clip input=rivers clip=brazil output=brazilian_rivers
 ```
