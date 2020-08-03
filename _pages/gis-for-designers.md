@@ -29,7 +29,8 @@ Topics include terrain modeling, hydrology, landscape ecology, and urban analyti
 [Rhino](https://www.rhino3d.com/)
 
 **Data:**
-[<i class="fa fa-globe"></i> Natural Earth Dataset for GRASS GIS](https://zenodo.org/record/3762852/files/natural-earth-dataset.zip?download=1) &
+[<i class="ms ms-qgis"></i> Natural Earth Vector Theme GeoPackage](http://naciscdn.org/naturalearth/packages/natural_earth_vector.gpkg.zip),
+[<i class="fa fa-globe"></i> Natural Earth Dataset for GRASS GIS](https://zenodo.org/record/3762852/files/natural-earth-dataset.zip?download=1), &
 [<i class="fa fa-globe"></i> Governor's Island Dataset for GRASS GIS](https://zenodo.org/record/3940780/files/nyspf_govenors_island.zip?download=1)
 
 ---
@@ -41,6 +42,7 @@ Topics include terrain modeling, hydrology, landscape ecology, and urban analyti
 * [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/urban-data)[<i class="fab fa-youtube"></i>](https://youtu.be/yQuDPCMqWMw)[ Acquiring Urban Data for GRASS GIS](urban-data-for-grass)
 * [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/terrain-analysis-in-grass)[<i class="fab fa-youtube"></i>](https://youtu.be/LVwwqYV5p58)[ Terrain Analysis in GRASS GIS](terrain-analysis-in-grass)
 * [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/map-algebra-in-grass)[<i class="fab fa-youtube"></i>](https://youtu.be/HPjr00gEk98)[ Map Algebra in GRASS GIS](map-algebra-in-grass)
+* [ An Introduction to QGIS](intro-to-qgis)
 
 ---
 

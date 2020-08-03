@@ -35,6 +35,9 @@ A brief introduction to tools for open spatial science.
 
 ## Course data
 
+<i class="ms ms-qgis"></i>
+[Natural Earth Vector Theme GeoPackage](http://naciscdn.org/naturalearth/packages/natural_earth_vector.gpkg.zip)
+
 <i class="ms ms-grass-gis"></i>
 [Natural Earth Dataset for GRASS GIS](https://zenodo.org/record/3762852/files/natural-earth-dataset.zip?download=1)
 

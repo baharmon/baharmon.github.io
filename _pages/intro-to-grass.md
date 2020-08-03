@@ -5,9 +5,7 @@ description: An introduction to the free and open source Geographic Resource Ana
 featured_image: /images/landcover_screenshot.png
 ---
 
-| The GRASS GIS Interface |
-|:---:|
-| ![The GRASS GIS Interface](/images/natural-earth/world-rivers-screenshot.png) |
+![The GRASS GIS Interface](/images/natural-earth/world-rivers-screenshot.png)
 
 **Contents**
 * TOC
@@ -18,13 +16,13 @@ featured_image: /images/landcover_screenshot.png
 # What is GRASS GIS?
 
 <i class="ms ms-grass-gis"></i>
-The Geographic Resource Analysis Support System (GRASS) is a free and open source geographic information systemms (GIS). This cross platform GIS runs on Windows, Mac, and Linux. GRASS GIS is released under the GNU General Public License with [source code](https://github.com/OSGeo/grass) on GitHub. Go to the [GRASS GIS Website](https://grass.osgeo.org/) to download it, find datasets, find tutorials, and read the documentation. GRASS GIS has more than 500 modules for working with geospatial data. The GRASS GIS tutorials in this [course](gis-for-designers) will cover terrain analysis,  geomorphometry, map algebra, hydrology, landscape ecology, solar analysis, lidar data analytics, urban modeling, and more.
+The Geographic Resource Analysis Support System (GRASS) is a free and open source geographic information systemms (GIS). This cross platform GIS runs on Windows, Mac, and Linux. GRASS GIS is released under the GNU General Public License Version 2 or above with [source code](https://github.com/OSGeo/grass) on GitHub. Go to the [GRASS GIS Website](https://grass.osgeo.org/) to download it, find datasets, find tutorials, and read the documentation. GRASS GIS has more than 500 modules for working with geospatial data. The GRASS GIS tutorials in this [course](gis-for-designers) will cover terrain analysis,  geomorphometry, map algebra, hydrology, landscape ecology, solar analysis, lidar data analytics, urban modeling, and more.
 
 ---
 
 # How to Install GRASS GIS
 
-Download a [GRASS GIS installer](https://grass.osgeo.org/download/). Choose a standalone installer for the lastest stable release for your operating system - Windows, Mac, or Linux.
+Download a [GRASS GIS installer](https://grass.osgeo.org/download/). Choose a standalone installer for the latest stable release for your operating system - Windows, Mac, or Linux.
 
 ---
 

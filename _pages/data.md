@@ -7,7 +7,7 @@ featured_image:
 
 ## <i class="ms ms-txt"></i> Data Sources
 
-[List of Geospatial Data Sources](https://github.com/baharmon/geospatial-modeling-course/blob/master/geospatial-data-sources.md)
+[List of Geospatial Data Sources](geospatial-data-sources)
 
 ---
 

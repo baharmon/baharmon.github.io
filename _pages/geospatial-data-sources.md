@@ -13,6 +13,7 @@ featured_image:
 * [CGIAR-CSI](http://www.cgiar-csi.org/data)
 * [Global Map](https://globalmaps.github.io/)
 * [Natural Earth](https://www.naturalearthdata.com/)
+* [Natural Earth Starter Kit](http://naciscdn.org/naturalearth/packages/Natural_Earth_quick_start.zip)
 * [GRASS-Wiki List of Global Datasets](https://grasswiki.osgeo.org/wiki/Global_datasets)
 * [Open Street Map Extracts from Geofabrik](http://download.geofabrik.de/)
 * [Open Street Map Extracts from Open Map Tiles](https://openmaptiles.com/downloads/planet/)
@@ -70,6 +71,7 @@ for GRASS GIS
 * [Protected Areas Database of the United States (PAD-US)](https://doi.org/10.5066/P955KPLE)
 * [Modeled Historical Land Use and Land Cover for the Conterminous United States: 1938-1992](https://www.sciencebase.gov/catalog/item/59d3c73de4b05fe04cc3d1d1)
 * [U.S. Conterminous Wall-to-Wall Anthropogenic Land Use Trends: 1974–2012 (NWALT)](https://doi.org/10.3133/ds948)
+* [US Commutes and Megaregions](https://figshare.com/articles/United_States_Commutes_and_Megaregions_data_for_GIS/4110156)
 
 ---
 
@@ -87,7 +89,13 @@ for GRASS GIS
 ## European Data
 * [Copernicus Pan-European Data](http://land.copernicus.eu/pan-european)
 * [European Environment Agency](https://www.eea.europa.eu/data-and-maps)
+
+---
+
+## UK Data
 * [UK Open Data](https://data.gov.uk/)
+* [Populated Places of Great Britain](https://github.com/alasdairrae/gb-places)
+* [Buildings of Great Britain](http://ajrae.staff.shef.ac.uk/buildings/)
 
 ---
 
