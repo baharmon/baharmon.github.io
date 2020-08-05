@@ -49,14 +49,17 @@ Download a [QGIS installer](https://grass.osgeo.org/download/). Choose a standal
 
 # Download Natural Earth Data
 
-Find raster and vector maps of the world in the
+Find <i class="ms ms-raster"></i> raster
+and <i class="ms ms-line"></i> vector maps
+of the world in the
 [Natural Earth](https://www.naturalearthdata.com/) collection.
 Download and extract the
 [Natural Earth Vector Theme GeoPackage](http://naciscdn.org/naturalearth/packages/natural_earth_vector.gpkg.zip)
 and the
 [1:50m Natural Earth I with Shaded Relief and Water](https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/50m/raster/NE1_50M_SR_W.zip)
 raster.
-The coordinate reference system for these datasets is the
+The <i class="ms ms-sphere"></i> coordinate reference system
+for these datasets is the
 World Geodetic System 1984 (WGS84).
 Optionally move these datasets to
 a new directory on your computer called
@@ -75,7 +78,7 @@ browse to find your data,
 e.g. the `natural_earth` directory.
 In the subdirectory `NE1_50M_SR_W`
 double click to add
-the Natural Earth I raster
+the Natural Earth I raster <i class="ms ms-raster"></i>
 `NE1_50M_SR_W.tif`.
 
 | Natural Earth |
@@ -100,18 +103,22 @@ and the countries on the top.
 
 Style the lakes with a nice blue fill.
 In the Layer panel
-double click on `ne_10m_lakes`
+double click on <i class="ms ms-line"></i>
+`ne_10m_lakes`
 and select the symbology tab
 to set the layer styling.
 Set the fill color to a blue
-using the color picker to sample the ocean
+using the color picker
+<i class="ms ms-color-picker"></i>
+to sample the ocean
 in the Natural Earth raster.
 Set the stroke color to transparent.
 
 Style the rivers with stroke weights
 and colors based on stream order.
 In the Layer panel
-double click on `ne_10m_rivers_lakes_centerlines_scale_rank`
+double click on <i class="ms ms-line"></i>
+`ne_10m_rivers_lakes_centerlines_scale_rank`
 and select the symbology tab
 to set the layer styling.
 Under `line` select `simple line`.
@@ -127,7 +134,8 @@ and set the output value size from
 Style the countries with
 a thin border.
 In the Layer panel
-double click on `ne_10m_admin_0_countries`
+double click on <i class="ms ms-line"></i>
+`ne_10m_admin_0_countries`
 and select the symbology tab
 to set the layer styling.
 Under `fill` select `simple fill`.
@@ -154,9 +162,10 @@ Select your map in the items panel on the right,
 then in the item properties panel below that
 set a map scale.
 Optionally add cartographic elements
-such as a numeric scale.  
-Use the export image button
-to save your map as a jpg at 300 DPI.
+such as a numeric scale. Use the export image button
+to save your
+<i class="ms ms-map"></i>
+map as a jpg at 300 DPI.
 
 | Rivers of the World |
 |:---:|
@@ -166,7 +175,8 @@ to save your map as a jpg at 300 DPI.
 
 # Labels
 
-Add labels to the rivers.
+Add <i class="ms ms-label"></i> labels
+to the rivers.
 In the Layer panel
 double click on `ne_10m_rivers_lakes_centerlines_scale_rank`
 and select the labels tab
@@ -207,7 +217,8 @@ Removing a label will remove all labels of the same name.
 # Packaging
 
 To keep your data organized and easy to move and share,
-add your rasters and vectors to a GeoPackage (.gpkg).
+add your rasters and vectors to a
+<i class="ms ms-database"></i> GeoPackage (.gpkg).
 First rename `natural_earth_vector.gpkg` to `natural_earth.gpkg`.
 Then in QIGS in the Browser
 drag the Natural Earth I raster `NE1_50M_SR_W` into `natural_earth.gpkg`.

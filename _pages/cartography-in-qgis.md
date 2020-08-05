@@ -138,6 +138,9 @@ in the item properties panel.
 Scale bar
 style numeric
 
+<i class="ms ms-map"></i>
+<i class="ms ms-globe"></i>
+
 | Rivers of Europe |
 |:---:|
 | ![Rivers of Europe](/images/natural-earth/rivers-of-europe.jpg) |
