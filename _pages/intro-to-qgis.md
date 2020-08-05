@@ -30,6 +30,7 @@ the [R](https://www.r-project.org/) programming language for statistics,
 [TauDEM](https://hydrology.usu.edu/taudem/taudem5/),
 [LASTools](https://rapidlasso.com/lastools/) for lidar processing,
 and more.
+QGIS also has an extensive library of plugins.
 
 [<i class="ms ms-grass-gis"></i> GRASS GIS](https://grass.osgeo.org/)
 is integrated into
