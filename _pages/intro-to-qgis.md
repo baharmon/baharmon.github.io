@@ -54,7 +54,7 @@ Find <i class="ms ms-raster"></i> raster
 and <i class="ms ms-line"></i> vector maps
 of the world in the
 [Natural Earth](https://www.naturalearthdata.com/) collection.
-Download and extract the
+Download and extract the <i class="ms ms-database"></i>
 [Natural Earth Vector Theme GeoPackage](http://naciscdn.org/naturalearth/packages/natural_earth_vector.gpkg.zip)
 and the
 [1:50m Natural Earth I with Shaded Relief and Water](https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/50m/raster/NE1_50M_SR_W.zip)
