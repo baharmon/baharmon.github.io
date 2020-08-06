@@ -43,6 +43,7 @@ Topics include terrain modeling, hydrology, landscape ecology, and urban analyti
 * [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/terrain-analysis-in-grass)[<i class="fab fa-youtube"></i>](https://youtu.be/LVwwqYV5p58)[ Terrain Analysis in GRASS GIS](terrain-analysis-in-grass)
 * [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/map-algebra-in-grass)[<i class="fab fa-youtube"></i>](https://youtu.be/HPjr00gEk98)[ Map Algebra in GRASS GIS](map-algebra-in-grass)
 * [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/intro-to-qgis)[<i class="fab fa-youtube"></i>](https://youtu.be/DNyyrVY6Pas)[ An Introduction to QGIS](intro-to-qgis)
+* [ Cartography in QGIS](cartography-in-qgis)
 
 ---
 
