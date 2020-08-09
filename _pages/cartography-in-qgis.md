@@ -100,8 +100,7 @@ First set a predefined azimuth orthographic projection.
 In the project menu, select properties.
 In the properties dialog, select the CRS tab
 and search for the `The_World_From_Space` projection.
-Copy the well known text (WKT)
-definition for this projection.
+Copy the PROJ definition for this projection.
 You will use it to make a custom projection
 in the next step.
 
@@ -111,63 +110,24 @@ go to the settings menu
 and select custom projection.
 Use the plus button to create a new CRS,
 name it `Custom_World_From_Space`,
-set the format to WKT,
-paste the WKT definition for the
+set the format to proj string,
+paste the PROJ definition for the
 `The_World_From_Space`,
 and then edit it.
-Adjust the latitude and longitude
-of natural origin.
-Remove `ID["ESRI",102038]` at the end of the definition,
-but be sure to leave the final bracket
-closing the definition.
-Here is an example:
+Adjust `lat_0` and `lon_0`,
+the latitude and longitude
+of natural origin
+to focus on your study area.
 ```
-PROJCRS["Custom_World_From_Space",
-    BASEGEOGCRS["GCS_Sphere_ARC_INFO",
-        DATUM["D_Sphere_ARC_INFO",
-            ELLIPSOID["Sphere_ARC_INFO",6370997,0,
-                LENGTHUNIT["metre",1]]],
-        PRIMEM["Greenwich",0,
-            ANGLEUNIT["Degree",0.0174532925199433]]],
-    CONVERSION["The_World_From_Space",
-        METHOD["Orthographic",
-            ID["EPSG",9840]],
-        PARAMETER["Latitude of natural origin",42.5333333333,
-            ANGLEUNIT["Degree",0.0174532925199433],
-            ID["EPSG",8801]],
-        PARAMETER["Longitude of natural origin",0.0000000000,
-            ANGLEUNIT["Degree",0.0174532925199433],
-            ID["EPSG",8802]],
-        PARAMETER["False easting",0,
-            LENGTHUNIT["metre",1],
-            ID["EPSG",8806]],
-        PARAMETER["False northing",0,
-            LENGTHUNIT["metre",1]]],
-    CS[Cartesian,2],
-        AXIS["(E)",east,
-            ORDER[1],
-            LENGTHUNIT["metre",1]],
-        AXIS["(N)",north,
-            ORDER[2],
-            LENGTHUNIT["metre",1]],
-    USAGE[
-        SCOPE["unknown"],
-        AREA["World"],
-        BBOX[-90,-180,90,180]]]
++proj=ortho +lat_0=42.5333333333 +lon_0=-0.5 +x_0=0 +y_0=0 +ellps=sphere +units=m +no_defs
 ```
 Back in project properties in the CRS tab,
 search for your new `Custom_World_From_Space` projection
 and set it as the CRS.
 Then in the custom CRS dialog,
-try adjusting the Longitude of natural origin value
-to rotate the globe until it centers on your study area.
-
-Alternatively set the format to proj string
-and enter the following parameters:
-```
-+proj=ortho +lat_0=42.5333333333 +lon_0=-0.53333333339999 +x_0=0 +y_0=0 +a=6370997 +b=6370997 +units=m +no_defs
-```
-Iteratively adjust the latitude and longitude to focus on your study area.
+try adjusting the Latitude and Longitude
+of natural origin value to rotate the globe
+until it centers on your study area.
 For this tutorial, focus on Europe.
 
 | Azimuth Orthographic Projection |
