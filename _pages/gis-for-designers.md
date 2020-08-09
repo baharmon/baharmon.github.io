@@ -28,10 +28,10 @@ Topics include terrain modeling, hydrology, landscape ecology, and urban analyti
 [<i class="ms ms-shp"></i> ArcGIS](https://www.esri.com/), &
 [Rhino](https://www.rhino3d.com/)
 
-**Data:**
+**Datasets:**
 [<i class="ms ms-qgis"></i> Natural Earth Vector Theme GeoPackage](http://naciscdn.org/naturalearth/packages/natural_earth_vector.gpkg.zip),
-[<i class="fa fa-globe"></i> Natural Earth Dataset for GRASS GIS](https://zenodo.org/record/3762852/files/natural-earth-dataset.zip?download=1), &
-[<i class="fa fa-globe"></i> Governor's Island Dataset for GRASS GIS](https://zenodo.org/record/3940780/files/nyspf_govenors_island.zip?download=1)
+[<i class="ms ms-grass-gis"></i> Natural Earth Dataset for GRASS GIS](https://zenodo.org/record/3762852/files/natural-earth-dataset.zip?download=1), &
+[<i class="ms ms-grass-gis"></i> Governor's Island Dataset for GRASS GIS](https://zenodo.org/record/3940780/files/nyspf_govenors_island.zip?download=1)
 
 ---
 

@@ -211,7 +211,7 @@ In the `Processing Toolbox` browse
 in `Vector Selection` for
 `Extract by attribute`.
 Run [Extract by attribute](https://docs.qgis.org/3.10/en/docs/user_manual/processing_algs/qgis/vectorselection.html#extract-by-attribute).
-Set the input layer to `ne_50m_admin_0_countries`, set the selection attribute to `NAME`, set the value to `Europe`, and set the matching features to `ogr:dbname='natural_earth.gpkg' table="europe" (geom)`.
+Set the input layer to `ne_50m_admin_0_countries`, set the selection attribute to `CONTINENT`, set the value to `Europe`, and set the matching features to `ogr:dbname='natural_earth.gpkg' table="europe" (geom)`.
 Nota bene: use the full file path for `natural_earth.gpkg`.
 
 ---
