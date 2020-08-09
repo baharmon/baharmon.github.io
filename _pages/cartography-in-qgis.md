@@ -191,11 +191,12 @@ create a theme for each.
 Set up a theme for the locator map.
 For example arrange the following layers
 in order from top to bottom:
-* `europe`
 * `ne_50m_graticules_15`
+* `europe`
 * `NE1_50M_SR_W.tif`
 
 Style the graticules as simple line in white.
+Optionally, set graticules' opacity to 50%. 
 Style `europe` with a simple fill
 with a blue fill and a dark blue stroke.
 Create a new map theme by
@@ -287,6 +288,8 @@ Set a fixed scale such as 200000000.
 Then in the layers section
 check follow map theme
 and set the theme to `globe`.
+Uncheck `background` to hide
+the white background behind your globe.
 
 Finally use the export as image button
 to export your map as a `.jpg` <i class="ms ms-img"></i>.
