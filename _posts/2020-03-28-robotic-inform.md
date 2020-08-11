@@ -7,7 +7,7 @@ featured_image: '/images/robotic-inform-1.jpg'
 
 ![Robotic 3D printing](/images/robotic-inform-1.jpg)
 
-## Robotic Inform, Barcelona, 2020
+### Robotic Inform, Barcelona, 2020
 
 [Hye Yeon](http://hynam.org/) and I attended Design Morphine's
 [Robotic Inform](https://designmorphine.org/workshop/past/robotic-inform-v1/)

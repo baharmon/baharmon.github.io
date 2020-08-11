@@ -7,7 +7,7 @@ featured_image: '/images/particle-forest-cover.jpg'
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLOZRfOojyTZq7UyGd-uTx1HfQ2g3Bdo5y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Tutorials on Youtube and Vimeo
+### Tutorials on Youtube and Vimeo
 I have posted my first 12 video tutorials
 for my courses
 [Digital Landscapes](http://baharmon.github.io/digital-landscapes)
