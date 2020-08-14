@@ -28,7 +28,7 @@ Visual programming and parametric modeling of landscapes with GIS and Grasshoppe
 
 ## Lectures
 
-[<i class="fab fa-youtube"></i> Generative Landscape Architecture](https://youtu.be/w1UtTZNvsu4)
+[<i class="fab fa-youtube"></i> Generative Landscape Architecture](https://youtu.be/_cqwgFKCRyU)
 
 ---
 
