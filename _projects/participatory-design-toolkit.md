@@ -1,8 +1,8 @@
 ---
-title: 'Participatory Design Toolkit'
-subtitle: 'An open source toolkit for the participatory design'
+title: 'Complete Street Participatory Design Toolkit'
+subtitle: 'An open source toolkit for the participatory design of streetscapes'
 date: 2019-03-19 00:00:00
-description: An open source toolkit for the participatory design
+description: An open source toolkit for the participatory design of streetscapes
 featured_image: '/images/participatory-design-toolkit-1.jpg'
 
 ---
@@ -17,11 +17,11 @@ featured_image: '/images/participatory-design-toolkit-1.jpg'
 
 ## Complete Street Participatory Design Toolkit
 
-Team: Sophie Lott, Joshua Black, & Brendan Harmon
+Team: Brendan Harmon, Hye Yeon Nam,
 
-Media: laser-cut chipboard and museum board
+Media: laser-cut chipboard, museum board, microcontrollers, etc.
 
-Date: 03.19.2019
+Date: 2019 - present
 
 Funding: National Academy of Sciences' Gulf Research program,
 [Inland from the Coast: A Multi-Scalar Approach to Regional Climate Change Responses](https://css.lsu.edu/project/inland-from-the-coast/)

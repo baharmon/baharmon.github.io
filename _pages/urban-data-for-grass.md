@@ -131,7 +131,6 @@ r.colors -e map=surface_2017 color=viridis
 |:---:|:---:|
 | ![Digital elevation model](/images/governors-island/elevation.png) | ![Digital surface model](/images/governors-island/surface.png) |
 
-
 ---
 
 # Download Data for Central Park
