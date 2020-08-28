@@ -1,0 +1,197 @@
+---
+title: Geomorphometry in GRASS GIS
+subtitle: A tutorial on quantitative terrain analysis in GRASS GIS.
+description: A tutorial on quantitative terrain analysis in GRASS GIS.
+featured_image: /images/governors-island/geomorphons.png
+---
+
+![](/images/governors-island/shaded-geomorphons.png)
+
+**Contents**
+* TOC
+{:toc}
+
+---
+
+# Geomorphometry
+
+Geomorphometry is the quantitative analysis of topography.
+Geomorphometric analyses include slope, aspect, curvature,
+and landforms. In this tutorial we will using the modules
+[r.param.scale](https://grass.osgeo.org/grass78/manuals/r.param.scale.html)
+and
+[r.geomorphon](https://grass.osgeo.org/grass78/manuals/r.geomorphon.html)
+to automatically classify the landforms on Governor's Island.
+
+This tutorial uses the
+[Governor's Island Dataset for GRASS GIS](https://zenodo.org/record/3940780/files/nyspf_govenors_island.zip?download=1).
+Download, extract, and move this geospatial dataset
+for Governor's Island in New York City
+to your `grassdata` directory.
+
+Start GRASS GIS,
+set the GRASS GIS database directory to `grassdata` directory,
+select `nyspf_governors_island` as your location,
+and create a new mapset called `geomorphometry`.
+Zoom in on the landforms in the southwest of the island.
+Either set the computation from the display using the various zoom options dropdown or run [g.region](https://grass.osgeo.org/grass78/manuals/g.region.html) and set the boundaries for the region. Save the region.
+Then set a mask to the vector map `shoreline` with the module
+[r.mask](https://grass.osgeo.org/grass78/manuals/r.mask.html).
+```
+g.region n=189850 s=189100 e=978550 w=976850 save=landforms
+r.mask vector=shoreline
+```
+
+| Digital Elevation Model |
+|:---:|
+| ![Elevation](/images/governors-island/southwestern-elevation.png) |
+
+---
+
+# Topographic Parameters
+The module
+[r.param.scale](https://grass.osgeo.org/grass78/manuals/r.param.scale.html)
+calculates the morphometric parameters of topography using calculus.
+Terrain is parameterized based on the first and second derivatives
+of quadratic surfaces fit to a moving window using least squares.
+The scale of the morphometric parameterization
+depends on the size of the moving window.
+Parameters include slope, aspect, curvature, and morphometric features.
+Morphometric features, i.e. landforms, are defined
+by relationship of a cell to it neighbors
+in terms of convexity and concavity,
+the second derivatives of the topographic surface.
+[r.param.scale](https://grass.osgeo.org/grass78/manuals/r.param.scale.html)
+can identify six generals landforms -
+peaks, ridges, passes, planes, channels, and pits.
+
+Use the module [r.param.scale](https://grass.osgeo.org/grass78/manuals/r.param.scale.html) to automatically classify landforms.
+Set the moving window size to an odd number.
+```
+r.param.scale input=elevation_2017 output=landforms size=33 method=feature --overwrite
+```
+
+| Landforms |
+|:---:|
+| ![Landforms](/images/governors-island/landforms.png) |
+
+Try running [r.param.scale](https://grass.osgeo.org/grass78/manuals/r.param.scale.html) with different moving window sizes.
+Either change the name of the output map or set the `--overwrite` flag.
+Add a [legend](https://grass.osgeo.org/grass78/manuals/d.legend.html).
+Note how this module characterizes most of the landforms here
+as either ridges or channels.
+
+---
+
+# Geomorphons
+
+The module
+[r.geomorphon](https://grass.osgeo.org/grass78/manuals/r.geomorphon.html)
+automatically recognizes and classifies landforms using machine vision.
+Landforms are classified as either
+flats, peaks, ridges, shoulders, spurs, slopes, hollows,
+footslope, valleys, or pits
+based on their visibility from 8 cardinal and ordinal directions.
+
+| Landforms |
+|:---:|
+| ![Landforms](/images/governors-island/geomorphons-legend.png) |
+
+Geomorphons has been used for diverse application such as
+characterizing [submarine dunes on the ocean floor](https://doi.org/10.3390/geosciences8010028)
+and creating [global landform maps](https://doi.org/10.1038/s41597-020-0479-6).
+
+Classify landforms using
+[r.geomorphon](https://grass.osgeo.org/grass78/manuals/r.geomorphon.html).
+Experiment with the `search`, `skip`, and `flat` parameters.
+The search radius determines the scale of the landform features,
+the flatness threshold set the angle at which ground is considered flat,
+and the skip radius eliminates small landforms, reducing noise.
+
+```
+g.region region=landforms
+r.geomorphon elevation=elevation_2017 forms=geomorphons search=36 skip=6 flat=12 --overwrite
+```
+
+| Geomorphons |
+|:---:|
+| ![Geomorphons](/images/governors-island/geomorphons.png) |
+
+Note how
+[r.geomorphon](https://grass.osgeo.org/grass78/manuals/r.geomorphon.html)
+has clearly identified the ridge lines and their peaks and
+has classified the pathways as either valleys or footslopes.
+
+---
+
+# Landform Visualization
+
+Compute shaded relief from the digital elevation model using
+[r.relief](https://grass.osgeo.org/grass78/manuals/r.relief.html).
+Set the units to US survey feet
+and optionally the vertical scale to 2 or higher.
+Then drape a map of landforms over the shaded relief using
+[r.shade](https://grass.osgeo.org/grass78/manuals/r.relief.html).
+```
+r.relief input=elevation_2017 output=relief_2017 zscale=2 units=survey
+r.shade shade=relief_2017 color=geomorphons output=shaded_geomorphons brighten=45
+```
+
+| Geomorphons with Shaded Relief |
+|:---:|
+| ![Geomorphons](/images/governors-island/shaded-geomorphons.png) |
+
+---
+
+# Landform Extraction
+
+Use map algebra to extract the ridges from either map of landforms.
+In the raster map calculator, use an `if, then, else` statement.
+If cells in the geomorphons raster equal 3,
+then write a value of 1 in the new raster,
+else write null values.
+```
+r.mapcalc expression="ridges = if(geomorphons==3,1,null())"
+```
+
+Set a color for the maps of ridges.
+Right click on ridges layer in the layer manager
+and choose set color interactively.
+Assign a category value with
+[r.category]([r.mapcalc](https://grass.osgeo.org/grass78/manuals/r.category.html).
+In the `Define` tab enter category value directly as
+`1|ridge`
+
+```
+r.category map=ridges separator=pipe
+```
+
+| Ridges |
+|:---:|
+| ![Ridges](/images/governors-island/ridges.png) |
+
+To make a simpler, cleaner vector map of the ridges,
+first convert the raster map to a vector using the module
+[r.to.vect](https://grass.osgeo.org/grass78/manuals/r.to.vect.html).
+Then remove small areas from the vector map with the module
+[v.clean](https://grass.osgeo.org/grass78/manuals/v.clean.html).
+All areas smaller than the threshold parameter will be removed.
+Then simplify the boundaries of the areas using
+[v.generalize](https://grass.osgeo.org/grass78/manuals/v.generalize.html)
+with the `reumann` method.
+Smooth the  boundaries of the areas using
+[v.generalize](https://grass.osgeo.org/grass78/manuals/v.generalize.html)
+with the `snakes` or `hermite` method.
+Remove the intermediate cleaned and simplified maps with
+[g.remove](https://grass.osgeo.org/grass78/manuals/g.remove.html).
+```
+r.to.vect -s input=ridges output=ridges type=area
+v.clean input=ridges output=ridges type=point,line,area tool=rmarea thres=2
+v.generalize input=ridges_cleaned type=area output=ridges_generalized method=reumann threshold=2
+v.generalize input=ridges_generalized type=area output=ridges method=snakes threshold=2 alpha=1 beta=1
+g.remove -f type=vector name=ridges_cleaned,ridges_generalized
+```
+
+| Vector Ridges |
+|:---:|
+| ![Ridges](/images/governors-island/vector-ridges.png) |

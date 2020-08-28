@@ -85,9 +85,9 @@ else write null values.
 
 Optionally assign category values
 from the landcover map to the canopy map with
-[r.category]([r.mapcalc](https://grass.osgeo.org/grass78/manuals/r.category.html))
+[r.category]([r.mapcalc](https://grass.osgeo.org/grass78/manuals/r.category.html).
 ```
-r.category map=canopy@map_algebra raster=landcover_2014
+r.category map=canopy raster=landcover_2014
 ```
 
 | Tree Canopy,  Governor's Island, NYC |

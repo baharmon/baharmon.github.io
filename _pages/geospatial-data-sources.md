@@ -27,6 +27,7 @@ featured_image:
 * [Open Topography](http://www.opentopography.org/)
 * [NASADEM](https://lpdaac.usgs.gov/products/nasadem_hgtv001/)
 * [ALOS Global Digital Surface Model](http://www.eorc.jaxa.jp/ALOS/en/aw3d30/index.htm)
+* [MERIT DEM](http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_DEM/)
 * [EU-DEM](https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1)
 * [UK Open Data Lidar](https://data.gov.uk/dataset/977a4ca4-1759-4f26-baa7-b566bd7ca7bf/lidar-point-cloud)
 
@@ -50,6 +51,10 @@ for GRASS GIS
 * [IUCN Red List](https://www.iucnredlist.org/)
 * [Anthromes](http://ecotope.org/anthromes/v2/data/)
 * [WWF Conservation Science Datasets](https://www.worldwildlife.org/pages/conservation-science-data-and-tools)
+* [Map of Life](https://mol.org/datasets/)
+* [USGS Global Ecosystems](https://www.usgs.gov/centers/gecsc/science/global-ecosystems-data) + [Viewer](https://rmgsc.cr.usgs.gov/ecosystems/dataviewer.shtml)
+* [EarthEnv](http://www.earthenv.org/)
+* [OpenLandMap](https://openlandmap.org/)
 
 ---
 
