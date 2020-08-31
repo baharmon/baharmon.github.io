@@ -5,7 +5,7 @@ description: Using GRASS inside of QGIS.
 featured_image: /images/
 ---
 
-![GRASS in QGIS](/images/governors-island/hillshade-style.jpg)
+![GRASS in QGIS](/images/governors-island/grass-in-qgis.jpg)
 
 **Contents**
 * TOC
@@ -15,23 +15,41 @@ featured_image: /images/
 
 # Rationale
 
-Processing in GRASS (scientific GIS, terrain and lidar)
+While <i class="ms ms-grass-gis"></i> GRASS GRASS GIS
+has an extensive library
+with over 500 modules for spatial and temporal computation,
+<i class="ms ms-qgis"></i> QGIS is easier to use
+and has a handsome, modern user interface (UI).
+Since GRASS is integrated into QGIS,
+you can perform sophisticated spatial computations
+using GRASS modules
+and then compose beautiful maps in QGIS
+with the resulting data.
+To learn more read the
+[GRASS GIS Integration](https://docs.qgis.org/3.10/en/docs/user_manual/grass_integration/grass_integration.html)
+section of the QGIS user manual.
 
-Cartography in QGIS
-
-QGIS' great interface (GUI)
-
-Streamlined workflow
+The GRASS integration for QGIS can streamline workflows
+involving spatial computation and map making.
+With the integration users with more experience with QGIS
+can work entirely within QGIS,
+using the GRASS plugin when GRASS algorithms are needed.
+Users with more experience with GRASS,
+may prefer to run computations in GRASS
+and then load the GRASS datasets in QGIS
+to compose high quality maps for publication.
+This tutorial will demonstrate how to
+use GRASS Datasets and GRASS Tools
+inside of QGIS.
 
 ---
 
-# GRASS Plugins
-
-<i class="ms ms-qgis"></i> GRASS
-
-<i class="ms ms-grass-gis"></i> QGIS
-
-[GRASS GIS Integration](https://docs.qgis.org/3.10/en/docs/user_manual/grass_integration/grass_integration.html)
+# GRASS Plugin
+Start <i class="ms ms-qgis"></i> QGIS Desktop with GRASS.
+In the Plugins menu select `Manage and Install Plugins`.
+<i class="ms ms-grass-gis"></i> GRASS 7 is core plugin
+so it is already installed, but needs to be enabled.
+Check the plugin to enable it.
 
 ---
 
@@ -85,7 +103,7 @@ Double click on the
 <i class="ms ms-raster"></i>
 `elevation_2017` to add this digital elevation model.
 This raster will not render in the map display
-with the default symbology settings.
+with the default <i class="ms ms-style"></i> symbology settings.
 You will need to specify a color ramp
 and load values from the raster.
 A color ramp for a digital elevation model
@@ -128,7 +146,7 @@ first make a copy of the layer `elevation_2017`.
 To do this right click on `elevation_2017`
 and select `duplicate layer`.
 Turn on the new layer, move it above the original layer,
-and change its symbology.
+and change its <i class="ms ms-style"></i> symbology.
 Set the render type to `hillshade`
 and the blending mode to soft light.
 Adjust the settings.
@@ -145,7 +163,7 @@ Optionally rename the layer to `shaded_elevation_2017`.
 To add contour lines as a layer style,
 first make another copy of the layer `elevation_2017`.
 Turn on the new layer, move it above the original layer,
-and change its symbology.
+and change its <i class="ms ms-style"></i> symbology.
 Set the render type to `contours`
 and then adjust the settings.
 Try setting the contour interval to 3 feet.
@@ -157,11 +175,11 @@ such as screen with 60% percent brightness.
 
 # GRASS Tools
 
-What are GRASS Tools?
-
 We will use GRASS Tools
 to set the computational region
-and then compute a hillshade.
+and then recognize and classify landforms
+with the GRASS module
+[r.geomorphon](https://grass.osgeo.org/grass78/manuals/addons/r.geomorphon.html).
 
 In the browser expand the location
 <i class="ms ms-grass-gis"></i> `nyspf_governors_island`.
@@ -189,26 +207,79 @@ In the `g.region.zoom` options tab
 set the raster to `elevation_2017@PERMANENT`.
 Run and then close this module.
 
-Then compute a hillshade.
+Then run the GRASS module
+[r.geomorphon](https://grass.osgeo.org/grass78/manuals/addons/r.geomorphon.html)
+to automatically recognize and classify landforms.
+See my tutorial on
+[Geomorphometry in GRASS](geomorphometry-in-grass)
+for a more detailed guide on landform classification.
 Under GRASS modules expand raster,
 then spatial analysis, and then terrain analysis.
-Double click the module `r.relief`
+Double click the module
+[r.geomorphon](https://grass.osgeo.org/grass78/manuals/addons/r.geomorphon.html)
+to compute landforms.
+In the options tab for `r.geomorphon`
+set the input raster to `elevation_2017@PERMANENT`,
+the output to `landforms`,
+the outer search radius to `36`,
+the inner search radius to `6`,
+and flatness threshold to `12`,
+and the flatness distance to `0`.
+Run the module, click view output to add it
+to your layer manager and map display,
+and then close the module.
+Open the layer properties for `landforms`.
+In the <i class="ms ms-style"></i> symbology settings
+under min/max value settings
+press the refresh button to load the color map from the band.
+Then hit apply to render the landform map with its color table.
+
+| Landforms |
+|:---:|
+| ![Landforms](/images/governors-island/landforms.jpg) |
+
+To better visualize the landforms,
+compute a hillshade using the GRASS module
+[r.relief](https://grass.osgeo.org/grass78/manuals/addons/r.relief.html).
+Under GRASS modules expand raster,
+then spatial analysis,
+and then terrain analysis.
+Double click the module
+[r.relief](https://grass.osgeo.org/grass78/manuals/addons/r.relief.html)
 to create a shaded relief map.
 In the options tab for `r.relief`
 set the input raster to `elevation_2017@PERMANENT`,
 the output to `relief_2017`,
-and the z-factor to 2 or 3.
-Run the module, click view output to add it
-to your layer manager and map display,
+and the z-factor to `2` or `3`.
+Run the module,
+click view output to add it to your layer manager and map display,
 and then close the module.
 Open the layer properties for `relief_2017`.
-In the symbology settings,
-set the render type to `singleband gray` and apply.
-To blend the hillshade with the digital elevation model,
-set the blending mode to `soft light`.
-Make sure the layer `elevation_2017` is turned on
-and is below layer `relief_2017`.
+In the symbology settings, set the render type to singleband gray and apply.
 
 | Shaded Relief |
 |:---:|
 | ![Shaded Relief](/images/governors-island/hillshade.jpg) |
+
+To blend the hillshade with the landforms,
+open the <i class="ms ms-style"></i> symbology settings
+for `relief_2017` again and
+set the blending mode to `multiply`,
+brightness to `100`, and contrast to `50`.
+Make sure the layer `landforms` is turned on and is below layer `relief_2017`.
+
+| Landforms with Shaded Relief |
+|:---:|
+| ![Landforms with Shaded Relief](/images/governors-island/shaded-landforms.jpg) |
+
+To export a high resolution map as an image or a pdf,
+go to the Project menu and select `New Print Layout`.
+In the layout window, click add map from the toolbar on the left,
+then drag a map window across the canvas snapping on to the corners.
+The map of landforms blended with shaded relief will render on the canvas.
+Click either the export as image or export as pdf button.
+For a high resolution image set the DPI to 300 or greater.
+
+| Print Layout |
+|:---:|
+| ![Print Layout](/images/governors-island/print-layout.jpg) |
