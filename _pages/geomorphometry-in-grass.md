@@ -158,7 +158,7 @@ Set a color for the maps of ridges.
 Right click on ridges layer in the layer manager
 and choose set color interactively.
 Assign a category value with
-[r.category]([r.mapcalc](https://grass.osgeo.org/grass78/manuals/r.category.html).
+[r.category](https://grass.osgeo.org/grass78/manuals/r.category.html).
 In the `Define` tab enter category value directly as
 `1|ridge`
 
@@ -186,7 +186,7 @@ Remove the intermediate cleaned and simplified maps with
 [g.remove](https://grass.osgeo.org/grass78/manuals/g.remove.html).
 ```
 r.to.vect -s input=ridges output=ridges type=area
-v.clean input=ridges output=ridges type=point,line,area tool=rmarea thres=2
+v.clean input=ridges output=ridges_cleaned type=point,line,area tool=rmarea thres=2
 v.generalize input=ridges_cleaned type=area output=ridges_generalized method=reumann threshold=2
 v.generalize input=ridges_generalized type=area output=ridges method=snakes threshold=2 alpha=1 beta=1
 g.remove -f type=vector name=ridges_cleaned,ridges_generalized
