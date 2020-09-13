@@ -43,8 +43,8 @@ Move the location `nyspf_govenors_island` inside of your `grassdata` directory.
 ---
 
 # Start GRASS GIS
-Start GRASS GIS,
-set the GRASS GIS database directory to `grassdata` directory,
+Start <i class="ms ms-grass-gis"></i> GRASS GIS,
+set the GRASS GIS database directory to the directory `grassdata`,
 select `nyspf_governors_island` as your location,
 and create a new mapset called `terrain_analysis`.
 While we will have access to reference data in the `PERMANENT` mapset,
