@@ -225,7 +225,8 @@ to save the <i class="ms ms-map"></i> map.
 Maps can be automatically generated using
 the <i class="ms ms-grass"></i>
 [GRASS Python Scripting Library](https://grass.osgeo.org/grass78/manuals/libpython/).
-This can be an efficient way to produce a large number of maps quickly.
+This can be an efficient way
+to produce a large number of maps quickly.
 For a demo download the Python script
 [render-map.py](https://github.com/baharmon/baharmon.github.io/blob/master/data/render-map.py?raw=true) and run it in GRASS.
 In GRASS' file menu choose launch script

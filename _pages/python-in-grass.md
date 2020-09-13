@@ -13,7 +13,9 @@ featured_image: /images/
 
 ---
 
-# Python
+# Hello World
+
+# Python in GRASS
 
 Maps can be automatically generated using
 the <i class="ms ms-grass"></i>
@@ -26,6 +28,14 @@ open the file menu, choose launch script,
 and browse to select the script.
 The `.png` image will automatically be written to
 your `nyspf_govenors_island` directory.
+
+# Dataset
+
+
+
+
+# Importing Maps
+
 
 In the Python script
 import the
