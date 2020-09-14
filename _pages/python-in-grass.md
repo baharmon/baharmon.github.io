@@ -14,6 +14,9 @@ featured_image: /images/
 ---
 
 # Hello World
+Under construction...
+
+---
 
 # Python in GRASS
 
@@ -21,21 +24,6 @@ Maps can be automatically generated using
 the <i class="ms ms-grass"></i>
 [GRASS Python Scripting Library](https://grass.osgeo.org/grass78/manuals/libpython/).
 For more information see the [GRASS Wiki page](https://grasswiki.osgeo.org/wiki/GRASS_Python_Scripting_Library).
-For a demo download the Python script
-[render-maps.py](https://github.com/baharmon/baharmon.github.io/blob/master/data/render-maps.py?raw=true).
-To run this script in GRASS
-open the file menu, choose launch script,
-and browse to select the script.
-The `.png` image will automatically be written to
-your `nyspf_govenors_island` directory.
-
-# Dataset
-
-
-
-
-# Importing Maps
-
 
 In the Python script
 import the
@@ -46,7 +34,17 @@ to run GRASS modules.
 ```python
 gscript.run_command()
 ```
+---
 
+# Importing Maps
+
+---
+
+# Processing Maps
+
+---
+
+# Rendering Maps
 
 ```python
 #!/usr/bin/env python
