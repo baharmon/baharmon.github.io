@@ -13,7 +13,7 @@ featured_image: /images/natural-earth/natural-earth-europe.jpg
 
 ---
 
-# Download Data
+## Download Data
 
 Find <i class="ms ms-raster"></i> raster
 and <i class="ms ms-line"></i> vector data
@@ -44,7 +44,7 @@ on your computer called `natural_earth`.
 
 ---
 
-# Import and Package Data
+## Import and Package Data
 
 Start QGIS with an empty project.
 In QGIS' Browser browse
@@ -88,7 +88,7 @@ in black with a stroke weight of 0.3.
 
 ---
 
-# Azimuth Orthographic Projection
+## Azimuth Orthographic Projection
 
 Locator maps simply show where a project located.
 They can be inset in more detailed maps to
@@ -149,7 +149,7 @@ raster layer.
 
 ---
 
-# Extract a Continent
+## Extract a Continent
 
 Extract a vector map of Europe from
 <i class="ms ms-polygon"></i>
@@ -176,7 +176,7 @@ Nota bene: use the full file path for `natural_earth.gpkg`.
 
 ---
 
-# Themes
+## Themes
 
 You can save different arrangements
 and styling of layers as themes.
@@ -196,7 +196,7 @@ in order from top to bottom:
 * `NE1_50M_SR_W.tif`
 
 Style the graticules as simple line in white.
-Optionally, set graticules' opacity to 50%. 
+Optionally, set graticules' opacity to 50%.
 Style `europe` with a simple fill
 with a blue fill and a dark blue stroke.
 Create a new map theme by
@@ -238,7 +238,7 @@ a new theme called `map`.
 
 ---
 
-# Print Layout
+## Print Layout
 
 In the project menu
 select `new print layout`

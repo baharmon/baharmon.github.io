@@ -13,7 +13,7 @@ featured_image: /images/governors-island/surface.png
 
 ---
 
-# Dataset
+## Dataset
 Download and extract the [Governor's Island Dataset for GRASS GIS](https://zenodo.org/record/3940780/files/nyspf_govenors_island.zip?download=1).
 This geospatial dataset contains
 raster and vector data for
@@ -42,7 +42,7 @@ Move the location `nyspf_govenors_island` inside of your `grassdata` directory.
 
 ---
 
-# Start GRASS GIS
+## Start GRASS GIS
 Start <i class="ms ms-grass-gis"></i> GRASS GIS,
 set the GRASS GIS database directory to the directory `grassdata`,
 select `nyspf_governors_island` as your location,
@@ -53,7 +53,7 @@ See this [guide to starting GRASS GIS](https://grass.osgeo.org/grass78/manuals/h
 
 ---
 
-# Computational Region
+## Computational Region
 Set your computational region
 to the raster map `elevation_2017` at 1 foot resolution with the module
 [g.region](https://grass.osgeo.org/grass78/manuals/g.region.html).
@@ -73,7 +73,7 @@ using the various zoom options dialog
 
 ---
 
-# Slope
+## Slope
 Compute slope in degrees from the 2017 digital elevation model (DEM)
  with the module
 [r.slope.aspect](https://grass.osgeo.org/grass78/manuals/r.slope.aspect.html)
@@ -89,7 +89,7 @@ d.legend raster=slope_2017
 
 ---
 
-# Categorized Slope
+## Categorized Slope
 Create a categorized slope map
 showing gentle, moderate, and steep slopes.
 To reduce noise smooth the digital elevation model using the module
@@ -137,7 +137,7 @@ d.legend raster=slope_classes_2017
 
 ---
 
-# Contours
+## Contours
 Compute contours at 3 ft intervals
 from the smoothed digital elevation model using the module
 [r.contour](https://grass.osgeo.org/grass78/manuals/r.contour.html).
@@ -153,7 +153,7 @@ r.contour input=smoothed_elevation_2017 output=contours_3ft step=3 cut=100
 
 ---
 
-# Hillshade
+## Hillshade
 Compute hillshading for the 2017 digital elevation model using the module
 [r.relief](https://grass.osgeo.org/grass78/manuals/r.relief.html).
 Set the `units` parameter to survey feet.
@@ -170,7 +170,7 @@ r.shade shade=relief_2017 color=elevation_2017 output=shaded_relief_2017 brighte
 
 ---
 
-# Skyview Factor
+## Skyview Factor
 Use the skyview factor,
 a hillshading technique based on the openness of the terrain,
 to better visualize the topography.
@@ -198,7 +198,7 @@ r.shade shade=skyview_2017 color=shaded_surface_2017 output=composite_surface_20
 
 ---
 
-# Cartography
+## Cartography
 To save a rendering of the elevation map with hillshading,
 add the raster map `shaded_relief_2017` to the layer manager,
 add the raster map `elevation_2017` above it at 36% opacity,
@@ -232,13 +232,3 @@ d.text text="250 ft" color=black at=83.6,5 font=Lato-Regular size=1.25
 | Shaded Relief with Cartographic Grid |
 |:---:|
 | ![Shaded relief map with cartographic grid](/images/governors-island/shaded-relief-grid.png) |
-
----
-
-# Exercises
-For practice, render
-digital surface model, slope, and categorized slope maps with shaded relief.
-
-| Digital Surface Model | Slope | Categorized Slope |
-|:---:|:---:|:---:|
-| ![Digital surface model with shaded relief](/images/governors-island/surface-contours.png) | ![Slope with shaded relief](/images/governors-island/shaded-slope.png) | ![Categorized slope with shaded relief](/images/governors-island/shaded-categorized-slope.png) |

@@ -13,26 +13,26 @@ featured_image: /images/landcover_screenshot.png
 
 ---
 
-# What is GRASS GIS?
+## What is GRASS GIS?
 
 <i class="ms ms-grass-gis"></i>
 The Geographic Resource Analysis Support System (GRASS) is a free and open source geographic information systemms (GIS). This cross platform GIS runs on Windows, Mac, and Linux. GRASS GIS is released under the GNU General Public License Version 2 or above with [source code](https://github.com/OSGeo/grass) on GitHub. Go to the [GRASS GIS Website](https://grass.osgeo.org/) to download it, find datasets, find tutorials, and read the documentation. GRASS GIS has more than 500 modules for working with geospatial data. The GRASS GIS tutorials in this [course](gis-for-designers) will cover terrain analysis,  geomorphometry, map algebra, hydrology, landscape ecology, solar analysis, lidar data analytics, urban modeling, and more.
 
 ---
 
-# How to Install GRASS GIS
+## How to Install GRASS GIS
 
 Download a [GRASS GIS installer](https://grass.osgeo.org/download/). Choose a standalone installer for the latest stable release for your operating system - Windows, Mac, or Linux.
 
 ---
 
-# Download a Dataset
+## Download a Dataset
 
 Download the [Natural Earth Dataset for GRASS GIS](https://zenodo.org/record/3762852/files/natural-earth-dataset.zip?download=1). This dataset is a GRASS GIS location in the World Geodetic System 1984 (WGS84) with global background maps from the [Natural Earth](https://www.naturalearthdata.com/) collection. Extract the zip archive and move the `natural-earth-dataset` to your GRASS GIS database directory named `grassdata`.
 
 ---
 
-# Starting GRASS GIS
+## Starting GRASS GIS
 
 To start GRASS GIS, you need to set the GRASS GIS <i class="ms ms-database"></i> database directory, select a location, and then select a mapset. The GRASS GIS database directory will contain locations which in turn contain mapsets. A location is a set of directories containing mapsets with a given coordinate system. Every location has a `PERMANENT` mapset which contains reference data. Read the [GRASS GIS Quickstart](https://grass.osgeo.org/grass78/manuals/helptext.html) to learn more.
 
@@ -70,7 +70,7 @@ Then click `Start GRASS session`.
 
 ---
 
-# Displaying Maps
+## Displaying Maps
 
 Once your GRASS session starts,
 the layer manager will be one the left
@@ -113,7 +113,7 @@ d.vect map=rivers color=blue
 
 ---
 
-# Running Modules
+## Running Modules
 
 In this section of the tutorial,
 you will create a new map with rivers for Brazil.
@@ -210,7 +210,7 @@ for a guide to using the cartographic composer.
 
 ---
 
-# Tutorials
+## Tutorials
 
 Follow these tutorials to learn more about GRASS GIS:
 

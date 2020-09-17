@@ -13,41 +13,94 @@ featured_image: /images/
 
 ---
 
-# Hello World
-Under construction...
+## Geospatial Programming in GRASS
+
+This tutorial is an introduction to geospatial programming
+in <i class="ms ms-grass"></i> GRASS GIS with Python.
+For this tutorial install
+<i class="ms ms-grass"></i> [GRASS GIS](https://grass.osgeo.org/)
+and download the [sample dataset](...).
+Optionally install a text editor like [Atom](https://atom.io/).
+With the
+[GRASS Python Scripting Library](https://grass.osgeo.org/grass78/manuals/libpython/)
+you can:
+* Automate the import and export of geospatial data
+* Automate geospatial computations
+* Automate map production
+* Develop new add-on modules
+
+There are two ways to run Python scripts in <i class="ms ms-grass"></i> GRASS.
+In the Interactive Python Shell in the Layer Manager
+you can open a simple editor where you can write and run scripts.
+Or you can write your scripts in a text editor
+and then launch the script from the GRASS file menu.
+
+| GRASS Interactive Python Shell |
+|:---:|
+| ![Screenshot of GRASS Interactive Python Shell](/images/) |
+
+| GRASS scripting with a text editor |
+|:---:|
+| ![Screenshot GRASS scripting with text editor](/images/) |
+
+
+Start <i class="ms ms-grass-gis"></i> GRASS
+and open the Python tab in the Layer Manager.
+This an Interactive Python Shell.
+Try some Python here.
+
+```python
+print("Hello World!")
+```
 
 ---
 
-# Python in GRASS
+## GRASS Commands in Python
 
-Maps can be automatically generated using
-the <i class="ms ms-grass"></i>
-[GRASS Python Scripting Library](https://grass.osgeo.org/grass78/manuals/libpython/).
-For more information see the [GRASS Wiki page](https://grasswiki.osgeo.org/wiki/GRASS_Python_Scripting_Library).
+Open the Console in the Layer Manager
+and run a GRASS command.
+Set your file path to input data.
+```
+r.in.gdal input=elevation.tif output=elevation
+```
 
-In the Python script
-import the
+Open the Interactive Python Shell in the Layer Manager.
+In the bottom left corner of the Interactive Python Shell
+open the Simple Editor.
+To run the same command in the Simple Editor using Python,
+first add the Python shebang,
+then import the <i class="ms ms-grass"></i>
 [GRASS Python Scripting Library](https://grass.osgeo.org/grass78/manuals/libpython/)
-with `import grass.script as gscript`{:.python}.
-Use the `run_command()` function from the `grass.script` package
-to run GRASS modules.
+with `import grass.script as gscript`{:.python},
+and use the `run_command()` function from the `grass.script` package
+to run a GRASS module.
 ```python
-gscript.run_command()
+#!/usr/bin/env python3
+
+import grass.script as gscript
+
+gscript.run_command('r.in.gdal',
+  input='',
+  ouput='',
+  overwrite=True)
 ```
 ---
 
-# Importing Maps
+## Importing Maps
+
+Use a for loop to import all of the maps in a directory.
+
 
 ---
 
-# Processing Maps
+## Processing Maps
 
 ---
 
-# Rendering Maps
+## Rendering Maps
 
 ```python
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 import os

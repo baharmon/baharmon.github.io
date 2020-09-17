@@ -13,7 +13,7 @@ featured_image: /images/governors-island/geomorphons.png
 
 ---
 
-# Geomorphometry
+## Geomorphometry
 
 Geomorphometry is the quantitative analysis of topography.
 Geomorphometric analyses include slope, aspect, curvature,
@@ -48,7 +48,7 @@ r.mask vector=shoreline
 
 ---
 
-# Topographic Parameters
+## Topographic Parameters
 The module
 [r.param.scale](https://grass.osgeo.org/grass78/manuals/r.param.scale.html)
 calculates the morphometric parameters of topography using calculus.
@@ -83,7 +83,7 @@ as either ridges or channels.
 
 ---
 
-# Geomorphons
+## Geomorphons
 
 The module
 [r.geomorphon](https://grass.osgeo.org/grass78/manuals/r.geomorphon.html)
@@ -124,7 +124,7 @@ has classified the pathways as either valleys or footslopes.
 
 ---
 
-# Landform Visualization
+## Landform Visualization
 
 Compute shaded relief from the digital elevation model using
 [r.relief](https://grass.osgeo.org/grass78/manuals/r.relief.html).
@@ -143,7 +143,7 @@ r.shade shade=relief_2017 color=geomorphons output=shaded_geomorphons brighten=4
 
 ---
 
-# Landform Extraction
+## Landform Extraction
 
 Use map algebra to extract the ridges from either map of landforms.
 In the raster map calculator, use an `if, then, else` statement.

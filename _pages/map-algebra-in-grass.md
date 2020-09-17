@@ -13,7 +13,7 @@ featured_image: /images/governors-island/landcover.png
 
 ---
 
-# Dataset
+## Dataset
 This tutorial uses the
 [Governor's Island Dataset for GRASS GIS](https://zenodo.org/record/3940780/files/nyspf_govenors_island.zip?download=1).
 Download, extract, and move this geospatial dataset
@@ -22,7 +22,7 @@ to your `grassdata` directory.
 
 ---
 
-# Start GRASS GIS
+## Start GRASS GIS
 Start GRASS GIS,
 set the GRASS GIS database directory to `grassdata` directory,
 select `nyspf_governors_island` as your location,
@@ -39,7 +39,7 @@ r.mask vector=shoreline
 
 ---
 
-# Map Algebra
+## Map Algebra
 Map algebra performs
 logical, arithmetic, statistical, trigonometric, and bitwise operations
 on a set of raster maps.
@@ -48,7 +48,7 @@ at Governor's Island.
 
 ---
 
-# Height Above Ground
+## Height Above Ground
 
 First we will use map algebra to calculate
 the height of trees, buildings, and other objects above the ground.  
@@ -65,7 +65,7 @@ r.mapcalc expression="height_above_ground = surface_2017 - elevation_2017"
 
 ---
 
-# Tree Canopy
+## Tree Canopy
 
 Next we will use map algebra to extract trees from the landcover map.
 Add the raster map `landcover_2014`
@@ -96,7 +96,7 @@ r.category map=canopy raster=landcover_2014
 
 ---
 
-# Tree Canopy Height
+## Tree Canopy Height
 
 Next we will use map algebra to assign heights to the tree canopy.
 Use the raster map calculator
@@ -133,7 +133,7 @@ that we already computed.
 
 ---
 
-# Figure Ground
+## Figure Ground
 
 Figure ground maps represent built versus unbuilt urban space
 in high contrast.

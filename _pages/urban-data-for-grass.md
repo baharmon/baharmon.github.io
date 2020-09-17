@@ -13,7 +13,7 @@ featured_image:
 
 ---
 
-# Data Sources
+## Data Sources
 
 In this tutorial we will use geospatial data from
 [GIS.NY.GOV](http://gis.ny.gov/) and
@@ -23,7 +23,7 @@ for further sources of urban data.
 
 ---
 
-# Download Data for Governor's Island
+## Download Data for Governor's Island
 Download a digital elevation model (DEM)
 and digital surface model (DSM)
 for Governor's Island, New York, NY, USA from
@@ -50,7 +50,7 @@ Extract this archive containing
 
 ----
 
-# Create New Location from Vector Data
+## Create New Location from Vector Data
 Start GRASS GIS.
 In the startup screen, select `New` location.
 In the `Define new GRASS Location` window,
@@ -77,7 +77,7 @@ g.proj -p
 
 ---
 
-# Process Vector Data for Governor's Island
+## Process Vector Data for Governor's Island
 In the Map Display click the `Select vector feature` button.
 Click on the shore of Governor's Island to select it.
 In the `Select features` dialog, click `Create a new map`.
@@ -98,7 +98,7 @@ v.extract input=NYC_2017_LiDAR_Low_Tide_Shoreline where="Cat = '184'" output=sho
 
 ---
 
-# Import Raster Data for Governor's Island
+## Import Raster Data for Governor's Island
 Set the computational region and mask
 to the extracted shoreline for Governor's Island.
 ```
@@ -133,7 +133,7 @@ r.colors -e map=surface_2017 color=viridis
 
 ---
 
-# Download Data for Central Park
+## Download Data for Central Park
 For practice, download and import geospatial data
 for Central Park in New York City.
 Download the
@@ -160,7 +160,7 @@ for Central Park at
 
 ---
 
-# Import Vector Data for Central Park
+## Import Vector Data for Central Park
 
 Create a new location called `nyspf_central_park`
 from `PARK.shp`.
@@ -201,7 +201,7 @@ g.remove type=vector name=PARK
 
 ---
 
-# Import Raster Data for Central Park
+## Import Raster Data for Central Park
 
 Set your computational region to the new `central_park` vector map
 at 1 foot resolution and the save the region.
@@ -235,7 +235,7 @@ Each pair of tiles needs to be patched together.
 
 ---
 
-# Patch Raster Maps for Central Park
+## Patch Raster Maps for Central Park
 
 Patch the two tiles of the digital elevation and digital surface models
 together with the module

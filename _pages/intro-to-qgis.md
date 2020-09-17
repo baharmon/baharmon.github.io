@@ -13,7 +13,7 @@ featured_image: /images/natural-earth/natural-earth-screenshot.jpg
 
 ---
 
-# What is QGIS?
+## What is QGIS?
 
 <i class="ms ms-qgis"></i>
 QGIS is a free and open source geographic information system (GIS) that runs on Windows, Mac, Linux, UNIX, and Android. It is designed to be very user friendly with a modern user interface. QGIS is released under the GNU General Public License Version 2 or above with [source code](https://github.com/qgis/QGIS) on GitHub. Go to the [QGIS Website](https://qgis.org/) to download the software and find tutorials. The QGIS tutorials in this [course](gis-for-designers) will cover cartography, map algebra, visual programming, animation, and more.
@@ -42,13 +42,13 @@ for using GRASS in QGIS.
 
 ---
 
-# How to Install QGIS
+## How to Install QGIS
 
 Download a [QGIS installer](https://grass.osgeo.org/download/). Choose a standalone installer for the latest release for your operating system - e.g. Windows, Mac, or Linux. This will install both QGIS and QGIS with GRASS.
 
 ---
 
-# Download Natural Earth Data
+## Download Natural Earth Data
 
 Find <i class="ms ms-raster"></i> raster
 and <i class="ms ms-line"></i> vector maps
@@ -71,7 +71,7 @@ for more place to find data.
 
 ---
 
-# Importing Natural Earth Data
+## Importing Natural Earth Data
 
 Start QGIS.
 In the QGIS Broswer on the left
@@ -149,7 +149,7 @@ change the opacity to 50%.
 
 ---
 
-# Print Layout
+## Print Layout
 
 Use QGIS' print layout to make nice maps.
 In the project menu select `new print layout`
@@ -174,7 +174,7 @@ map as a jpg at 300 DPI.
 
 ---
 
-# Labels
+## Labels
 
 Add <i class="ms ms-label"></i> labels
 to the rivers.
@@ -215,7 +215,7 @@ Removing a label will remove all labels of the same name.
 
 ---
 
-# Packaging
+## Packaging
 
 To keep your data organized and easy to move and share,
 add your rasters and vectors to a
@@ -244,7 +244,7 @@ a `.zip` or `.tar.gz` archive.
 
 ---
 
-# Practice
+## Practice
 
 Try the
 [Natural Earth Quick Start Kit](http://naciscdn.org/naturalearth/packages/Natural_Earth_quick_start.zip).
@@ -255,7 +255,7 @@ In the variables tab set `project_language` to
 
 ---
 
-# Tutorials
+## Tutorials
 
 Follow these tutorials to learn more about QGIS:
 * [A Gentle Introduction to GIS](https://docs.qgis.org/3.10/en/docs/gentle_gis_introduction/index.html)

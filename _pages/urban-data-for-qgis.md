@@ -13,17 +13,17 @@ featured_image: /images/
 
 ---
 
-# Web Mapping Services
+## Web Mapping Services
 
 Quick Map Services
 
 ---
 
-# Open Street Map
+## Open Street Map
 
 ---
 
-# New York Data
+## New York Data
 
 <i class="ms ms-grass-gis"></i> QGIS
 

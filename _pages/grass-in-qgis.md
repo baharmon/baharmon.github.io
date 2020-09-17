@@ -13,7 +13,7 @@ featured_image: /images/
 
 ---
 
-# Rationale
+## Rationale
 
 While <i class="ms ms-grass-gis"></i> GRASS GRASS GIS
 has an extensive library
@@ -44,7 +44,7 @@ inside of QGIS.
 
 ---
 
-# GRASS Plugin
+## GRASS Plugin
 Start <i class="ms ms-qgis"></i> QGIS Desktop with GRASS.
 In the Plugins menu select `Manage and Install Plugins`.
 <i class="ms ms-grass-gis"></i> GRASS 7 is core plugin
@@ -53,7 +53,7 @@ Check the plugin to enable it.
 
 ---
 
-# GRASS Datasets
+## GRASS Datasets
 
 Download and extract the [Governor's Island Dataset for GRASS GIS](https://zenodo.org/record/3940780/files/nyspf_govenors_island.zip?download=1).
 The top level directory `nyspf_governors_island`
@@ -173,7 +173,7 @@ such as screen with 60% percent brightness.
 
 ---
 
-# GRASS Tools
+## GRASS Tools
 
 We will use GRASS Tools
 to set the computational region
