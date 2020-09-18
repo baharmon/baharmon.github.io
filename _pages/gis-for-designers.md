@@ -53,3 +53,9 @@ Topics include terrain modeling, hydrology, landscape ecology, and urban analyti
 
 ## Lectures
 * [<i class="fa fa-comment"></i> Geodesy](https://baharmon.github.io/lectures/geodesy)
+
+---
+
+## Readings
+* Jorge Luis Borges, [On Exactitude in Science](/data/on-exactitude-in-science.pdf)
+* Umberto Eco, [On The Impossibility of Drawing a Map of the Empire on a Scale of 1 to 1](/data/eco-impossibility-of-drawing-a-map.pdf)
