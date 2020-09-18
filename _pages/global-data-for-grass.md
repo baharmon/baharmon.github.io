@@ -9,13 +9,13 @@ featured_image:
 
 ---
 
-# Data Sources
+## Data Sources
 
 See my list of [geospatial data sources](geospatial-data-sources).
 
 ---
 
-# Importing the NASA Digital Elevation Model
+## Importing the NASA Digital Elevation Model
 
 In this section, we will download part of a
 global digital elevation model
