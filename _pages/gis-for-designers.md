@@ -53,6 +53,7 @@ Topics include terrain modeling, hydrology, landscape ecology, and urban analyti
 
 ## Lectures
 * [<i class="fa fa-comment"></i> Geodesy](https://baharmon.github.io/lectures/geodesy)
+* [<i class="fa fa-comment"></i> Cartography](https://baharmon.github.io/lectures/cartography)
 
 ---
 
