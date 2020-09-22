@@ -5,34 +5,38 @@ description: A guide to importing global data into QGIS.
 featured_image:
 ---
 
-![Swiss Shaded Relief](/images/importing-global-data/swiss-shaded-relief.png)
+![](/images/)
 
 ---
 
-# Data Sources
+## Data Sources
 
 See my list of [geospatial data sources](geospatial-data-sources).
 
 ---
 
-# Plugins
+## Plugins
 
 ---
 
-# Importing Open Street Map Data
+## Importing Open Street Map Data
 
 ---
 
-# Web Mapping Services
+## Web Mapping Services
 
 ---
 
-# Queries
+## Earth Engine
 
 ---
 
-# Processing
+## Queries
 
 ---
 
-# Print Layout
+## Processing
+
+---
+
+## Print Layout

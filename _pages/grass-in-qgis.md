@@ -29,6 +29,14 @@ To learn more read the
 [GRASS GIS Integration](https://docs.qgis.org/3.10/en/docs/user_manual/grass_integration/grass_integration.html)
 section of the QGIS user manual.
 
+There are two ways to use GRASS in QGIS.
+You can either load GRASS datasets in QGIS
+and then run modules using GRASS Tools.
+Or if you are working with data such as
+shapefiles, geotiffs, or geopackages,
+you can use GRASS algorithms
+in the Processing Toolbox.
+
 The GRASS integration for QGIS can streamline workflows
 involving spatial computation and map making.
 With the integration users with more experience with QGIS
@@ -38,6 +46,9 @@ Users with more experience with GRASS,
 may prefer to run computations in GRASS
 and then load the GRASS datasets in QGIS
 to compose high quality maps for publication.
+Users with experience in GRASS who prefer the QGIS interface,
+can load their GRASS datasets in QGIS
+and run GRASS Tools in QGIS.
 This tutorial will demonstrate how to
 use GRASS Datasets and GRASS Tools
 inside of QGIS.
@@ -47,9 +58,11 @@ inside of QGIS.
 ## GRASS Plugin
 Start <i class="ms ms-qgis"></i> QGIS Desktop with GRASS.
 In the Plugins menu select `Manage and Install Plugins`.
-<i class="ms ms-grass-gis"></i> GRASS 7 is core plugin
-so it is already installed, but needs to be enabled.
-Check the plugin to enable it.
+Processing and
+<i class="ms ms-grass-gis"></i> GRASS 7
+are core plugins
+so they are already installed, but need to be enabled.
+Check the plugins to enable them.
 
 ---
 
@@ -223,7 +236,7 @@ set the input raster to `elevation_2017@PERMANENT`,
 the output to `landforms`,
 the outer search radius to `36`,
 the inner search radius to `6`,
-and flatness threshold to `12`,
+the flatness threshold to `12`,
 and the flatness distance to `0`.
 Run the module, click view output to add it
 to your layer manager and map display,
@@ -283,3 +296,57 @@ For a high resolution image set the DPI to 300 or greater.
 | Print Layout |
 |:---:|
 | ![Print Layout](/images/governors-island/print-layout.jpg) |
+
+---
+
+## GRASS Algorithms
+
+When you want to run <i class="ms ms-grass-gis"></i> GRASS algorithms
+with spatial data such as shapefiles, geotiffs, and geopackages
+you can use the <i class="ms ms-qgis"></i> QGIS Processing Framework.
+When you call GRASS algorithms
+from the QGIS Processing Framework,
+they will not, however, work with GRASS datasets.
+This is because they are importing the data into
+a GRASS session using `r.in.gdal` or `v.in.ogr`.
+
+Download and extract the <i class="ms ms-database"></i>
+[Governor's Island Dataset for QGIS](https://zenodo.org/record/4044664/files/governors_island.zip?download=1).
+Open the project `governors_island.qgz`
+in QGIS Desktop with GRASS.
+In the Plugins menu select `Manage and Install Plugins`.
+Check the Processing and GRASS 7 core plugins to enable them.
+Check that the layer `elevation_2017` appears in the layer manager.
+If not, add it from the geopackage `governors_island.gpkg`.
+
+In the Processing menu, open the Toolbox.
+The Processing Toolbox should now be open
+in a panel on the right of the screen.
+Expand the <i class="ms ms-grass-gis"></i> GRASS section,
+expand the Raster section,
+and run `r.geomorphon` to automatically classify landforms.
+In the dialog for `r.geomorphon`,
+set the input elevation raster to `elevation_2017`,
+the outer search radius to `36`,
+the inner search radius to `6`,
+the flatness threshold to `12`,
+and the flatness distance to `0`.
+Under Advanced Parameters
+set the region extent to the layer `elevation_2017`.
+Use the default option to save a temporary file.
+Run the algorithm.
+
+When the algorithm finishes
+it will output a temporary file
+for the `Most common geomorphic forms`.
+Open the symbology for the `Most common geomorphic forms` layer
+and export the color map to a file.
+Then rename the layer as `landforms_2017`
+and save it to the geopackage `governors_island.gpkg`.
+Open the symbology for `landforms_2017`,
+set the render type to `paletted / unique values`,
+classify, and then load the color map from the saved file.
+
+| Geomorphon Algorithm in the Processing Framework|
+|:---:|
+| ![Geomorphon Algorithm](/images/governors-island/geomorphons-qgis-dialog.png) |

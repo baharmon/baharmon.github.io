@@ -28,10 +28,13 @@ Topics include terrain modeling, hydrology, landscape ecology, and urban analyti
 [<i class="ms ms-shp"></i> ArcGIS](https://www.esri.com/), &
 [Rhino](https://www.rhino3d.com/)
 
-**Datasets:**
-[<i class="ms ms-qgis"></i> Natural Earth Vector Theme GeoPackage](http://naciscdn.org/naturalearth/packages/natural_earth_vector.gpkg.zip),
-[<i class="ms ms-grass-gis"></i> Natural Earth Dataset for GRASS GIS](https://zenodo.org/record/3762852/files/natural-earth-dataset.zip?download=1), &
-[<i class="ms ms-grass-gis"></i> Governor's Island Dataset for GRASS GIS](https://zenodo.org/record/3940780/files/nyspf_govenors_island.zip?download=1)
+---
+
+## Datasets
+* [<i class="ms ms-grass-gis"></i> Natural Earth Dataset for GRASS GIS](https://zenodo.org/record/3762852/files/natural-earth-dataset.zip?download=1)
+* [<i class="ms ms-qgis"></i> Natural Earth Vector Theme GeoPackage](http://naciscdn.org/naturalearth/packages/natural_earth_vector.gpkg.zip)
+* [<i class="ms ms-grass-gis"></i> Governor's Island Dataset for GRASS GIS](https://zenodo.org/record/3940780/files/nyspf_govenors_island.zip?download=1)
+* [<i class="ms ms-qgis"></i> Governor's Island Dataset for QGIS](https://zenodo.org/record/4044664/files/governors_island.zip?download=1)
 
 ---
 
@@ -59,4 +62,4 @@ Topics include terrain modeling, hydrology, landscape ecology, and urban analyti
 
 ## Readings
 * Jorge Luis Borges, [On Exactitude in Science](/data/on-exactitude-in-science.pdf)
-* Umberto Eco, [On The Impossibility of Drawing a Map of the Empire on a Scale of 1 to 1](/data/eco-impossibility-of-drawing-a-map.pdf)
+* Umberto Eco, [On The Impossibility of Drawing a Map...](/data/eco-impossibility-of-drawing-a-map.pdf)

@@ -5,7 +5,7 @@ description: A guide to acquiring, importing, and processing urban data in QGIS.
 featured_image: /images/
 ---
 
-![Urban Data in QGIS](/images/natural-earth/world-rivers-screenshot.png)
+![Urban Data in QGIS](/images/)
 
 **Contents**
 * TOC
@@ -28,3 +28,9 @@ Quick Map Services
 <i class="ms ms-grass-gis"></i> QGIS
 
 ---
+
+## Reprojection
+
+---
+
+## Print Layout

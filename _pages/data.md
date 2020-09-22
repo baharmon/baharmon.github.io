@@ -43,6 +43,8 @@ featured_image:
 
 ## <i class="ms ms-qgis"></i> QGIS Datasets
 
+[Governor's Island Dataset for QGIS](https://doi.org/10.5281/zenodo.4044664)
+
 ---
 
 ## <i class="ms ms-drone-quad-nano"></i> Drone Data
