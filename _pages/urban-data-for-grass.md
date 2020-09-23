@@ -41,12 +41,19 @@ For Governor's Island download DEM and DSM tiles
 [hh_NYC_020.tif](ftp://ftp.gis.ny.gov/elevation/DEM/NYC_TopoBathymetric2017_DSM/hh_NYC_020.tif).
 Extract both zip archives.
 Download
-[shoreline](https://data.cityofnewyork.us/Environment/Tidally-Coordinated-Shoreline/pawq-tjb4)
+[shoreline](https://data.cityofnewyork.us/Recreation/Shoreline/2qj2-cctx)
 data from NYC Open Data.
-Select `Export`, `Download`, and then `Shapefile`
+Select `Export`, `Download`, and then `Original`
 to download `Shoreline.zip.`
 Extract this archive containing
 `NYC_2017_LiDAR_Low_Tide_Shoreline.shp`.
+
+**Note:**
+If you choose `Shapefile` instead of `Original`
+you will download a version in a
+geographic CRS in Latitude Longitude
+You can also directly download the original data 
+[here](https://data.cityofnewyork.us/Environment/Tidally-Coordinated-Shoreline/pawq-tjb4).
 
 ----
 
