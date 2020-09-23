@@ -41,7 +41,7 @@ For Governor's Island download DEM and DSM tiles
 [hh_NYC_020.tif](ftp://ftp.gis.ny.gov/elevation/DEM/NYC_TopoBathymetric2017_DSM/hh_NYC_020.tif).
 Extract both zip archives.
 Download
-[shoreline](https://data.cityofnewyork.us/Recreation/Shoreline/2qj2-cctx)
+[shoreline](https://data.cityofnewyork.us/Environment/Tidally-Coordinated-Shoreline/pawq-tjb4)
 data from NYC Open Data.
 Select `Export`, `Download`, and then `Shapefile`
 to download `Shoreline.zip.`
