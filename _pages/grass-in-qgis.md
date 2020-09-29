@@ -103,8 +103,7 @@ Expand the <i class="ms ms-database"></i> shoreline database
 and double click on the
 <i class="ms ms-polygon"></i>
 shoreline area to add it.
-If a datum transformation dialog appears, click cancel.
-while the default coordinate reference system
+While the default coordinate reference system
 for a new project is WGS 84 (EPSG 4326),
 the project CRS will automatically switch
 to that of the first layer added.
