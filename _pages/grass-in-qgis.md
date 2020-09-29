@@ -143,7 +143,7 @@ digital elevation models.
 Save the color ramp to your favorites.
 In the min / max value settings
 set the accuracy to `actual`,
-select a method such as `cumulative count cut`,
+select a method such as `min / max`,
 hit apply, then classify, and apply again.
 In the resampling section
 set zoomed in to `bilinear` or `cubic`.
@@ -215,13 +215,17 @@ Whichever mapset you open,
 you will still have access
 to the maps in the `PERMANENT` mapset.
 
-First set the computational region.
-Under GRASS modules, expand region settings,
-and double click `g.region.zoom`
-to shrink the region until it meets non-NULL raster cells.
-In the `g.region.zoom` options tab
-set the raster to `elevation_2017@PERMANENT`.
-Run and then close this module.
+First set the computational region for raster operations.
+In the region tab of GRASS Tools
+click `select the extent by dragging on the canvas`.
+Then draw a rectangular region on the canvas
+and click apply in the region tab.
+The new region will be drawn as a red rectangle.
+Try drawing a region around the entire island
+or just around the landforms in the southwest of the island.
+The computational region can also be set
+using any of the modules
+in the region settings of the modules tab.
 
 Then run the GRASS module
 [r.geomorphon](https://grass.osgeo.org/grass78/manuals/addons/r.geomorphon.html)
