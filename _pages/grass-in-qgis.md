@@ -141,8 +141,12 @@ topography collection for other great color ramps
 such as `wiki-schwarzwald-cont` for
 digital elevation models.
 Save the color ramp to your favorites.
+In the min / max value settings
+set the accuracy to `actual`,
+select a method such as `cumulative count cut`,
+hit apply, then classify, and apply again.
 In the resampling section
-set zoomed in to bilinear or cubic.
+set zoomed in to `bilinear` or `cubic`.
 Since a digital elevation model
 represents a continuous gradient of data
 you should use bilinear or cubic interpolation
