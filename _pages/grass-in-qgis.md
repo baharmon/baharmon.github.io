@@ -1,5 +1,5 @@
 ---
-title: Using GRASS in GQIS
+title: Using GRASS in QGIS
 subtitle:
 description: Using GRASS inside of QGIS.
 featured_image: /images/
