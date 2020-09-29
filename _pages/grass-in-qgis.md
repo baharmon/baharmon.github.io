@@ -285,7 +285,7 @@ To blend the hillshade with the landforms,
 open the <i class="ms ms-style"></i> symbology settings
 for `relief_2017` again and
 set the blending mode to `multiply`,
-brightness to `100`, and contrast to `50`.
+brightness to `100`, and contrast to `25`.
 Make sure the layer `landforms` is turned on and is below layer `relief_2017`.
 
 | Landforms with Shaded Relief |
