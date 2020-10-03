@@ -40,20 +40,21 @@ For Governor's Island download DEM and DSM tiles
 [be_NYC_020.tif](ftp://ftp.gis.ny.gov/elevation/DEM/NYC_TopoBathymetric2017/be_NYC_020.tif) and
 [hh_NYC_020.tif](ftp://ftp.gis.ny.gov/elevation/DEM/NYC_TopoBathymetric2017_DSM/hh_NYC_020.tif).
 Extract both zip archives.
-Download
-[shoreline](https://data.cityofnewyork.us/Recreation/Shoreline/2qj2-cctx)
+Download and extract either
+[Tidally Coordinated Shoreline](https://data.cityofnewyork.us/Environment/Tidally-Coordinated-Shoreline/pawq-tjb4)
+or [Shoreline](https://data.cityofnewyork.us/Recreation/Shoreline/2qj2-cctx)
 data from NYC Open Data.
-Select `Export`, `Download`, and then `Original`
+For [Shoreline](https://data.cityofnewyork.us/Recreation/Shoreline/2qj2-cctx)
+in the web mapping interface
+select `Export`, `Download`, and then `Original`
 to download `Shoreline.zip.`
-Extract this archive containing
-`NYC_2017_LiDAR_Low_Tide_Shoreline.shp`.
+
 
 **Note:**
 If you choose `Shapefile` instead of `Original`
-you will download a version in a
-geographic CRS in Latitude Longitude
-You can also directly download the original data 
-[here](https://data.cityofnewyork.us/Environment/Tidally-Coordinated-Shoreline/pawq-tjb4).
+for [Shoreline](https://data.cityofnewyork.us/Recreation/Shoreline/2qj2-cctx)
+you will download a reprojected version in a
+geographic CRS in Latitude Longitude.
 
 ----
 
@@ -71,6 +72,11 @@ Hit `Next` and then `Finish` to continue.
 Accept the `Import data` to import the data into the new location.
 In the startup screen, select the new location
 and the `PERMANENT` mapset and start the GRASS session.
+
+**Note:**
+Alternatively you can create a new GRASS location
+for New York Long Island State Plane Feet
+using the EPSG code `2263`.
 
 Print information about the projection in the console with
 [g.proj](https://grass.osgeo.org/grass78/manuals/g.proj.html)
