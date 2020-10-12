@@ -19,7 +19,7 @@ See my list of [geospatial data sources](geospatial-data-sources).
 
 In this section, we will download part of a
 global digital elevation model
-from NASA Earthdata. GRASS GIS has an addon module
+from NASA Earthdata. <i class="ms ms-grass-gis"></i> GRASS GIS has an addon module
 [r.in.nasadem](https://grass.osgeo.org/grass78/manuals/addons/r.in.nasadem.html)
 that automates the import of the NASADEM digital elevation model.
 [NASADEM](https://lpdaac.usgs.gov/products/nasadem_hgtv001/)
@@ -31,7 +31,8 @@ the ASTER Global Digital Elevation Model and
 and the ALOS Global Digital Surface Model.
 Register with the NASA [Earthdata](https://urs.earthdata.nasa.gov/users/new) portal and save your username and password.
 
-Since NASADEM uses World Geodetic System 1984 (WGS84)
+Since NASADEM uses
+<i class="ms ms-sphere"></i> World Geodetic System 1984 (WGS84)
 as its coordinate reference system,
 it must be imported into GRASS in a WGS84 location.
 While you could create a new WGS84 location
@@ -44,7 +45,7 @@ with global background maps from the
 Extract the zip archive and move the `natural-earth-dataset`
 to your GRASS GIS database directory named `grassdata`.
 
-Start GRASS GIS.
+Start <i class="ms ms-grass-gis"></i> GRASS GIS.
 Set the GRASS GIS database directory to `grassdata`,
 set the location to the `natural-earth-dataset`,
 and select the mapset called `tutorial`.

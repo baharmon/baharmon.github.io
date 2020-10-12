@@ -17,19 +17,33 @@ featured_image: /images/governors-island/geomorphons.png
 
 Geomorphometry is the quantitative analysis of topography.
 Geomorphometric analyses include slope, aspect, curvature,
-and landforms. In this tutorial we will using the modules
+topographic indices, and landforms.
+<i class="ms ms-grass-gis"></i> GRASS GIS
+includes many modules and addons for geomorphometric analysis including:
+* [r.param.scale](https://grass.osgeo.org/grass78/manuals/r.param.scale.html)
+* [r.slope.aspect](https://grass.osgeo.org/grass78/manuals/r.slope.aspect.html)
+* [r.geomorphon](https://grass.osgeo.org/grass78/manuals/r.geomorphon.html)
+* [r.topidx](https://grass.osgeo.org/grass78/manuals/r.topidx.html)
+* [r.convergence](https://grass.osgeo.org/grass78/manuals/addons/r.convergence.html)
+* [r.terrain.texture](https://grass.osgeo.org/grass78/manuals/addons/r.terrain.texture.html)
+* [r.vector.ruggedness](https://grass.osgeo.org/grass78/manuals/addons/r.vector.ruggedness.html)
+* [r.northerness.easterness](https://grass.osgeo.org/grass74/manuals/addons/r.northerness.easterness.html)
+
+In this tutorial we will using the modules
 [r.param.scale](https://grass.osgeo.org/grass78/manuals/r.param.scale.html)
 and
 [r.geomorphon](https://grass.osgeo.org/grass78/manuals/r.geomorphon.html)
 to automatically classify the landforms on Governor's Island.
-
+We will also use the addon module
+[r.convergence](https://grass.osgeo.org/grass78/manuals/addons/r.convergence.html)
+to compute the topographic convergence index and classify landforms.
 This tutorial uses the
 [Governor's Island Dataset for GRASS GIS](https://zenodo.org/record/3940780/files/nyspf_govenors_island.zip?download=1).
 Download, extract, and move this geospatial dataset
 for Governor's Island in New York City
 to your `grassdata` directory.
 
-Start GRASS GIS,
+Start <i class="ms ms-grass-gis"></i> GRASS GIS,
 set the GRASS GIS database directory to `grassdata` directory,
 select `nyspf_governors_island` as your location,
 and create a new mapset called `geomorphometry`.
@@ -188,10 +202,63 @@ Remove the intermediate cleaned and simplified maps with
 r.to.vect -s input=ridges output=ridges type=area
 v.clean input=ridges output=ridges_cleaned type=point,line,area tool=rmarea thres=2
 v.generalize input=ridges_cleaned type=area output=ridges_generalized method=reumann threshold=2
-v.generalize input=ridges_generalized type=area output=ridges method=snakes threshold=2 alpha=1 beta=1
+v.generalize input=ridges_generalized type=area output=ridges method=snakes threshold=2 alpha=1 beta=1 --overwrite
 g.remove -f type=vector name=ridges_cleaned,ridges_generalized
 ```
 
 | Vector Ridges |
 |:---:|
 | ![Ridges](/images/governors-island/vector-ridges.png) |
+
+## Topographic Convergence
+Valleys and ridges can be identified from
+the convergence and divergence of the topography.
+Use [g.extension](https://grass.osgeo.org/grass78/manuals/g.extension.html)
+to install the addon module
+[r.convergence](https://grass.osgeo.org/grass78/manuals/addons/r.convergence.html).
+Compute the convergence index of the terrain with
+[r.convergence](https://grass.osgeo.org/grass78/manuals/addons/r.convergence.html) with a moving window size of 15 cells.
+In the resulting raster
+values from 1 to 100 are convergent, 0 is planar,
+and values from -1 to -100 are divergent.
+```
+g.extension extension=r.convergence
+r.convergence -c input=elevation_2017 output=convergence window=15 weights=standard
+```
+
+| Topographic Convergence |
+|:---:|
+| ![Ridges](/images/governors-island/convergence.png) |
+
+
+Use map algebra to extract ridges from areas of topographic divergence.
+In the raster map calculator, use an `if, then, else` statement.
+If cells in the convergence raster are less than or equal to a threshold,
+then write a value of 1 in the new raster,
+else write null values.
+The threshold for ridges should be a negative value between -1 and -100.
+Experiment to find the right threshold.
+This example uses a threshold of -15.
+Then convert the raster map to a vector using the module
+[r.to.vect](https://grass.osgeo.org/grass78/manuals/r.to.vect.html),
+remove small areas from the vector map with the module
+[v.clean](https://grass.osgeo.org/grass78/manuals/v.clean.html),
+simplify the boundaries of the areas using
+[v.generalize](https://grass.osgeo.org/grass78/manuals/v.generalize.html),
+and then smooth the  boundaries of the areas using
+[v.generalize](https://grass.osgeo.org/grass78/manuals/v.generalize.html).
+Remove the intermediate maps with
+[g.remove](https://grass.osgeo.org/grass78/manuals/g.remove.html).
+
+```
+r.mapcalc expression="ridgelines = if(convergence <= -15, 1, null())"
+r.to.vect -s input=ridgelines output=ridgelines type=area
+v.clean input=ridgelines output=ridges_cleaned type=point,line,area tool=rmarea thres=75
+v.generalize input=ridges_cleaned type=area output=ridges_generalized method=reumann threshold=2
+v.generalize input=ridges_generalized type=area output=ridgelines method=snakes threshold=2 alpha=1 beta=1 --overwrite
+g.remove -f type=vector name=ridges_cleaned,ridges_generalized
+```
+
+| Ridges Derived from Topographic Divergence |
+|:---:|
+| ![Ridges](/images/governors-island/vector-ridgelines.png) |
