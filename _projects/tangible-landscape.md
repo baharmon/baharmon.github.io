@@ -8,18 +8,13 @@ featured_image: '/images/tangible-landscape-1.jpg'
 
 ![Planting design with Tangible Landscape](/images/tangible-landscape-1.jpg)
 
----
+Team: Anna Petrasova, Brendan Harmon, Vaclav Petras, Payam Tabrizian, & Helena Mitasova
 
-Team: Anna Petrasova, Brendan Harmon, Vaclav Petras, Payam Tabrizian, & Helena Mitasoave
+<i class="fab fa-github"></i>[ Project website](http://tangible-landscape.github.io/)
 
-<i class="fab fa-github"></i>
-[Code](https://github.com/tangible-landscape/grass-tangible-landscape)
+<i class="fab fa-github"></i>[ Code](https://github.com/tangible-landscape/grass-tangible-landscape)
 
-<i class="fab fa-github"></i>
-[Project website](http://tangible-landscape.github.io/)
-
-<i class="fab fa-github"></i>
-[Community](https://github.com/tangible-landscape/grass-tangible-landscape/wiki/Community)
+<i class="fab fa-github"></i>[ Community](https://github.com/tangible-landscape/grass-tangible-landscape/wiki/Community)
 
 ---
 

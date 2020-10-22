@@ -1,0 +1,17 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+{
+    "type": "Feature",
+    "properties": {
+        "project": "3D Scanning Rosedown",
+        "location": "Rosedown Plantation, St. Francisville, LA, USA",
+        "page": "https://baharmon.github.io/project/point-clouds"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-91.3709458, 30.7960156]
+    }
+}
+]
+}

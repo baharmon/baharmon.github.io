@@ -2,10 +2,47 @@
 title: About
 subtitle:
 description:
-featured_image: /images/demo/demo-landscape.jpg
+featured_image: /images/baharmon-round.png
 ---
 
-![Brendan Harmon](/images/baharmon-round.png)
+<style>
+#toner-map { height: 500px; }
+</style>
+
+<div id="toner-map"></div>
+
+<script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
+
+<script>
+
+// create map
+var mymap = L.map('toner-map').setView([30.411804, -91.180910], 8);
+L.tileLayer.provider('Stamen.Toner').addTo(mymap);
+
+// create custom markers
+var customIcon = new L.Icon({
+  iconUrl: '/images/baharmon-round.png',
+  shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+  iconSize: [100, 100],
+  iconAnchor: [25, 100],
+  popupAnchor: [1, -34],
+  shadowSize: [100, 100]
+});
+L.marker([30.411804, -91.180910], {icon: customIcon}).addTo(mymap);
+
+// L.geoJSON(geojsonFeature).addTo(mymap);
+
+// load GeoJSON from an external file
+$.getJSON("data/projects.geojson",function(data){
+  // add GeoJSON layer to the map once the file is loaded
+  L.geoJson(data).addTo(mymap);
+});
+
+
+</script>
 
 ## Brendan Harmon
 

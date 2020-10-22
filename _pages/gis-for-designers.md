@@ -50,6 +50,8 @@ Topics include terrain modeling, hydrology, landscape ecology, and urban analyti
 * [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/intro-to-qgis)[<i class="fab fa-youtube"></i>](https://youtu.be/DNyyrVY6Pas)[ An Introduction to QGIS](intro-to-qgis)
 * [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/cartography-in-qgis)[<i class="fab fa-youtube"></i>](https://youtu.be/wuc4skU8aP0)[ Cartography in QGIS](cartography-in-qgis)
 * [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/grass-in-qgis)[<i class="fab fa-youtube"></i>](https://youtu.be/vr5uZSQoZ4s)[ GRASS in QGIS](grass-in-qgis)
+* [ Watershed Analysis in GRASS GIS](watersheds-in-grass)
+* [ Hydrology in GRASS GIS](hydrology-in-grass)
 * [ Python in GRASS](python-in-grass)
 
 ---
