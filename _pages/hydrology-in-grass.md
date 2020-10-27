@@ -14,14 +14,21 @@ usemathjax: true
 
 ---
 
-## Hydrological Modeling
+# Hydrological Modeling
 
+This tutorial will introduce hydrological modeling
+in <i class="ms ms-grass-gis"></i> GRASS GIS
+using [r.watershed](https://grass.osgeo.org/grass78/manuals/r.watershed.html),
+[r.sim.water](https://grass.osgeo.org/grass78/manuals/r.sim.water.html),
+and [r.lake](https://grass.osgeo.org/grass78/manuals/r.lake.html).
+Learn more about hydrology in GRASS on the
+[grasswiki page](https://grasswiki.osgeo.org/wiki/Hydrological_Sciences).
 <i class="ms ms-grass-gis"></i> GRASS GIS
 includes many modules and addons
-for hydrological modeling including:
+for hydrological modeling and analysis including:
 * [r.watershed](https://grass.osgeo.org/grass78/manuals/r.watershed.html)
 * [r.lake](https://grass.osgeo.org/grass78/manuals/r.lake.html)
-[r.lake.series](https://grass.osgeo.org/grass78/manuals/addons/r.lake.series.html)
+* [r.lake.series](https://grass.osgeo.org/grass78/manuals/addons/r.lake.series.html)
 * [r.sim.water](https://grass.osgeo.org/grass78/manuals/r.sim.water.html)
 * [r.stream.extract](https://grass.osgeo.org/grass78/manuals/r.stream.extract.html)
 * [r.stream.distance](https://grass.osgeo.org/grass78/manuals/addons/r.stream.distance.html)
@@ -30,10 +37,11 @@ for hydrological modeling including:
 * [r.hydrodem](https://grass.osgeo.org/grass78/manuals/addons/r.hydrodem.html)
 * [r.terraflow](https://grass.osgeo.org/grass78/manuals/r.terraflow.html)
 
-[r.stream](https://grasswiki.osgeo.org/wiki/R.stream.*_modules)
+---
 
+## Dataset
 
-This tutorial uses the
+This tutorial uses the <i class="ms ms-database"></i>
 [Governor's Island Dataset for GRASS GIS](https://zenodo.org/record/3940780/files/nyspf_govenors_island.zip?download=1).
 Download, extract, and move this geospatial dataset
 for Governor's Island in New York City
