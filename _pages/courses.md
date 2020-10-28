@@ -9,15 +9,15 @@ featured_image: images/
 
 ---
 
-[GIS for Designers](gis-for-designers): A guide to Geographic Information Systems for landscape architects, urban planners, and other designers. Topics include terrain modeling, hydrology, landscape ecology, and urban analytics. Software covered includes GRASS GIS, QGIS, and ArcGIS. Tutorials are posted on [<i class="fab fa-youtube"></i>](https://www.youtube.com/playlist?list=PLOZRfOojyTZooO3HMd8dTp8Wk37cdbY6C) Youtube and [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/showcase/7356098) Vimeo.
+[GIS for Designers](project/gis-for-designers): A guide to Geographic Information Systems for landscape architects, urban planners, and other designers. Topics include terrain modeling, hydrology, landscape ecology, and urban analytics. Software covered includes GRASS GIS, QGIS, and ArcGIS. Tutorials are posted on [<i class="fab fa-youtube"></i>](https://www.youtube.com/playlist?list=PLOZRfOojyTZooO3HMd8dTp8Wk37cdbY6C) Youtube and [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/showcase/7356098) Vimeo.
 
 ---
 
-[Generative Landscapes](generative-landscapes): A guide to visual programming for 3D modeling, geospatial modeling, and geospatial analysis of landscapes. Software covered includes Rhino, Grasshopper, GRASS GIS, ArcGIS, and Metashape. Tutorials are posted on [<i class="fab fa-youtube"></i>](https://www.youtube.com/playlist?list=PLOZRfOojyTZq7UyGd-uTx1HfQ2g3Bdo5y) Youtube and [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/showcase/7366606) Vimeo.
+[Generative Landscapes](project/generative-landscapes): A guide to visual programming for 3D modeling, geospatial modeling, and geospatial analysis of landscapes. Software covered includes Rhino, Grasshopper, GRASS GIS, ArcGIS, and Metashape. Tutorials are posted on [<i class="fab fa-youtube"></i>](https://www.youtube.com/playlist?list=PLOZRfOojyTZq7UyGd-uTx1HfQ2g3Bdo5y) Youtube and [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/showcase/7366606) Vimeo.
 
 ---
 
-[Digital Landscapes](digital-landscapes): An introduction to 3D modeling and 3D rendering landscapes. Software covered includes Rhino, Lumion, Thea Render, and Adobe CC. Tutorials are posted on [<i class="fab fa-youtube"></i>](https://www.youtube.com/playlist?list=PLOZRfOojyTZpMqTLmKCTasF9LkPIYLoHQ) Youtube and [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/showcase/7366624) Vimeo.
+[Digital Landscapes](project/digital-landscapes): An introduction to 3D modeling and 3D rendering landscapes. Software covered includes Rhino, Lumion, Thea Render, and Adobe CC. Tutorials are posted on [<i class="fab fa-youtube"></i>](https://www.youtube.com/playlist?list=PLOZRfOojyTZpMqTLmKCTasF9LkPIYLoHQ) Youtube and [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/showcase/7366624) Vimeo.
 
 ---
 
@@ -56,19 +56,17 @@ A brief introduction to tools for open spatial science.
 
 | Course | Syllabus |
 | -------|:-------:|
-| LA 2101 Representation III: 3D Modeling |  [2018](https://github.com/baharmon/syllabi/blob/master/3d-modeling-syllabus-2018.pdf), [2019](https://github.com/baharmon/syllabi/blob/master/3d-modeling-syllabus-2019.pdf) |
-| LA 2101 Representation III: Digital Landscapes | [2020](https://github.com/baharmon/syllabi/blob/master/digital-landscapes-syllabus-2020.pdf) |
-| LA 4201 GIS for Designers |  [2019](https://github.com/baharmon/syllabi/blob/master/gis-for-designers-syllabus-2019.pdf) |
-| LA 7102 Media II: 3D Modeling |  [2018](https://github.com/baharmon/syllabi/blob/master/3d-modeling-syllabus-2018.pdf), [2019](https://github.com/baharmon/syllabi/blob/master/3d-modeling-syllabus-2019.pdf) |
-| LA 7102 Media II: Digital Landscapes | [2020](https://github.com/baharmon/syllabi/blob/master/digital-landscapes-syllabus-2020.pdf) |
-| LA 7032 Media III: Geospatial Modeling | [2017](https://github.com/baharmon/syllabi/blob/master/geospatial-modeling-syllabus-2017.pdf), [2018](https://github.com/baharmon/syllabi/blob/master/geospatial-modeling-syllabus-2018.pdf) |
-| LA 7032 Media III: Generative Landscapes | [2020](https://github.com/baharmon/syllabi/blob/master/generative-landscapes-syllabus-2020.pdf) |
-| LA 7031 Water Systems Studio | [2018](https://github.com/baharmon/syllabi/blob/master/water-systems-syllabus-2018.pdf) |
-| DART 7003 Digital Culture Seminar: Open Culture | [ 2018](https://github.com/baharmon/syllabi/blob/master/digital-culture-syllabus-2018.pdf) |
-| LA 7051 Option Studio: Giant Panda Studio | [2019](https://github.com/baharmon/syllabi/blob/master/giant-panda-syllabus-2019.pdf) |
-| LA 7055 GIS for Designers | [2019](https://github.com/baharmon/syllabi/blob/master/gis-for-designers-syllabus-2019.pdf) |
-| LA 7504 Special Topics: Ecological Robotics | [2020](https://github.com/baharmon/syllabi/blob/master/ecological-robotics-syllabus-2020.pdf) |
+| LA 2101 Landscape Representation III | [2018](https://github.com/baharmon/syllabi/blob/master/3d-modeling-syllabus-2018.pdf?raw=true), [2019](https://github.com/baharmon/syllabi/blob/master/3d-modeling-syllabus-2019.pdf), [2020](https://github.com/baharmon/syllabi/blob/master/digital-landscapes-syllabus-2020.pdf?raw=true) |
+| LA 4201 GIS for Designers | [2019](https://github.com/baharmon/syllabi/blob/master/gis-for-designers-syllabus-2019.pdf?raw=true), [2020](https://github.com/baharmon/syllabi/blob/master/gis-for-designers-syllabus-2020.pdf?raw=true) |
+| LA 7102 Graduate Representation II | [2018](https://github.com/baharmon/syllabi/blob/master/3d-modeling-syllabus-2018.pdf?raw=true), [2019](https://github.com/baharmon/syllabi/blob/master/3d-modeling-syllabus-2019.pdf?raw=true), [2020](https://github.com/baharmon/syllabi/blob/master/digital-landscapes-syllabus-2020.pdf?raw=true) |
+| LA 7031 Water Systems Studio | [2018](https://github.com/baharmon/syllabi/blob/master/water-systems-syllabus-2018.pdf?raw=true) |
+| LA 7032 Graduate Representation III | [2017](https://github.com/baharmon/syllabi/blob/master/geospatial-modeling-syllabus-2017.pdf?raw=true), [2018](https://github.com/baharmon/syllabi/blob/master/geospatial-modeling-syllabus-2018.pdf?raw=true), [2020](https://github.com/baharmon/syllabi/blob/master/generative-landscapes-syllabus-2020.pdf?raw=true) |
+| LA 7051 Advanced Topics Studio | [2019](https://github.com/baharmon/syllabi/blob/master/giant-panda-syllabus-2019.pdf), [2020](https://github.com/baharmon/syllabi/blob/master/giant-panda-syllabus-2019.pdf?raw=true) |
+| LA 7055 GIS for Designers | [2019](https://github.com/baharmon/syllabi/blob/master/gis-for-designers-syllabus-2019.pdf?raw=true), [2020](https://github.com/baharmon/syllabi/blob/master/gis-for-designers-syllabus-2020.pdf?raw=true) |
+| LA 7504 Special Topics: Ecological Robotics | [2020](https://github.com/baharmon/syllabi/blob/master/generative-fabrication-syllabus-2020.pdf?raw=true) |
+| DART 7003 Digital Culture Seminar | [ 2018](https://github.com/baharmon/syllabi/blob/master/digital-culture-syllabus-2018.pdf?raw=true) |
 
+---
 
 ## License
 <i class="fab fa-creative-commons"></i>

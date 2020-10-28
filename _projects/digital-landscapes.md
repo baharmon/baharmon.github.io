@@ -2,7 +2,7 @@
 title: Digital Landscapes
 subtitle: A course on 3D modeling and rendering for landscape architects.
 description: Tutorials on 3D modeling landscapes with Rhino
-featured_image: /images/
+featured_image: /images/strange-attractor-8.jpg
 ---
 
 ![Strange attractor](/images/strange-attractor-8.jpg)
