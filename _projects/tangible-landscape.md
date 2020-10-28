@@ -1,8 +1,8 @@
 ---
 title: 'Tangible Landscape'
-subtitle: ''
+subtitle: 'A tangible interface for intuitive geospatial modeling.'
 date: 2019-05-15 00:00:00
-description: ...
+description: A tangible interface for intuitive geospatial modeling
 featured_image: '/images/tangible-landscape-1.jpg'
 ---
 

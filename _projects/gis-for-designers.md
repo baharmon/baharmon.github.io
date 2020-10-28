@@ -64,5 +64,5 @@ Topics include terrain modeling, hydrology, landscape ecology, and urban analyti
 ---
 
 ## Readings
-* Jorge Luis Borges, [On Exactitude in Science](/data/on-exactitude-in-science.pdf)
-* Umberto Eco, [On The Impossibility of Drawing a Map...](/data/eco-impossibility-of-drawing-a-map.pdf)
+* <i class="fa fa-book"></i> Jorge Luis Borges, [On Exactitude in Science](/data/on-exactitude-in-science.pdf)
+* <i class="fa fa-book"></i> Umberto Eco, [On The Impossibility of Drawing a Map...](/data/eco-impossibility-of-drawing-a-map.pdf)

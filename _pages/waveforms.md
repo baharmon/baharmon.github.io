@@ -8,9 +8,6 @@ featured_image: '/images/fabform-rendering-1.png'
 
 ![3D rendering of Poetry Waveform Bench](/images/fabform-rendering-1.png)
 
----
-
-## Waveforms
 <i class="fab fa-github"></i>
 [Waveform Repository](https://github.com/baharmon/waveforms)
 
