@@ -73,11 +73,77 @@ L.marker([30.4, -91.1], {
 
 </script>
 
-
 ---
 
-## Leaflet Map as iframe
+## Project Map with Sidebar
 
-<iframe width="560" height="315" src="https://baharmon.github.io/maps" frameborder="0" allowfullscreen></iframe>
+<style>
+#project-map { height: 500px; }
+</style>
 
----
+<div id="project-map"></div>
+
+<div id="sidebar">
+</div>
+
+<script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
+
+<script>
+
+// create map
+var mymap = L.map('project-map').setView([30.411804, -91.180910], 8);
+L.tileLayer.provider('Stamen.Toner').addTo(mymap);
+
+// create custom markers
+var customIcon = new L.Icon({
+  iconUrl: '/images/baharmon-round.png',
+  shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+  iconSize: [100, 100],
+  iconAnchor: [25, 100],
+  popupAnchor: [1, -34],
+  shadowSize: [100, 100]
+});
+var myLocation = L.marker([30.411804, -91.180910], {icon: customIcon}).addTo(mymap);
+
+// create custom markers
+var markerIcon = new L.Icon({
+  iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-black.png',
+  shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
+  shadowSize: [41, 41]
+});
+
+// load GeoJSON from an external file
+$.getJSON("data/projects.geojson",function(data){
+
+  // add popups
+  function onEachFeature(feature, layer) {
+      layer.bindPopup("<b> Project: </b>" + feature.properties.project + "<br>" + "<b>Location: </b>" + feature.properties.location + "<br>" + "<b>Link: </b>" + "<a href=" + feature.properties.page + ">"+ feature.properties.page +"</a>");
+
+      sidebar.setContent("<b> Project: </b>" + feature.properties.project + "<br>" + "<b>Location: </b>" + feature.properties.location + "<br>" + "<b>Link: </b>" + "<a href=" + feature.properties.page + ">"+ feature.properties.page +"</a>");
+
+  }   
+
+  // add GeoJSON layer to the map once the file is loaded
+  L.geoJSON(data, {
+    pointToLayer: function (feature, latlng) {
+			return L.marker(latlng, {icon: markerIcon});
+		},
+    onEachFeature: onEachFeature
+  }).addTo(mymap).on('click', function () {
+              sidebar.toggle();
+          });
+});
+
+// sidebar
+var sidebar = L.control.sidebar('sidebar', {
+    position: 'left'
+});
+mymap.addControl(sidebar);
+
+</script>
