@@ -198,12 +198,15 @@ Smooth the  boundaries of the areas using
 with the `snakes` or `hermite` method.
 Remove the intermediate cleaned and simplified maps with
 [g.remove](https://grass.osgeo.org/grass78/manuals/g.remove.html).
+Add a vector legend for the ridges with
+[d.legend.vect](https://grass.osgeo.org/grass78/manuals/d.legend.vect.html).
 ```
 r.to.vect -s input=ridges output=ridges type=area
 v.clean input=ridges output=ridges_cleaned type=point,line,area tool=rmarea thres=2
 v.generalize input=ridges_cleaned type=area output=ridges_generalized method=reumann threshold=2
 v.generalize input=ridges_generalized type=area output=ridges method=snakes threshold=2 alpha=1 beta=1 --overwrite
 g.remove -f type=vector name=ridges_cleaned,ridges_generalized
+d.legend.vect at=2,95 font=Lato-Regular fontsize=14
 ```
 
 | Vector Ridges |
@@ -249,6 +252,8 @@ and then smooth the  boundaries of the areas using
 [v.generalize](https://grass.osgeo.org/grass78/manuals/v.generalize.html).
 Remove the intermediate maps with
 [g.remove](https://grass.osgeo.org/grass78/manuals/g.remove.html).
+Add a vector legend for the ridgelines with
+[d.legend.vect](https://grass.osgeo.org/grass78/manuals/d.legend.vect.html).
 
 ```
 r.mapcalc expression="ridgelines = if(convergence <= -15, 1, null())"
@@ -257,6 +262,7 @@ v.clean input=ridgelines output=ridges_cleaned type=point,line,area tool=rmarea 
 v.generalize input=ridges_cleaned type=area output=ridges_generalized method=reumann threshold=2
 v.generalize input=ridges_generalized type=area output=ridgelines method=snakes threshold=2 alpha=1 beta=1 --overwrite
 g.remove -f type=vector name=ridges_cleaned,ridges_generalized
+d.legend.vect at=2,95 font=Lato-Regular fontsize=14
 ```
 
 | Ridges Derived from Topographic Divergence |
