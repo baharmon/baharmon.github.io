@@ -55,12 +55,32 @@ Zoom in on the landforms in the southwest of the island.
 Either set the computation from the display using the various zoom options dropdown or run [g.region](https://grass.osgeo.org/grass78/manuals/g.region.html) and set the boundaries for the region. Save the region.
 Then set a mask to the vector map `shoreline` with the module
 [r.mask](https://grass.osgeo.org/grass78/manuals/r.mask.html).
+The digital elevation model from lidar
+has substantial noise that would impact hydrological simulations.
+To reduce this noise
+smooth the digital elevation model using the module
+[r.neighbors](https://grass.osgeo.org/grass78/manuals/r.neighbors.html)
+with a moving window size of 5.
+Optionally make the moving window circular with flag `-c`.
 
-
-smoothing
-relief
-skyview
-
+Visualize the relief of the terrain using direct illumination with
+[r.relief](https://grass.osgeo.org/grass78/manuals/r.relief.html).
+The light source can be set using the altitude and azimuth settings.
+Then drape the relief map over the smoothed digital elevation model
+with [r.shade](https://grass.osgeo.org/grass78/manuals/r.shade.html).
+Alternatively try visualizing relief using diffuse illumination
+from the skyview factor - the proportion of the sky visible
+given the surrounding relief.
+First install the addon module
+[r.skyview](https://grass.osgeo.org/grass78/manuals/addons/r.skyview.html)
+with [g.extension](https://grass.osgeo.org/grass78/manuals/g.extension.html).
+Then compute the skyview factor with
+[r.skyview](https://grass.osgeo.org/grass78/manuals/addons/r.skyview.html)
+from 16 directions.
+A composite of the shaded relief and skyview factor
+will combine direct and diffuse illumination to better visualize relief.
+Use [r.shade](https://grass.osgeo.org/grass78/manuals/r.shade.html)
+to drape the shaded relief map over the skyview factor.
 
 ```
 g.region n=189850 s=189100 e=978550 w=976850 save=landforms
@@ -86,9 +106,13 @@ d.legend raster=elevation at=60,95,2,3.5 font=Lato-Regular fontsize=14
 ---
 
 ## Flow Accumulation
+Flow accumulation - the number of cells
+that drain through each cell in an elevation raster -
+can represent the flow of water across a landscape.
 Compute flow accumulation with the module
 [r.watershed](https://grass.osgeo.org/grass78/manuals/r.param.scale.html).
-
+Then use [r.shade](https://grass.osgeo.org/grass78/manuals/r.shade.html)
+to drape the flow accumulation map over the relief map.
 ```
 r.watershed -a -b --overwrite elevation=elevation accumulation=flow_accumulation
 r.shade shade=relief color=flow_accumulation output=shaded_accumulation brighten=40
@@ -99,10 +123,18 @@ d.legend -l raster=flow_accumulation at=60,95,2,3.5 font=Lato-Regular fontsize=1
 |:---:|
 | ![Flow Accumulation](/images/governors-island/shaded-flow-accumulation.png) |
 
-Optionally layer the flow accumulation map
-on top of the shaded or composite relief map.  
-For the flow accumulation map use the values parameter
-to set the range of values to display.
+
+To visualize concentrated flow accumulation
+over the topography,
+use [d.rast](https://grass.osgeo.org/grass78/manuals/d.rast.html)
+to set the range of values to display for the flow accumulation raster.
+To hide cells with low accumulation values,
+try setting the range from 100 to 1000000.
+Alternatively you could use map algebra with
+[r.mapcalc](https://grass.osgeo.org/grass78/manuals/r.mapcalc.html)
+to extract the concentrated flow values.
+Then layer this flow accumulation map
+on top of the shaded relief map.
 ```
 d.rast map=composite_relief
 d.rast map=flow_accumulation values=100-1000000
@@ -111,6 +143,27 @@ d.rast map=flow_accumulation values=100-1000000
 ---
 
 ## Shallow Water Flow
+
+Simulate shallow flows of water over the landscape with
+[r.sim.water](https://grass.osgeo.org/grass78/manuals/r.sim.water.html).
+First compute the partial derivations
+`dx` and `dy` of the elevation raster
+with
+[r.slope.aspect](https://grass.osgeo.org/grass78/manuals/r.slope.aspect.html).
+Then run
+[r.sim.water](https://grass.osgeo.org/grass78/manuals/r.sim.water.html)
+for a 10 minute rainfall event with a rainfall rate of 150 $$ mm/hr$$.
+Set the rainfall excess rate set to 150 $$ mm/hr$$,
+the iteration time of 10 $$min$$,
+and the number of walkers to 10000.
+Setting a higher number of walkers
+will reduce noise in the solution
+while increasing computation time.
+Use [r.sim.water](https://grass.osgeo.org/grass78/manuals/r.sim.water.html)
+to generate maps of water depth $$(m)$$ and discharge $$(m^3/s)$$
+for a 10 minute storm.
+Drape the depth or discharge map over the relief map
+with [r.shade](https://grass.osgeo.org/grass78/manuals/r.shade.html).
 
 ```
 r.slope.aspect elevation=elevation dx=dx dy=dy
@@ -127,10 +180,14 @@ d.legend raster=depth_with_landcover at=60,95,2,3.5 font=Lato-Regular fontsize=1
 |:---:|
 | ![Shallow water flow discharge](/images/governors-island/discharge.png) |
 
-Optionally layer the depth or discharge map
-on top of the shaded or composite relief map.  For
-the depth or discharge maps use the values parameter
-to set the range of values to display.
+
+To visualize concentrated flows
+over the topography,
+use [d.rast](https://grass.osgeo.org/grass78/manuals/d.rast.html)
+to set the range of values to display
+for either the depth or discharge map
+To hide cells with low water depth values,
+try setting the range from 0.03-1.
 ```
 d.rast map=composite_relief
 d.rast map=depth values=0.03-1
@@ -140,20 +197,37 @@ d.rast map=depth values=0.03-1
 
 ## Shallow Water Flow with Landcover
 
+Simulate shallow overland flows of water
+across different types of landcover with
+[r.sim.water](https://grass.osgeo.org/grass78/manuals/r.sim.water.html).
+First derive landcover classes from
+the 2018 orthophotograph
+with red, green, blue, and near infrared channels
+using unsupervised image classification.
 Create a new imagery group called `imagery_2018`
 and a new imagery subgroup with the same name.
 Click add, select the `PERMANENT` mapset,
 and use the pattern `imagery_2018.*`
 to add all the channels for the 2018 orthophotograph
 to the imagery group.
-
-```
-i.cluster group=imagery_2018 subgroup=imagery_2018 signaturefile=signature classes=3
-i.maxlik group=imagery_2018 subgroup=imagery_2018 signaturefile=signature output=classification
-r.recode input=classification output=mannings rules=mannings.txt
-```
+Use module
+[i.cluster](https://grass.osgeo.org/grass78/manuals/i.cluster.html)
+with to calculate spectral signatures for 3 landcover classes
+from the imagery group.
+Then use the module
+[i.maxlik](https://grass.osgeo.org/grass78/manuals/i.maxlik.html)
+to classify spectral reflectance based on spectral signatures.
+Recode the resulting map of landcover classes
+as Mannings surface roughness using
+[r.recode](https://grass.osgeo.org/grass78/manuals/r.recode).
+Grass should have Mannings n value of 0.368,
+hardscape should be 0.0404,
+and bare land should be 0.0113.
+See the appendix at the end of this tutorial
+for a list of suggested Mannings values.
 For [r.recode](https://grass.osgeo.org/grass78/manuals/r.recode.html)
-create a rules text file with the following lines
+create a rules file called `mannings.txt`
+with the following lines
 to recode class values to mannings values.
 ```
 1:1:0.368:0.368
@@ -164,13 +238,17 @@ Then simulate shallow water flow
 with spatially variable surface roughness
 using the module
 [r.sim.water](https://grass.osgeo.org/grass78/manuals/r.sim.water.html).
-Set the `man` parameter to your mannings maps.
+Set the `man` parameter to your Mannings maps.
+Drape the depth or discharge map over the relief map
+with [r.shade](https://grass.osgeo.org/grass78/manuals/r.shade.html).
 ```
+i.cluster group=imagery_2018 subgroup=imagery_2018 signaturefile=signature classes=3
+i.maxlik group=imagery_2018 subgroup=imagery_2018 signaturefile=signature output=classification
+r.recode input=classification output=mannings rules=mannings.txt
+r.slope.aspect elevation=elevation dx=dx dy=dy
 r.sim.water elevation=elevation dx=dx dy=dy rain_value=50 man=mannings depth=depth_with_landcover discharge=discharge_with_landcover
 r.shade shade=relief color=depth output=shaded_depth brighten=40
 d.legend raster=depth at=60,95,2,3.5 font=Lato-Regular fontsize=14
-
-
 ```
 
 | Mannings Surface Roughness |
@@ -231,3 +309,29 @@ g.gui.animation
 | Flooding Animation |
 |:---:|
 | ![Flood Animation](/images/governors-island/flooding.gif) |
+
+---
+
+## Mannings Surface Roughness
+
+Mannings n values are empirical coefficients for surface roughness.
+Based on literature I recommend
+the following n values for these types of landcover:
+
+| NLCD Class| Landcover Category| Mannings n value |
+|--|--|--|
+| 11 | Open Water | 0.001 |
+| 21 | Developed, Open Space | 0.0404 |
+| 22 | Developed, Low Intensity | 0.0678 |
+| 23 | Developed, Medium Intensity | 0.0678 |
+| 24 | Developed, High Intensity | 0.0404 |
+| 31 | Barren Land | 0.0113 |
+| 41 | Deciduous Forest | 0.36 |
+| 42 | Evergreen Forest | 0.32 |
+| 43 | Mixed Forest | 0.4 |
+| 52 | Shrub/Scrub | 0.4 |
+| 71 | Grassland/Herbaceuous | 0.368 |
+| 81 | Pasture/Hay | 0.325 |
+| 82 | Cultivated Crops | 0.325 |
+| 90 | Woody Wetlands | 0.086 |
+| 95 | Emergent Herbaceuous Wetlands | 0.1825 |
