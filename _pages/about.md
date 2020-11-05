@@ -5,8 +5,6 @@ description:
 featured_image: /images/baharmon-round.png
 ---
 
-
-
 <style>
 #toner-map { height: 500px; }
 </style>

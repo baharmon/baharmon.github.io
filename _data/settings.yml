@@ -20,7 +20,7 @@ menu_settings:
     - title: 'Code'
       url: 'https://github.com/baharmon/'
     - title: 'Data'
-      url: '/data'
+      url: '/datasets'
     - title: 'Publications'
       url: '/publications'
 
