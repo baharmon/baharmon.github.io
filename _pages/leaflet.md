@@ -3,6 +3,7 @@ title: Leaflet
 subtitle:
 description:
 featured_image: /images/
+useleaflet: true
 ---
 
 # Leaflet

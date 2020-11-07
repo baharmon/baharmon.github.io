@@ -66,6 +66,20 @@
 
   {% include analytics.html %}
 
+	<!-- for leaflet support -->
+	{% if page.useleaflet %}
+			<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+			integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+			crossorigin=""/>
+			<link rel="stylesheet" href="/assets/css/L.Control.Sidebar.css">
+			<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+			integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+			crossorigin=""></script>
+			<script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js?v1.3.0"></script>
+			<script src="js/leaflet-providers.js"></script>
+			<script src="js/L.Control.Sidebar.js"></script>
+	{% endif %}
+
 </head>
 
 
@@ -109,7 +123,7 @@
 			TeX: { equationNumbers: { autoNumber: "AMS" } }
 			});
 		</script>
-		<script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+		<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 	{% endif %}
 
 </body>

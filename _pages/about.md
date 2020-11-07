@@ -3,6 +3,7 @@ title: About
 subtitle:
 description:
 featured_image: /images/baharmon-round.png
+useleaflet: true
 ---
 
 <style>

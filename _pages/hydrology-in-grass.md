@@ -1,7 +1,7 @@
 ---
 title: Hydrology in GRASS GIS
-subtitle: A tutorial on hydrological modeling in GRASS GIS.
-description: A tutorial on hydrological modeling in GRASS GIS.
+subtitle: A tutorial on hydrological modeling and simulation in GRASS GIS.
+description: A tutorial on hydrological modeling and simulation in GRASS GIS.
 featured_image: /images/governors-island/discharge-with-landcover.png
 usemathjax: true
 ---
@@ -14,7 +14,7 @@ usemathjax: true
 
 ---
 
-# Hydrological Modeling
+## Hydrological Modeling
 
 This tutorial will introduce hydrological modeling
 in <i class="ms ms-grass-gis"></i> GRASS GIS
@@ -46,11 +46,13 @@ This tutorial uses the <i class="ms ms-database"></i>
 Download, extract, and move this geospatial dataset
 for Governor's Island in New York City
 to your `grassdata` directory.
-
 Start <i class="ms ms-grass-gis"></i> GRASS GIS,
 set the GRASS GIS database directory to `grassdata` directory,
 select `nyspf_governors_island` as your location,
 and create a new mapset called `hydrology`.
+
+## Terrain Modeling
+
 Zoom in on the landforms in the southwest of the island.
 Either set the computation from the display using the various zoom options dropdown or run [g.region](https://grass.osgeo.org/grass78/manuals/g.region.html) and set the boundaries for the region. Save the region.
 Then set a mask to the vector map `shoreline` with the module
