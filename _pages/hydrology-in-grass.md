@@ -257,16 +257,38 @@ d.legend raster=depth at=60,95,2,3.5 font=Lato-Regular fontsize=14
 
 | Shallow Water Flow Depth $$(m)$$ with Landcover|
 |:---:|
-| ![Shallow water flow shaded_depth](/images/governors-island/depth-with-landcover.png) |
+| ![Shallow water flow depth](/images/governors-island/depth-with-landcover.png) |
 
 | Shallow Water Flow Discharge $$(m^3/s)$$ with Landcover|
 |:---:|
 | ![Shallow water flow discharge](/images/governors-island/discharge-with-landcover.png) |
 
-
 ---
 
 ## Shallow Water Flow Animation
+
+Simulate and animate water flow over time.
+First run
+[r.sim.water](https://grass.osgeo.org/grass78/manuals/r.sim.water.html)
+with the `-t` flag to generate a time series of water depth or discharge maps.
+Use [g.list](https://grass.osgeo.org/grass78/manuals/g.list.html)
+with a search pattern of `discharge.*`
+to generate a list of all of the discharge maps in the time series.
+Copy the list, then run
+[g.gui.animation](https://grass.osgeo.org/grass78/manuals/g.gui.animation.html)
+to create an animation from the time series of discharge maps.
+In the GRASS GIS Animation Tool
+start by adding a new animation.
+In the add new animation dialog
+click the add space-time dataset layer button,
+set the data type to multiple raster maps,
+and then paste the list of discharge maps into the dialog box.
+Optionally check the show raster legend box
+and set the legend to the last map in the time series.
+After the animation renders
+adjust the size of the window and the animation speed
+and then re-render
+before exporting it as an animated gif.
 
 ```
 r.sim.water -t --overwrite elevation=elevation dx=dx dy=dy depth=depth discharge=discharge nwalkers=10000 niterations=30 output_step=1
@@ -281,34 +303,6 @@ g.gui.animation raster=discharge.01,discharge.02,discharge.03,discharge.04,disch
 Optionally edit the animation to add the relief raster
 below the series of discharge maps.
 Set the opacity of the discharge maps to 80%.
-
----
-
-## Flooding
-[r.lake](https://grass.osgeo.org/grass78/manuals/r.lake.html)
-
-```
-r.lake elevation=smoothed_elevation water_level=11.5 lake=flooding coordinates=978381.33268,189447.513474
-d.legend raster=flooding at=60,95,2,4 font=Lato-Regular fontsize=14
-```
-
-| Flooding |
-|:---:|
-| ![Flooding](/images/governors-island/flooding.png) |
-
-[r.lake.series](https://grass.osgeo.org/grass78/manuals/addons/r.lake.series.html)
-
-```
-r.lake.series --overwrite elevation=smoothed_elevation output=flooding start_water_level=9.8 end_water_level=12 water_level_step=.1 coordinates=978378.671875,189465.703125
-```
-
-```
-g.gui.animation
-```
-
-| Flooding Animation |
-|:---:|
-| ![Flood Animation](/images/governors-island/flooding.gif) |
 
 ---
 
