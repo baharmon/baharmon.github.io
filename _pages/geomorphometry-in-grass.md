@@ -5,7 +5,7 @@ description: A tutorial on quantitative terrain analysis in GRASS GIS.
 featured_image: /images/governors-island/geomorphons.png
 ---
 
-![](/images/governors-island/shaded-geomorphons.png)
+![Geomorphons](/images/governors-island/shaded-geomorphons.png)
 
 **Contents**
 * TOC
@@ -20,6 +20,7 @@ Geomorphometric analyses include slope, aspect, curvature,
 topographic indices, and landforms.
 <i class="ms ms-grass-gis"></i> GRASS GIS
 includes many modules and addons for geomorphometric analysis including:
+
 * [r.param.scale](https://grass.osgeo.org/grass78/manuals/r.param.scale.html)
 * [r.slope.aspect](https://grass.osgeo.org/grass78/manuals/r.slope.aspect.html)
 * [r.geomorphon](https://grass.osgeo.org/grass78/manuals/r.geomorphon.html)
@@ -48,7 +49,10 @@ set the GRASS GIS database directory to `grassdata` directory,
 select `nyspf_governors_island` as your location,
 and create a new mapset called `geomorphometry`.
 Zoom in on the landforms in the southwest of the island.
-Either set the computation from the display using the various zoom options dropdown or run [g.region](https://grass.osgeo.org/grass78/manuals/g.region.html) and set the boundaries for the region. Save the region.
+Either set the computation from the display
+using the various zoom options dropdown or
+run [g.region](https://grass.osgeo.org/grass78/manuals/g.region.html)
+and set the boundaries for the region. Save the region.
 Then set a mask to the vector map `shoreline` with the module
 [r.mask](https://grass.osgeo.org/grass78/manuals/r.mask.html).
 ```
@@ -78,8 +82,9 @@ the second derivatives of the topographic surface.
 [r.param.scale](https://grass.osgeo.org/grass78/manuals/r.param.scale.html)
 can identify six generals landforms -
 peaks, ridges, passes, planes, channels, and pits.
-
-Use the module [r.param.scale](https://grass.osgeo.org/grass78/manuals/r.param.scale.html) to automatically classify landforms.
+Use the module
+[r.param.scale](https://grass.osgeo.org/grass78/manuals/r.param.scale.html)
+to automatically classify landforms.
 Set the moving window size to an odd number.
 ```
 r.param.scale input=elevation_2017 output=landforms size=33 method=feature --overwrite
@@ -89,7 +94,9 @@ r.param.scale input=elevation_2017 output=landforms size=33 method=feature --ove
 |:---:|
 | ![Landforms](/images/governors-island/landforms.png) |
 
-Try running [r.param.scale](https://grass.osgeo.org/grass78/manuals/r.param.scale.html) with different moving window sizes.
+Try running
+[r.param.scale](https://grass.osgeo.org/grass78/manuals/r.param.scale.html)
+with different moving window sizes.
 Either change the name of the output map or set the `--overwrite` flag.
 Add a [legend](https://grass.osgeo.org/grass78/manuals/d.legend.html).
 Note how this module characterizes most of the landforms here
@@ -106,14 +113,13 @@ Landforms are classified as either
 flats, peaks, ridges, shoulders, spurs, slopes, hollows,
 footslope, valleys, or pits
 based on their visibility from 8 cardinal and ordinal directions.
+Geomorphons has been used for diverse application such as
+characterizing [submarine dunes on the ocean floor](https://doi.org/10.3390/geosciences8010028)
+and creating [global landform maps](https://doi.org/10.1038/s41597-020-0479-6).
 
 | Landforms |
 |:---:|
 | ![Landforms](/images/governors-island/geomorphons-legend.png) |
-
-Geomorphons has been used for diverse application such as
-characterizing [submarine dunes on the ocean floor](https://doi.org/10.3390/geosciences8010028)
-and creating [global landform maps](https://doi.org/10.1038/s41597-020-0479-6).
 
 Classify landforms using
 [r.geomorphon](https://grass.osgeo.org/grass78/manuals/r.geomorphon.html).
@@ -121,32 +127,16 @@ Experiment with the `search`, `skip`, and `flat` parameters.
 The search radius determines the scale of the landform features,
 the flatness threshold set the angle at which ground is considered flat,
 and the skip radius eliminates small landforms, reducing noise.
-
-```
-g.region region=landforms
-r.geomorphon elevation=elevation_2017 forms=geomorphons search=36 skip=6 flat=12 --overwrite
-```
-
-| Geomorphons |
-|:---:|
-| ![Geomorphons](/images/governors-island/geomorphons.png) |
-
-Note how
-[r.geomorphon](https://grass.osgeo.org/grass78/manuals/r.geomorphon.html)
-has clearly identified the ridge lines and their peaks and
-has classified the pathways as either valleys or footslopes.
-
----
-
-## Landform Visualization
-
-Compute shaded relief from the digital elevation model using
+To better visualize the landforms
+compute shaded relief from the digital elevation model using
 [r.relief](https://grass.osgeo.org/grass78/manuals/r.relief.html).
 Set the units to US survey feet
 and optionally the vertical scale to 2 or higher.
 Then drape a map of landforms over the shaded relief using
 [r.shade](https://grass.osgeo.org/grass78/manuals/r.relief.html).
 ```
+g.region region=landforms
+r.geomorphon elevation=elevation_2017 forms=geomorphons search=36 skip=6 flat=12 --overwrite
 r.relief input=elevation_2017 output=relief_2017 zscale=2 units=survey
 r.shade shade=relief_2017 color=geomorphons output=shaded_geomorphons brighten=45
 ```
@@ -154,6 +144,11 @@ r.shade shade=relief_2017 color=geomorphons output=shaded_geomorphons brighten=4
 | Geomorphons with Shaded Relief |
 |:---:|
 | ![Geomorphons](/images/governors-island/shaded-geomorphons.png) |
+
+Note how
+[r.geomorphon](https://grass.osgeo.org/grass78/manuals/r.geomorphon.html)
+has clearly identified the ridge lines and their peaks and
+has classified the pathways as either valleys or footslopes.
 
 ---
 
@@ -211,7 +206,9 @@ d.legend.vect at=2,95 font=Lato-Regular fontsize=14
 
 | Vector Ridges |
 |:---:|
-| ![Ridges](/images/governors-island/vector-ridges.png) |
+| ![Vector Ridges](/images/governors-island/vector-ridges.png) |
+
+---
 
 ## Topographic Convergence
 Valleys and ridges can be identified from
@@ -220,7 +217,8 @@ Use [g.extension](https://grass.osgeo.org/grass78/manuals/g.extension.html)
 to install the addon module
 [r.convergence](https://grass.osgeo.org/grass78/manuals/addons/r.convergence.html).
 Compute the convergence index of the terrain with
-[r.convergence](https://grass.osgeo.org/grass78/manuals/addons/r.convergence.html) with a moving window size of 15 cells.
+[r.convergence](https://grass.osgeo.org/grass78/manuals/addons/r.convergence.html)
+with a moving window size of 15 cells.
 In the resulting raster
 values from 1 to 100 are convergent, 0 is planar,
 and values from -1 to -100 are divergent.
@@ -231,7 +229,7 @@ r.convergence -c input=elevation_2017 output=convergence window=15 weights=stand
 
 | Topographic Convergence |
 |:---:|
-| ![Ridges](/images/governors-island/convergence.png) |
+| ![Topographic Convergence](/images/governors-island/convergence.png) |
 
 
 Use map algebra to extract ridges from areas of topographic divergence.

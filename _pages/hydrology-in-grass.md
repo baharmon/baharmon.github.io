@@ -36,6 +36,7 @@ for hydrological modeling and analysis including:
 * [r.filldir](https://grass.osgeo.org/grass78/manuals/r.fill.dir.html)
 * [r.hydrodem](https://grass.osgeo.org/grass78/manuals/addons/r.hydrodem.html)
 * [r.terraflow](https://grass.osgeo.org/grass78/manuals/r.terraflow.html)
+* [ITZI](https://www.itzi.org/)
 
 ---
 
@@ -99,11 +100,11 @@ d.legend raster=elevation at=60,95,2,3.5 font=Lato-Regular fontsize=14
 
 | Skyview Factor |
 |:---:|
-| ![Elevation](/images/governors-island/landforms-skyview.png) |
+| ![Skyview Factor](/images/governors-island/landforms-skyview.png) |
 
 | Digital Elevation Model |
 |:---:|
-| ![Elevation](/images/governors-island/composite-relief.png) |
+| ![Shaded Relief](/images/governors-island/composite-relief.png) |
 
 ---
 
@@ -176,7 +177,7 @@ d.legend raster=depth_with_landcover at=60,95,2,3.5 font=Lato-Regular fontsize=1
 
 | Shallow Water Flow Depth $$(m)$$|
 |:---:|
-| ![Shallow water flow shaded_depth](/images/governors-island/depth.png) |
+| ![Shallow water flow depth](/images/governors-island/depth.png) |
 
 | Shallow Water Flow Discharge $$(m^3/s)$$|
 |:---:|
@@ -220,17 +221,17 @@ Then use the module
 [i.maxlik](https://grass.osgeo.org/grass78/manuals/i.maxlik.html)
 to classify spectral reflectance based on spectral signatures.
 Recode the resulting map of landcover classes
-as Mannings surface roughness using
+as Manning's roughness coefficients using
 [r.recode](https://grass.osgeo.org/grass78/manuals/r.recode).
-Grass should have Mannings n value of 0.368,
+Grass should have a Manning's n value of 0.368,
 hardscape should be 0.0404,
 and bare land should be 0.0113.
 See the appendix at the end of this tutorial
-for a list of suggested Mannings values.
+for a list of suggested Manning's n values.
 For [r.recode](https://grass.osgeo.org/grass78/manuals/r.recode.html)
 create a rules file called `mannings.txt`
 with the following lines
-to recode class values to mannings values.
+to recode class values to Manning's n values.
 ```
 1:1:0.368:0.368
 2:2:0.0404:0.0404
@@ -240,7 +241,7 @@ Then simulate shallow water flow
 with spatially variable surface roughness
 using the module
 [r.sim.water](https://grass.osgeo.org/grass78/manuals/r.sim.water.html).
-Set the `man` parameter to your Mannings maps.
+Set the `man` parameter to your Manning's roughness map.
 Drape the depth or discharge map over the relief map
 with [r.shade](https://grass.osgeo.org/grass78/manuals/r.shade.html).
 ```
@@ -253,9 +254,9 @@ r.shade shade=relief color=depth output=shaded_depth brighten=40
 d.legend raster=depth at=60,95,2,3.5 font=Lato-Regular fontsize=14
 ```
 
-| Mannings Surface Roughness |
+| Manning's Roughness Coefficient |
 |:---:|
-| ![Mannings](/images/governors-island/mannings.png) |
+| ![Manning's Roughness Coefficient](/images/governors-island/mannings.png) |
 
 | Shallow Water Flow Depth $$(m)$$ with Landcover|
 |:---:|
@@ -308,13 +309,13 @@ Set the opacity of the discharge maps to 80%.
 
 ---
 
-## Mannings Surface Roughness
+## Manning's Roughness Coefficients
 
-Mannings n values are empirical coefficients for surface roughness.
+Manning's n values are empirical coefficients for surface roughness.
 Based on literature I recommend
 the following n values for these types of landcover:
 
-| NLCD Class| Landcover Category| Mannings n value |
+| NLCD Class| Landcover Category| Manning's n value |
 |--|--|--|
 | 11 | Open Water | 0.001 |
 | 21 | Developed, Open Space | 0.0404 |
