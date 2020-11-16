@@ -1,6 +1,6 @@
 ---
 title: Census Data in GRASS GIS
-subtitle:
+subtitle: Census Data in GRASS GIS
 description: A guide to importing and mapping census data in GRASS GIS.
 featured_image: /images/nyc/population-normal-choropleth-inferno.png
 ---
