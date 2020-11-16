@@ -72,21 +72,20 @@ Hit `Next` and then `Finish` to continue.
 Accept the `Import data` to import the data into the new location.
 In the startup screen, select the new location
 and the `PERMANENT` mapset and start the GRASS session.
+Print information about the projection in the console with
+[g.proj](https://grass.osgeo.org/grass78/manuals/g.proj.html)
+with the `-p` flag.
+The map projection should be
+`NAD 1983 StatePlane New York Long Island FIPS 3104 Feet`
+in U.S. Surveyor's Foot.
+```
+g.proj -p
+```
 
 **Note:**
 Alternatively you can create a new GRASS location
 for New York Long Island State Plane Feet
 using the EPSG code `2263`.
-
-Print information about the projection in the console with
-[g.proj](https://grass.osgeo.org/grass78/manuals/g.proj.html)
-with the `-p` flag.
-The map projection should be
-NAD_1983_StatePlane_New_York_Long_Island_FIPS_3104_Feet
-in U.S. Surveyor's Foot.
-```
-g.proj -p
-```
 
 ---
 

@@ -170,7 +170,7 @@ with [r.shade](https://grass.osgeo.org/grass78/manuals/r.shade.html).
 
 ```
 r.slope.aspect elevation=elevation dx=dx dy=dy
-r.sim.water elevation=elevation dx=dx dy=dy rain_value=150 depth=depth discharge=discharge nwalkers=10000
+r.sim.water elevation=elevation dx=dx dy=dy rain_value=150 nwalkers=10000 depth=depth discharge=discharge
 r.shade shade=relief color=depth_with_landcover output=shaded_depth_with_landcover brighten=50
 d.legend raster=depth_with_landcover at=60,95,2,3.5 font=Lato-Regular fontsize=14
 ```
@@ -203,16 +203,23 @@ d.rast map=depth values=0.03-1
 Simulate shallow overland flows of water
 across different types of landcover with
 [r.sim.water](https://grass.osgeo.org/grass78/manuals/r.sim.water.html).
+Landcover can be derived from orthophotography
+using unsupervised image classification,
+supervised image classification,
+or vegetation indices.
+For simplicity's sake this example uses
+unsupervised classification.
 First derive landcover classes from
 the 2018 orthophotograph
 with red, green, blue, and near infrared channels
 using unsupervised image classification.
-Create a new imagery group called `imagery_2018`
-and a new imagery subgroup with the same name.
+Create a new imagery group called `imagery_2018`.
 Click add, select the `PERMANENT` mapset,
 and use the pattern `imagery_2018.*`
 to add all the channels for the 2018 orthophotograph
 to the imagery group.
+Then create a new imagery subgroup with the same name
+and check all of the maps.
 Use module
 [i.cluster](https://grass.osgeo.org/grass78/manuals/i.cluster.html)
 with to calculate spectral signatures for 3 landcover classes
@@ -249,9 +256,9 @@ i.cluster group=imagery_2018 subgroup=imagery_2018 signaturefile=signature class
 i.maxlik group=imagery_2018 subgroup=imagery_2018 signaturefile=signature output=classification
 r.recode input=classification output=mannings rules=mannings.txt
 r.slope.aspect elevation=elevation dx=dx dy=dy
-r.sim.water elevation=elevation dx=dx dy=dy rain_value=50 man=mannings depth=depth_with_landcover discharge=discharge_with_landcover
-r.shade shade=relief color=depth output=shaded_depth brighten=40
-d.legend raster=depth at=60,95,2,3.5 font=Lato-Regular fontsize=14
+r.sim.water elevation=elevation dx=dx dy=dy rain_value=50 man=mannings nwalkers=10000 depth=depth_with_landcover discharge=discharge_with_landcover
+r.shade shade=relief color=depth_with_landcover output=shaded_depth_with_landcover brighten=40
+d.legend raster=depth_with_landcover at=60,95,2,3.5 font=Lato-Regular fontsize=14
 ```
 
 | Manning's Roughness Coefficient |
@@ -260,11 +267,64 @@ d.legend raster=depth at=60,95,2,3.5 font=Lato-Regular fontsize=14
 
 | Shallow Water Flow Depth $$(m)$$ with Landcover|
 |:---:|
-| ![Shallow water flow depth](/images/governors-island/depth-with-landcover.png) |
+| ![Shallow water flow depth with landcover](/images/governors-island/depth-with-landcover.png) |
 
 | Shallow Water Flow Discharge $$(m^3/s)$$ with Landcover|
 |:---:|
-| ![Shallow water flow discharge](/images/governors-island/discharge-with-landcover.png) |
+| ![Shallow water flow discharge with landcover](/images/governors-island/discharge-with-landcover.png) |
+
+---
+
+## Shallow Water Flow with Vegetation Indices
+
+Vegetation indices such as
+Normalized Difference Vegetation Index (NDVI)
+can be used to classify landcover
+and derive Manning's roughness.
+Derive roughness from NDVI to simulate shallow overland water flow.
+First use the module [i.vi](https://grass.osgeo.org/grass78/manuals/i.vi.html)
+to compute NDVI with the red and near infrared channels
+of the 2018 orthophotograph.
+
+$$NDVI = (NIR - red) / (NIR + red)$$
+
+Then recode the NDVI map
+as Manning's roughness coefficients using
+[r.recode](https://grass.osgeo.org/grass78/manuals/r.recode).
+To recode class values to Manning's n values
+either create a rules file called `roughness.txt`
+with the following values or paste these values
+into the [r.recode](https://grass.osgeo.org/grass78/manuals/r.recode) dialog.
+```
+-1:-0.15:0.001:0.001
+-0.15:0:0.0404:0.0404
+0:0.2:0.2:0.2
+0.2:1:0.368:0.368
+```
+Then simulate shallow water flow
+with spatially variable surface roughness
+using the module
+[r.sim.water](https://grass.osgeo.org/grass78/manuals/r.sim.water.html).
+Set the `man` parameter to your Manning's roughness map derived from NDVI.
+Drape the depth or discharge map over the relief map
+with [r.shade](https://grass.osgeo.org/grass78/manuals/r.shade.html).
+```
+i.vi output=ndvi red=imagery_2018.1 nir=imagery_2018.4
+d.legend raster=ndvi at=5,45,94,96 font=Lato-Bold fontsize=16
+r.recode input=ndvi output=roughness rules=roughness.txt
+r.slope.aspect elevation=elevation dx=dx dy=dy
+r.sim.water elevation=elevation dx=dx dy=dy rain_value=50 man=roughness nwalkers=10000 depth=depth_with_ndvi discharge=discharge_with_ndvi
+r.shade shade=relief color=discharge_with_ndvi output=shaded_discharge_with_ndvi brighten=40
+d.legend raster=discharge_with_ndvi at=60,95,2,3.5 font=Lato-Regular fontsize=14
+```
+
+| Normalized Difference Vegetation Index |
+|:---:|
+| ![Normalized Difference Vegetation Index](/images/governors-island/ndvi.png) |
+
+| Shallow Water Flow Discharge $$(m^3/s)$$ with Landcover from NDVI|
+|:---:|
+| ![Shallow water flow discharge with landcover from NDVI](/images/governors-island/discharge-with-ndvi.png) |
 
 ---
 
