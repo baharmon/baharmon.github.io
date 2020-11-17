@@ -16,7 +16,7 @@ usemathjax: true
 
 ## Hydrological Modeling
 
-This tutorial will introduce hydrological modeling
+This tutorial introduces hydrological modeling
 in <i class="ms ms-grass-gis"></i> GRASS GIS
 using [r.watershed](https://grass.osgeo.org/grass78/manuals/r.watershed.html),
 [r.sim.water](https://grass.osgeo.org/grass78/manuals/r.sim.water.html),
