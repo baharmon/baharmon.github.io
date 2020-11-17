@@ -179,7 +179,7 @@ v.db.update map=census_tracts column=den query_column=population/(ALAND/2589988.
 ---
 
 
-## Choropleth Map
+## Choropleth Maps
 
 Choropleth maps color or pattern
 geographic areas in proportion to an aggregated variable.
@@ -312,6 +312,8 @@ d.legend.vect at=1,98 font=Lato-Light fontsize=48 sub_font=Lato-Medium input=D:\
 m.printws --overwrite input=D:\grassdata\nyspf_govenors_island\hexbin.gxw dpi=300 output=D:\grassdata\nyspf_govenors_island\population_density_hexbin page=Flexi
 ```
 [Hexagonal Binning of Population](/images/nyc/population-density-hexbin.pdf)
+
+---
 
 ## Resources
 
