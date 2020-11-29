@@ -78,7 +78,7 @@ to extract trees from the raster map of landcover.
 ```
 r.mapcalc expression="canopy = if(landcover_2014 == 1, 1, null())"
 ```
-In this expression, we use an `if, then, else` statement.
+In this expression use an `if, then, else` statement.
 If cells in the landcover raster equal 1,
 then write a value of 1 in the new raster,
 else write null values.

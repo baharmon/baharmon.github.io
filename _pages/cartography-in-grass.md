@@ -13,7 +13,7 @@ featured_image: /images/governors-island/landcover-map.png
 
 ---
 
-#W Start GRASS
+## Start GRASS
 
 Download and extract the
 [Governor's Island Dataset for GRASS GIS](https://zenodo.org/record/3940780/files/nyspf_govenors_island.zip?download=1).
@@ -38,7 +38,7 @@ Optionally download and install the free, open source font
 
 ---
 
-#W Render Map Display
+## Render Map Display
 
 Layout a <i class="ms ms-map"></i> map of landcover
 with cartographic elements including a title and legend
@@ -97,7 +97,7 @@ at screen resolution.
 
 ---
 
-#W Print Workspace
+## Print Workspace
 
 To print a higher resolution map as an image or pdf
 use the addon module
