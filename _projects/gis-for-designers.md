@@ -18,7 +18,7 @@ Topics include terrain modeling, hydrology, landscape ecology, and urban analyti
 [<i class="fa fa-calendar"></i> Schedule](gis-for-designers-schedule)
 
 **Videos:**
-[<i class="fab fa-youtube"></i> Youtube](youtube.com/c/BrendanHarmon)
+[<i class="fab fa-youtube"></i> Youtube](https://www.youtube.com/c/BrendanHarmon)
 &
 [<i class="fab fa-vimeo-v"></i> Vimeo](https://vimeo.com/showcase/7356098)
 

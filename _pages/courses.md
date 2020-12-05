@@ -9,15 +9,15 @@ featured_image: images/
 
 ---
 
-[GIS for Designers](gis-for-designers): A guide to Geographic Information Systems for landscape architects, urban planners, and other designers. Topics include terrain modeling, hydrology, landscape ecology, and urban analytics. Software covered includes GRASS GIS, QGIS, and ArcGIS. Tutorials are posted on [<i class="fab fa-youtube"></i>](https://www.youtube.com/playlist?list=PLOZRfOojyTZooO3HMd8dTp8Wk37cdbY6C) Youtube and [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/showcase/7356098) Vimeo.
+[GIS for Designers](gis-for-designers): A guide to Geographic Information Systems for landscape architects, urban planners, and other designers. Topics include terrain modeling, hydrology, landscape ecology, and urban analytics. Software covered includes GRASS GIS, QGIS, and ArcGIS. Tutorials are posted on [<i class="fab fa-youtube"></i>](https://www.youtube.com/c/BrendanHarmon) Youtube and [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/showcase/7356098) Vimeo.
 
 ---
 
-[Generative Landscapes](generative-landscapes): A guide to visual programming for 3D modeling, geospatial modeling, and geospatial analysis of landscapes. Software covered includes Rhino, Grasshopper, GRASS GIS, ArcGIS, and Metashape. Tutorials are posted on [<i class="fab fa-youtube"></i>](https://www.youtube.com/playlist?list=PLOZRfOojyTZq7UyGd-uTx1HfQ2g3Bdo5y) Youtube and [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/showcase/7366606) Vimeo.
+[Generative Landscapes](generative-landscapes): A guide to visual programming for 3D modeling, geospatial modeling, and geospatial analysis of landscapes. Software covered includes Rhino, Grasshopper, GRASS GIS, ArcGIS, and Metashape. Tutorials are posted on [<i class="fab fa-youtube"></i>](https://www.youtube.com/c/BrendanHarmon) Youtube and [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/showcase/7366606) Vimeo.
 
 ---
 
-[Digital Landscapes](digital-landscapes): An introduction to 3D modeling and 3D rendering landscapes. Software covered includes Rhino, Lumion, Thea Render, and Adobe CC. Tutorials are posted on [<i class="fab fa-youtube"></i>](https://www.youtube.com/playlist?list=PLOZRfOojyTZpMqTLmKCTasF9LkPIYLoHQ) Youtube and [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/showcase/7366624) Vimeo.
+[Digital Landscapes](digital-landscapes): An introduction to 3D modeling and 3D rendering landscapes. Software covered includes Rhino, Lumion, Thea Render, and Adobe CC. Tutorials are posted on [<i class="fab fa-youtube"></i>](https://www.youtube.com/c/BrendanHarmon) Youtube and [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/showcase/7366624) Vimeo.
 
 ---
 
