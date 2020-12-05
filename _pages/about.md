@@ -72,7 +72,7 @@ Assistant Professor of Landscape Architecture
 
 [<i class="fa fa-university"></i> Louisiana State University](https://design.lsu.edu/faculty/brendan-harmon/)
 
-[<i class="fa fa-graduation-cap"></i> Curriculum Vitae](https://github.com/baharmon/curriculum-vitae/blob/master/baharmon_cv.pdf)
+[<i class="fa fa-graduation-cap"></i> Curriculum Vitae](https://github.com/baharmon/curriculum-vitae/blob/master/baharmon-vitae.pdf)
 
  ---
 
