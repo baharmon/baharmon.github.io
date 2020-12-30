@@ -6,16 +6,64 @@ featured_image: /images/baharmon-round.png
 useleaflet: true
 ---
 
+### Brendan Harmon
+Assistant Professor of Landscape Architecture
+
+[<i class="fa fa-university"></i> Louisiana State University](https://design.lsu.edu/faculty/brendan-harmon/)
+
+[<i class="fa fa-graduation-cap"></i> Curriculum Vitae](https://github.com/baharmon/curriculum-vitae/blob/master/baharmon-vitae.pdf)
+
+ ---
+
+#### Research Interests
+
+* Geographic information systems
+* Geospatial modeling and simulation
+* Drone data analytics
+* Generative design
+* Digital fabrication
+* Ecological robotics
+
+---
+
+#### Links
+
+<i class="fab fa-github"></i>
+[GitHub](https://github.com/baharmon/)
+
+<i class="ai ai-orcid"></i>
+[OrcID](http://orcid.org/0000-0002-6218-9318)
+
+<i class="ai ai-researchgate"></i>
+[ResearchGate](https://www.researchgate.net/profile/Brendan_Harmon2)
+
+<i class="ai ai-osf"></i>
+[Open Science Framework](https://osf.io/xhvp4/)
+
+<i class="fas fa-cube"></i>
+[Sketchfab](https://sketchfab.com/lsu-landscape-architecture)
+
+<!--
+<i class="ai ai-academia"></i>
+[Academia](http://lsu.academia.edu/BrendanHarmon)
+-->
+
+---
+
+&nbsp;
 <style>
 #toner-map { height: 500px; }
 </style>
 
-<div id="toner-map"></div>
+<div id="toner-map">
+</div>
 
 <script
   src="https://code.jquery.com/jquery-3.5.1.min.js"
   integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
-  crossorigin="anonymous"></script>
+  crossorigin="anonymous">
+</script>
+
 
 <script>
 
@@ -65,45 +113,3 @@ $.getJSON("data/projects.geojson",function(data){
 });
 
 </script>
-
-## Brendan Harmon
-
-Assistant Professor of Landscape Architecture
-
-[<i class="fa fa-university"></i> Louisiana State University](https://design.lsu.edu/faculty/brendan-harmon/)
-
-[<i class="fa fa-graduation-cap"></i> Curriculum Vitae](https://github.com/baharmon/curriculum-vitae/blob/master/baharmon-vitae.pdf)
-
- ---
-
-
-## Research Interests
-
-* Geographic information systems
-* Geospatial modeling and simulation
-* Drone data analytics
-* Generative design
-* Digital fabrication
-* Ecological robotics
-
----
-
-## Links
-
-<i class="fab fa-github"></i>
-[GitHub](https://github.com/baharmon/)
-
-<i class="ai ai-osf"></i>
-[Open Science Framework](https://osf.io/xhvp4/)
-
-<i class="ai ai-orcid"></i>
-[OrcID](http://orcid.org/0000-0002-6218-9318)
-
-<i class="ai ai-researchgate"></i>
-[ResearchGate](https://www.researchgate.net/profile/Brendan_Harmon2)
-
-<i class="ai ai-academia"></i>
-[Academia](http://lsu.academia.edu/BrendanHarmon)
-
-<i class="fas fa-cube"></i>
-[Sketchfab](https://sketchfab.com/lsu-landscape-architecture)

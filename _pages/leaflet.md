@@ -6,13 +6,9 @@ featured_image: /images/
 useleaflet: true
 ---
 
-# Leaflet
-Webmapping with Leaflet
-
----
-
 ## Leaflet Map of London
 
+&nbsp;
 <style>
 #map { height: 500px; }
 </style>
@@ -36,6 +32,7 @@ accessToken: 'pk.eyJ1IjoiYmFoYXJtb24iLCJhIjoiY2tnYnF1eW14MGpqejJ0cXFjbnI2c3k1biJ
 
 ## Stamen Toner
 
+&nbsp;
 <style>
 #toner-map { height: 500px; }
 </style>
@@ -78,6 +75,7 @@ L.marker([30.4, -91.1], {
 
 ## Project Map with Sidebar
 
+&nbsp;
 <style>
 #project-map { height: 500px; }
 </style>

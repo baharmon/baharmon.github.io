@@ -63,7 +63,9 @@ Black, Josh, Peihong Han, Chadd Hippensteel, Xiaoman Ji, Sophie Lott, Murong Xu,
 
 Hammons, Hayden, Taylor Jacobson, Nguyet Nguyen, Elizabeth Peterson, Tanvi Shah, Xi Stich, Andrew Wright, and Brendan Harmon. 2019. “The Hungry River: Designing a Future for the Amite River’s Former Sand and Gravel Mines.” LSU Coastal Sustainability Studio, Baton Rouge, LA.
 
-Levine, Jay, Christopher Eads, Karl Wegmann, Helena Mitasova, Nathan Lyons, Brendan Harmon, Chanelle McCarther, Samantha Peart, Nicholas Oberle, and Mike Walter. 2018. “Freshwater Bivalve Survey for Endangered Species Branch Fort Bragg, NC.” [https://doi.org/10.13140/RG.2.2.17512.11521](https://doi.org/10.13140/RG.2.2.17512.11521).
+Levine, Jay, Christopher Eads, Karl Wegmann, Helena Mitasova, Nathan Lyons, Brendan Harmon, Chanelle McCarther, Samantha Peart, Nicholas Oberle, and Mike Walter. 2018. “Freshwater Bivalve Survey for Endangered Species Branch Fort Bragg, NC.” Technical Report. US Army Corps of Engineers. [https://doi.org/10.13140/RG.2.2.17512.11521](https://doi.org/10.13140/RG.2.2.17512.11521).
+
+Meentemeyer, Ross K, Francesco Tonini, Douglas Shoemaker, Richard C Cobb, Brendan A Harmon, Vaclav Petras, Anna Petrasova, Helena Mitasova. 2017. "Collaboratively Managing Sudden Oak Death Using Tangible Geospatial Modeling." Proceedings of the sudden oak death sixth science symposium. General Technical Report GTR-PSW-255. US Forest Service, Pacific Southwest Research Station. eds. Susan J. Frankel and Katharine M. Harrell. [https://www.fs.usda.gov/treesearch/pubs/53992](https://www.fs.usda.gov/treesearch/pubs/53992).
 
 ---
 
@@ -71,7 +73,7 @@ Levine, Jay, Christopher Eads, Karl Wegmann, Helena Mitasova, Nathan Lyons, Bren
 
 Jeziorska, Justyna and Brendan Harmon. 2018. "Unmanned Aerial Systems Workshop". Hilltop Arboretum, Baton Rouge, LA.
 
-Petrasova, Anna, Vaclav Petras, Brendan A Harmon, and Helena Mitasova. 2016. “Using GRASS GIS through Python and Tangible Interfaces.” In FOSS4G NA 2016. Raleigh, NC. [https://grasswiki.osgeo.org/](https://grasswiki.osgeo.org/wiki/Using_GRASS_GIS_through_Python_and_tangible_interfaces_(workshop_at_FOSS4G_NA_2016)).
+Petrasova, Anna, Vaclav Petras, Brendan A Harmon, and Helena Mitasova. 2016. "Using GRASS GIS through Python and Tangible Interfaces." In FOSS4G NA 2016. Raleigh, NC. [https://grasswiki.osgeo.org/](https://grasswiki.osgeo.org/wiki/Using_GRASS_GIS_through_Python_and_tangible_interfaces_(workshop_at_FOSS4G_NA_2016)).
 
 ---
 
@@ -99,13 +101,58 @@ Mitasova, Helena, Brendan A Harmon, and Stephen B Blundell. 2013. “Exploring T
 
 ---
 
-## Sponsored Research
+## Grants
 
-Harmon, Brendan, Hye Yeon Nam, Marcio de Queiroz, Hunter Gilbert, Tracy Quirk. Robots in Nature: Human-Robot-Environment Interaction for Advanced Ecosystem Services. LSU Faculty Research Grant. Louisiana State University. 2019-2021. $72,500.
+Serrano, Nicholas and Brendan Harmon.
+Rosedown Plantation 3D Scan and Documentation.
+Historic Preservation Fund Grant. National Park Service.
+2020-2021. $39,903.
 
-Carney, Jeff et al. [Inland from the Coast: A multi-scalar approach to regional climate change responses](https://css.lsu.edu/project/inland-from-the-coast/). Gulf Research Program. National Academy of Science & Robert Wood
-Johnson Foundation. 2017-2020. $2,936,000. Award: 2000008299.
+Nam, Hye Yeon, Corina Barbalata, Brendan Harmon, Hunter Gilbert, and Marcio de Queiroz.
+Robots in Nature: Creative Environmental Applications for Robotics.
+Collaborative Seminar Grant. LSU Center for Collaborative Knowledge.
+2020-2021. $3,500.
 
-Birch, Traci, Kris Palagi, and Brendan Harmon. [Improving Quality of Life in the Amite River Watershed through Strategic Community-level Green Infrastructure Planning](https://css.lsu.edu/project/strategic-community-level-green-infrastructure-planning-for-the-amite-river-watershed/). Lamar Family Foundation. 2018-2019. $100,000.
+Serrano, Nicholas, Brendan Harmon, Christopher Cox, Amy Luther, and Kory Konsoer.
+Tangibly Teaching Terrain with Mixed Reality Terrain Models.
+Collaborative Seminar Grant. LSU Center for Collaborative Knowledge.
+2020-2021. $3,500.
 
-Brendan Harmon. Dynamic Landscape Evolution. LSU Council on Research Summer Stipend. Louisiana State University. 2018. $5,000.
+Harmon, Brendan, Hye Yeon Nam, Corina Barbalata, Hunter Gilbert, and Marcio de Queiroz.
+Ecological Robotics.
+LSU Student Technology Fee. Louisiana State University.
+2019-2020. $77,000.
+
+Harmon, Brendan, Hye Yeon Nam, Marcio de Queiroz, Hunter Gilbert, Tracy Quirk.
+Robots in Nature: Human-Robot-Environment Interaction for Advanced Ecosystem Services.
+LSU Faculty Research Grant. Louisiana State University.
+2019-2021. $72,500.
+
+Berkowitz, Zak et al. Navigate, Fabricate, Simulate.
+LSU Student Technology Fee. Louisiana State University.
+2018-2019. $120,000.
+
+Birch, Traci, Kris Palagi, and Brendan Harmon.
+[Improving Quality of Life in the Amite River Watershed through Strategic Community-level Green Infrastructure Planning](https://css.lsu.edu/project/strategic-community-level-green-infrastructure-planning-for-the-amite-river-watershed/).
+Lamar Family Foundation.
+2018-2019. $100,000.
+
+Brendan Harmon. Dynamic Landscape Evolution.
+LSU Council on Research Summer Stipend.
+Louisiana State University. 2018. $5,000.
+
+Berkowitz, Zak et al.
+The Mixed Reality Garage: Labs for the Future of Art and Design.
+LSU Student Technology Fee. Louisiana State University.
+2017-2018. $116,559.
+
+de Queiroz, Marcio, Hunter Gilbert, Jason Crow, Derick Ostrenko, Brendan Harmon, and Hye Yeon Nam.
+LSU Robotics = Engineering + Art + Design.
+LSU Student Technology Fee. Louisiana State University.
+2017-2018. $83,325.
+
+Carney, Jeff et al.
+[Inland from the Coast: A multi-scalar approach to regional climate change responses](https://css.lsu.edu/project/inland-from-the-coast/).
+Gulf Research Program.
+National Academy of Science & Robert Wood Johnson Foundation.
+2017-2020. $2,936,000. Award: 2000008299.
