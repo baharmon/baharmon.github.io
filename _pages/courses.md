@@ -56,14 +56,14 @@ A brief introduction to tools for open spatial science.
 
 | Course | Syllabus |
 | -------|:-------:|
-| LA 2101 Landscape Representation III | [2018](https://github.com/baharmon/syllabi/blob/master/3d-modeling-syllabus-2018.pdf?raw=true), [2019](https://github.com/baharmon/syllabi/blob/master/3d-modeling-syllabus-2019.pdf), [2020](https://github.com/baharmon/syllabi/blob/master/digital-landscapes-syllabus-2020.pdf?raw=true) |
+| LA 2101 Landscape Representation III | [2018](https://github.com/baharmon/syllabi/blob/master/digital-landscapes-syllabus-2018.pdf?raw=true), [2019](https://github.com/baharmon/syllabi/blob/master/digital-landscapes-syllabus-2019.pdf), [2020](https://github.com/baharmon/syllabi/blob/master/digital-landscapes-syllabus-2020.pdf?raw=true), [2021](https://github.com/baharmon/syllabi/blob/master/digital-landscapes-syllabus-2021.pdf?raw=true) |
 | LA 4201 GIS for Designers | [2019](https://github.com/baharmon/syllabi/blob/master/gis-for-designers-syllabus-2019.pdf?raw=true), [2020](https://github.com/baharmon/syllabi/blob/master/gis-for-designers-syllabus-2020.pdf?raw=true) |
-| LA 7102 Graduate Representation II | [2018](https://github.com/baharmon/syllabi/blob/master/3d-modeling-syllabus-2018.pdf?raw=true), [2019](https://github.com/baharmon/syllabi/blob/master/3d-modeling-syllabus-2019.pdf?raw=true), [2020](https://github.com/baharmon/syllabi/blob/master/digital-landscapes-syllabus-2020.pdf?raw=true) |
+| LA 7102 Graduate Representation II | [2018](https://github.com/baharmon/syllabi/blob/master/digital-landscapes-syllabus-2018.pdf?raw=true), [2019](https://github.com/baharmon/syllabi/blob/master/digital-landscapes-syllabus-2019.pdf?raw=true), [2020](https://github.com/baharmon/syllabi/blob/master/digital-landscapes-syllabus-2020.pdf?raw=true), [2021](https://github.com/baharmon/syllabi/blob/master/digital-landscapes-syllabus-2021.pdf?raw=true) |
 | LA 7031 Water Systems Studio | [2018](https://github.com/baharmon/syllabi/blob/master/water-systems-syllabus-2018.pdf?raw=true) |
-| LA 7032 Graduate Representation III | [2017](https://github.com/baharmon/syllabi/blob/master/geospatial-modeling-syllabus-2017.pdf?raw=true), [2018](https://github.com/baharmon/syllabi/blob/master/geospatial-modeling-syllabus-2018.pdf?raw=true), [2020](https://github.com/baharmon/syllabi/blob/master/generative-landscapes-syllabus-2020.pdf?raw=true) |
+| LA 7032 Graduate Representation III | [2017](https://github.com/baharmon/syllabi/blob/master/generative-landscapes-syllabus-2017.pdf?raw=true), [2018](https://github.com/baharmon/syllabi/blob/master/generative-landscapes-syllabus-2018.pdf?raw=true), [2020](https://github.com/baharmon/syllabi/blob/master/generative-landscapes-syllabus-2020.pdf?raw=true), [2021](https://github.com/baharmon/syllabi/blob/master/generative-landscapes-syllabus-2021.pdf?raw=true) |
 | LA 7051 Advanced Topics Studio | [2019](https://github.com/baharmon/syllabi/blob/master/giant-panda-syllabus-2019.pdf), [2020](https://github.com/baharmon/syllabi/blob/master/giant-panda-syllabus-2019.pdf?raw=true) |
 | LA 7055 GIS for Designers | [2019](https://github.com/baharmon/syllabi/blob/master/gis-for-designers-syllabus-2019.pdf?raw=true), [2020](https://github.com/baharmon/syllabi/blob/master/gis-for-designers-syllabus-2020.pdf?raw=true) |
-| LA 7504 Special Topics: Ecological Robotics | [2020](https://github.com/baharmon/syllabi/blob/master/generative-fabrication-syllabus-2020.pdf?raw=true) |
+| LA 7504 Ecological Robotics | [2020](https://github.com/baharmon/syllabi/blob/master/generative-fabrication-syllabus-2020.pdf?raw=true) |
 | DART 7003 Digital Culture Seminar | [ 2018](https://github.com/baharmon/syllabi/blob/master/digital-culture-syllabus-2018.pdf?raw=true) |
 
 ---

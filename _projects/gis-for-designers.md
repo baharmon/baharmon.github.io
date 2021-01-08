@@ -14,8 +14,6 @@ Topics include terrain modeling, hydrology, landscape ecology, and urban analyti
 
 **Syllabus:**
 [<i class="fa fa-graduation-cap"></i> GIS for Designers 2020](https://github.com/baharmon/syllabi/blob/master/gis-for-designers-syllabus-2020.pdf?raw=true)
-&
-[<i class="fa fa-calendar"></i> Schedule](gis-for-designers-schedule)
 
 **Videos:**
 [<i class="fab fa-youtube"></i> Youtube](https://www.youtube.com/c/BrendanHarmon)
@@ -25,7 +23,8 @@ Topics include terrain modeling, hydrology, landscape ecology, and urban analyti
 **Software:**
 [<i class="ms ms-grass-gis"></i> GRASS GIS](https://grass.osgeo.org/),
 [<i class="ms ms-qgis"></i> QGIS](https://qgis.org/),
-[<i class="ms ms-shp"></i> ArcGIS](https://www.esri.com/), &
+[<i class="ms ms-shp"></i> ArcGIS](https://www.esri.com/),
+&
 [Rhino](https://www.rhino3d.com/)
 
 ---

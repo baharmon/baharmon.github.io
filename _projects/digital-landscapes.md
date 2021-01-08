@@ -8,11 +8,12 @@ featured_image: /images/strange-attractor-8.jpg
 ![Strange attractor](/images/strange-attractor-8.jpg)
 
 ## Introduction
-
-A course on 3D modeling and rendering landscapes for landscape architects.
+A course on 3D modeling and rendering for landscape architects.
 
 **Syllabus:**
-[<i class="fa fa-graduation-cap "></i> Digital Landscapes 2020](https://github.com/baharmon/syllabi/blob/master/digital-landscapes-syllabus-2020.pdf?raw=true)
+[<i class="fa fa-graduation-cap"></i> 2020](https://github.com/baharmon/syllabi/blob/master/digital-landscapes-syllabus-2020.pdf?raw=true)
+&
+[<i class="fa fa-graduation-cap"></i> 2021](https://github.com/baharmon/syllabi/blob/master/digital-landscapes-syllabus-2021.pdf?raw=true)
 
 **Videos:**
 [<i class="fab fa-youtube"></i> Youtube](https://www.youtube.com/playlist?list=PLOZRfOojyTZpMqTLmKCTasF9LkPIYLoHQ)
@@ -21,8 +22,11 @@ A course on 3D modeling and rendering landscapes for landscape architects.
 
 **Software:**
 [Rhino](https://www.rhino3d.com/),
-[Thea for Rhino](https://www.thearender.com/products/thea-for-rhino/),
-& [Lumion](https://lumion.com/)
+[Grasshopper](https://www.grasshopper3d.com/),
+[Thea Render](https://www.thearender.com/),
+[Enscape](https://enscape3d.com/),
+&
+[Lumion](https://lumion.com/)
 
 ---
 
