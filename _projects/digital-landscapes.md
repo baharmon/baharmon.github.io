@@ -30,6 +30,15 @@ A course on 3D modeling and rendering for landscape architects.
 
 ---
 
+## Grasshopper
+
+* [<i class="fas fa-project-diagram"></i>](https://github.com/baharmon/generative-design/raw/main/grasshopper/basics.gh)
+[An Introduction to Grasshopper](basics)
+* [<i class="fas fa-project-diagram"></i>](https://github.com/baharmon/generative-design/raw/main/grasshopper/parametric-bench.gh)
+[Parametric Bench](parametric-bench)
+
+---
+
 ## Tutorials
 
 
