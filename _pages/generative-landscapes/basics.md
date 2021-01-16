@@ -1,7 +1,6 @@
 ---
 title: An Introduction to Grasshopper
 subtitle: Modeling points, lines, curves, and surfaces in Grasshopper
-featured_image: /images/grasshopper/
 usemathjax: true
 ---
 
@@ -200,9 +199,36 @@ Double click on the `Boolean Toggle` to change its state from true to false.
 
 ## Curves
 
+Non-uniform rational basis spline (NURBS)
+curves are interpolated through a set of control points.
+To draw a curve place an
 [Interpolate](https://grasshopperdocs.com/components/grasshoppercurve/interpolate.html)
+component and connect its input `vertices` parameter to a set of points.
+Points for a curve can be created from x, y, z coordinates with the
+[Construct Point](https://grasshopperdocs.com/components/grasshoppervector/constructPoint.html)
+component or a `Panel` parameter,
+drawn in Rhino and referenced with a `Point` parameter,
+or generated from a trigonometric function such as a sine wave.
+`Point` parameters can easily to be edited using the gumball
+to change the shape of the curve.
 
 ![Curve](/images/grasshopper/basics-program-11.png)
+
+To create a curve from a sine wave
+first generate a range of values from for example 0 to 10 using the
+[Range](http://grasshopperdocs.com/components/grasshoppersets/range.html)
+component.
+Connect the range to the x coordinate of a
+[Construct Point](https://grasshopperdocs.com/components/grasshoppervector/constructPoint.html)
+component.
+Also connect the range to a
+[Sine](https://grasshopperdocs.com/components/grasshoppermaths/sine.html)
+component and then connect the output of the sine function
+to the z coordinate of the `Construct Point` component.
+Connect the point to the `Vertices` input parameter of an
+[Interpolate](https://grasshopperdocs.com/components/grasshoppercurve/interpolate.html)
+component.
+Try changing the domain, frequency, and amplitude of the sine wave.
 
 ![Curve](/images/grasshopper/basics-program-12.png)
 
@@ -214,9 +240,22 @@ Double click on the `Boolean Toggle` to change its state from true to false.
 
 ## Surfaces
 
-[Ruled Surface](https://grasshopperdocs.com/components/grasshoppersurface/ruledSurface.html)
+NURBS surfaces are interpolated through a 2-dimensional grid of control points.
+Primitive surfaces can be generated with components such as
+[Plane Surface](https://grasshopperdocs.com/components/grasshoppersurface/planeSurface.html),
+[Box 2Pt](https://grasshopperdocs.com/components/grasshoppersurface/box2Pt.html), and
+[Center Box](https://grasshopperdocs.com/components/grasshoppersurface/centerBox.html).
+Freeform surfaces can be generated with components such as
+[Boundary Surfaces](https://grasshopperdocs.com/components/grasshoppersurface/boundarySurfaces.html),
+[Ruled Surface](https://grasshopperdocs.com/components/grasshoppersurface/ruledSurface.html),
+and
+[Loft](http://grasshopperdocs.com/components/grasshoppersurface/loft.html).
 
-[Loft](http://grasshopperdocs.com/components/grasshoppersurface/loft.html)
+
+Create planar surfaces from planar curves with
+[Boundary Surfaces](https://grasshopperdocs.com/components/grasshoppersurface/boundarySurfaces.html)
+or as primitives with components like
+[Plane Surface](https://grasshopperdocs.com/components/grasshoppersurface/planeSurface.html).
 
 ![Surface](/images/grasshopper/basics-program-14.png)
 
@@ -226,11 +265,21 @@ Double click on the `Boolean Toggle` to change its state from true to false.
 
 ![Surface](/images/grasshopper/basics-program-17.png)
 
+Create solids either by extruding surfaces with
+[Extrude](https://grasshopperdocs.com/components/grasshoppersurface/extrude.html)
+or as primitives such boxes or spheres.
+
 ![Surface](/images/grasshopper/basics-program-18.png)
 
 ![Surface](/images/grasshopper/basics-program-19.png)
 
 ![Surface](/images/grasshopper/basics-program-20.png)
+
+Freeform surfaces can be constructed from multiple curves
+with components like
+[Ruled Surface](https://grasshopperdocs.com/components/grasshoppersurface/ruledSurface.html),
+and
+[Loft](http://grasshopperdocs.com/components/grasshoppersurface/loft.html).
 
 ![Surface](/images/grasshopper/basics-program-21.png)
 

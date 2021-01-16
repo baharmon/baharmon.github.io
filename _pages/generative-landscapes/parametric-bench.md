@@ -1,7 +1,6 @@
 ---
 title: Parametric Bench
 subtitle: Modeling a parametric bench in Grasshopper
-featured_image: /images/grasshopper/parametric-bench-1.png
 usemathjax: true
 ---
 

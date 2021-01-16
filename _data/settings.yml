@@ -71,14 +71,11 @@ color_settings:
   error_color: '#D64541'
 
 font_settings:
-  # font_embed: '<link href="https://fonts.googleapis.com/css?family=Montserrat:300,500" rel="stylesheet">'
-  # title_font: '"Montserrat", sans-serif'
-  # body_font: '"Montserrat", sans-serif'
-  font_embed: '<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">'
+  font_embed: '<link href="https://fonts.googleapis.com/css?family=Lato:400,600" rel="stylesheet">'
   title_font: '"Lato", sans-serif'
   body_font: '"Lato", sans-serif'
-  regular_weight: 300
-  bold_weight: 500
+  regular_weight: 400
+  bold_weight: 600
   site_title:
     small_size: 25
     medium_size: 35
