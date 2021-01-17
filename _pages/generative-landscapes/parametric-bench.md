@@ -27,6 +27,8 @@ and the height of the bench.
 Download the Grasshopper definition
 [<i class="fas fa-project-diagram"></i>](https://github.com/baharmon/generative-design/raw/main/grasshopper/parametric-bench.gh)
 for this tutorial.
+Watch the video tutorial at
+[<i class="fab fa-youtube"></i>](https://youtu.be/xWUnkSfiCjg).
 
 ---
 

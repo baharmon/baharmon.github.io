@@ -33,13 +33,17 @@ and lidar and drone analytics for landscape architects.
 
 ## Fundamentals
 
-* [<i class="fas fa-project-diagram"></i>](https://github.com/baharmon/generative-design/raw/main/grasshopper/basics.gh)
+* [<i class="fab fa-youtube"></i>](https://youtu.be/bUScH61bAxQ)
+[<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/basics)
+[<i class="fas fa-project-diagram"></i>](https://github.com/baharmon/generative-design/raw/main/grasshopper/basics.gh)
 [An Introduction to Grasshopper](basics)
 
 ---
 
 ## Elements
-* [<i class="fas fa-project-diagram"></i>](https://github.com/baharmon/generative-design/raw/main/grasshopper/parametric-bench.gh)
+* [<i class="fab fa-youtube"></i>](https://youtu.be/xWUnkSfiCjg)
+[<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/parametric-bench)
+[<i class="fas fa-project-diagram"></i>](https://github.com/baharmon/generative-design/raw/main/grasshopper/parametric-bench.gh)
 [Modeling a Parametric Bench](parametric-bench) with Grasshopper
 * [<i class="fas fa-project-diagram"></i>](https://github.com/baharmon/generative-design/raw/main/grasshopper/lungomare-bench.gh)
 Modeling the Lungomare Bench with Grasshopper
