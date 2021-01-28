@@ -8,7 +8,6 @@ featured_image: /images/strange-attractor-8.jpg
 ![Strange attractor](/images/strange-attractor-8.jpg)
 
 ## Introduction
-A course on 3D modeling and rendering for landscape architects.
 
 **Syllabus:**
 [<i class="fa fa-graduation-cap"></i> 2020](https://github.com/baharmon/syllabi/blob/master/digital-landscapes-syllabus-2020.pdf?raw=true)
@@ -28,67 +27,45 @@ A course on 3D modeling and rendering for landscape architects.
 &
 [Lumion](https://lumion.com/)
 
----
-
-## Grasshopper
-
-* [<i class="fab fa-youtube"></i>](https://youtu.be/bUScH61bAxQ)
-[<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/basics)
-[<i class="fas fa-project-diagram"></i>](https://github.com/baharmon/generative-design/raw/main/grasshopper/basics.gh)
-[An Introduction to Grasshopper](basics)
-* [<i class="fab fa-youtube"></i>](https://youtu.be/xWUnkSfiCjg)
-[<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/parametric-bench)
-[<i class="fas fa-project-diagram"></i>](https://github.com/baharmon/generative-design/raw/main/grasshopper/parametric-bench.gh)
-[Parametric Bench](parametric-bench)
 
 ---
 
 ## Tutorials
 
-
+* [<i class="fab fa-youtube"></i>](https://youtu.be/bUScH61bAxQ)
+[<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/basics)
+[<i class="fas fa-project-diagram"></i>](https://github.com/baharmon/generative-design/raw/main/grasshopper/basics.gh)
+[An Introduction to Grasshopper](basics)
+* [<i class="fab fa-youtube"></i>](https://youtu.be/xNiW-MyHwLk)
+[<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/freeform-bench)
+[<i class="ms ms-data-cube"></i>](https://github.com/baharmon/generative-design/raw/main/rhino/freeform-bench/freeform-bench.3dm)
+Freeform Bench in Rhino
+* [<i class="fab fa-youtube"></i>](https://youtu.be/xWUnkSfiCjg)
+[<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/parametric-bench)
+[<i class="fas fa-project-diagram"></i>](https://github.com/baharmon/generative-design/raw/main/grasshopper/parametric-bench.gh)
+[Parametric Bench](parametric-bench) in Grasshopper
+* [<i class="fab fa-youtube"></i>](https://youtu.be/HwCRlvX7lFc)
 [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/modeling-a-bioswale)
-[<i class="fab fa-youtube"></i> Modeling a bioswale in Rhino](https://youtu.be/HwCRlvX7lFc)
-
-Data:
-[bioswale.3dm](https://github.com/baharmon/baharmon.github.io/blob/master/data/bioswale.3dm?raw=true)
-
----
-
+[<i class="ms ms-data-cube"></i>](https://github.com/baharmon/generative-design/raw/main/rhino/bioswale/bioswale-3.3dm)
+Modeling a Bioswale in Rhino
+* [<i class="fab fa-youtube"></i>](https://youtu.be/cJEMJ2shITk)
 [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/rendering-a-bioswale)
-[<i class="fab fa-youtube"></i> Rendering a bioswale in Lumion](https://youtu.be/cJEMJ2shITk)
-
----
-
+Rendering a Bioswale in Lumion
+* [<i class="fab fa-youtube"></i>](https://youtu.be/-Wj3FZnOjs0)
 [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/modeling-a-planter)
-[<i class="fab fa-youtube"></i> Modeling a planter in Rhino](https://youtu.be/-Wj3FZnOjs0)  
-
-Data:
-[planter.3dm](https://github.com/baharmon/baharmon.github.io/blob/master/data/planter.3dm?raw=true)
-
----
-
+[<i class="ms ms-data-cube"></i>](https://github.com/baharmon/generative-design/raw/main/rhino/flow-through-planter/flow-through-planter-2.3dm)
+Modeling a planter in Rhino
+* [<i class="fab fa-youtube"></i>](https://youtu.be/qY6TfyDswFs)
 [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/rendering-a-planter)
-[<i class="fab fa-youtube"></i> Rendering a planter in Lumion](https://youtu.be/qY6TfyDswFs)
-
----
-
+Rendering a planter in Lumion
+* [<i class="fab fa-youtube"></i>](https://youtu.be/ltwXCHx20zU)
 [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/rendering-a-strange-attractor)
-[<i class="fab fa-youtube"></i> Rendering a strange attractor with Thea for Rhino](https://youtu.be/ltwXCHx20zU)
-
-Data:
-[strange-attractor.3dm](https://github.com/baharmon/baharmon.github.io/blob/master/data/strange-attractor.3dm?raw=true)
-
----
-
+[<i class="ms ms-data-cube"></i>](https://github.com/baharmon/generative-design/raw/main/rhino/strange-attractor/strange-attractor-2.3dm)
+Rendering a strange attractor with Thea for Rhino
+* [<i class="fab fa-youtube"></i>](https://youtu.be/lYDG9_4m9kw)
 [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/sculptural-wall)
-[<i class="fab fa-youtube"></i> Rendering a sculptural wall with Thea for Rhino](https://youtu.be/lYDG9_4m9kw)
-
-Data:
-[strange-attractor.3dm](https://github.com/baharmon/baharmon.github.io/blob/master/data/sculptural-wall.3dm?raw=true)
-
----
-
+[<i class="ms ms-data-cube"></i>](https://github.com/baharmon/generative-design/blob/main/rhino/sculptural-wall/sculptural-wall.3dm)
+Rendering a sculptural wall with Thea for Rhino
+* [<i class="fab fa-youtube"></i> ](https://youtu.be/MPoksbmbFt8)
 [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/rendering-a-tree)
-[<i class="fab fa-youtube"></i> Rendering a photorealistic tree with Thea for Rhino](https://youtu.be/MPoksbmbFt8)
-
-Library: [Xfrog Plants](http://xfrog.com/category/libraries.html), free [Xfrog Samples](http://xfrog.com/category/samples.html), or free [Thea Libraries](https://www.thearender.com/resources/libraries/)
+Rendering a photorealistic tree with Thea for Rhino
