@@ -91,10 +91,11 @@ Use the full file path for the input map in the example below.
 
 import grass.script as gscript
 
-gscript.run_command('r.in.gdal',
-  input='surface_2020_03_19.tif',
-  ouput='surface_2020_03_19',
-  overwrite=True)
+gscript.run_command(
+    'r.in.gdal',
+    input='surface_2020_03_19.tif',
+    ouput='surface_2020_03_19',
+    overwrite=True)
 ```
 
 ---
@@ -137,7 +138,9 @@ location = env['LOCATION_NAME']
 mapset = env['MAPSET']
 
 # set path
-data = os.path.join(gisdbase,"hilltop_drone_data")
+data = os.path.join(
+    gisdbase,
+    "hilltop_drone_data")
 
 # set region
 gscript.run_command('g.region', res=0.1)
@@ -187,11 +190,13 @@ location = env['LOCATION_NAME']
 mapset = env['MAPSET']
 
 # list rasters in mapset
-raster_list = gscript.list_grouped('rast', pattern='surface_*')[mapset]
+raster_list = gscript.list_grouped('rast',
+    pattern='surface_*')[mapset]
 
 for raster in raster_list:
     # set region
-    gscript.run_command('g.region',
+    gscript.run_command(
+        'g.region',
         raster=raster,
         res=0.1)
     # set color tables
@@ -251,23 +256,32 @@ location = env['LOCATION_NAME']
 mapset = env['MAPSET']
 
 # list rasters in mapset
-raster_list = gscript.list_grouped('rast', pattern='shaded_relief_*')[mapset]
+raster_list = gscript.list_grouped('rast',
+    pattern='shaded_relief_*')[mapset]
 
 for raster in raster_list:
     # set region
-    gscript.run_command('g.region',
+    gscript.run_command(
+        'g.region',
         raster=raster,
         res=0.1)
     # write map to image file
-    gscript.run_command('d.mon',
+    gscript.run_command(
+        'd.mon',
         start="cairo",
         width=1000,
         height=1000,
-        output=os.path.join(gisdbase, location, raster+'.png'),
+        output=os.path.join(
+            gisdbase,
+            location,
+            raster+'.png'),
         overwrite=overwrite)
-    gscript.run_command('d.rast',
+    gscript.run_command(
+        'd.rast',
         map=raster)
-    gscript.run_command('d.mon', stop="cairo")
+    gscript.run_command(
+        'd.mon',
+        stop="cairo")
 
 ```
 
