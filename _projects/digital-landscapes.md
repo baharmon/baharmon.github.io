@@ -50,6 +50,7 @@ Freeform Bench in Rhino
 Modeling a Bioswale in Rhino
 * [<i class="fab fa-youtube"></i>](https://youtu.be/cJEMJ2shITk)
 [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/rendering-a-bioswale)
+[<i class="ms ms-data-cube"></i>](https://github.com/baharmon/generative-design/raw/main/rhino/bioswale/bioswale-3.3dm)
 Rendering a Bioswale in Lumion
 * [<i class="fab fa-youtube"></i>](https://youtu.be/-Wj3FZnOjs0)
 [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/modeling-a-planter)
@@ -57,6 +58,7 @@ Rendering a Bioswale in Lumion
 Modeling a planter in Rhino
 * [<i class="fab fa-youtube"></i>](https://youtu.be/qY6TfyDswFs)
 [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/rendering-a-planter)
+[<i class="ms ms-data-cube"></i>](https://github.com/baharmon/generative-design/raw/main/rhino/flow-through-planter/flow-through-planter-2.3dm)
 Rendering a planter in Lumion
 * [<i class="fab fa-youtube"></i>](https://youtu.be/ltwXCHx20zU)
 [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/rendering-a-strange-attractor)
@@ -64,8 +66,8 @@ Rendering a planter in Lumion
 Rendering a strange attractor with Thea for Rhino
 * [<i class="fab fa-youtube"></i>](https://youtu.be/lYDG9_4m9kw)
 [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/sculptural-wall)
-[<i class="ms ms-data-cube"></i>](https://github.com/baharmon/generative-design/blob/main/rhino/sculptural-wall/sculptural-wall.3dm)
-Rendering a sculptural wall with Thea for Rhino
+[<i class="ms ms-data-cube"></i>](https://github.com/baharmon/generative-design/raw/main/rhino/sculptural-wall/sculptural-wall.3dm)
+Sculptural wall with Thea for Rhino
 * [<i class="fab fa-youtube"></i> ](https://youtu.be/MPoksbmbFt8)
-[<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/rendering-a-tree)
-Rendering a photorealistic tree with Thea for Rhino
+[<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/photorealistic-tree)
+Photorealistic tree with Thea for Rhino

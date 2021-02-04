@@ -44,15 +44,15 @@ and lidar and drone analytics for landscape architects.
 * [<i class="fab fa-youtube"></i>](https://youtu.be/xWUnkSfiCjg)
 [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/parametric-bench)
 [<i class="fas fa-project-diagram"></i>](https://github.com/baharmon/generative-design/raw/main/grasshopper/parametric-bench.gh)
-[Modeling a Parametric Bench](parametric-bench) with Grasshopper
+[Parametric Bench](parametric-bench) with Grasshopper
 * [<i class="fas fa-project-diagram"></i>](https://github.com/baharmon/generative-design/raw/main/grasshopper/lungomare-bench.gh)
 Lungomare Bench with Grasshopper
-<!-- [Modeling the Lungomare Bench](lungomare-bench) with Grasshopper -->
+<!-- [Lungomare Bench](lungomare-bench) with Grasshopper -->
 * [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/modeling-a-strange-attractor)
 [<i class="fab fa-youtube"></i>](https://youtu.be/gSt_AIKGmaQ)
 [<i class="fas fa-project-diagram"></i>](https://github.com/baharmon/generative-design/raw/main/grasshopper/strange-attractor.gh)
 Strange Attractor with Grasshopper
-<!-- [Modeling a Strange Attractor](strange-attractor) with Grasshopper -->
+<!-- [Strange Attractor](strange-attractor) with Grasshopper -->
 * [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/rendering-a-strange-attractor)
 [<i class="fab fa-youtube"></i>](https://youtu.be/ltwXCHx20zU)
 [<i class="ms ms-data-cube"></i>](https://github.com/baharmon/generative-design/raw/main/grasshopper/models/strange-attractor.3dm)
@@ -80,12 +80,12 @@ Parametric Flagstones with Grasshopper
 [<i class="fab fa-youtube"></i>](https://youtu.be/pV7G3abiA1I)
 [<i class="fas fa-project-diagram"></i> ](https://github.com/baharmon/generative-design/raw/main/grasshopper/parametric-tree.gh)
 Parametric Tree with Grasshopper
-<!-- [Modeling a Parametric Tree](parametric-tree) with Grasshopper -->
+<!-- [Parametric Tree](parametric-tree) with Grasshopper -->
 * [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/linear-array)
 [<i class="fab fa-youtube"></i> ](https://youtu.be/Y9H4kW3GJ-w)
-[<i class="fas fa-project-diagram"></i> ](https://github.com/baharmon/generative-design/raw/main/grasshopper/parametric-tree.gh)
+[<i class="fas fa-project-diagram"></i> ](https://github.com/baharmon/generative-design/raw/main/grasshopper/linear-array.gh)
 Linear Array of Trees with Grasshopper
-<!-- [Modeling a Linear Array of Trees](linear-array) with Grasshopper -->
+<!-- [Linear Array of Trees](linear-array) with Grasshopper -->
 * [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/curve-array)
 [<i class="fab fa-youtube"></i>](https://youtu.be/KrLwjKwKZrc)
 [<i class="fas fa-project-diagram"></i> ](https://github.com/baharmon/generative-design/raw/main/grasshopper/curve-array.gh)
@@ -95,49 +95,54 @@ Arraying Trees Along a Path with Grasshopper
 [<i class="fab fa-youtube"></i>](https://youtu.be/qH2-CI4rSAs)
 [<i class="fas fa-project-diagram"></i> ](https://github.com/baharmon/generative-design/raw/main/grasshopper/parametric-grove.gh)
 Parametric Grid of Trees with Grasshopper
-<!-- [Modeling a Parametric Grid of Trees](parametric-grove) with Grasshopper -->
+<!-- [Parametric Grid of Trees](parametric-grove) with Grasshopper -->
+* [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/forest-gradient)
+[<i class="fab fa-youtube"></i>](https://youtu.be/m8PqarIRj4A)
+[<i class="fas fa-project-diagram"></i> ](https://github.com/baharmon/generative-design/raw/main/grasshopper/forest-gradient.gh)
+Gradient of Trees with Grasshopper
+<!-- [Gradient of Trees](parametric-grove) with Grasshopper -->
 * [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/parametric-forest)
 [<i class="fab fa-youtube"></i>](https://youtu.be/m8PqarIRj4A)
 [<i class="fas fa-project-diagram"></i> ](https://github.com/baharmon/generative-design/raw/main/grasshopper/ecological-gradient.gh)
 Ecological Gradient with Grasshopper
-<!-- [Modeling an Ecological Gradient](ecological-gradient) with Grasshopper -->
+<!-- [Ecological Gradient](ecological-gradient) with Grasshopper -->
 * [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/particle-forest)
 [<i class="fab fa-youtube"></i>](https://youtu.be/alTlA6oDXq0)
 [<i class="fas fa-project-diagram"></i> ](https://github.com/baharmon/generative-design/raw/main/grasshopper/particle-forest.gh)
 Forest from Particle System with Grasshopper
-<!-- [Modeling a Forest from a Particle System](particle-forest) with Grasshopper -->
-* [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/rendering-a-tree)
+<!-- [Forest from Particle System](particle-forest) with Grasshopper -->
+* [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/photorealistic-tree)
 [<i class="fab fa-youtube"></i>](https://youtu.be/MPoksbmbFt8)
 Photorealistic Tree with Thea for Rhino
-<!-- [Rendering a Photorealistic Tree](rendered-tree) with Thea for Rhino -->
+<!-- [Photorealistic Tree](rendered-tree) with Thea for Rhino -->
 * [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/random-meadow)
 [<i class="fab fa-youtube"></i> ](https://youtu.be/tvF8LVJp6DA)
 [<i class="fas fa-project-diagram"></i>](https://github.com/baharmon/generative-design/raw/main/grasshopper/random-meadow.gh)
 Random Meadow with Grasshopper
-<!-- [Rendering a Random Meadow](random-meadow) with Grasshopper -->
+<!-- [Random Meadow](random-meadow) with Grasshopper -->
 * [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/rendered-grove)
 [<i class="fab fa-youtube"></i>](https://youtu.be/S4ui7_0CCm0)
 [<i class="fas fa-project-diagram"></i>](https://github.com/baharmon/generative-design/raw/main/grasshopper/rendered-grove.gh)
 Rendering a Grove with Grasshopper
-<!-- [Rendering a Random Grove](rendered-grove) with Grasshopper -->
+<!-- [Rendering a Grove](rendered-grove) with Grasshopper -->
 * [<i class="fas fa-project-diagram"></i>](https://github.com/baharmon/generative-design/raw/main/grasshopper/random-grove.gh)
 Random Grove with Grasshopper
-<!-- [Modeling a Random Grove](random-grove) with Grasshopper -->
+<!-- [Random Grove](random-grove) with Grasshopper -->
 * [<i class="fas fa-project-diagram"></i>](https://github.com/baharmon/generative-design/raw/main/grasshopper/random-forest.gh)
 Random Forest with Grasshopper
-<!-- [Modeling a Random Forest](random-forest) with Grasshopper -->
+<!-- [Random Forest](random-forest) with Grasshopper -->
 * [<i class="fas fa-project-diagram"></i>](https://github.com/baharmon/generative-design/raw/main/grasshopper/ecological-attractors.gh)
 Ecological Attractors with Grasshopper
 <!-- [Ecological Attractors](ecological-attractors) with Grasshopper -->
 * [<i class="fas fa-project-diagram"></i>](https://github.com/baharmon/generative-design/raw/main/grasshopper/recursive-tree.gh)
 Recursive Tree with Grasshopper
-<!-- [Modeling a Recursive Tree](recursive-tree) with Grasshopper -->
+<!-- [Recursive Tree](recursive-tree) with Grasshopper -->
 * [<i class="fas fa-project-diagram"></i>](https://github.com/baharmon/generative-design/raw/main/grasshopper/drifting-meadow.gh)
 Drifts of Planting with Grasshopper
-<!-- [Modeling a Drifts of Planting](drifting-meadow) with Grasshopper -->
+<!-- [Drifts of Planting](drifting-meadow) with Grasshopper -->
 * [<i class="fas fa-project-diagram"></i>](https://github.com/baharmon/generative-design/raw/main/grasshopper/noise-forestry.gh)
 Forests from Noise with Grasshopper
-<!-- [Modeling Forests from Noise](noise-forestry) with Grasshopper -->
+<!-- [Forests from Noise](noise-forestry) with Grasshopper -->
 
 ---
 
@@ -189,4 +194,4 @@ Exporting Terrain from Grasshopper
 
 * [<i class="fas fa-project-diagram"></i>](https://github.com/baharmon/generative-design/raw/main/grasshopper/noise-garden.gh)
 Garden from Noise with Grasshopper
-<!-- [Modeling a Garden from Noise](noise-garden) with Grasshopper -->
+<!-- [Garden from Noise](noise-garden) with Grasshopper -->
