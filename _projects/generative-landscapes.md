@@ -66,8 +66,7 @@ Rendering a Strange Attractor with Thea for Rhino
 * [<i class="fas fa-project-diagram"></i>](https://github.com/baharmon/generative-design/raw/main/grasshopper/parametric-paving.gh)
 [Parametric Paving](parametric-paving) with Grasshopper
 * [<i class="fas fa-project-diagram"></i>](https://github.com/baharmon/generative-design/raw/main/grasshopper/random-paving.gh)
-Random Paving with Grasshopper
-<!-- [Random Paving](random-paving) with Grasshopper -->
+[Random Paving](random-paving) with Grasshopper
 * [<i class="fas fa-project-diagram"></i>](https://github.com/baharmon/generative-design/raw/main/grasshopper/parametric-flagstones.gh)
 Parametric Flagstones with Grasshopper
 <!-- [Parametric Flagstones](parametric-flagstones) with Grasshopper -->

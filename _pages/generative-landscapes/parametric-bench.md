@@ -4,7 +4,7 @@ subtitle: Modeling a parametric bench in Grasshopper
 usemathjax: true
 ---
 
-![Image](/images/grasshopper/parametric-bench-1.png)
+![Image](/images/parametric-bench/parametric-bench-1.png)
 
 **Contents**
 * TOC
@@ -56,7 +56,7 @@ Use the gumballs to move the points and morph the surface.
 Try to create areas with different ergonomics such as
 a long flat stretch or a concave area.
 
-![Surface](/images/grasshopper/parametric-bench-program-1.png)
+![Surface](/images/parametric-bench/parametric-bench-program-1.png)
 
 
 ## Extrusion
@@ -68,7 +68,7 @@ Then
 the surface of the bench down on the z-axis to give it a thickness.
 The bench now has width, height, and thickness parameters.
 
-![Extrusion](/images/grasshopper/parametric-bench-program-2.png)
+![Extrusion](/images/parametric-bench/parametric-bench-program-2.png)
 
 ---
 
@@ -99,7 +99,7 @@ component and connect that to the
 [extrude](https://grasshopperdocs.com/components/grasshoppersurface/extrude.html)
 component to reverse the direction of extrusion for the second leg of the bench.
 
-![Legs](/images/grasshopper/parametric-bench-program-3.png)
+![Legs](/images/parametric-bench/parametric-bench-program-3.png)
 
 ---
 
@@ -128,9 +128,9 @@ the geometry to subtract with.
 Add a custom preview with a color swatch
 to better visualize your design.
 
-![Solid Modeling](/images/grasshopper/parametric-bench-program-4.png)
+![Solid Modeling](/images/parametric-bench/parametric-bench-program-4.png)
 
-![Custom Preview](/images/grasshopper/parametric-bench-program-5.png)
+![Custom Preview](/images/parametric-bench/parametric-bench-program-5.png)
 
 ---
 
@@ -157,9 +157,9 @@ Use the
 command to start a rendering.
 When it finishes use hit `save image as` to export a `.png.`
 
-![Parametric Bench](/images/grasshopper/parametric-bench-3.png)
+![Parametric Bench](/images/parametric-bench/parametric-bench-3.png)
 
-![Parametric Bench](/images/grasshopper/parametric-bench-4.png)
+![Parametric Bench](/images/parametric-bench/parametric-bench-4.png)
 
 ---
 
@@ -190,6 +190,6 @@ Download the
 [<i class="fas fa-cube"></i>](https://github.com/baharmon/generative-design/raw/main/grasshopper/models/parametric-bench.3dm)
 Rhino model with Thea Render settings.
 
-![Parametric Bench](/images/grasshopper/parametric-bench-1.png)
+![Parametric Bench](/images/parametric-bench/parametric-bench-1.png)
 
-![Parametric Bench](/images/grasshopper/parametric-bench-2.png)
+![Parametric Bench](/images/parametric-bench/parametric-bench-2.png)
