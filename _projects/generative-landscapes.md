@@ -112,8 +112,7 @@ Forest from Particle System with Grasshopper
 <!-- [Forest from Particle System](particle-forest) with Grasshopper -->
 * [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/photorealistic-tree)
 [<i class="fab fa-youtube"></i>](https://youtu.be/MPoksbmbFt8)
-Photorealistic Tree with Thea for Rhino
-<!-- [Photorealistic Tree](rendered-tree) with Thea for Rhino -->
+[Rendering a Tree](rendered-tree) with Thea for Rhino
 * [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/random-meadow)
 [<i class="fab fa-youtube"></i> ](https://youtu.be/tvF8LVJp6DA)
 [<i class="fas fa-project-diagram"></i>](https://github.com/baharmon/generative-design/raw/main/grasshopper/random-meadow.gh)
