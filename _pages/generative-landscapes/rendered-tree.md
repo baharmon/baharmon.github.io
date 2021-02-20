@@ -6,7 +6,7 @@ featured_image: /images/rendered-tree/rendered-tree.png
 usemathjax: true
 ---
 
-![Image](/images/rendered-tree/rendered-tree.png)
+![Rendered tree](/images/rendered-tree/rendered-tree.png)
 
 **Contents**
 * TOC
@@ -85,7 +85,7 @@ Now you can work with the block in Grasshopper.
 Before you can render the results,
 you will need to bake them.
 
-![...](/images/rendered-tree/rendered-tree-program-0.png)
+![Grasshopper program for setting blocks](/images/rendered-tree/rendered-tree-program-0.png)
 
 ---
 
@@ -100,7 +100,7 @@ from the circle, and
 [extrude](https://grasshopperdocs.com/components/grasshoppersurface/extrude.html)
 the surface to form a solid.
 
-![...](/images/rendered-tree/rendered-tree-program-3.png)
+![Grasshopper program for creating a circular region of ground](/images/rendered-tree/rendered-tree-program-3.png)
 
 Bake the solid to a new layer named `ground` in Rhino
 using the
@@ -115,7 +115,7 @@ Click `Activate` to bake the geometry to the new layer
 and then add a Thea material.
 
 
-![...](/images/rendered-tree/rendered-tree-program-4.png)
+![Grasshopper program for baking the ground to a new layer](/images/rendered-tree/rendered-tree-program-4.png)
 
 ---
 
@@ -133,13 +133,13 @@ Define the motion vector with
 with the origin `0,0,0` as the base point
 and the random point as the tip point.
 
-![...](/images/rendered-tree/rendered-tree-program-5.png)
+![Grasshopper program for randomly placing a tree](/images/rendered-tree/rendered-tree-program-5.png)
 
 Bake the resulting block to a new layer named `tree`
 with
 [bake objects](https://grasshopperdocs.com/components/elefront/bakeObjects.html).
 
-![...](/images/rendered-tree/rendered-tree-program-6.png)
+![Grasshopper program for baking a tree to a new layer](/images/rendered-tree/rendered-tree-program-6.png)
 
 ---
 
@@ -151,18 +151,18 @@ First create hundreds of random points on the boundary surface with
 Then [move](http://grasshopperdocs.com/components/grasshoppertransform/move.html)
 the block with grass to the random points.
 
-![...](/images/rendered-tree/rendered-tree-program-7.png)
+![Grasshopper program for randomly populating the scene with grass](/images/rendered-tree/rendered-tree-program-7.png)
 
 Randomly [rotate](https://grasshopperdocs.com/components/grasshoppertransform/rotate.html)
 and [scale](http://grasshopperdocs.com/components/grasshoppertransform/scale.html)
 the blocks.
 
-![...](/images/rendered-tree/rendered-tree-program-8.png)
+![Grasshopper program for transforming grass](/images/rendered-tree/rendered-tree-program-8.png)
 
 Bake the resulting list of blocks to a new layer named `grass` with
 [bake objects](https://grasshopperdocs.com/components/elefront/bakeObjects.html).
 
-![...](/images/rendered-tree/rendered-tree-program-9.png)
+![Grasshopper program for baking grass to a new layer](/images/rendered-tree/rendered-tree-program-9.png)
 
 ## Rendering
 
@@ -179,4 +179,4 @@ When the rendering finishes,
 adjust the settings
 and then hit `save image` to export a `.png`.
 
-![Image](/images/rendered-tree/rendered-tree.png)
+![A rendered scene of a tree and grass](/images/rendered-tree/rendered-tree.png)
