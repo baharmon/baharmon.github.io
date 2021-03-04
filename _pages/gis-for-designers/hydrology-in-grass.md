@@ -38,10 +38,6 @@ for hydrological modeling and analysis including:
 * [r.terraflow](https://grass.osgeo.org/grass78/manuals/r.terraflow.html)
 * [ITZI](https://www.itzi.org/)
 
----
-
-## Dataset
-
 This tutorial uses the <i class="ms ms-database"></i>
 [Governor's Island Dataset for GRASS GIS](https://zenodo.org/record/3940780/files/nyspf_govenors_island.zip?download=1).
 Download, extract, and move this geospatial dataset
@@ -55,7 +51,10 @@ and create a new mapset called `hydrology`.
 ## Terrain Modeling
 
 Zoom in on the landforms in the southwest of the island.
-Either set the computation from the display using the various zoom options dropdown or run [g.region](https://grass.osgeo.org/grass78/manuals/g.region.html) and set the boundaries for the region. Save the region.
+Either set the computation region from the display
+using the various zoom options dropdown or
+run [g.region](https://grass.osgeo.org/grass78/manuals/g.region.html)
+and set the boundaries for the region. Save the region.
 Then set a mask to the vector map `shoreline` with the module
 [r.mask](https://grass.osgeo.org/grass78/manuals/r.mask.html).
 The digital elevation model from lidar
