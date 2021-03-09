@@ -166,6 +166,8 @@ Landforms from Audio with Grasshopper
 * [<i class="fas fa-project-diagram"></i>](https://github.com/baharmon/generative-design/raw/main/grasshopper/soundforest.gh)
 Landscape from Audio with Grasshopper
 <!-- [Landscape from Audio](soundforest) with Grasshopper -->
+* [<i class="ms ms-data-cube"></i>](https://github.com/baharmon/generative-design/raw/main/digital-fabrication/mpodels/cnc-surface-milling.3dm)
+[CNC Surface Milling](cnc-surface-milling) with RhinoCAM
 * [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/baharmon/terrain-modeling)
 [<i class="fab fa-youtube"></i>](https://youtu.be/WTY78FIPegc)
 [<i class="fas fa-project-diagram"></i>](https://github.com/baharmon/generative-design/raw/main/grasshopper/terrain-modeling.gh)
