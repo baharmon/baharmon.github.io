@@ -58,6 +58,9 @@ Strange Attractor with Grasshopper
 [<i class="ms ms-data-cube"></i>](https://github.com/baharmon/generative-design/raw/main/grasshopper/models/strange-attractor.3dm)
 Rendering a Strange Attractor with Thea for Rhino
 <!-- [Rendering a Strange Attractor](strange-attractor) with Thea for Rhino -->
+* [<i class="fas fa-project-diagram"></i>](https://github.com/baharmon/generative-design/raw/main/grasshopper/attractors.gh)
+Attractors with Grasshopper
+<!-- [Attractors](attractors) with Grasshopper -->
 
 ---
 
