@@ -136,6 +136,6 @@ In the `Simulation` tab of the Machining Browser
 under `Simulate` select `Play`
 to simulate the machining operation in Rhino's viewports.
 
-![CNC simulation](/images/cnc/simulation-1.png)
+![CNC simulation](/images/cnc/simulation-2.png)
 
 ![CNC surface milling](/images/cnc/renshape-2.jpg)
