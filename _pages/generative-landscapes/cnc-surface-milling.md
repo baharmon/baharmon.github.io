@@ -46,14 +46,14 @@ Set the posted file extension to a `.nc` numeric control file.
 ## Stock
 
 The stock for this CNC milling exercise
-is a 4" x 4" x 1" block of
+is a 6" x 6" x 2" block of
 high-density urethane (HDU) foam board
 such as [Renshape](https://www.freemansupply.com/products/machinable-media)
 or [Signfoam](http://www.signfoam.com/).
 
 In RhinoCAM's Machining Browser in the `Program` tab
 in `Stock` select `Box Stock`
-and set the dimensions to 4" long, 4" wide, and 1" high.
+and set the dimensions to 6" long, 6" wide, and 2" high.
 In `Align` select `Align Stock`
 and set Z alignment to `Top`
 and XY alignment to `South West`.
