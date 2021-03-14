@@ -1,11 +1,11 @@
 ---
 title: CNC Surface Milling
 subtitle: CNC surface milling with RhinoCAM
-featured_image: /images/cnc/
+featured_image: /images/cnc/cnc-surface-milling-1.jpg
 usemathjax: true
 ---
 
-![CNC simulation](/images/cnc/simulation-1.png)
+![CNC surface milling](/images/cnc/cnc-surface-milling-2.jpg)
 
 **Contents**
 * TOC
@@ -136,6 +136,6 @@ In the `Simulation` tab of the Machining Browser
 under `Simulate` select `Play`
 to simulate the machining operation in Rhino's viewports.
 
-![CNC simulation](/images/cnc/simulation-2.png)
+![CNC simulation](/images/cnc/simulation-1.png)
 
-![CNC surface milling](/images/cnc/renshape-2.jpg)
+![CNC surface milling](/images/cnc/cnc-surface-milling-1.jpg)
