@@ -1,0 +1,62 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+{
+    "type": "Feature",
+    "properties": {
+        "project": "3D Scanning Rosedown",
+        "location": "Rosedown Plantation, St. Francisville, LA, USA",
+        "page": "https://baharmon.github.io/project/point-clouds"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-91.3709458, 30.7960156]
+    }
+}, {
+    "type": "Feature",
+    "properties": {
+        "project": "Hydrology of Panama",
+        "location": "Greater Panama Canal Watershed",
+        "page": "https://baharmon.github.io/project/panama-geochemistry"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-79.476244, 9.281388]
+    }
+}, {
+    "type": "Feature",
+    "properties": {
+        "project": "Landscape Evolution Modeling",
+        "location": "Fort Bragg, NC, USA",
+        "page": "https://baharmon.github.io/project/landscape-evolution"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-79.133144, 35.108525]
+    }
+}, {
+    "type": "Feature",
+    "properties": {
+        "project": "Cajun Prairie Wildflower Meadow Survey",
+        "location": "LSU Hilltop Arboretum, Baton Rouge, LA, USA",
+        "page": "https://baharmon.github.io/blog/drone-surveying"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-91.094991, 30.356135]
+    }
+}, {
+    "type": "Feature",
+    "properties": {
+        "project": "Tangible Landscape",
+        "location": "Center for Geospatial Analytics, NCSU, Raleigh, NC",
+        "page": "http://tangible-landscape.github.io/"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-78.676606, 35.781885]
+    }
+}
+
+]
+}

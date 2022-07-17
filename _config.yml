@@ -1,0 +1,66 @@
+site: Brendan Harmon
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /blog/:slug
+  projects:
+    output: true
+    permalink: /:name
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  auto_ids: true
+  toc_levels: 1..4
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-font-awesome-sass
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll/scholar
+  - jemoji
+
+paginate: 6
+paginate_path: "/blog/page:num/"
+
+scholar:
+  style: apa
+  source: ./_bibliography
+  bibliography: publications.bib
+
+font-awesome:
+  assets: true

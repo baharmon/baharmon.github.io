@@ -1,0 +1,128 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+{
+    "type": "Feature",
+    "properties": {
+        "dataset": "Natural Earth Dataset for GRASS GIS",
+        "location": "Global",
+        "page": "https://doi.org/10.5281/zenodo.3968936"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [0, 0]
+    }
+}, {
+    "type": "Feature",
+    "properties": {
+        "dataset": "Governor’s Island Dataset for GRASS GIS",
+        "location": "Governor’s Island, New York, NY, USA",
+        "page": "http://doi.org/10.5281/zenodo.3940780"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-74.022959, 40.686746]
+    }
+},  {
+    "type": "Feature",
+    "properties": {
+        "dataset": "Governor’s Island Dataset for QGIS",
+        "location": "Governor’s Island, New York, NY, USA",
+        "page": "https://doi.org/10.5281/zenodo.4044664"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-74.016012, 40.691341]
+    }
+}, {
+    "type": "Feature",
+    "properties": {
+        "dataset": "Landscape Evolution Dataset",
+        "location": "Fort Bragg, NC, USA",
+        "page": "https://github.com/baharmon/landscape_evolution_dataset"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-79.133144, 35.108525]
+    }
+}, {
+    "type": "Feature",
+    "properties": {
+        "dataset": "Hilltop Arboretum Landform Dataset for GRASS GIS",
+        "location": "LSU Hilltop Arboretum, Baton Rouge, LA, USA",
+        "page": "http://doi.org/10.5281/zenodo.3749397"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-91.094887, 30.357864]
+    }
+}, {
+    "type": "Feature",
+    "properties": {
+        "dataset": "Greater Panama Canal Zone Watershed Dataset",
+        "location": "Greater Panama Canal Watershed, Panama",
+        "page": "https://osf.io/d5h7s/"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-79.476244, 9.281388]
+    }
+}, {
+    "type": "Feature",
+    "properties": {
+        "dataset": "Louisiana Dataset for GRASS GIS",
+        "location": "Louisiana, USA",
+        "page": "https://doi.org/10.5281/zenodo.3359620"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-91.187374, 30.457147]
+    }
+}, {
+    "type": "Feature",
+    "properties": {
+        "dataset": "Louisiana Geodatabase",
+        "location": "Louisiana, USA",
+        "page": "https://doi.org/10.5281/zenodo.3484055"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-91.189041, 30.446581]
+    }
+}, {
+    "type": "Feature",
+    "properties": {
+        "dataset": "New Orleans Geodatabase",
+        "location": "Louisiana, USA",
+        "page": "https://doi.org/10.5281/zenodo.3484059"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-90.065001, 29.949374]
+    }
+}, {
+    "type": "Feature",
+    "properties": {
+        "dataset": "New Orleans Dataset for GRASS GIS",
+        "location": "Louisiana, USA",
+        "page": "https://doi.org/10.5281/zenodo.3359642"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-90.062955, 29.957473]
+    }
+}, {
+    "type": "Feature",
+    "properties": {
+        "dataset": "Sichuan Dataset for GRASS GIS",
+        "location": "Sichuan, China",
+        "page": "https://doi.org/10.5281/zenodo.3359645"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [104.0661215, 30.658370]
+    }
+}
+
+]
+}
