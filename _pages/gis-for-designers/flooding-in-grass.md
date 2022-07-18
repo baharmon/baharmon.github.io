@@ -2,11 +2,11 @@
 title: Flooding in GRASS GIS
 subtitle: A tutorial on flooding in GRASS GIS.
 description: A tutorial on flooding in GRASS GIS.
-featured_image: /images/governors-island/
+featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/
 usemathjax: true
 ---
 
-![Flooding](/images/governors-island/flooding.png)
+![Flooding](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/flooding.png)
 
 **Contents**
 * TOC
@@ -125,7 +125,7 @@ d.legend raster=flooding at=60,95,2,3.5 font=Lato-Regular fontsize=14 color=whit
 
 | Localized Flooding |
 |:---:|
-| ![Localized flooding](/images/governors-island/flooding.png) |
+| ![Localized flooding](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/flooding.png) |
 
 The landforms at Governor's Island were designed to activate the site
 even when if it becomes inundated by storm surge or rising tides.
@@ -146,7 +146,7 @@ r.lake elevation=topobathy water_level=12 lake=flooding coordinates=976989.51494
 
 | Coastal Flooding |
 |:---:|
-| ![Coastal flooding](/images/governors-island/coastal-flooding.png) |
+| ![Coastal flooding](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/coastal-flooding.png) |
 
 ---
 
@@ -203,7 +203,7 @@ g.gui.animation strds=flooding
 
 | Flooding Animation |
 |:---:|
-| ![Flood Animation](/images/governors-island/flooding.gif) |
+| ![Flood Animation](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/flooding.gif) |
 
 ---
 
@@ -241,7 +241,7 @@ Once the line has been drawn save the raster map and exit the digitizer.
 
 | Digital Elevation Model with Check Dam |
 |:---:|
-| ![Digital elevation model with check dam](/images/governors-island/digitized-elevation.png) |
+| ![Digital elevation model with check dam](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/digitized-elevation.png) |
 
 To better visualize the modified digital elevation
 compute shaded relief with
@@ -267,7 +267,7 @@ r.volume input=flooding
 
 | Flooding with Check Dam |
 |:---:|
-| ![Flooding with check dam](/images/governors-island/check-dam-flooding.png) |
+| ![Flooding with check dam](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/check-dam-flooding.png) |
 
 ---
 
@@ -315,7 +315,7 @@ d.legend raster=depressions at=60,95,2,3.5 font=Lato-Regular fontsize=14 color=w
 
 | Depressions (ft) |
 |:---:|
-| ![Depressions (ft)](/images/governors-island/depressions.png) |
+| ![Depressions (ft)](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/depressions.png) |
 
 Use either flow accumulation from
 [r.watershed](https://grass.osgeo.org/grass-stable/manuals/r.watershed.html)
@@ -361,4 +361,4 @@ d.legend raster=combined_depth at=60,95,2,3.5 font=Lato-Regular fontsize=14 colo
 
 | Depth of Water Flow and Depressions (ft) |
 |:---:|
-| ![Depth of shallow overland water flow and depressions (ft)](/images/governors-island/combined-depth.png) |
+| ![Depth of shallow overland water flow and depressions (ft)](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/combined-depth.png) |

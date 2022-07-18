@@ -2,10 +2,10 @@
 title: Census Data in QGIS
 subtitle:
 description: A guide to importing and mapping census data in QGIS
-featured_image: /images/nyc/population-normal-choropleth-inferno.png
+featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/nyc/population-normal-choropleth-inferno.png
 ---
 
-![Population choropleth](/images/nyc/population-normal-choropleth-inferno.png)
+![Population choropleth](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/nyc/population-normal-choropleth-inferno.png)
 
 **Contents**
 * TOC

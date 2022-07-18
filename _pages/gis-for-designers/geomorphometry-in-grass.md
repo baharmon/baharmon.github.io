@@ -2,10 +2,10 @@
 title: Geomorphometry in GRASS GIS
 subtitle: A tutorial on quantitative terrain analysis in GRASS GIS.
 description: A tutorial on quantitative terrain analysis in GRASS GIS.
-featured_image: /images/governors-island/geomorphons.png
+featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/geomorphons.png
 ---
 
-![Geomorphons](/images/governors-island/shaded-geomorphons.png)
+![Geomorphons](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/shaded-geomorphons.png)
 
 **Contents**
 * TOC
@@ -62,7 +62,7 @@ r.mask vector=shoreline
 
 | Digital Elevation Model |
 |:---:|
-| ![Elevation](/images/governors-island/southwestern-elevation.png) |
+| ![Elevation](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/southwestern-elevation.png) |
 
 ---
 
@@ -94,7 +94,7 @@ r.param.scale input=elevation_2017 output=landforms size=33 method=feature --ove
 
 | Landforms |
 |:---:|
-| ![Landforms](/images/governors-island/landforms.png) |
+| ![Landforms](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/landforms.png) |
 
 Try running
 [r.param.scale](https://grass.osgeo.org/grass-stable/manuals/r.param.scale.html)
@@ -121,7 +121,7 @@ and creating [global landform maps](https://doi.org/10.1038/s41597-020-0479-6).
 
 | Landforms |
 |:---:|
-| ![Landforms](/images/governors-island/geomorphons-legend.png) |
+| ![Landforms](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/geomorphons-legend.png) |
 
 Classify landforms using
 [r.geomorphon](https://grass.osgeo.org/grass-stable/manuals/r.geomorphon.html).
@@ -145,7 +145,7 @@ r.shade shade=relief_2017 color=geomorphons output=shaded_geomorphons brighten=4
 
 | Geomorphons with Shaded Relief |
 |:---:|
-| ![Geomorphons](/images/governors-island/shaded-geomorphons.png) |
+| ![Geomorphons](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/shaded-geomorphons.png) |
 
 Note how
 [r.geomorphon](https://grass.osgeo.org/grass-stable/manuals/r.geomorphon.html)
@@ -179,7 +179,7 @@ r.category map=ridges separator=pipe
 
 | Ridges |
 |:---:|
-| ![Ridges](/images/governors-island/ridges.png) |
+| ![Ridges](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/ridges.png) |
 
 To make a simpler, cleaner vector map of the ridges,
 first convert the raster map to a vector using the module
@@ -208,7 +208,7 @@ d.legend.vect at=2,95 font=Lato-Regular fontsize=14
 
 | Vector Ridges |
 |:---:|
-| ![Vector Ridges](/images/governors-island/vector-ridges.png) |
+| ![Vector Ridges](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/vector-ridges.png) |
 
 ---
 
@@ -231,7 +231,7 @@ r.convergence -c input=elevation_2017 output=convergence window=15 weights=stand
 
 | Topographic Convergence |
 |:---:|
-| ![Topographic Convergence](/images/governors-island/convergence.png) |
+| ![Topographic Convergence](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/convergence.png) |
 
 
 Use map algebra to extract ridges from areas of topographic divergence.
@@ -267,4 +267,4 @@ d.legend.vect at=2,95 font=Lato-Regular fontsize=14
 
 | Ridges Derived from Topographic Divergence |
 |:---:|
-| ![Ridges](/images/governors-island/vector-ridgelines.png) |
+| ![Ridges](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/vector-ridgelines.png) |

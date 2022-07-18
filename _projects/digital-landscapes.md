@@ -2,10 +2,10 @@
 title: Digital Landscapes
 subtitle: A course on 3D modeling and rendering for landscape architects.
 description: Tutorials on 3D modeling landscapes with Rhino
-featured_image: /images/strange-attractor-8.jpg
+featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/strange-attractor-8.jpg
 ---
 
-![Strange attractor](/images/strange-attractor-8.jpg)
+![Strange attractor](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/strange-attractor-8.jpg)
 
 ## Introduction
 

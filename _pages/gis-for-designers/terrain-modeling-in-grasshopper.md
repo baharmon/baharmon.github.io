@@ -3,7 +3,7 @@ title: Terrain Modeling in Grasshopper
 subtitle: A tutorial on terrain modeling in Grasshopper.
 ---
 
-![Terrain modeling in Grasshopper](/images/governors-island/governors-island-landforms.png)
+![Terrain modeling in Grasshopper](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/governors-island-landforms.png)
 
 **Contents**
 * TOC
@@ -112,9 +112,9 @@ then try disabling the solver in the `Solution` menu
 until you have finished.
 -->
 
-![Grasshopper definition](/images/terrain-modeling/topographic-modeling-program-1.png)
+![Grasshopper definition](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/terrain-modeling/topographic-modeling-program-1.png)
 
-![Terrain modeling in Grasshopper](/images/terrain-modeling/topographic-modeling-1.png)
+![Terrain modeling in Grasshopper](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/terrain-modeling/topographic-modeling-1.png)
 
 ---
 
@@ -221,7 +221,7 @@ and the mapping to `UV`.
 ApplyPlanarMapping
 ```
 
-![Model of Governor's Island Landforms with Imagery](/images/governors-island/governors-island-landforms.png)
+![Model of Governor's Island Landforms with Imagery](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/governors-island-landforms.png)
 
 ---
 
@@ -302,7 +302,7 @@ Import the XYZ point cloud into Grasshopper as grid using Docofossor,
 generate a mesh from the grid, and bake the mesh to Rhino.
 Then map the imagery as a texture on the mesh.
 
-![Model of Governor's Island Fort with Imagery](/images/governors-island/governors-island-fort.png)
+![Model of Governor's Island Fort with Imagery](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/governors-island-fort.png)
 
 <!-- Save fort and landform as separate Rhino files. Upload to Zenodo. Upload other models to Zenodo too. -->
 

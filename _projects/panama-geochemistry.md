@@ -3,10 +3,10 @@ title: 'Hydrology of Panama'
 subtitle: 'Spatio-temporal analysis of the physical, chemical, and climatic processes that control the chemistry of rivers in Panama.'
 date: 2019-01-17 00:00:00
 description: Spatio-temporal analysis of large data sets to better understand and quantify the physical, chemical, and climatic processes that control the chemistry of rivers in Panama, in particular, and across the tropics, in general.
-featured_image: '/images/study_area_landcover_labeled.png'
+featured_image: 'https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/study_area_landcover_labeled.png'
 ---
 
-![Landcover and river network for the Greater Panama Canal Zone Watershed](/images/study_area_landcover_labeled.png)
+![Landcover and river network for the Greater Panama Canal Zone Watershed](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/study_area_landcover_labeled.png)
 
 ---
 
@@ -23,7 +23,7 @@ A python script for hydrological modeling, morphometric analysis, and landcover 
 [Open Science Framework Repository](https://osf.io/bx5y6/):
 The data and results for this project are hosted in the repository under the CC0 1.0 Universal license.
 
-![Landcover change in the Greater Panama Canal Zone Watershed from 1998 to 2015](/images/landcover.gif)
+![Landcover change in the Greater Panama Canal Zone Watershed from 1998 to 2015](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/landcover.gif)
 
 ---
 

@@ -2,11 +2,11 @@
 title: Erosion in GRASS GIS
 subtitle: A tutorial on erosion modeling in GRASS GIS.
 description: A tutorial on erosion modeling in GRASS GIS.
-featured_image: /images/governors-island/discharge-with-landcover.png
+featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/discharge-with-landcover.png
 usemathjax: true
 ---
 
-![Shallow water flow discharge](/images/governors-island/discharge-with-landcover.png)
+![Shallow water flow discharge](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/discharge-with-landcover.png)
 
 **Contents**
 * TOC
@@ -83,15 +83,15 @@ d.legend
 
 | Imagery 2018 |
 |:---:|
-| ![Imagery 2018](/images/governors-island/imagery.png) |
+| ![Imagery 2018](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/imagery.png) |
 
 | Normalized Difference Vegetation Index |
 |:---:|
-| ![Normalized Difference Vegetation Index](/images/governors-island/ndvi.png) |
+| ![Normalized Difference Vegetation Index](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/ndvi.png) |
 
 | Landcover from NDVI|
 |:---:|
-| ![Landcover from NDVI](/images/governors-island/landcover-from-ndvi.png) |
+| ![Landcover from NDVI](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/landcover-from-ndvi.png) |
 
 ---
 

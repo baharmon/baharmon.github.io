@@ -2,10 +2,10 @@
 title: An Introduction to QGIS
 subtitle:
 description: An introduction to QGIS, a free and open source geographic information system.
-featured_image: /images/natural-earth/natural-earth-screenshot.jpg
+featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/natural-earth/natural-earth-screenshot.jpg
 ---
 
-![The QGIS Interface](/images/natural-earth/natural-earth-screenshot.jpg)
+![The QGIS Interface](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/natural-earth/natural-earth-screenshot.jpg)
 
 **Contents**
 * TOC
@@ -84,7 +84,7 @@ the Natural Earth I raster <i class="ms ms-raster"></i>
 
 | Natural Earth |
 |:---:|
-| ![Natural Earth](/images/natural-earth/natural-earth.jpg) |
+| ![Natural Earth](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/natural-earth/natural-earth.jpg) |
 
 Then in the subdirectory `natural_earth_vector`
 expand `natural_earth_vector.gpkg`
@@ -170,7 +170,7 @@ map as a jpg at 300 DPI.
 
 | Rivers of the World |
 |:---:|
-| ![Rivers of the World](/images/natural-earth/natural-earth-rivers.jpg) |
+| ![Rivers of the World](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/natural-earth/natural-earth-rivers.jpg) |
 
 ---
 
@@ -211,7 +211,7 @@ Removing a label will remove all labels of the same name.
 
 | Rivers of the World |
 |:---:|
-| ![Rivers of the World](/images/natural-earth/natural-earth-rivers-labelled.jpg) |
+| ![Rivers of the World](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/natural-earth/natural-earth-rivers-labelled.jpg) |
 
 ---
 

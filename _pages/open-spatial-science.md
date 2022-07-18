@@ -111,7 +111,7 @@ The basic syntax includes:
 1. ordered list
 `code`
 [link](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
-![image](https://octodex.github.com/images/labtocat.png)
+![image](https://octodex.github.comhttps://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/labtocat.png)
 ```
 
 The readme for the landscape evolution dataset looks like this:

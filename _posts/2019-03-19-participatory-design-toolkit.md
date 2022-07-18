@@ -3,14 +3,14 @@ title: 'Complete Street Participatory Design Toolkit'
 subtitle: 'An open source toolkit for the participatory design of streetscapes'
 date: 2019-03-19 00:00:00
 description: An open source toolkit for the participatory design of streetscapes
-featured_image: '/images/participatory-design-toolkit-1.jpg'
+featured_image: 'https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/participatory-design-toolkit-1.jpg'
 
 ---
 
 <div class="gallery" data-columns="1">
-	<img src="/images/participatory-design-toolkit-1.jpg" alt="">
-	<img src="/images/participatory-design-toolkit-2.jpg" alt="">
-    <img src="/images/participatory-design-toolkit-3.jpg" alt="">
+	<img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/participatory-design-toolkit-1.jpg" alt="">
+	<img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/participatory-design-toolkit-2.jpg" alt="">
+    <img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/participatory-design-toolkit-3.jpg" alt="">
 </div>
 
 ---
@@ -38,6 +38,6 @@ by LSU Landscape Architecture students
 in LA 7061 Advanced Topics Studio.
 
 <div class="gallery" data-columns="2">
-    <img src="/images/participatory-design-toolkit-2.jpg" alt="">
-    <img src="/images/participatory-design-toolkit-3.jpg" alt="">
+    <img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/participatory-design-toolkit-2.jpg" alt="">
+    <img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/participatory-design-toolkit-3.jpg" alt="">
 </div>

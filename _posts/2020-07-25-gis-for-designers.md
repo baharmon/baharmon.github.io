@@ -2,7 +2,7 @@
 title: 'GIS for Designers'
 date: 2020-07-25 12:00:00
 description:
-featured_image: '/images/importing-global-data/swiss-shaded-relief.png'
+featured_image: 'https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/importing-global-data/swiss-shaded-relief.png'
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLOZRfOojyTZooO3HMd8dTp8Wk37cdbY6C" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

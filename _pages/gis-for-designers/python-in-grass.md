@@ -2,10 +2,10 @@
 title: Python scripting in GRASS GIS
 subtitle:
 description: An introduction to Python scripting in GRASS GIS.
-featured_image: /images/
+featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/
 ---
 
-![GRASS Interactive Python Shell](/images/python/python-editor.png)
+![GRASS Interactive Python Shell](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/python/python-editor.png)
 
 **Contents**
 * TOC
@@ -43,11 +43,11 @@ and then launch the script from the GRASS file menu.
 
 | GRASS Interactive Python Shell |
 |:---:|
-| ![GRASS Interactive Python Shell](/images/python/python-editor.png) |
+| ![GRASS Interactive Python Shell](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/python/python-editor.png) |
 
 | GRASS scripting with a text editor |
 |:---:|
-| ![GRASS scripting with text editor](/images/python/grass-scripting.png) |
+| ![GRASS scripting with text editor](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/python/grass-scripting.png) |
 
 
 Start <i class="ms ms-grass-gis"></i> GRASS
@@ -287,24 +287,24 @@ for raster in raster_list:
 
 | March 19, 2020 |
 |:---:|
-| ![Shaded Relief](/images/python/shaded_relief_2020_03_19.png) |
+| ![Shaded Relief](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/python/shaded_relief_2020_03_19.png) |
 
 | April 25, 2020 |
 |:---:|
-| ![Shaded Relief](/images/python/shaded_relief_2020_04_25.png) |
+| ![Shaded Relief](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/python/shaded_relief_2020_04_25.png) |
 
 | June 1, 2020 |
 |:---:|
-| ![Shaded Relief](/images/python/shaded_relief_2020_06_01.png) |
+| ![Shaded Relief](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/python/shaded_relief_2020_06_01.png) |
 
 | June 30, 2020 |
 |:---:|
-| ![Shaded Relief](/images/python/shaded_relief_2020_06_30.png) |
+| ![Shaded Relief](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/python/shaded_relief_2020_06_30.png) |
 
 | August 3, 2020 |
 |:---:|
-| ![Shaded Relief](/images/python/shaded_relief_2020_08_03.png) |
+| ![Shaded Relief](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/python/shaded_relief_2020_08_03.png) |
 
 | August 29, 2020 |
 |:---:|
-| ![Shaded Relief](/images/python/shaded_relief_2020_08_29.png) |
+| ![Shaded Relief](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/python/shaded_relief_2020_08_29.png) |

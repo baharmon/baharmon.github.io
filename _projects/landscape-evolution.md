@@ -3,12 +3,12 @@ title: 'Landscape Evolution'
 subtitle: 'A short term landscape evolution using a path sampling method to solve water and sediment flow continuity equations and model mass flows over complex topographies.'
 date: 2019-05-15 00:00:00
 description: ...
-featured_image: '/images/landscape-evolution-2.png'
+featured_image: 'https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/landscape-evolution-2.png'
 ---
 
 <div class="gallery" data-columns="2">
-    <img src="/images/landscape-evolution-1.png" alt="Elevation in 2012">
-    <img src="/images/landscape-evolution-2.png" alt="Elevation simulated by SIMWE after a 50 mm/hr rainfall event lasting 120 min">
+    <img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/landscape-evolution-1.png" alt="Elevation in 2012">
+    <img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/landscape-evolution-2.png" alt="Elevation simulated by SIMWE after a 50 mm/hr rainfall event lasting 120 min">
 </div>
 
 Digital elevation models
@@ -40,10 +40,10 @@ A short-term landscape evolution model that simulates topographic change for bot
 ---
 
 <div class="gallery" data-columns="2">
-    <img src="/images/landscape-evolution-depth.png" alt="Water depth simulated by SIMWE after a 50 mm/hr rainfall event lasting 120 min">
-    <img src="/images/landscape-evolution-erosion.png" alt="Erosion and deposition simulated by SIMWE after a 50 mm/hr rainfall event lasting 120 min">
-    <img src="/images/landscape-evolution-net-difference.png" alt="Net difference in elevation simulated by SIMWE after a 50 mm/hr rainfall event lasting 120 min">
-    <img src="/images/landscape-evolution-landforms.png" alt="Landforms simulated by SIMWE after a 50 mm/hr rainfall event lasting 120 min">
+    <img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/landscape-evolution-depth.png" alt="Water depth simulated by SIMWE after a 50 mm/hr rainfall event lasting 120 min">
+    <img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/landscape-evolution-erosion.png" alt="Erosion and deposition simulated by SIMWE after a 50 mm/hr rainfall event lasting 120 min">
+    <img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/landscape-evolution-net-difference.png" alt="Net difference in elevation simulated by SIMWE after a 50 mm/hr rainfall event lasting 120 min">
+    <img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/landscape-evolution-landforms.png" alt="Landforms simulated by SIMWE after a 50 mm/hr rainfall event lasting 120 min">
 </div>
 
 a) water depth,

@@ -2,10 +2,10 @@
 title: 'Robotic Seeding'
 date: 2022-05-02 12:00:00
 description:
-featured_image: '/images/robotic-seeding-6.jpg'
+featured_image: 'https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/robotic-seeding-6.jpg'
 ---
 
-![Robotic Seeding](/images/robotic-seeding-6.jpg)
+![Robotic Seeding](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/robotic-seeding-6.jpg)
 
 ### Robotic Seeding
 As part of our ongoing research program on ecological applications for robots,
@@ -25,9 +25,9 @@ Harmon, Brendan A, Hye Yeon Nam, Hunter Gilbert, and Nasrin Iravani. 2022. “Li
 
 
 <div class="gallery" data-columns="2">
-    <img src="/images/robotic-seeding-1.jpg">
-    <!-- <img src="/images/robotic-seeding-2.jpg"> -->
-    <img src="/images/robotic-seeding-3.jpg">
-    <img src="/images/robotic-seeding-4.jpg">
-    <img src="/images/robotic-seeding-5.jpg">
+    <img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/robotic-seeding-1.jpg">
+    <!-- <img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/robotic-seeding-2.jpg"> -->
+    <img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/robotic-seeding-3.jpg">
+    <img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/robotic-seeding-4.jpg">
+    <img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/robotic-seeding-5.jpg">
 </div>

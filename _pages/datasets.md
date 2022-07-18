@@ -2,7 +2,7 @@
 title: Data
 subtitle:
 description:
-featured_image: /images/baharmon-round.png
+featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/baharmon-round.png
 useleaflet: true
 ---
 

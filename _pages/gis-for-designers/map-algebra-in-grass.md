@@ -2,10 +2,10 @@
 title: Map Algebra in GRASS GIS
 subtitle: A tutorial on map algebra in GRASS GIS.
 description: A tutorial on map algebra in GRASS GIS.
-featured_image: /images/governors-island/landcover.png
+featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/landcover.png
 ---
 
-![Landcover map](/images/governors-island/landcover.png)
+![Landcover map](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/landcover.png)
 
 **Contents**
 * TOC
@@ -61,7 +61,7 @@ r.mapcalc expression="height_above_ground = surface_2017 - elevation_2017"
 
 | Height Above Ground, Governor's Island, NYC |
 |:---:|
-| ![Height Above Ground, Governor's Island, NYC](/images/governors-island/height-above-ground.png) |
+| ![Height Above Ground, Governor's Island, NYC](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/height-above-ground.png) |
 
 ---
 
@@ -92,7 +92,7 @@ r.category map=canopy raster=landcover_2014
 
 | Tree Canopy,  Governor's Island, NYC |
 |:---:|
-| ![Tree Canopy,  Governor's Island, NYC](/images/governors-island/tree-canopy.png) |
+| ![Tree Canopy,  Governor's Island, NYC](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/tree-canopy.png) |
 
 ---
 
@@ -118,7 +118,7 @@ r.colors -e map=canopy_height color=viridis
 
 | Tree Canopy Height,  Governor's Island, NYC |
 |:---:|
-| ![Tree Canopy Height,  Governor's Island, NYC](/images/governors-island/canopy-height.png) |
+| ![Tree Canopy Height,  Governor's Island, NYC](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/canopy-height.png) |
 
 Now write all of this map algebra in one command!
 ```
@@ -145,7 +145,7 @@ using figure ground maps.
 
 | Giovanni Battista Nolli, Nuova Pianta di Roma, 1748 |
 |:---:|
-| ![1748 Map of Rome](/images/governors-island/nolli-rome.jpg) [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Giovanni_Battista_Nolli-Nuova_Pianta_di_Roma_(1748)_05-12.JPG) |
+| ![1748 Map of Rome](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/nolli-rome.jpg) [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Giovanni_Battista_Nolli-Nuova_Pianta_di_Roma_(1748)_05-12.JPG) |
 
 Use map algebra to extract buildings from the landcover map.
 Query the raster map `landcover_2014`
@@ -168,7 +168,7 @@ Set the color for value 1 to black.
 
 | Figure Ground,  Governor's Island, NYC |
 |:---:|
-| ![Figure Ground,  Governor's Island, NYC](/images/governors-island/figure-ground.png) |
+| ![Figure Ground,  Governor's Island, NYC](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/figure-ground.png) |
 
 Optionally add the canopy map to the display
 and interactively set its color table
@@ -176,4 +176,4 @@ with value 1 as red.
 
 | Figure Ground with Tree Canopy,  Governor's Island, NYC |
 |:---:|
-| ![Figure Ground with Tree Canopy,  Governor's Island, NYC](/images/governors-island/figure-ground-with-canopy.png) |
+| ![Figure Ground with Tree Canopy,  Governor's Island, NYC](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/figure-ground-with-canopy.png) |

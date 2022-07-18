@@ -3,10 +3,10 @@ title: 'Tangible Landscape'
 subtitle: 'A tangible interface for intuitive geospatial modeling.'
 date: 2019-05-15 00:00:00
 description: A tangible interface for intuitive geospatial modeling
-featured_image: '/images/tangible-landscape-1.jpg'
+featured_image: 'https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/tangible-landscape-1.jpg'
 ---
 
-![Planting design with Tangible Landscape](/images/tangible-landscape-1.jpg)
+![Planting design with Tangible Landscape](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/tangible-landscape-1.jpg)
 
 Team: Anna Petrasova, Brendan Harmon, Vaclav Petras, Payam Tabrizian, & Helena Mitasova
 
@@ -56,7 +56,7 @@ and 3D modeling and 3D rendering.
 * Virtual Reality
 
 
-![Diagram of Tangible Landscape](/images/rendered_diagram_1.png)
+![Diagram of Tangible Landscape](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/rendered_diagram_1.png)
 
 ---
 

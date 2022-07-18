@@ -2,11 +2,11 @@
 title: Census Data in GRASS GIS
 subtitle: Census Data in GRASS GIS
 description: A guide to importing and mapping census data in GRASS GIS.
-featured_image: /images/nyc/population-normal-choropleth-inferno.png
+featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/nyc/population-normal-choropleth-inferno.png
 usemathjax: true
 ---
 
-![Population density choropleth](/images/nyc/population-density-inferno.png)
+![Population density choropleth](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/nyc/population-density-inferno.png)
 
 **Contents**
 * TOC
@@ -209,7 +209,7 @@ d.vect.chart -3 map=census_tracts chart_type=bar columns=density size_column=1 s
 
 | Population Density Choropleth |
 |:---:|
-| ![Population density choropleth](/images/nyc/population-density-viridis.png) |
+| ![Population density choropleth](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/nyc/population-density-viridis.png) |
 
 Experiment with different algorithms, numbers of classes, and color rules.
 For example try setting the algorithm to quantile
@@ -221,7 +221,7 @@ To set the color table to inferno with 9 classes use the following rules:
 
 | Population Density Quantiles Choropleth |
 |:---:|
-| ![Population density quantiles choropleth](/images/nyc/population-density-quantile-inferno.png) |
+| ![Population density quantiles choropleth](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/nyc/population-density-quantile-inferno.png) |
 
 To easily generate color rules visit
 [ColorBrewer](https://colorbrewer2.org/).
@@ -234,7 +234,7 @@ and RGB output to generate the following rules:
 
 | Population Density Choropleth with Sequential Colors |
 |:---:|
-| ![Population density choropleth with sequential colors](/images/nyc/population-density-converging.png) |
+| ![Population density choropleth with sequential colors](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/nyc/population-density-converging.png) |
 
 Use the addon module
 [m.printws](https://grass.osgeo.org/grass-stable/manuals/addons/m.printws.html)
@@ -256,7 +256,7 @@ d.legend.vect at=1,98 font=Lato-Light fontsize=48 sub_font=Lato-Medium input=leg
 m.printws --overwrite input=population_density.gxw dpi=300 output=population_density page=Flexi
 ```
 
-[High resolution population density choropleth](/images/nyc/population-density.pdf)
+[High resolution population density choropleth](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/nyc/population-density.pdf)
 
 ---
 
@@ -302,7 +302,7 @@ d.legend.vect at=2,98 font=Lato-Regular fontsize=14 sub_font=Lato-Bold sub_fonts
 
 | Hexagonal Binning of Population Density|
 |:---:|
-| ![Hexagonal binning of population density](/images/nyc/population-density-hexbin.png) |
+| ![Hexagonal binning of population density](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/nyc/population-density-hexbin.png) |
 
 Save and then print the workspace as a high resolution PDF with
 [m.printws](https://grass.osgeo.org/grass-stable/manuals/addons/m.printws.html).
@@ -311,7 +311,7 @@ d.legend.vect at=1,98 font=Lato-Light fontsize=48 sub_font=Lato-Medium output=D:
 d.legend.vect at=1,98 font=Lato-Light fontsize=48 sub_font=Lato-Medium input=D:\grassdata\nyspf_govenors_island\hexbin_legend.csv --overwrite
 m.printws --overwrite input=D:\grassdata\nyspf_govenors_island\hexbin.gxw dpi=300 output=D:\grassdata\nyspf_govenors_island\population_density_hexbin page=Flexi
 ```
-[Hexagonal Binning of Population](/images/nyc/population-density-hexbin.pdf)
+[Hexagonal Binning of Population](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/nyc/population-density-hexbin.pdf)
 
 ---
 

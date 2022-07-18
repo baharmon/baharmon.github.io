@@ -2,10 +2,10 @@
 title: An Introduction to GRASS GIS
 subtitle:
 description: An introduction to the free and open source Geographic Resource Analysis Support System (GRASS) GIS.
-featured_image: /images/landcover_screenshot.png
+featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/landcover_screenshot.png
 ---
 
-![The GRASS GIS Interface](/images/natural-earth/world-rivers-screenshot.png)
+![The GRASS GIS Interface](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/natural-earth/world-rivers-screenshot.png)
 
 **Contents**
 * TOC
@@ -38,11 +38,11 @@ To start GRASS GIS, you need to set the GRASS GIS <i class="ms ms-database"></i>
 
 | GRASS GIS Startup Screen |
 |:---:|
-| ![GRASS GIS Startup Screen](/images/grass_start.png) |
+| ![GRASS GIS Startup Screen](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/grass_start.png) |
 
 | GRASS GIS Database Structure |
 |:---:|
-| ![GRASS GIS Database Structure](/images/grass_database.png) |
+| ![GRASS GIS Database Structure](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/grass_database.png) |
 
 A good way of working is to first import reference data
 for a given project to the `PERMANENT` mapset and then
@@ -109,7 +109,7 @@ d.vect map=rivers color=blue
 
 | The Rivers of World |
 |:---:|
-| ![World Rivers](/images/natural-earth/world-rivers.png) |
+| ![World Rivers](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/natural-earth/world-rivers.png) |
 
 ---
 
@@ -193,7 +193,7 @@ r.mask vector=brazil
 
 | The Rivers of Brazil |
 |:---:|
-| ![Brazilian Rivers](/images/natural-earth/brazilian-rivers.png) |
+| ![Brazilian Rivers](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/natural-earth/brazilian-rivers.png) |
 
 To remove a mask run `r.mask` with the `-r` flag.
 ```

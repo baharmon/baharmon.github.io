@@ -2,10 +2,10 @@
 title: Cartography in QGIS
 subtitle:
 description: Cartography in QGIS
-featured_image: /images/natural-earth/natural-earth-europe.jpg
+featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/natural-earth/natural-earth-europe.jpg
 ---
 
-![Rivers of Europe](/images/natural-earth/natural-earth-europe.jpg)
+![Rivers of Europe](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/natural-earth/natural-earth-europe.jpg)
 
 **Contents**
 * TOC
@@ -132,7 +132,7 @@ For this tutorial, focus on Europe.
 
 | Azimuth Orthographic Projection |
 |:---:|
-| ![Azimuth Orthographic Projection](/images/natural-earth/globe.jpg) |
+| ![Azimuth Orthographic Projection](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/natural-earth/globe.jpg) |
 
 Try turning off the
 <i class="ms ms-polygon"></i>
@@ -145,7 +145,7 @@ raster layer.
 
 | Azimuth Orthographic Projection of Natural Earth |
 |:---:|
-| ![Azimuth Orthographic Projection](/images/natural-earth/globe-wth-rivers.jpg) |
+| ![Azimuth Orthographic Projection](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/natural-earth/globe-wth-rivers.jpg) |
 
 ---
 
@@ -296,8 +296,8 @@ to export your map as a `.jpg` <i class="ms ms-img"></i>.
 
 | Rivers of Europe |
 |:---:|
-| ![Rivers of Europe](/images/natural-earth/rivers-of-europe.jpg) |
+| ![Rivers of Europe](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/natural-earth/rivers-of-europe.jpg) |
 
 | Natural Earth Map of Europe with Rivers |
 |:---:|
-| ![Natural Earth Map of Europe with Rivers](/images/natural-earth/natural-earth-europe.jpg) |
+| ![Natural Earth Map of Europe with Rivers](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/natural-earth/natural-earth-europe.jpg) |

@@ -3,10 +3,10 @@ title: 'Waveforms'
 subtitle: 'Generative design of sculptural forms from poetry'
 date: 2019-03-03 00:00:00
 description: Generative design of sculptural forms from poetry
-featured_image: '/images/fabform-rendering-1.png'
+featured_image: 'https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/fabform-rendering-1.png'
 ---
 
-![3D rendering of Poetry Waveform Bench](/images/fabform-rendering-1.png)
+![3D rendering of Poetry Waveform Bench](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/fabform-rendering-1.png)
 
 <i class="fab fa-github"></i>
 [Waveform Repository](https://github.com/baharmon/waveforms)
@@ -31,9 +31,9 @@ the one prototype for change
    more giving systems
 ```
 
-![Elevational rendering of Dystopianform](/images/fabform-rendering-2.png "Rendering of Dystopianform")
+![Elevational rendering of Dystopianform](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/fabform-rendering-2.png "Rendering of Dystopianform")
 
-![Rendering of Dystopianform armature](/images/fabform-rendering-3.png "Rendering of Dystopianform")
+![Rendering of Dystopianform armature](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/fabform-rendering-3.png "Rendering of Dystopianform")
 
 ---
 
@@ -49,6 +49,6 @@ The first pair of cups represents and recites the message:
 I love you.
 ```
 
-![Rendering of the Loveform ceramic vessel](/images/loveform-rendering-1.png "Loveform Rendering")
+![Rendering of the Loveform ceramic vessel](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/loveform-rendering-1.png "Loveform Rendering")
 
-![3D printed Loveform vessels](/images/loveform-1.jpg)
+![3D printed Loveform vessels](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/loveform-1.jpg)

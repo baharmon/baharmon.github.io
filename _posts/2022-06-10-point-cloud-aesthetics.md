@@ -2,10 +2,10 @@
 title: 'Point Cloud Aesthetics'
 date: 2022-06-10 12:00:00
 description:
-featured_image: '/images/rockery-dark.jpg'
+featured_image: 'https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/rockery-dark.jpg'
 ---
 
-![Rosedown Rockery](/images/rockery-dark.jpg)
+![Rosedown Rockery](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/rockery-dark.jpg)
 
 ### Point Cloud Aesthetics
 
@@ -17,11 +17,11 @@ Point clouds – sets of x, y, and z coordinates – are an emerging medium for 
 **Team:** Brendan Harmon & Nicholas Serrano
 
 <div class="gallery" data-columns="2">
-    <!-- <img src="/images/rockery-dark.jpg"> -->
-    <img src="/images/staircase-detail.jpg">
-    <img src="/images/transect-2020-06-01-dark.jpg">
-    <img src="/images/transect-2020-01-24-dark.jpg">
-    <img src="/images/transect-2020-08-29-dark.jpg">
-    <img src="/images/transect-biomass-2020-dark.jpg">
-    <img src="/images/point-cloud-aesthetics-1.jpg">
+    <!-- <img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/rockery-dark.jpg"> -->
+    <img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/staircase-detail.jpg">
+    <img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/transect-2020-06-01-dark.jpg">
+    <img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/transect-2020-01-24-dark.jpg">
+    <img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/transect-2020-08-29-dark.jpg">
+    <img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/transect-biomass-2020-dark.jpg">
+    <img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/point-cloud-aesthetics-1.jpg">
 </div>

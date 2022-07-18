@@ -2,7 +2,7 @@
 title: Leaflet
 subtitle:
 description:
-featured_image: /images/
+featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/
 useleaflet: true
 ---
 

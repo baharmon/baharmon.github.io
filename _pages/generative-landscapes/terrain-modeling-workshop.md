@@ -2,11 +2,11 @@
 title: Terrain Modeling
 subtitle: A Gentle Introduction to Terrain Modeling with Grasshopper
 description: A Gentle Introduction to Terrain Modeling with Grasshopper
-featured_image: /images/grasshopper/
+featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/grasshopper/
 usemathjax: true
 ---
 
-![Terrain modeling in Grasshopper](/images/terrain-modeling/topography.png)
+![Terrain modeling in Grasshopper](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/terrain-modeling/topography.png)
 
 **Contents**
 * TOC
@@ -100,8 +100,8 @@ on the right side of the number sliders
 to the respective input node on the left of the `Construct Point` component.
 Drag the handle on each slider to a set x, y, and z values for the point.
 
-<!-- ![Point from x, y, z coordinates](/images/basics/basics-program-1.png) -->
-<img src="/images/basics/basics-program-1.png" alt="Point from x, y, z coordinates" width="750"/>
+<!-- ![Point from x, y, z coordinates](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-program-1.png) -->
+<img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-program-1.png" alt="Point from x, y, z coordinates" width="750"/>
 
 Points can also be defined by text panels with x, y, and z values.
 Place a `Point` parameter
@@ -111,8 +111,8 @@ Double click on the panel to edit it.
 Type in x, y, and z values separated by commas.
 Connect the `Panel` to the `Point` parameter.
 
-<!-- ![Point from text panel](/images/basics/basics-program-2.png) -->
-<img src="/images/basics/basics-program-2.png" alt="Point from text panel" width="750"/>
+<!-- ![Point from text panel](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-program-2.png) -->
+<img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-program-2.png" alt="Point from text panel" width="750"/>
 
 The `Point` parameter can also be set
 to a point drawn in Rhino.
@@ -123,10 +123,10 @@ and the command line in Rhino will ask for a point location.
 Either draw a point in one of the Rhino viewports
 or type x, y, and z values separated by commas into the command line.
 
-<!-- ![Point from Rhino](/images/basics/basics-program-3.png) -->
-<img src="/images/basics/basics-program-3.png" alt="Point from Rhino" width="750"/>
+<!-- ![Point from Rhino](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-program-3.png) -->
+<img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-program-3.png" alt="Point from Rhino" width="750"/>
 
-![Point from x, y, and z coordinates](/images/basics/basics-1.png)
+![Point from x, y, and z coordinates](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-1.png)
 
 ---
 
@@ -147,14 +147,14 @@ Then connect the output for start and end points -
 whether from `Number Slider`, `Point`, or `Panel` parameters -
 to the respective input parameters on the `Line` component.
 
-<!-- ![Line from constructed points](/images/basics/basics-program-4.png) -->
-<img src="/images/basics/basics-program-4.png" alt="Line from constructed points" width="750"/>
+<!-- ![Line from constructed points](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-program-4.png) -->
+<img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-program-4.png" alt="Line from constructed points" width="750"/>
 
-<!-- ![Line from points defined in panels](/images/basics/basics-program-5.png) -->
-<img src="/images/basics/basics-program-5.png" alt="Line from points defined in panels" width="750"/>
+<!-- ![Line from points defined in panels](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-program-5.png) -->
+<img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-program-5.png" alt="Line from points defined in panels" width="750"/>
 
-<!-- ![Line from referenced points](/images/basics/basics-program-6.png) -->
-<img src="/images/basics/basics-program-6.png" alt="Line from referenced points" width="750"/>
+<!-- ![Line from referenced points](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-program-6.png) -->
+<img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-program-6.png" alt="Line from referenced points" width="750"/>
 
 ---
 
@@ -165,9 +165,9 @@ Meshes are often used to represent topography.
 In Grasshopper, a mesh can be generated from a set of points
 using the Delaunay triangulation algorithm.
 
-<img src="/images/basics/basics-program-24.png" alt="Mesh from random points" width="750"/>
+<img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-program-24.png" alt="Mesh from random points" width="750"/>
 
-![Mesh from random points](/images/basics/basics-6.png)
+![Mesh from random points](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-6.png)
 
 ---
 
@@ -176,9 +176,9 @@ using the Delaunay triangulation algorithm.
 Topography can also be represented as smooth, continuous surfaces
 defined by boundaries, control points, and surface tension.
 
-<img src="/images/basics/basics-program-25.png" alt="Surface from random points" width="750"/>
+<img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-program-25.png" alt="Surface from random points" width="750"/>
 
-![Surface from random points](/images/basics/basics-7.png)
+![Surface from random points](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-7.png)
 
 ---
 
@@ -240,10 +240,10 @@ In the `Docofossor` tab under `Geometry` add the
 [dfGridMesh](https://github.com/dbt-ethz/docofossor/blob/master/DOCUMENTATION.md#-dfgridmesh)
 component to generate a quadrilateral mesh from the shifted grid.
 
-![Terrain modeling](/images/terrain-modeling/topographic-modeling-program-1.png)
-<!-- <img src="/images/terrain-modeling/terrain-modeling-program-1.png" alt="Terrain modeling" width="750"/> -->
+![Terrain modeling](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/terrain-modeling/topographic-modeling-program-1.png)
+<!-- <img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/terrain-modeling/terrain-modeling-program-1.png" alt="Terrain modeling" width="750"/> -->
 
-![Terrain modeling in Grasshopper](/images/terrain-modeling/topographic-modeling-1.png)
+![Terrain modeling in Grasshopper](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/terrain-modeling/topographic-modeling-1.png)
 
 ---
 
@@ -261,9 +261,9 @@ to a mesh for visualization with the
 [dfGridMesh](https://github.com/dbt-ethz/docofossor/blob/master/DOCUMENTATION.md#-dfgridmesh)
 component.
 
-![Grading terrain](/images/terrain-modeling/topographic-modeling-program-2.png)
+![Grading terrain](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/terrain-modeling/topographic-modeling-program-2.png)
 
-![Grading in Grasshopper](/images/terrain-modeling/topographic-modeling-2.png)
+![Grading in Grasshopper](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/terrain-modeling/topographic-modeling-2.png)
 
 ---
 
@@ -277,7 +277,7 @@ and the Docofossor list (df) after grading as the second input.
 Connect panels to the outputs to see the volume of cut, fill, and the balance
 (i.e. the difference in the volume).
 
-![Cut and fill calculations](/images/terrain-modeling/topographic-modeling-program-3.png)
+![Cut and fill calculations](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/terrain-modeling/topographic-modeling-program-3.png)
 
 ---
 
@@ -300,7 +300,7 @@ component.
 Connect a custom preview with a color swatch
 to the output mesh to better visualize the terrain.
 
-![Visualize terrain](/images/terrain-modeling/topographic-modeling-program-4.png)
+![Visualize terrain](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/terrain-modeling/topographic-modeling-program-4.png)
 
 ---
 
@@ -318,7 +318,7 @@ and a number slider for the input distance.
 Connect a custom preview with a color swatch
 to the output mesh to better visualize the contours.
 
-![Contours](/images/terrain-modeling/topographic-modeling-program-5.png)
+![Contours](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/terrain-modeling/topographic-modeling-program-5.png)
 
 ---
 
@@ -329,11 +329,11 @@ Create a surface and
 [move](https://grasshopperdocs.com/components/grasshoppertransform/move.html)
 it along the [z-axis](https://grasshopperdocs.com/components/grasshoppervector/unitZ.html) to visualize changes in sea level.
 
-![Cutting plane](/images/terrain-modeling/topographic-modeling-program-6.png)
+![Cutting plane](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/terrain-modeling/topographic-modeling-program-6.png)
 
-![Terrain visualization in Grasshopper](/images/terrain-modeling/topographic-modeling-3.png)
+![Terrain visualization in Grasshopper](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/terrain-modeling/topographic-modeling-3.png)
 
-![Sea level rise visualization in Grasshopper](/images/terrain-modeling/topographic-modeling-4.png)
+![Sea level rise visualization in Grasshopper](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/terrain-modeling/topographic-modeling-4.png)
 
 ---
 

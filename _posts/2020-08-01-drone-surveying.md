@@ -2,10 +2,10 @@
 title: 'Cajun Prairie Wildflower Meadow Survey'
 date: 2020-08-03 12:00:00
 description:
-featured_image: '/images/drones/firefly.jpg'
+featured_image: 'https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/drones/firefly.jpg'
 ---
 
-![Meadow](/images/drones/firefly-takeoff.jpg)
+![Meadow](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/drones/firefly-takeoff.jpg)
 
 ### Drone Surveying, LSU Hilltop Arboretum
 
@@ -32,12 +32,12 @@ and make recommendations for its ongoing management.
 **Ground Control Points:** 9
 
 <div class="gallery" data-columns="2">
-    <img src="/images/drones/firefly.jpg">
-    <img src="/images/drones/firefly-takeoff.jpg">
-    <img src="/images/drones/firefly-in-flight.jpg">
-    <img src="/images/drones/hilltop-wildflowers.jpg">
-    <img src="/images/drones/hilltop-panorama.jpg">
-    <img src="/images/drones/ground-control-station.jpg">
-    <img src="/images/drones/point-cloud-1.jpg">
-    <img src="/images/drones/point-cloud-2.jpg">
+    <img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/drones/firefly.jpg">
+    <img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/drones/firefly-takeoff.jpg">
+    <img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/drones/firefly-in-flight.jpg">
+    <img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/drones/hilltop-wildflowers.jpg">
+    <img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/drones/hilltop-panorama.jpg">
+    <img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/drones/ground-control-station.jpg">
+    <img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/drones/point-cloud-1.jpg">
+    <img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/drones/point-cloud-2.jpg">
 </div>

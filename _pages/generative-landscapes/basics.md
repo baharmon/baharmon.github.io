@@ -4,7 +4,7 @@ subtitle: Modeling points, lines, curves, and surfaces in Grasshopper
 usemathjax: true
 ---
 
-![Surface](/images/basics/basics-5.png)
+![Surface](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-5.png)
 
 **Contents**
 * TOC
@@ -77,7 +77,7 @@ on the right side of the number sliders
 to the respective input node on the left of the `Construct Point` component.
 Drag the handle on each slider to a set x, y, and z values for the point.
 
-![Point from x, y, z coordinates](/images/basics/basics-program-1.png)
+![Point from x, y, z coordinates](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-program-1.png)
 
 Points can also be defined by text panels with x, y, and z values.
 Place a `Point` parameter
@@ -87,7 +87,7 @@ Double click on the panel to edit it.
 Type in x, y, and z values separated by commas.
 Connect the `Panel` to the `Point` parameter.
 
-![Point from text panel](/images/basics/basics-program-2.png)
+![Point from text panel](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-program-2.png)
 
 The `Point` parameter can also be set
 to a point drawn in Rhino.
@@ -98,9 +98,9 @@ and the command line in Rhino will ask for a point location.
 Either draw a point in one of the Rhino viewports
 or type x, y, and z values separated by commas into the command line.
 
-![Point from Rhino](/images/basics/basics-program-3.png)
+![Point from Rhino](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-program-3.png)
 
-![Point from x, y, and z coordinates](/images/basics/basics-1.png)
+![Point from x, y, and z coordinates](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-1.png)
 
 ---
 
@@ -120,11 +120,11 @@ Then connect the output for start and end points -
 whether from `Number Slider`, `Point`, or `Panel` parameters -
 to the respective input parameters on the `Line` component.
 
-![Line from constructed points](/images/basics/basics-program-4.png)
+![Line from constructed points](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-program-4.png)
 
-![Line from points defined in panels](/images/basics/basics-program-5.png)
+![Line from points defined in panels](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-program-5.png)
 
-![Line from referenced points](/images/basics/basics-program-6.png)
+![Line from referenced points](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-program-6.png)
 
 To reference a line drawn in Rhino,
 place a `Line` parameter.
@@ -134,7 +134,7 @@ the starting point and then ending point of the line.
 Either draw the points in a Rhino viewport or
 enter the coordinates in the command line.
 
-![Line from Rhino](/images/basics/basics-program-7.png)
+![Line from Rhino](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-program-7.png)
 
 To draw a line from a starting point, length, and distance,
 first place the
@@ -146,7 +146,7 @@ Set a direction with a vector component such as
 [Unit Z](https://grasshopperdocs.com/components/grasshoppervector/unitZ.html).
 Set a length using a `Number Slider` or `Panel` parameter.
 
-![Line from start, tangent, and length](/images/basics/basics-program-8.png)
+![Line from start, tangent, and length](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-program-8.png)
 
 To construct a line whose end point is relative to its start point,
 first define a starting point
@@ -172,10 +172,10 @@ to the input `Factor` for the
 [Unit X](https://grasshopperdocs.com/components/grasshoppervector/unitX.html)
 vector to set the length of movement.
 
-![Line from translated end point](/images/basics/basics-program-9.png)
+![Line from translated end point](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-program-9.png)
 
 
-![Line from constructed points](/images/basics/basics-2.png)
+![Line from constructed points](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-2.png)
 
 ---
 
@@ -191,9 +191,9 @@ To close the polyline and form a polygon, set the `Closed` input parameter
 to `True` either by adding a `Panel` or a `Boolean Toggle`.
 Double click on the `Boolean Toggle` to change its state from true to false.
 
-![Polyline](/images/basics/basics-program-10.png)
+![Polyline](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-program-10.png)
 
-![Polygon](/images/basics/basics-3.png)
+![Polygon](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-3.png)
 
 ---
 
@@ -212,7 +212,7 @@ or generated from a trigonometric function such as a sine wave.
 `Point` parameters can easily to be edited using the gumball
 to change the shape of the curve.
 
-![Curve](/images/basics/basics-program-11.png)
+![Curve](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-program-11.png)
 
 To create a curve from a sine wave
 first generate a range of values from for example 0 to 10 using the
@@ -230,11 +230,11 @@ Connect the point to the `Vertices` input parameter of an
 component.
 Try changing the domain, frequency, and amplitude of the sine wave.
 
-![Curve](/images/basics/basics-program-12.png)
+![Curve](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-program-12.png)
 
-![Curve](/images/basics/basics-program-13.png)
+![Curve](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-program-13.png)
 
-![Curve](/images/basics/basics-4.png)
+![Curve](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-4.png)
 
 ---
 
@@ -257,23 +257,23 @@ Create planar surfaces from planar curves with
 or as primitives with components like
 [Plane Surface](https://grasshopperdocs.com/components/grasshoppersurface/planeSurface.html).
 
-![Surface](/images/basics/basics-program-14.png)
+![Surface](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-program-14.png)
 
-![Surface](/images/basics/basics-program-15.png)
+![Surface](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-program-15.png)
 
-![Surface](/images/basics/basics-program-16.png)
+![Surface](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-program-16.png)
 
-![Surface](/images/basics/basics-program-17.png)
+![Surface](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-program-17.png)
 
 Create solids either by extruding surfaces with
 [Extrude](https://grasshopperdocs.com/components/grasshoppersurface/extrude.html)
 or as primitives such boxes or spheres.
 
-![Surface](/images/basics/basics-program-18.png)
+![Surface](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-program-18.png)
 
-![Surface](/images/basics/basics-program-19.png)
+![Surface](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-program-19.png)
 
-![Surface](/images/basics/basics-program-20.png)
+![Surface](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-program-20.png)
 
 Freeform surfaces can be constructed from multiple curves
 with components like
@@ -281,13 +281,13 @@ with components like
 and
 [Loft](http://grasshopperdocs.com/components/grasshoppersurface/loft.html).
 
-![Surface](/images/basics/basics-program-21.png)
+![Surface](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-program-21.png)
 
-![Surface](/images/basics/basics-program-22.png)
+![Surface](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-program-22.png)
 
-![Surface](/images/basics/basics-program-23.png)
+![Surface](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-program-23.png)
 
-![Surface](/images/basics/basics-5.png)
+![Surface](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/basics/basics-5.png)
 
 Learn how to transform this surface into furniture in the next tutorial:
 [Modeling a Parametric Bench in Grasshopper](parametric-bench).

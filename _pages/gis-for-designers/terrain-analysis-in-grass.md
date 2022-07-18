@@ -2,10 +2,10 @@
 title: Terrain Analysis in GRASS GIS
 subtitle: A tutorial on terrain analysis in GRASS GIS.
 description: A tutorial on terrain analysis in GRASS GIS.
-featured_image: /images/governors-island/surface.png
+featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/surface.png
 ---
 
-![Surface map with skyview shading](/images/governors-island/shaded-relief.png)
+![Surface map with skyview shading](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/shaded-relief.png)
 
 **Contents**
 * TOC
@@ -66,7 +66,7 @@ r.mask vector=shoreline
 
 | Digital Elevation Model |
 |:---:|
-| ![Digital elevation model](/images/governors-island/elevation.png) |
+| ![Digital elevation model](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/elevation.png) |
 
 ---
 
@@ -83,7 +83,7 @@ r.relief input=elevation_2017 output=relief zscale=2 units=survey
 
 | Shaded Relief |
 |:---:|
-| ![Shaded relief](/images/governors-island/relief-2017.png) |
+| ![Shaded relief](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/relief-2017.png) |
 
 Noise from the lidar data shows up clearly in the relief map.
 Note the parallel lines running diagonally across the landscape -
@@ -116,11 +116,11 @@ d.legend raster=elevation at=70,96,2,3 font=Lato-Regular fontsize=14
 
 | Smoothed Shaded Relief |
 |:---:|
-| ![Smoothed shaded relief](/images/governors-island/relief.png) |
+| ![Smoothed shaded relief](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/relief.png) |
 
 | Digital Elevation Model with Shaded Relief |
 |:---:|
-| ![Digital elevation model with shaded relief](/images/governors-island/shaded-relief.png) |
+| ![Digital elevation model with shaded relief](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/shaded-relief.png) |
 
 ---
 
@@ -148,11 +148,11 @@ d.legend raster=elevation at=60,95,2,3.5 font=Lato-Regular fontsize=14
 
 | Skyview Factor |
 |:---:|
-| ![Skyview factor](/images/governors-island/landforms-skyview.png) |
+| ![Skyview factor](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/landforms-skyview.png) |
 
 | Digital Elevation Model with Direct and Diffuse Illumination |
 |:---:|
-| ![Digital elevation model with direct and diffuse illumination](/images/governors-island/composite-relief.png) |
+| ![Digital elevation model with direct and diffuse illumination](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/composite-relief.png) |
 
 ---
 
@@ -169,11 +169,11 @@ r.contour input=elevation output=contours_3ft step=3 cut=100
 
 | 3 ft Contours |
 |:---:|
-| ![3 ft contours](/images/governors-island/contours.png) |
+| ![3 ft contours](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/contours.png) |
 
 | Skyview Factor with 3 ft Contours |
 |:---:|
-| ![Skyview factor with 3 ft contours](/images/governors-island/skyview-contours.png) |
+| ![Skyview factor with 3 ft contours](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/skyview-contours.png) |
 
 
 ---
@@ -216,8 +216,8 @@ d.legend -c raster=slope_classes at=85,95,2,3.5 font=Lato-Regular fontsize=14
 
 | Slope |
 |:---:|
-| ![Slope](/images/governors-island/slope.png) |
+| ![Slope](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/slope.png) |
 
 | Categorized Slope |
 |:---:|
-| ![Categorized slope](/images/governors-island/slope-classes.png) |
+| ![Categorized slope](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/slope-classes.png) |

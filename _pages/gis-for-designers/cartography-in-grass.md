@@ -2,10 +2,10 @@
 title: Cartography in GRASS GIS
 subtitle:
 description: A guide to cartography in GRASS GIS.
-featured_image: /images/governors-island/landcover-map.png
+featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/landcover-map.png
 ---
 
-![Landcover Map](/images/governors-island/landcover-map.png)
+![Landcover Map](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/landcover-map.png)
 
 **Contents**
 * TOC
@@ -92,7 +92,7 @@ at screen resolution.
 
 | Landcover Map |
 |:---:|
-| ![Landcover Map](/images/governors-island/landcover-map.png) |
+| ![Landcover Map](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/landcover-map.png) |
 
 
 ---
@@ -137,7 +137,7 @@ m.printws input=landcover.gxw output=landcover-150dpi.png page=Flexi format=png
 
 | 150 DPI Landcover Map |
 |:---:|
-| ![Landcover Map at 150 DPI](/images/governors-island/landcover-150dpi.png) |
+| ![Landcover Map at 150 DPI](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/landcover-150dpi.png) |
 
 ---
 
@@ -216,7 +216,7 @@ to save the <i class="ms ms-map"></i> map.
 
 | Cartographic Composer |
 |:---:|
-| ![GRASS Cartographic Composer](/images/governors-island/cartographic-composer.jpg) |
+| ![GRASS Cartographic Composer](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/cartographic-composer.jpg) |
 
 ---
 
@@ -300,4 +300,4 @@ gscript.run_command('d.mon', stop="cairo")
 
 | Landcover Map Rendered with Python |
 |:---:|
-| ![Landcover Map](/images/governors-island/landcover-2014.png) |
+| ![Landcover Map](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/landcover-2014.png) |

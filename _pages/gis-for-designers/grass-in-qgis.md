@@ -2,10 +2,10 @@
 title: Using GRASS in QGIS
 subtitle:
 description: Using GRASS inside of QGIS.
-featured_image: /images/
+featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/
 ---
 
-![GRASS in QGIS](/images/governors-island/grass-in-qgis.jpg)
+![GRASS in QGIS](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/grass-in-qgis.jpg)
 
 **Contents**
 * TOC
@@ -155,7 +155,7 @@ which is more appropriate for discrete data.
 
 | Digital Elevation Model (DEM) |
 |:---:|
-| ![Digital elevation model](/images/governors-island/elevation.jpg) |
+| ![Digital elevation model](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/elevation.jpg) |
 
 To blend a hillshade with the elevation color ramp,
 first make a copy of the layer `elevation_2017`.
@@ -174,7 +174,7 @@ Optionally rename the layer to `shaded_elevation_2017`.
 
 | Digital Elevation Model (DEM) with Hillshading |
 |:---:|
-| ![Digital surface model with hillshading](/images/governors-island/elevation-with-map-elements.jpg) |
+| ![Digital surface model with hillshading](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/elevation-with-map-elements.jpg) |
 
 To add contour lines as a layer style,
 first make another copy of the layer `elevation_2017`.
@@ -256,7 +256,7 @@ Then hit apply to render the landform map with its color table.
 
 | Landforms |
 |:---:|
-| ![Landforms](/images/governors-island/landforms.jpg) |
+| ![Landforms](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/landforms.jpg) |
 
 To better visualize the landforms,
 compute a hillshade using the GRASS module
@@ -279,7 +279,7 @@ In the symbology settings, set the render type to singleband gray and apply.
 
 | Shaded Relief |
 |:---:|
-| ![Shaded Relief](/images/governors-island/hillshade.jpg) |
+| ![Shaded Relief](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/hillshade.jpg) |
 
 To blend the hillshade with the landforms,
 open the <i class="ms ms-style"></i> symbology settings
@@ -290,7 +290,7 @@ Make sure the layer `landforms` is turned on and is below layer `relief_2017`.
 
 | Landforms with Shaded Relief |
 |:---:|
-| ![Landforms with Shaded Relief](/images/governors-island/shaded-landforms.jpg) |
+| ![Landforms with Shaded Relief](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/shaded-landforms.jpg) |
 
 To export a high resolution map as an image or a pdf,
 go to the Project menu and select `New Print Layout`.
@@ -302,7 +302,7 @@ For a high resolution image set the DPI to 300 or greater.
 
 | Print Layout |
 |:---:|
-| ![Print Layout](/images/governors-island/print-layout.jpg) |
+| ![Print Layout](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/print-layout.jpg) |
 
 ---
 
@@ -356,4 +356,4 @@ classify, and then load the color map from the saved file.
 
 | Geomorphon Algorithm in the Processing Framework|
 |:---:|
-| ![Geomorphon Algorithm](/images/governors-island/geomorphons-qgis-dialog.png) |
+| ![Geomorphon Algorithm](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/geomorphons-qgis-dialog.png) |

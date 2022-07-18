@@ -1,11 +1,11 @@
 ---
 title: CNC Milling Terrain Models
 subtitle: CNC milling terrain models with RhinoCAM
-featured_image: /images/cnc/
+featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/cnc/
 usemathjax: true
 ---
 
-![](/images/cnc/)
+![](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/cnc/)
 
 **Contents**
 * TOC

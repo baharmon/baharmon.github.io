@@ -2,10 +2,10 @@
 title: 'Photoscanning at Rosedown'
 date: 2021-03-18 12:00:00
 description:
-featured_image: '/images/rosedown/marthas-screen.png'
+featured_image: 'https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/rosedown/marthas-screen.png'
 ---
 
-![Point Cloud, Martha's Screen, Rosedown](/images/rosedown/marthas-screen.png)
+![Point Cloud, Martha's Screen, Rosedown](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/rosedown/marthas-screen.png)
 
 ### Photoscan of Martha's Screen
 

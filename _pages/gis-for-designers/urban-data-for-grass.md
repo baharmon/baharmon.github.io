@@ -5,7 +5,7 @@ description: A guide to acquiring urban data and importing it into GRASS GIS.
 featured_image:
 ---
 
-![Shaded relief map](/images/governors-island/surface.png)
+![Shaded relief map](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/surface.png)
 
 **Contents**
 * TOC
@@ -141,7 +141,7 @@ r.colors -e map=surface_2017 color=viridis
 
 | Digital elevation model| Digital surface model|
 |:---:|:---:|
-| ![Digital elevation model](/images/governors-island/elevation.png) | ![Digital surface model](/images/governors-island/surface.png) |
+| ![Digital elevation model](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/elevation.png) | ![Digital surface model](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/surface.png) |
 
 ---
 
@@ -243,7 +243,7 @@ Each pair of tiles needs to be patched together.
 
 | Elevation Raster Tiles | Surface Raster Tiles |
 |:---:|:---:|
-| ![Raster tiles](/images/central-park/elevation-tiles.png) | ![Digital surface model tiles](/images/central-park/surface-tiles.png) |
+| ![Raster tiles](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/central-park/elevation-tiles.png) | ![Digital surface model tiles](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/central-park/surface-tiles.png) |
 
 ---
 
@@ -278,7 +278,7 @@ d.legend raster=surface_2017 at=75,96,4,6 font=Lato-Regular fontsize=12
 
 | Digital Elevation Model, Central Park | Digital Surface Model, Central Park |
 |:---:|:---:|
-| ![Digital elevation model](/images/central-park/elevation-2017.png) | ![Digital surface model](/images/central-park/surface-2017.png) |
+| ![Digital elevation model](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/central-park/elevation-2017.png) | ![Digital surface model](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/central-park/surface-2017.png) |
 
 
 Optionally set a mask to the `central_park` vector map.
@@ -289,4 +289,4 @@ r.mask vector=central_park
 
 | Digital Elevation Model, Central Park | Digital Surface Model, Central Park |
 |:---:|:---:|
-| ![Digital elevation model](/images/central-park/elevation-masked-2017.png) | ![Digital surface model](/images/central-park/surface-masked-2017.png) |
+| ![Digital elevation model](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/central-park/elevation-masked-2017.png) | ![Digital surface model](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/central-park/surface-masked-2017.png) |

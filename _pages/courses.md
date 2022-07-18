@@ -2,7 +2,7 @@
 title: Courses
 subtitle:
 description: Open educational content on landscape architecture, landscape ecology, digital design, digital fabrication, and geospatial modeling.
-featured_image: images/
+featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/
 ---
 
 ## Online courses

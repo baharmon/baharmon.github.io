@@ -2,10 +2,10 @@
 title: Urban Data for QGIS
 subtitle:
 description: A guide to acquiring, importing, and processing urban data in QGIS.
-featured_image: /images/
+featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/
 ---
 
-![Urban Data in QGIS](/images/)
+![Urban Data in QGIS](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/)
 
 **Contents**
 * TOC

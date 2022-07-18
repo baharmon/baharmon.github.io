@@ -2,11 +2,11 @@
 title: Lidar in GRASS GIS
 subtitle: A tutorial on lidar in GRASS GIS.
 description: A tutorial on lidar in GRASS GIS.
-featured_image: /images/governors-island/
+featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/
 usemathjax: true
 ---
 
-![Lidar](/images/governors-island/)
+![Lidar](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/)
 
 **Contents**
 * TOC
@@ -89,7 +89,7 @@ Then set region to landforms and reimport
 
 | Binned Lidar |
 |:---:|
-| ![Binned Lidar](/images/governors-island/binned-elevation.png) |
+| ![Binned Lidar](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/binned-elevation.png) |
 
 ## Interpolating Lidar
 

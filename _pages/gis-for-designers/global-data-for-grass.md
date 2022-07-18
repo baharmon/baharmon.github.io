@@ -5,7 +5,7 @@ description: A guide to importing global data into GRASS GIS.
 featured_image:
 ---
 
-![Swiss Shaded Relief](/images/importing-global-data/swiss-shaded-relief.png)
+![Swiss Shaded Relief](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/importing-global-data/swiss-shaded-relief.png)
 
 ---
 
@@ -96,7 +96,7 @@ r.colors -e map=swiss_elevation color=elevation
 
 | Swiss Topography |
 |:---:|
-| ![Swiss Topography](/images/importing-global-data/swiss-elevation.png) |
+| ![Swiss Topography](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/importing-global-data/swiss-elevation.png) |
 
 To better visualize the topography,
 compute a shaded relief map with the module
@@ -123,7 +123,7 @@ in degrees-minutes-seconds.
 
 | Swiss Shaded Relief |
 |:---:|
-| ![Swiss Shaded Relief](/images/importing-global-data/swiss-shaded-relief.png) |
+| ![Swiss Shaded Relief](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/importing-global-data/swiss-shaded-relief.png) |
 
 Other sources of elevation data for Switzerland include:
 * the 25 m resolution

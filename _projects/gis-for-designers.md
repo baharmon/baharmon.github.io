@@ -2,10 +2,10 @@
 title: GIS for Designers
 subtitle: A course on Geographic Information Systems for landscape architects, urban planners, and other designers.
 description: Tutorials on terrain modeling, hydrology, geomorphometry, landscape ecology. and urban analytics in GIS.
-featured_image: /images/new-orleans/new-orleans-render-2.png
+featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/new-orleans/new-orleans-render-2.png
 ---
 
-![New Orleans](/images/new-orleans/new-orleans-render-2.png)
+![New Orleans](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/new-orleans/new-orleans-render-2.png)
 
 ## Introduction
 A guide to Geographic Information Systems

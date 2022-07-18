@@ -1,11 +1,11 @@
 ---
 title: Random Paving
 subtitle: Generating random paving patterns in Grasshopper
-featured_image: /images/random-paving/
+featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/random-paving/
 usemathjax: true
 ---
 
-![Paving pattern from noise](/images/random-paving/random-paving-5.png)
+![Paving pattern from noise](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/random-paving/random-paving-5.png)
 
 **Contents**
 * TOC
@@ -29,27 +29,27 @@ for this tutorial.
 
 ## Regular Paving
 
-![Grasshopper program for regular paving](/images/random-paving/random-paving-program-1.png)
+![Grasshopper program for regular paving](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/random-paving/random-paving-program-1.png)
 
-![Regular paving pattern](/images/random-paving/random-paving-1.png)
+![Regular paving pattern](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/random-paving/random-paving-1.png)
 
 ---
 
 ## Random Paving
 
-![Grasshopper program for random paving](/images/random-paving/random-paving-program-2.png)
+![Grasshopper program for random paving](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/random-paving/random-paving-program-2.png)
 
-![Grasshopper program for baking to a new layer](/images/random-paving/random-paving-program-bake.png)
+![Grasshopper program for baking to a new layer](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/random-paving/random-paving-program-bake.png)
 
-![Random paving pattern](/images/random-paving/random-paving-2.png)
+![Random paving pattern](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/random-paving/random-paving-2.png)
 
 ---
 
 ## Random Gradient of Paving
 
-![Grasshopper program for random gradient of paving](/images/random-paving/random-paving-program-3.png)
+![Grasshopper program for random gradient of paving](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/random-paving/random-paving-program-3.png)
 
-![Paving pattern with random gradient](/images/random-paving/random-paving-3.png)
+![Paving pattern with random gradient](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/random-paving/random-paving-3.png)
 
 ---
 
@@ -87,9 +87,9 @@ to set the lower and upper limits of the color gradient.
 Experiment with noise's time and scale parameters
 to generate new patterns.
 
-![Grasshopper program for paving from noise](/images/random-paving/random-paving-program-4.png)
+![Grasshopper program for paving from noise](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/random-paving/random-paving-program-4.png)
 
-![Paving pattern from noise](/images/random-paving/random-paving-4.png)
+![Paving pattern from noise](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/random-paving/random-paving-4.png)
 
 ---
 
@@ -104,9 +104,9 @@ component.
 Use the center points of the hexagonal cells
 as the input values for the noise.
 
-![Grasshopper program for hexagonal paving from noise](/images/random-paving/random-paving-program-5.png)
+![Grasshopper program for hexagonal paving from noise](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/random-paving/random-paving-program-5.png)
 
-![Hexagonal paving pattern from noise](/images/random-paving/random-paving-5.png)
+![Hexagonal paving pattern from noise](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/random-paving/random-paving-5.png)
 
 ---
 
@@ -122,6 +122,6 @@ a threshold.
 Adjust the parameters of the Perlin noise component
 to form a connected pathway.
 
-![Grasshopper program for pathway from noise](/images/random-paving/random-paving-program-6.png)
+![Grasshopper program for pathway from noise](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/random-paving/random-paving-program-6.png)
 
-![Pathway from noise](/images/random-paving/random-paving-6.png)
+![Pathway from noise](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/random-paving/random-paving-6.png)

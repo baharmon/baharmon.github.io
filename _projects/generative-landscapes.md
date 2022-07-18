@@ -2,10 +2,10 @@
 title: Generative Landscapes
 subtitle: A course on generative design for landscape architects.
 description: Tutorials on visual programming, parametric modeling, and geospatial analysis of landscapes with Grasshopper and GRASS GIS.
-featured_image: /images/random-grove-2.jpg
+featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/random-grove-2.jpg
 ---
 
-![Random grove](/images/random-grove-2.jpg)
+![Random grove](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/random-grove-2.jpg)
 
 ## Introduction
 A course on generative design, digital fabrication,

@@ -5,7 +5,7 @@ description: A guide to importing global data into QGIS.
 featured_image:
 ---
 
-![](/images/)
+![](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/)
 
 ---
 

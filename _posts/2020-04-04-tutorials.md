@@ -2,7 +2,7 @@
 title: 'Tutorials'
 date: 2020-04-04 22:00:00
 description:
-featured_image: '/images/particle-forest-cover.jpg'
+featured_image: 'https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/particle-forest-cover.jpg'
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLOZRfOojyTZq7UyGd-uTx1HfQ2g3Bdo5y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

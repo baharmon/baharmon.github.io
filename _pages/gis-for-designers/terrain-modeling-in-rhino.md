@@ -3,7 +3,7 @@ title: Terrain Modeling in Rhino
 subtitle: A tutorial on terrain modeling with RhinoTerrain.
 ---
 
-![3D rendering of Manhattan](/images/nyc/manhattan-5.png)
+![3D rendering of Manhattan](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/nyc/manhattan-5.png)
 res = 5.0
 **Contents**
 * TOC
@@ -97,7 +97,7 @@ Once the point cloud has been edited,
 generate the terrain mesh again with
 `RtMeshTerrainCreate`.
 
-![Mesh model of Governor's Island from lidar](/images/governors-island/terrain-mesh-1.png)
+![Mesh model of Governor's Island from lidar](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/terrain-mesh-1.png)
 
 ---
 
@@ -227,7 +227,7 @@ RtImportVector
 RtMeshTerrainCreate
 ```
 
-![Manhattan](/images/nyc/manhattan-2.png)
+![Manhattan](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/nyc/manhattan-2.png)
 
 ---
 
@@ -300,6 +300,6 @@ move the black point from 0 to 85
 to increase the tonal range in the image.
 Save.
 
-![3D rendering of Manhattan](/images/nyc/manhattan-5.png)
+![3D rendering of Manhattan](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/nyc/manhattan-5.png)
 
-![3D rendering of New Orleans](/images/new-orleans/new-orleans-render-3.png)
+![3D rendering of New Orleans](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/new-orleans/new-orleans-render-3.png)

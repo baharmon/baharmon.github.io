@@ -2,11 +2,11 @@
 title: Hydrology in GRASS GIS
 subtitle: A tutorial on hydrological modeling and simulation in GRASS GIS.
 description: A tutorial on hydrological modeling and simulation in GRASS GIS.
-featured_image: /images/governors-island/discharge-with-landcover.png
+featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/discharge-with-landcover.png
 usemathjax: true
 ---
 
-![Shallow water flow discharge](/images/governors-island/discharge-with-landcover.png)
+![Shallow water flow discharge](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/discharge-with-landcover.png)
 
 **Contents**
 * TOC
@@ -99,11 +99,11 @@ d.legend raster=elevation at=60,95,2,3.5 font=Lato-Regular fontsize=14
 
 | Skyview Factor |
 |:---:|
-| ![Skyview Factor](/images/governors-island/landforms-skyview.png) |
+| ![Skyview Factor](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/landforms-skyview.png) |
 
 | Digital Elevation Model |
 |:---:|
-| ![Shaded Relief](/images/governors-island/composite-relief.png) |
+| ![Shaded Relief](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/composite-relief.png) |
 
 ---
 
@@ -123,7 +123,7 @@ d.legend -l raster=flow_accumulation at=60,95,2,3.5 font=Lato-Regular fontsize=1
 
 | Flow Accumulation |
 |:---:|
-| ![Flow Accumulation](/images/governors-island/shaded-flow-accumulation.png) |
+| ![Flow Accumulation](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/shaded-flow-accumulation.png) |
 
 
 To visualize concentrated flow accumulation
@@ -176,11 +176,11 @@ d.legend raster=depth_with_landcover at=60,95,2,3.5 font=Lato-Regular fontsize=1
 
 | Shallow Water Flow Depth $$(m)$$|
 |:---:|
-| ![Shallow water flow depth](/images/governors-island/depth.png) |
+| ![Shallow water flow depth](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/depth.png) |
 
 | Shallow Water Flow Discharge $$(m^3/s)$$|
 |:---:|
-| ![Shallow water flow discharge](/images/governors-island/discharge.png) |
+| ![Shallow water flow discharge](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/discharge.png) |
 
 
 To visualize concentrated flows
@@ -262,15 +262,15 @@ d.legend raster=depth_with_landcover at=60,95,2,3.5 font=Lato-Regular fontsize=1
 
 | Manning's Roughness Coefficient |
 |:---:|
-| ![Manning's Roughness Coefficient](/images/governors-island/mannings.png) |
+| ![Manning's Roughness Coefficient](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/mannings.png) |
 
 | Shallow Water Flow Depth $$(m)$$ with Landcover|
 |:---:|
-| ![Shallow water flow depth with landcover](/images/governors-island/depth-with-landcover.png) |
+| ![Shallow water flow depth with landcover](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/depth-with-landcover.png) |
 
 | Shallow Water Flow Discharge $$(m^3/s)$$ with Landcover|
 |:---:|
-| ![Shallow water flow discharge with landcover](/images/governors-island/discharge-with-landcover.png) |
+| ![Shallow water flow discharge with landcover](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/discharge-with-landcover.png) |
 
 ---
 
@@ -319,11 +319,11 @@ d.legend raster=discharge_with_ndvi at=60,95,2,3.5 font=Lato-Regular fontsize=14
 
 | Normalized Difference Vegetation Index |
 |:---:|
-| ![Normalized Difference Vegetation Index](/images/governors-island/ndvi.png) |
+| ![Normalized Difference Vegetation Index](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/ndvi.png) |
 
 | Shallow Water Flow Discharge $$(m^3/s)$$ with Landcover from NDVI|
 |:---:|
-| ![Shallow water flow discharge with landcover from NDVI](/images/governors-island/discharge-with-ndvi.png) |
+| ![Shallow water flow discharge with landcover from NDVI](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/discharge-with-ndvi.png) |
 
 ---
 
@@ -360,7 +360,7 @@ g.gui.animation raster=discharge.01,discharge.02,discharge.03,discharge.04,disch
 
 | Animated Shallow Water Flow Discharge |
 |:---:|
-| ![Shallow water flow discharge](/images/governors-island/discharge.gif) |
+| ![Shallow water flow discharge](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/discharge.gif) |
 
 Optionally edit the animation to add the relief raster
 below the series of discharge maps.

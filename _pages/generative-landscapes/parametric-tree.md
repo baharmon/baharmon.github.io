@@ -2,10 +2,10 @@
 title: Parametric Tree
 subtitle: Modeling a parametric tree in Grasshopper
 description: Modeling a parametric tree in Grasshopper
-featured_image: /images/grasshopper/
+featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/grasshopper/
 ---
 
-![Image](/images/grasshopper)
+![Image](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/grasshopper)
 
 **Contents**
 * TOC

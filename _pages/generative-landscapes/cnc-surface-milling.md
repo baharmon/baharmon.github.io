@@ -1,11 +1,11 @@
 ---
 title: CNC Surface Milling
 subtitle: CNC surface milling with RhinoCAM
-featured_image: /images/cnc/cnc-surface-milling-1.jpg
+featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/cnc/cnc-surface-milling-1.jpg
 usemathjax: true
 ---
 
-![CNC surface milling](/images/cnc/cnc-surface-milling-2.jpg)
+![CNC surface milling](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/cnc/cnc-surface-milling-2.jpg)
 
 **Contents**
 * TOC
@@ -32,7 +32,7 @@ Watch at
 or
 [<i class="fab fa-youtube"></i>](https://youtu.be/cBSGlFYaROw).
 
-![Model of procedurally generated landforms](/images/cnc/model.png)
+![Model of procedurally generated landforms](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/cnc/model.png)
 
 ---
 
@@ -66,11 +66,11 @@ and set the origin to the stock box,
 set the zero face to `Highest Z`,
 and the zero position to `South West`.
 
-![Create stock from box](/images/cnc/box-stock.png)
+![Create stock from box](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/cnc/box-stock.png)
 
-![Align the stock to the part](/images/cnc/align-stock.png)
+![Align the stock to the part](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/cnc/align-stock.png)
 
-![Align the world coordinate system to the stock](/images/cnc/align-wcs.png)
+![Align the world coordinate system to the stock](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/cnc/align-wcs.png)
 
 ---
 
@@ -108,9 +108,9 @@ tool library.
 |:-----:|:------:|:--------:|:---:|:-------:|:---------:|
 | 15000 | 20     | 180      | 200 | 180     | 180       |
 
-![Ball end mill](/images/cnc/tool.png)
+![Ball end mill](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/cnc/tool.png)
 
-![Feeds and speeds](/images/cnc/feeds-and-speeds.png)
+![Feeds and speeds](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/cnc/feeds-and-speeds.png)
 
 ---
 
@@ -130,7 +130,7 @@ as a `.nc` numerical control file.
 Save the numerical control file to a USB drive
 to load onto the computer connected to the CNC machine.
 
-![Parallel finishing operation](/images/cnc/parallel-finishing-1.png)
+![Parallel finishing operation](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/cnc/parallel-finishing-1.png)
 
 ---
 
@@ -140,9 +140,9 @@ In the `Simulation` tab of the Machining Browser
 under `Simulate` select `Play`
 to simulate the machining operation in Rhino's viewports.
 
-![CNC simulation](/images/cnc/simulation-1.png)
+![CNC simulation](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/cnc/simulation-1.png)
 
-![CNC surface milling](/images/cnc/cnc-surface-milling-1.jpg)
+![CNC surface milling](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/cnc/cnc-surface-milling-1.jpg)
 
 ---
 

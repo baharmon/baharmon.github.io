@@ -3,12 +3,12 @@ title: 'Shifting Datum'
 subtitle: 'Visualizations of sea level rise and flooding in New Orleans'
 date: 2019-05-01 00:00:00
 description: Visualizations of sea level rise and flooding in New Orleans
-featured_image: '/images/shifting-datum-1-3.jpg'
+featured_image: 'https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/shifting-datum-1-3.jpg'
 ---
 
 <div class="gallery" data-columns="1">
-	<img src="/images/shifting-datum-1-4.jpg" alt="Shifting Datum I with laser line representation current sea level">
-	<img src="/images/shifting-datum-1-5.jpg" alt="Shifting Datum I with laser line representing sea level rise">
+	<img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/shifting-datum-1-4.jpg" alt="Shifting Datum I with laser line representation current sea level">
+	<img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/shifting-datum-1-5.jpg" alt="Shifting Datum I with laser line representing sea level rise">
 </div>
 
 ---
@@ -48,12 +48,12 @@ Data: [2012 USACE HSDRRS Lidar: New Orleans](https://coast.noaa.gov/htdata/lidar
 Date: 05.01.2019
 
 <div class="gallery" data-columns="2">
-    <img src="/images/shifting-datum-1-1.jpg" alt="Shifting Datum I with laser line representation current sea level">
-    <img src="/images/shifting-datum-1-2.jpg" alt="Shifting Datum I with laser line representing sea level rise">
-    <img src="/images/shifting-datum-1-4.jpg" alt="Shifting Datum I with laser line representing current sea level">
-    <img src="/images/shifting-datum-1-5.jpg" alt="Shifting Datum I with laser line representing sea level rise">
-    <img src="/images/shifting-datum-1-6.jpg" alt="View of Shifting Datum I showing linear actuator with laser">
-    <img src="/images/shifting-datum-1-7.jpg" alt="View of Shifting Datum I showing linear actuator with laser">
+    <img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/shifting-datum-1-1.jpg" alt="Shifting Datum I with laser line representation current sea level">
+    <img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/shifting-datum-1-2.jpg" alt="Shifting Datum I with laser line representing sea level rise">
+    <img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/shifting-datum-1-4.jpg" alt="Shifting Datum I with laser line representing current sea level">
+    <img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/shifting-datum-1-5.jpg" alt="Shifting Datum I with laser line representing sea level rise">
+    <img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/shifting-datum-1-6.jpg" alt="View of Shifting Datum I showing linear actuator with laser">
+    <img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/shifting-datum-1-7.jpg" alt="View of Shifting Datum I showing linear actuator with laser">
 </div>
 
 ---
@@ -68,7 +68,7 @@ Data: [2012 USACE HSDRRS Lidar: New Orleans](https://coast.noaa.gov/htdata/lidar
 
 Date: 05.01.2019
 
-![Shifting Datum II with animation of flood simulation](/images/shifting-datum-2-1.jpg)
+![Shifting Datum II with animation of flood simulation](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/shifting-datum-2-1.jpg)
 
 ---
 
@@ -82,6 +82,6 @@ Data: [2012 USACE HSDRRS Lidar: New Orleans](https://coast.noaa.gov/htdata/lidar
 
 Date: 05.01.2019
 
-![Shifting Datum III](/images/shifting-datum-3-1.jpg)
+![Shifting Datum III](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/shifting-datum-3-1.jpg)
 
-![Shifting Datum III Panorama](/images/shifting-datum-pano-5.jpg)
+![Shifting Datum III Panorama](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/shifting-datum-pano-5.jpg)

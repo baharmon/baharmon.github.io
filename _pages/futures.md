@@ -2,7 +2,7 @@
 title: FUTURES
 subtitle:
 description: A brief introduction to the FUTURES land change model.
-featured_image: images/
+featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/
 ---
 
 FUTure Urban-Regional Environment Simulation (FUTURES) is a model for multilevel simulations of emerging urban-rural landscape structure. FUTURES produces regional projections of landscape patterns using coupled submodels that integrate nonstationary drivers of land change.

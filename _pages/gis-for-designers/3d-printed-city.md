@@ -3,7 +3,7 @@ title: 3D Printing a City
 subtitle: A tutorial on 3D printing a city with GRASS GIS  and RhinoTerrain
 ---
 
-![Manhattan](/images/nyc/manhattan-2.png)
+![Manhattan](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/nyc/manhattan-2.png)
 
 **Contents**
 * TOC

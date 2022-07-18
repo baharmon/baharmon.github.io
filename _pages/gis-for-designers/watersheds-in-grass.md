@@ -2,10 +2,10 @@
 title: Watersheds in GRASS GIS
 subtitle: A tutorial on watershed analysis in GRASS GIS.
 description: A tutorial on watershed analysis in GRASS GIS.
-featured_image: /images/
+featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/
 ---
 
-![Watersheds](/images/tunica-hills/elevation-with-streams.png)
+![Watersheds](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/tunica-hills/elevation-with-streams.png)
 
 **Contents**
 * TOC
@@ -74,7 +74,7 @@ d.legend raster=elevation at=60,95,2,3.5 font=Lato-Regular fontsize=14
 
 | Digital Elevation Model |
 |:---:|
-| ![Elevation](/images/tunica-hills/elevation.png) |
+| ![Elevation](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/tunica-hills/elevation.png) |
 
 ---
 
@@ -128,11 +128,11 @@ r.mask -r
 
 | Watersheds |
 |:---:|
-| ![Watersheds](/images/tunica-hills/watershed-raster.png) |
+| ![Watersheds](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/tunica-hills/watershed-raster.png) |
 
 | Watersheds with Shaded Relief|
 |:---:|
-| ![Watersheds](/images/tunica-hills/masked-watersheds.png) |
+| ![Watersheds](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/tunica-hills/masked-watersheds.png) |
 
 
 Optionally layer masked and unmasked shaded relief maps
@@ -171,7 +171,7 @@ d.legend -l raster=flow_accumulation at=60,95,2,3.5 font=Lato-Regular fontsize=1
 
 | Flow Accumulation |
 |:---:|
-| ![Flow Accumulation](/images/tunica-hills/flow-accumulation.png) |
+| ![Flow Accumulation](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/tunica-hills/flow-accumulation.png) |
 
 ---
 
@@ -214,12 +214,12 @@ d.legend raster=strahler at=85,95,2,3.5 font=Lato-Regular fontsize=14
 
 | Strahler Stream Order |
 |:---:|
-| ![Stream Order](/images/tunica-hills/stream-order-legend.png) |
+| ![Stream Order](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/tunica-hills/stream-order-legend.png) |
 
 
 | Shaded Relief with Stream Network |
 |:---:|
-| ![Shaded relief with streams](/images/tunica-hills/elevation-with-streams.png) |
+| ![Shaded relief with streams](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/tunica-hills/elevation-with-streams.png) |
 
 ---
 

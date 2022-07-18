@@ -2,11 +2,11 @@
 title: Modeling a Forest with a Particle System in Grasshopper
 subtitle:
 description:
-featured_image: /images/grasshopper/
+featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/grasshopper/
 usemathjax: true
 ---
 
-![Image](/images/grasshopper)
+![Image](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/grasshopper)
 
 **Contents**
 * TOC

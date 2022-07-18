@@ -3,10 +3,10 @@ title: 'Laser Scan of LSU Art & Design Quad'
 subtitle: 'Laser Scan of LSU Art & Design Quad'
 date: 2019-02-17 00:00:00
 description: Laser Scan of LSU Art & Design Quad
-featured_image: '/images/lsu-art-and-design-quad-1.png'
+featured_image: 'https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/lsu-art-and-design-quad-1.png'
 ---
 
-![3D SCcan of LSU Art & Design Quad](/images/lsu-art-and-design-quad-1.png)
+![3D SCcan of LSU Art & Design Quad](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/lsu-art-and-design-quad-1.png)
 
 A terrestrial lidar scan of the [LSU College of Art and Design](https://design.lsu.edu/) quadrangle using a Faro Focus scanner. Processed in CloudCompare.
 

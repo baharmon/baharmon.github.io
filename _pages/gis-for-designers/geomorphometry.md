@@ -4,7 +4,7 @@ subtitle: Quantitative terrain analysis
 usemathjax: true
 ---
 
-![Geomorphons](/images/governors-island/shaded-geomorphons.png)
+![Geomorphons](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/governors-island/shaded-geomorphons.png)
 
 **Contents**
 * TOC
