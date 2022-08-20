@@ -83,6 +83,11 @@ A composite of the shaded relief and skyview factor
 will combine direct and diffuse illumination to better visualize relief.
 Use [r.shade](https://grass.osgeo.org/grass-stable/manuals/r.shade.html)
 to drape the shaded relief map over the skyview factor.
+Add a legend by running
+[d.legend](https://grass.osgeo.org/grass82/manuals/d.legend.html)
+in the command console or using the
+![add raster legend](https://github.com/OSGeo/grass/raw/main/gui/icons/grass/legend-add.png)
+button under the add map elements dropdown menu in the graphical user interface.
 
 ```
 g.region n=189850 s=189100 e=978550 w=976850 save=landforms
@@ -212,13 +217,20 @@ First derive landcover classes from
 the 2018 orthophotograph
 with red, green, blue, and near infrared channels
 using unsupervised image classification.
-Create a new imagery group called `imagery_2018`.
-Click add, select the `PERMANENT` mapset,
-and use the pattern `imagery_2018.*`
+Create imagery groups and subgroups
+using the module
+[i.group](https://grass.osgeo.org/grass-stable/manuals/i.cluster.html).
+In the [i.group](https://grass.osgeo.org/grass-stable/manuals/i.cluster.html)
+interface, name the new imagery group `imagery_2018`,
+click add, select the `PERMANENT` mapset,
+and use the pattern `imagery_2018.` <!--`imagery_2018.*`-->
 to add all the channels for the 2018 orthophotograph
 to the imagery group.
-Then create a new imagery subgroup with the same name
-and check all of the maps.
+Then check `edit/create subgroup`
+to create a new subgroup also named `imagery_2018`
+and select all maps in the group.
+<!-- Then create a new imagery subgroup with the same name
+and check all of the maps. -->
 Use module
 [i.cluster](https://grass.osgeo.org/grass-stable/manuals/i.cluster.html)
 with to calculate spectral signatures for 3 landcover classes
@@ -251,6 +263,7 @@ Set the `man` parameter to your Manning's roughness map.
 Drape the depth or discharge map over the relief map
 with [r.shade](https://grass.osgeo.org/grass-stable/manuals/r.shade.html).
 ```
+i.group group=imagery_2018 subgroup=imagery_2018 input=imagery_2018.1,imagery_2018.2,imagery_2018.3,imagery_2018.4
 i.cluster group=imagery_2018 subgroup=imagery_2018 signaturefile=signature classes=3
 i.maxlik group=imagery_2018 subgroup=imagery_2018 signaturefile=signature output=classification
 r.recode input=classification output=mannings rules=mannings.txt
