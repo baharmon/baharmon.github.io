@@ -90,13 +90,7 @@ Add a legend by running
 in the command console or using the add raster legend button
 under the add map elements dropdown menu in the graphical user interface.
 
-<!--
-<img src="https://github.com/OSGeo/grass/raw/main/gui/icons/grass/legend-add.png" alt="add raster legend">
--->
-
-<!--
 ![add raster legend](https://github.com/OSGeo/grass/raw/main/gui/icons/grass/legend-add.png)
--->
 
 ```
 g.region n=189850 s=189100 e=978550 w=976850 save=landforms
