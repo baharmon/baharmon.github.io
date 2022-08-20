@@ -86,8 +86,11 @@ to drape the shaded relief map over the skyview factor.
 Add a legend by running
 [d.legend](https://grass.osgeo.org/grass82/manuals/d.legend.html)
 in the command console or using the
-![add raster legend](https://github.com/OSGeo/grass/raw/main/gui/icons/grass/legend-add.png)
-button under the add map elements dropdown menu in the graphical user interface.
+<img src="https://github.com/OSGeo/grass/raw/main/gui/icons/grass/legend-add.png" alt="add raster legend">
+add raster legend button
+under the add map elements dropdown menu in the graphical user interface.
+
+<!-- ![add raster legend](https://github.com/OSGeo/grass/raw/main/gui/icons/grass/legend-add.png) -->
 
 ```
 g.region n=189850 s=189100 e=978550 w=976850 save=landforms
