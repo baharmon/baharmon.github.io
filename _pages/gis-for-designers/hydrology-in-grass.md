@@ -48,6 +48,8 @@ set the GRASS GIS database directory to `grassdata` directory,
 select `nyspf_governors_island` as your location,
 and create a new mapset called `hydrology`.
 
+**Tested** for GRASS-8.2.0-1.
+
 ## Terrain Modeling
 
 Zoom in on the landforms in the southwest of the island.
