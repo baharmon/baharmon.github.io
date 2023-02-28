@@ -31,7 +31,7 @@ Materials for this tutorial include videos, a dataset, and an example:
 [ governors-island-landform.xyz](https://github.com/baharmon/generative-design/raw/main/grasshopper/data/governors-island-landform.xyz)
 
 **<i class="fas fa-project-diagram"></i> Visual Programs:**
-[ fundamentals.gh](https://github.com/baharmon/generative-design/raw/main/grasshopper/fundamentals.gh) &
+[ fundamentals.gh](https://github.com/baharmon/generative-design/raw/main/grasshopper/very-basics.gh) &
 [ topographic-modeling.gh](https://github.com/baharmon/generative-design/raw/main/grasshopper/topographic-modeling.gh)
 
 **<i class="ms ms-database"></i> Plugin:**
@@ -71,7 +71,7 @@ A visual programming diagram composed in Grasshopper
 generates geometry in Rhino.
 Grasshopper's visual programs are called *definitions*.
 Download the example definition
-[<i class="fas fa-project-diagram"></i> fundamentals.gh](https://github.com/baharmon/baharmon.github.io/blob/master/data/fundamentals.gh?raw=true)
+[<i class="fas fa-project-diagram"></i> very-basics.gh](https://github.com/baharmon/baharmon.github.io/blob/master/data/very-basics.gh?raw=true)
 as a guide for this section.
 
 ---

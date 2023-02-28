@@ -7,7 +7,7 @@ featured_image:
 
 ## Books
 
-Harmon, Brendan. in press. Computational Design for Landscape Architecture. Routledge.
+Harmon, Brendan. in press. *Computational Design for Landscape Architecture*. Routledge.
 
 Petrasova, Anna, Brendan Harmon, Vaclav Petras, Payam Tabrizian, and Helena Mitasova. 2018. *Tangible Modeling with Open Source GIS.* 2nd ed. Springer International Publishing. [https://doi.org/10.1007/978-3-319-89303-7](https://doi.org/10.1007/978-3-319-89303-7).
 
@@ -16,6 +16,10 @@ Petrasova, Anna, Brendan Harmon, Vaclav Petras, and Helena Mitasova. 2015. *Tang
 ---
 
 ## Papers
+
+Nam, Hye Yeon, Brendan Harmon, Ka Hei Cheng, and Samira Awad. 2023. “Contingent Dreams”. In: Proceedings of the Seventeenth International Conference on Tangible, Embedded, and Embodied Interaction. TEI ’23. Warsaw, Poland: Association for Computing Machinery. isbn: 9781450399777. url: [https://doi.org/10.1145/3569009.3576176](https://doi.org/10.1145/3569009.3576176).
+
+Nam, Hye Yeon, JaNiece Campbell, Andrew M. Webb, and Brendan Harmon. 2023. “FloraWear: Wearable Living Interface”. In: TEI ’23. Warsaw, Poland: Association for Computing Machinery. isbn: 9781450399777. url: [https://doi.org/10.1145/3569009.3572801](https://doi.org/10.1145/3569009.3572801).
 
 Harmon, Brendan A, Hye Yeon Nam, Hunter Gilbert, and Nasrin Iravani. 2022. “Living Typography: Robotically Printing a Living Typeface”. In: CHI Conference on Human Factors in Computing Systems Extended Abstracts. New Orleans, LA, USA: Association for Computing Machinery. url: [https://doi.org/10.1145/3491101.3519894](https://doi.org/10.1145/3491101.3519894).
 
