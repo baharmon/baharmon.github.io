@@ -17,6 +17,12 @@ Petrasova, Anna, Brendan Harmon, Vaclav Petras, and Helena Mitasova. 2015. *Tang
 
 ## Papers
 
+Nam, Hye Yeon, Andrew Webb, Raymond Tucker, and Harmon, Brendan. in press. “Code to Cope:
+Supporting Self-Care by Integrating Creative Coding and Coping Mechanisms”. In: C&C ’23: Creativity and Cognition. Association for Computing Machinery.
+
+Harmon, Brendan and Hye Yeon Nam. 2023. “Ecological Robotics”. In: Journal of Digital Landscape
+Architecture 8, pp. 486–492. url: [https://doi.org/10.14627/537740051](https://doi.org/10.14627/537740051).
+
 Nam, Hye Yeon, Brendan Harmon, Ka Hei Cheng, and Samira Awad. 2023. “Contingent Dreams”. In: Proceedings of the Seventeenth International Conference on Tangible, Embedded, and Embodied Interaction. TEI ’23. Warsaw, Poland: Association for Computing Machinery. isbn: 9781450399777. url: [https://doi.org/10.1145/3569009.3576176](https://doi.org/10.1145/3569009.3576176).
 
 Nam, Hye Yeon, JaNiece Campbell, Andrew M. Webb, and Brendan Harmon. 2023. “FloraWear: Wearable Living Interface”. In: TEI ’23. Warsaw, Poland: Association for Computing Machinery. isbn: 9781450399777. url: [https://doi.org/10.1145/3569009.3572801](https://doi.org/10.1145/3569009.3572801).
