@@ -21,7 +21,7 @@ useleaflet: true
 
 // create map
 var mymap = L.map('toner-map').setView([30.411804, -91.180910], 8);
-L.tileLayer.provider('Stamen.TonerLite').addTo(mymap);
+L.tileLayer.provider('Stadia.StamenTonerLite').addTo(mymap);
 
 
 // create custom markers

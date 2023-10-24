@@ -43,7 +43,12 @@ accessToken: 'pk.eyJ1IjoiYmFoYXJtb24iLCJhIjoiY2tnYnF1eW14MGpqejJ0cXFjbnI2c3k1biJ
 
 // create map
 var mymap = L.map('toner-map').setView([30.411804, -91.180910], 12);
-L.tileLayer.provider('Stamen.Toner').addTo(mymap);
+L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_toner/{z}/{x}/{y}{r}.{ext}', {
+	minZoom: 0,
+	maxZoom: 20,
+	attribution: '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://www.stamen.com/" target="_blank">Stamen Design</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+	ext: 'png'
+}).addTo(mymap);
 
 // create custom markers
 var customIcon = new L.Icon({
@@ -94,7 +99,12 @@ L.marker([30.4, -91.1], {
 
 // create map
 var mymap = L.map('project-map').setView([30.411804, -91.180910], 8);
-L.tileLayer.provider('Stamen.Toner').addTo(mymap);
+L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_toner/{z}/{x}/{y}{r}.{ext}', {
+	minZoom: 0,
+	maxZoom: 20,
+	attribution: '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://www.stamen.com/" target="_blank">Stamen Design</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+	ext: 'png'
+}).addTo(mymap);
 
 // create custom markers
 var customIcon = new L.Icon({
