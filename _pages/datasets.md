@@ -21,7 +21,12 @@ useleaflet: true
 
 // create map
 var mymap = L.map('toner-map').setView([30.411804, -91.180910], 8);
-L.tileLayer.provider('Stadia.StamenTonerLite').addTo(mymap);
+L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_toner_lite/{z}/{x}/{y}{r}.{ext}', {
+	minZoom: 0,
+	maxZoom: 20,
+	attribution: '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://www.stamen.com/" target="_blank">Stamen Design</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+	ext: 'png'
+}).addTo(mymap);
 
 
 // create custom markers
@@ -59,7 +64,23 @@ $.getJSON("data/datasets.geojson",function(data){
 
 ---
 
-## <i class="ms ms-grass-gis"></i> GRASS GIS datasets
+## <i class="ms ms-txt"></i> Book Dataset
+
+[Computational Design Dataset](https://zenodo.org/records/8254075)
+
+---
+
+## <i class="ms ms-cloud"></i> Point Clouds
+
+[XYZ Server](https://xyz.cct.lsu.edu/) for point cloud visualization
+
+[Atlas of Heritage Trees](https://zenodo.org/records/8353293)
+
+[Cloud Forest](https://zenodo.org/records/8210022)
+
+---
+
+## <i class="ms ms-grass-gis"></i> GRASS GIS Datasets
 
 [Governor's Island Dataset for GRASS GIS](https://zenodo.org/record/5248419/)
 
@@ -83,7 +104,15 @@ $.getJSON("data/datasets.geojson",function(data){
 
 ---
 
-## <i class="ms ms-shp"></i> ArcGIS datasets
+## <i class="ms ms-qgis"></i> QGIS Datasets
+
+[Governor's Island Dataset for QGIS](https://zenodo.org/record/5248629)
+
+[The Hills of Governor's Island Dataset for QGIS](https://zenodo.org/record/5249091)
+
+---
+
+## <i class="ms ms-shp"></i> ArcGIS Datasets
 
 [Governor's Island Dataset for ArcGIS](https://zenodo.org/record/5249356)
 
@@ -93,14 +122,7 @@ $.getJSON("data/datasets.geojson",function(data){
 
 [New Orleans Geodatabase](https://doi.org/10.5281/zenodo.3484059)
 
----
 
-## <i class="ms ms-qgis"></i> QGIS Datasets
-
-[Governor's Island Dataset for QGIS](https://zenodo.org/record/5248629)
-
-[The Hills of Governor's Island Dataset for QGIS](https://zenodo.org/record/5249091)
-
----
-
+<!--
 ## <i class="ms ms-drone-quad-nano"></i> Drone Data
+-->
