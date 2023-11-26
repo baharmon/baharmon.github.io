@@ -7,10 +7,14 @@ featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.gith
 
 ![Image](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/new-orleans/new-orleans-render-2.png)
 
-## Projects
+---
 
-Robotic Planting
+**Contents**
+* TOC
+{:toc}
 
-Drone Sensing
+---
 
-## Papers
+## Robotic Planting
+
+## Drone Sensing

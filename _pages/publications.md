@@ -7,7 +7,8 @@ featured_image:
 
 ## Books
 
-Harmon, Brendan. in press. *Computational Design for Landscape Architecture*. Routledge.
+Harmon, Brendan. 2024. *Computational Design for Landscape Architecture*. Routledge. 
+isbn: [9781032407050](https://www.routledge.com/Computational-Design-for-Landscape-Architects/Harmon/p/book/9781032407050).
 
 Petrasova, Anna, Brendan Harmon, Vaclav Petras, Payam Tabrizian, and Helena Mitasova. 2018. *Tangible Modeling with Open Source GIS.* 2nd ed. Springer International Publishing. [https://doi.org/10.1007/978-3-319-89303-7](https://doi.org/10.1007/978-3-319-89303-7).
 
@@ -39,7 +40,7 @@ Smith, Devin F, Goldsmith, Steven T, Harmon, Brendan A Harmon, Russell S, and Es
 
 Harmon, Brendan A, Helena Mitasova, Anna Petrasova, and Vaclav Petras. 2019. “r.sim.terrain 1.0: a landscape evolution model with dynamic hydrology.” Geoscientific Model Development, 12(7), 2837–2854. [https://doi.org/10.5194/gmd-12-2837-2019](https://doi.org/10.5194/gmd-12-2837-2019).
 
-Millar, Garrett C, Payam Tabrizian, Anna Petrasova, Vaclav Petras, Brendan Harmon, and Ross K Meentemeyer. 2018. “Tangible Landscape : A Hands-on Method for Teaching Terrain Analysis.” CHI ’18 Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. [https://doi.org/https://doi.org/10.1145/3173574.3173954](https://doi.org/https://doi.org/10.1145/3173574.3173954).
+Millar, Garrett C, Payam Tabrizian, Anna Petrasova, Vaclav Petras, Brendan Harmon, and Ross K Meentemeyer. 2018. “Tangible Landscape : A Hands-on Method for Teaching Terrain Analysis.” CHI ’18 Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. [https://doi.org/10.1145/3173574.3173954](https://doi.org/10.1145/3173574.3173954).
 
 Harmon, Brendan A, Anna Petrasova, Vaclav Petras, Helena Mitasova, and Ross Meentemeyer. 2018. “Tangible Topographic Modeling for Landscape Architects.” International Journal of Architectural Computing. [https://doi.org/10.1177/1478077117749959](https://doi.org/10.1177/1478077117749959).
 

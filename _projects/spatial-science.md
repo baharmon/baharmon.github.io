@@ -1,27 +1,125 @@
 ---
 title: Spatial Science
-subtitle: ...
-description: ...
-featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/new-orleans/new-orleans-render-2.png
+subtitle:
+description:
+featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/spatial-science/hilltop-1.jpg
 ---
 
-![Image](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/new-orleans/new-orleans-render-2.png)
+![Hilltop Meadow Point Cloud Rendering](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/spatial-science/hilltop-1.jpg)
 
-## Projects
+**Contents**
+* TOC
+{:toc}
 
-Tangible Landscape
+---
 
-Hilltop Time Series Analysis
+## Hilltop Time Series Analysis
 
-Panama Geochemistry
+![Hilltop Meadow Point Cloud Rendering](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/spatial-science/hilltop-transect-biomass-2020.png)
 
+[Hilltop Arboretum](https://xyz.cct.lsu.edu/hilltop/)
+&nbsp;
+A Cajun Prairie Wildflower Meadow was established in 2020 at the
+[LSU Hilltop Arboretum](https://www.lsu.edu/hilltop/)
+in Baton Rouge, Louisiana.
+Five fields have been restored as coastal tallgrass prairie,
+a highly endangered ecosystem of which only one percent remains intact.
+The evolution of the newly established meadow was recorded
+with a series of monthly aerial surveys
+by a drone with a multispectral sensor.
+Net annual biomass and carbon
+were computed from the time series of point clouds.
+The surveys were conducted with a
+FireFLY Pro 6 fixed wing drone
+with a MicaSense RedEdge-M sensor
+and 9 permanent ground control points.
+This project was supported by the
+LSU Center for GeoInformatics.
+The datasets are released under the
+<i class="fab fa-creative-commons"></i>
+Creative Commons Zero
+public domain dedication.
+
+**Datasets**
+
+<i class="ms ms-cloud"></i> [Hilltop Point Clouds](https://xyz.cct.lsu.edu/hilltop/)
+
+<!--<i class="ai ai-doi"></i> [Hilltop Dataset]()-->
+
+---
+
+## Tangible Landscape
+
+![Tangible Landscape](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/tangible-landscape-1.jpg)
+[Tangible Landscape](https://tangible-landscape.github.io/)
+is an open source tangible interface
+for landscape modeling
+powered by GRASS GIS and Blender.
+Tangible Landscape couples
+a physical and a digital model of a landscape
+so that users can naturally feel, reshape, and interact
+with the terrain.
+This makes geospatial modeling
+far more intuitive and accessible for beginners
+and empowers geospatial experts.
+
+**Code**
+<i class="fab fa-github"></i>
+[Tangible Landscape](https://github.com/tangible-landscape/grass-tangible-landscape)
+
+**Books**
+
+Petrasova, Anna, Brendan Harmon, Vaclav Petras, Payam Tabrizian, and Helena Mitasova. 2018. *Tangible Modeling with Open Source GIS.* 2nd ed. Springer International Publishing. [<i class="ai ai-doi"></i>](https://doi.org/10.1007/978-3-319-89303-7)https://doi.org/10.1007/978-3-319-89303-7.
+
+Petrasova, Anna, Brendan Harmon, Vaclav Petras, and Helena Mitasova. 2015. *Tangible Modeling with Open Source GIS.* 1st ed. Springer International Publishing. [<i class="ai ai-doi"></i>](https://doi.org/10.1007/978-3-319-25775-4)https://doi.org/10.1007/978-3-319-25775-4.
+
+**Papers**
+
+Millar, Garrett C, Payam Tabrizian, Anna Petrasova, Vaclav Petras, Brendan Harmon, and Ross K Meentemeyer. 2018. “Tangible Landscape : A Hands-on Method for Teaching Terrain Analysis.” CHI ’18 Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. [<i class="ai ai-doi"></i>](https://doi.org/10.1145/3173574.3173954)https://doi.org/10.1145/3173574.3173954.
+
+Harmon, Brendan A, Anna Petrasova, Vaclav Petras, Helena Mitasova, and Ross Meentemeyer. 2018. “Tangible Topographic Modeling for Landscape Architects.” International Journal of Architectural Computing. [<i class="ai ai-doi"></i>](https://doi.org/10.1177/1478077117749959)https://doi.org/10.1177/1478077117749959.
+
+Tabrizian, Payam, Brendan A Harmon, Anna Petrasova, Helena Mitasova, and Ross K Meentemeyer. 2017. “Tangible Immersion for Ecological Design.” In ACADIA 17: Proceedings of the 37th Annual Conference of the Association for Computer Aided Design in Architecture, 600–609. Cambridge, MA. [<i class="ai ai-doi"></i>](http://papers.cumincad.org/cgi-bin/works/Show&_id=caadria2010_044/Show?acadia17_600)http://papers.cumincad.org/cgi-bin/works/Show&_id=caadria2010_044/Show?acadia17_600.
+
+Tonini, Francesco, Douglas Shoemaker, Anna Petrasova, Brendan Harmon, Vaclav Petras, Richard Cobb, Helena Mitasova, and Ross Meentemeyer. 2017. “Tangible Geospatial Modeling for Collaborative Solutions to Invasive Species Management.” Environmental Modelling & Software 92. [<i class="ai ai-doi"></i>](https://doi.org/10.1016/j.envsoft.2017.02.020)https://doi.org/10.1016/j.envsoft.2017.02.020.
+
+Tabrizian, Payam, Anna Petrasova, Brendan Harmon, Vaclav Petras, Helena Mitasova, and Ross Meentemeyer. 2016. “Immersive Tangible Geospatial Modeling.” In Proceedings of the 24th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems, 88:1--88:4. GIS ’16. San Francisco, CA: Association for Computing Machinery. [<i class="ai ai-doi"></i>](https://doi.org/10.1145/2996913.2996950)https://doi.org/10.1145/2996913.2996950.
+
+Petrasova, Anna, Brendan A Harmon, Vaclav Petras, and Helena Mitasova. 2014. “GIS-Based Environmental Modeling with Tangible Interaction and Dynamic Visualization.” In Proceedings of the 7th International Congress on Environmental Modelling and Software, edited by D.P. Ames and N. Quinn. San Diego, California, USA: International Environmental Modelling and Software Society. [<i class="ai ai-doi"></i>](http://www.iemss.org/sites/iemss2014/papers/iemss2014_submission_131.pdf)http://www.iemss.org/sites/iemss2014/papers/iemss2014_submission_131.pdf.
+
+Tateosian, Laura, Helena Mitasova, Brendan A Harmon, Brent Fogleman, Katherine Weaver, and Russell S Harmon. 2010. “TanGeoMS: Tangible Geospatial Modeling System.” IEEE Transactions on Visualization and Computer Graphics 16 (6): 1605–12. [<i class="ai ai-doi"></i>](https://doi.org/10.1109/TVCG.2010.202)https://doi.org/10.1109/TVCG.2010.202.
+
+---
+
+## Panama Geochemistry
+
+[**Geochemistry of Source Rivers to the Greater Panama Canal Watershed](panama-geochemistry)
+&nbsp;
+Spatio-temporal analysis of large data sets to better understand and quantify the physical, chemical, and climatic processes that control the chemistry of rivers in Panama, in particular, and across the tropics, in general.
+
+**Code & Dataset**
+
+<i class="ai ai-osf"></i>
+[Hydrological modeling and morphometric analysis of the Greater Panama Canal Watershed in GRASS GIS](https://osf.io/bx5y6/)
+
+** Publications
+
+Smith, Devin F, Goldsmith, Steven T, Harmon, Brendan A, Harmon, Russell S, and Espinosa, Jorge A. 2020. “Physical Controls and ENSO Event Influence on Weathering in the Panama Canal Watershed.” Scientific Reports 10(1): 10861. [<i class="ai ai-doi"></i>](https://doi.org/10.1038/s41598-020-67797-7)https://doi.org/10.1038/s41598-020-67797-7.
+
+Smith, Devin F., Brendan A. Harmon, Jorge Espinosa, Steven T. Goldsmith, and Russell S. Harmon. 2017. “Evaluation of Climatic and Physical Controls and the Influence of ENSO Events on Long-Term Weathering and CO2 Consumption across the Panama Canal Watershed.” In Geological Society of America Abstracts with Programs. Vol. 49. Seattle, Washington. [<i class="ai ai-doi"></i>](https://doi.org/10.1130/abs/2017AM-298750)https://doi.org/10.1130/abs/2017AM-298750.
+
+Harmon, R.S., G. Wörner, S.T. Goldsmith, B.A. Harmon, C.B. Gardner, W. Berry Lyons, F.L. Ogden, et al. 2016. “Linking Silicate Weathering to Riverine Geochemistry-A Case Study from a Mountainous Tropical Setting in West-Central Panama.” Bulletin of the Geological Society of America 128 (11–12). [<i class="ai ai-doi"></i>](https://doi.org/10.1130/B31388.1)https://doi.org/10.1130/B31388.1.
+
+Goldsmith, Steven T., W. Berry Lyons, Russell S. Harmon, Brendan a. Harmon, Anne E. Carey, and Gregg T. McElwee. 2015. “Organic Carbon Concentrations and Transport in Small Mountain Rivers, Panama.” Applied Geochemistry. [<i class="ai ai-doi"></i>](https://doi.org/10.1016/j.apgeochem.2015.04.014)https://doi.org/10.1016/j.apgeochem.2015.04.014.
+
+Goldsmith, S. T., R. S. Harmon, W. B. Lyons, B. A. Harmon, F. L. Ogden, and C. B. Gardner. 2015. “Evaluation of Controls on Silicate Weathering in Tropical Mountainous Rivers: Insights from the Isthmus of Panama.” Geology 43 (7): 563–566. [<i class="ai ai-doi"></i>](https://doi.org/10.1130/G36082.1)https://doi.org/10.1130/G36082.1.
+
+---
 
 ## Courses
 
-[GIS for Designers](gis-for-designers): A guide to Geographic Information Systems for landscape architects, urban planners, and other designers. Topics include terrain modeling, hydrology, landscape ecology, and urban analytics. Software covered includes GRASS GIS and QGIS. Tutorials are posted on [<i class="fab fa-youtube"></i>](https://www.youtube.com/c/BrendanHarmon) Youtube.
+![New Orleans Rendering](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/new-orleans/new-orleans-render-2.png)
 
-## Books
-
-
-
-## Papers
+[GIS for Designers](gis-for-designers)
+&nbsp;
+A guide to Geographic Information Systems for landscape architects, urban planners, and other designers. Topics include terrain modeling, geomorphometry, hydrology, landscape ecology, and urban analytics. Software covered includes GRASS GIS and QGIS. Tutorials are posted on [<i class="fab fa-youtube"></i>](https://www.youtube.com/c/BrendanHarmon) Youtube.

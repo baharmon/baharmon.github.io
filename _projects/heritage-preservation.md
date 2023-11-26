@@ -7,23 +7,23 @@ featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.gith
 
 ![Rosedown Landscape](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/heritage-preservation/rosedown-landscape.jpg)
 
-**Contents**
-* TOC
-{:toc}
-
----
-
-## Heritage Preservation
 We are using lidar and photogrammetry to 3D scan 
 historic landscapes, buildings, and artifacts.
 Our aim is to create 
 immersive, minutely detailed digital archives
-of these heritage sites 
-Our server
+of these heritage sites.
+Our server 
+<i class="ms ms-cloud"></i>
 [xyz.cct.lsu.edu](https://xyz.cct.lsu.edu/)
-hosts a growing collection of point clouds,
-using [Potree](https://github.com/potree/potree/)
+hosts a growing collection of point clouds
+using Potree
 for interative point cloud rendering.
+
+---
+
+**Contents**
+* TOC
+{:toc}
 
 ---
 
@@ -31,7 +31,8 @@ for interative point cloud rendering.
 
 ![Rosedown Dining Room](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/heritage-preservation/rosedown-dining-room.jpg)
 
-Rosedown is a two hundred acre site in St. Francisville, Louisiana
+[Rosedown](https://xyz.cct.lsu.edu/rosedown/)
+is a two hundred acre site in St. Francisville, Louisiana
 with the well preserved remains of an antebellum plantation dating from 1834
 including the main house, ancillary buildings, and formal gardens.
 The plantation was documented
@@ -60,7 +61,7 @@ public domain dedication.
 **Papers**
 
 Harmon, Brendan A and Nicholas Serrano. 2022. “Point Cloud Aesthetics”. In: Journal of Digital Landscape Architecture 7, pp. 335–344.
-<i class="ai ai-doi"></i> [https://doi.org/10.14627/537724033](https://doi.org/10.14627/537724033).
+[<i class="ai ai-doi"></i>](https://doi.org/10.14627/537724033)https://doi.org/10.14627/537724033.
 
 ---
 
@@ -68,7 +69,7 @@ Harmon, Brendan A and Nicholas Serrano. 2022. “Point Cloud Aesthetics”. In: 
 
 ![Image](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/heritage-preservation/big-cypress.jpg)
 
-The Atlas of Heritage Trees
+[The Atlas of Heritage Trees](https://xyz.cct.lsu.edu/atlas-of-heritage-trees/)
 is an archive of ancient trees
 of exceptional historical, cultural, and ecological significance.
 The trees, captured using terrestrial laser scanning and drone lidar,
@@ -101,6 +102,8 @@ public domain dedication.
 
 ![Alford Cemetery Crypt](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/heritage-preservation/alford-1.jpg)
 
+[African American Burial Grounds](https://xyz.cct.lsu.edu/african-american-burial-grounds/)
+&nbsp;
 This project aims to document 
 African American burial grounds 
 in the Louisiana River Parishes. 
