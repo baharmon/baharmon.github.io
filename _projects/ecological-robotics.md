@@ -1,7 +1,7 @@
 ---
 title: Ecological Robotics
-subtitle: ...
-description: ...
+subtitle:
+description: 
 featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/ecological-robotics/warthog-1.jpg
 ---
 

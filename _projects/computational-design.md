@@ -2,7 +2,7 @@
 title: Computational Design
 subtitle:
 description:
-featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/computational-design/gaussian-planting-2.jpg
+featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/computational-design/cnc-parallel-1.jpg
 ---
 
 ![Gaussian Planting](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/computational-design/gaussian-planting-2.jpg)
@@ -17,7 +17,7 @@ featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.gith
 
 ## Book
 
-![Point Cloud Path](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/computational-design/point-cloud-path-1.jpg)
+<!--![Point Cloud Path](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/computational-design/point-cloud-path-1.jpg)-->
 
 <!--<i class="fas fa-book"></i>-->
 [Computational Design for Landscape Architects](https://www.routledge.com/Computational-Design-for-Landscape-Architects/Harmon/p/book/9781032407050)
