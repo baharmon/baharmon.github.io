@@ -45,7 +45,7 @@ A guide to visual programming for 3D modeling, geospatial modeling, and geospati
 
 ## Datasets
 
-![Saucer Magnolia](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/computational-design/cloud-forest.jpg)
+![Cloud Forest](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/computational-design/cloud-forest.jpg)
 
 [**Cloud Forest**](https://xyz.cct.lsu.edu/cloud-forest/)
 is a collection of laser scanned trees and other plants.

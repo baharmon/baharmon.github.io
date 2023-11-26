@@ -67,7 +67,7 @@ Harmon, Brendan A and Nicholas Serrano. 2022. “Point Cloud Aesthetics”. In: 
 
 ## Atlas of Heritage Trees
 
-![Image](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/heritage-preservation/big-cypress.jpg)
+![Heritage Trees](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/heritage-preservation/heritage-trees.jpg)
 
 [The Atlas of Heritage Trees](https://xyz.cct.lsu.edu/atlas-of-heritage-trees/)
 is an archive of ancient trees
