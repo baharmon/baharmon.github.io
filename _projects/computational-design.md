@@ -2,7 +2,7 @@
 title: Computational Design
 subtitle:
 description:
-featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/new-orleans/new-orleans-render-2.png
+featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/computational-design/gaussian-planting-2.jpg
 ---
 
 ![Gaussian Planting](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/computational-design/gaussian-planting-2.jpg)
@@ -17,7 +17,7 @@ featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.gith
 
 ## Book
 
-![Point Cloud Path](point-cloud-path-1.jpg)
+![Point Cloud Path](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/computational-design/point-cloud-path-1.jpg)
 
 <!--<i class="fas fa-book"></i>-->
 [Computational Design for Landscape Architects](https://www.routledge.com/Computational-Design-for-Landscape-Architects/Harmon/p/book/9781032407050)
@@ -30,7 +30,6 @@ This book is a guide to computational design for landscape architects replete wi
 <!--<i class="fab fa-python"></i>-->
 <i class="fab fa-github"></i>
 [Computational Design Library](https://github.com/baharmon/computational-design-library)
-
 
 ---
 
@@ -46,7 +45,7 @@ A guide to visual programming for 3D modeling, geospatial modeling, and geospati
 
 ## Datasets
 
-![Saucer Magnolia](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/computational-design/magnolia-soulangeana-02.jpg)
+![Saucer Magnolia](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/computational-design/cloud-forest.jpg)
 
 [**Cloud Forest**](https://xyz.cct.lsu.edu/cloud-forest/)
 is a collection of laser scanned trees and other plants.
