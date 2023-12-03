@@ -1,6 +1,6 @@
 ---
-title: Generative Landscapes
-subtitle: A course on generative design for landscape architects.
+title: Computational Design
+subtitle: A course on computational design for landscape architects.
 description: Tutorials on visual programming, parametric modeling, and geospatial analysis of landscapes with Grasshopper and GRASS GIS.
 featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/random-grove-2.jpg
 ---
@@ -8,7 +8,7 @@ featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.gith
 ![Random grove](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/random-grove-2.jpg)
 
 ## Introduction
-A course on generative design, digital fabrication,
+A course on computational design, digital fabrication,
 and lidar and drone analytics for landscape architects.
 
 **Syllabus:**
@@ -17,6 +17,8 @@ and lidar and drone analytics for landscape architects.
 [<i class="fa fa-graduation-cap"></i> 2021](https://github.com/baharmon/syllabi/raw/master/generative-landscapes-syllabus-2021.pdf)
 &
 [<i class="fa fa-graduation-cap"></i> 2022](https://github.com/baharmon/syllabi/raw/master/generative-landscapes-syllabus-2022.pdf)
+&
+[<i class="fa fa-graduation-cap"></i> 2023](https://github.com/baharmon/syllabi/blob/master/computational-design-syllabus-2023.pdf?raw=true)
 
 **Videos:**
 [<i class="fab fa-youtube"></i> Youtube](https://www.youtube.com/playlist?list=PLOZRfOojyTZq7UyGd-uTx1HfQ2g3Bdo5y)

@@ -7,20 +7,15 @@ featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.gith
 
 ## Online courses
 
----
-
-[GIS for Designers](gis-for-designers): A guide to Geographic Information Systems for landscape architects, urban planners, and other designers. Topics include terrain modeling, hydrology, landscape ecology, and urban analytics. Software covered includes GRASS GIS, QGIS, and ArcGIS. Tutorials are posted on [<i class="fab fa-youtube"></i>](https://www.youtube.com/c/BrendanHarmon) Youtube.
+[GIS for Designers](gis-for-designers): A guide to Geographic Information Systems for landscape architects, urban planners, and other designers. Topics include terrain modeling, hydrology, landscape ecology, and urban analytics. Software covered includes GRASS GIS and QGIS. Tutorials are posted on [<i class="fab fa-youtube"></i>](https://www.youtube.com/c/BrendanHarmon) Youtube.
 <!--and [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/showcase/7356098) Vimeo.-->
+[<i class="fas fa-book"></i> Syllabus](https://github.com/baharmon/syllabi/blob/master/gis-for-designers-syllabus-2022.pdf?raw=true)
 
----
 
-[Generative Landscapes](generative-landscapes): A guide to visual programming for 3D modeling, geospatial modeling, and geospatial analysis of landscapes. Software covered includes Rhino, Grasshopper, GRASS GIS, ArcGIS, and Metashape. Tutorials are posted on [<i class="fab fa-youtube"></i>](https://www.youtube.com/c/BrendanHarmon) Youtube.
-<!--and [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/showcase/7366606) Vimeo.-->
+[Computational Design](generative-landscapes): A guide to visual programming for 3D modeling, geospatial modeling, and geospatial analysis of landscapes. Software covered includes Rhino and Grasshopper. Tutorials are posted on [<i class="fab fa-youtube"></i>](https://www.youtube.com/c/BrendanHarmon) Youtube.
+[<i class="fas fa-book"></i> Syllabus](https://github.com/baharmon/syllabi/blob/master/computational-design-syllabus-2023.pdf?raw=true)
 
----
-
-[Digital Landscapes](digital-landscapes): An introduction to 3D modeling and 3D rendering landscapes. Software covered includes Rhino, Lumion, Thea Render, and Adobe CC. Tutorials are posted on [<i class="fab fa-youtube"></i>](https://www.youtube.com/c/BrendanHarmon) Youtube.
-<!--and [<i class="fab fa-vimeo-v"></i>](https://vimeo.com/showcase/7366624) Vimeo.-->
+<!--[Digital Landscapes](digital-landscapes): An introduction to 3D modeling and 3D rendering landscapes. Software covered includes Rhino, Lumion, Thea Render, and Adobe CC. Tutorials are posted on [<i class="fab fa-youtube"></i>](https://www.youtube.com/c/BrendanHarmon) Youtube.-->
 
 ---
 
@@ -59,6 +54,7 @@ A gentle introduction to terrain modeling in Grasshopper.
 
 ---
 
+<!--
 ## Syllabi
 
 | Course | Syllabus |
@@ -74,6 +70,7 @@ A gentle introduction to terrain modeling in Grasshopper.
 | DART 7003 Digital Culture Seminar | [ 2018](https://github.com/baharmon/syllabi/blob/master/digital-culture-syllabus-2018.pdf?raw=true) |
 
 ---
+-->
 
 ## License
 <i class="fab fa-creative-commons"></i>
