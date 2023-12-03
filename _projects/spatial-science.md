@@ -64,6 +64,7 @@ far more intuitive and accessible for beginners
 and empowers geospatial experts.
 
 **Code**
+
 <i class="fab fa-github"></i>
 [Tangible Landscape](https://github.com/tangible-landscape/grass-tangible-landscape)
 
@@ -93,7 +94,7 @@ Tateosian, Laura, Helena Mitasova, Brendan A Harmon, Brent Fogleman, Katherine W
 
 ## Panama Geochemistry
 
-[**Geochemistry of Source Rivers to the Greater Panama Canal Watershed](panama-geochemistry)
+[**Geochemistry of Source Rivers to the Greater Panama Canal Watershed**](panama-geochemistry)
 &nbsp;
 Spatio-temporal analysis of large data sets to better understand and quantify the physical, chemical, and climatic processes that control the chemistry of rivers in Panama, in particular, and across the tropics, in general.
 
@@ -102,7 +103,7 @@ Spatio-temporal analysis of large data sets to better understand and quantify th
 <i class="ai ai-osf"></i>
 [Hydrological modeling and morphometric analysis of the Greater Panama Canal Watershed in GRASS GIS](https://osf.io/bx5y6/)
 
-** Publications
+**Publications**
 
 Smith, Devin F, Goldsmith, Steven T, Harmon, Brendan A, Harmon, Russell S, and Espinosa, Jorge A. 2020. “Physical Controls and ENSO Event Influence on Weathering in the Panama Canal Watershed.” Scientific Reports 10(1): 10861. [<i class="ai ai-doi"></i>](https://doi.org/10.1038/s41598-020-67797-7)https://doi.org/10.1038/s41598-020-67797-7.
 
