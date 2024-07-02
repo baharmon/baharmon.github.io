@@ -7,7 +7,7 @@ useleaflet: true
 ---
 
 ### Brendan Harmon
-Assistant Professor of Landscape Architecture
+Associate Professor of Landscape Architecture
 
 [<i class="fa fa-university"></i> Louisiana State University](https://design.lsu.edu/faculty/brendan-harmon/)
 
