@@ -17,15 +17,6 @@ in a procedural noise pattern.
 **Team:**
 Brendan Harmon
 
-<!--
-<div class="gallery" data-columns="2">
-    <img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/">
-    <img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/">
-    <img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/">
-    <img src="https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/">
-</div> -->
+**Students:** Jyotsnamayee Ram, Cecil Chapman, Caroline Robertson, Lauryn Langley, Spencer Miller, Clara Jimenez, Alston Bagot, & River Heath.
 
-<!-- <div>
-    <iframe title="Rosedown" width="720" height="720" src="https://xyz.cct.lsu.edu/rosedown/dining-room.html">
-    </iframe>
-</div> -->
+**Equipment** UR5e Robot with Robotiq Hand-E Adaptive Gripper

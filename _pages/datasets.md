@@ -66,7 +66,7 @@ $.getJSON("data/datasets.geojson",function(data){
 
 ## <i class="ms ms-txt"></i> Book Dataset
 
-[Computational Design Dataset](https://zenodo.org/records/8254075)
+[Computational Design Dataset](https://zenodo.org/doi/10.5281/zenodo.8191264)
 
 ---
 
@@ -74,53 +74,53 @@ $.getJSON("data/datasets.geojson",function(data){
 
 [XYZ Server](https://xyz.cct.lsu.edu/) for point cloud visualization
 
-[Atlas of Heritage Trees](https://zenodo.org/records/8353293)
+[Atlas of Heritage Trees](https://zenodo.org/doi/10.5281/zenodo.8353292)
 
-[Cloud Forest](https://zenodo.org/records/8210022)
+[Cloud Forest](https://zenodo.org/doi/10.5281/zenodo.8194066)
 
 ---
 
 ## <i class="ms ms-grass-gis"></i> GRASS GIS Datasets
 
-[Governor's Island Dataset for GRASS GIS](https://zenodo.org/record/5248419/)
+[Governor's Island Dataset for GRASS GIS](https://zenodo.org/doi/10.5281/zenodo.3940779)
 
-[The Hills of Governor's Island Dataset for GRASS GIS](https://zenodo.org/record/5248688/)
+[The Hills of Governor's Island Dataset for GRASS GIS](https://zenodo.org/doi/10.5281/zenodo.5248687)
 
-[Hilltop Arboretum Landform Dataset for GRASS GIS](http://doi.org/10.5281/zenodo.3749397)
+[Hilltop Arboretum Landform Dataset for GRASS GIS](https://zenodo.org/doi/10.5281/zenodo.3749396)
 
-[Landscape Evolution Dataset](https://github.com/baharmon/landscape_evolution_dataset)
+[Landscape Evolution Dataset](https://zenodo.org/doi/10.5281/zenodo.2542928)
 
 [Greater Panama Canal Zone Watershed Dataset](https://osf.io/d5h7s/)
 
-[Global Dataset](https://doi.org/10.5281/zenodo.3359632)
+[Global Dataset](https://zenodo.org/doi/10.5281/zenodo.3359631)
 
-[Natural Earth Dataset](https://doi.org/10.5281/zenodo.3968936)
+[Natural Earth Dataset](https://zenodo.org/doi/10.5281/zenodo.3762773)
 
-[Sichuan Dataset](https://doi.org/10.5281/zenodo.3359645)
+[Sichuan Dataset](https://zenodo.org/doi/10.5281/zenodo.3359069)
 
-[Louisiana Dataset](https://doi.org/10.5281/zenodo.3359620)
+[Louisiana Dataset](https://zenodo.org/doi/10.5281/zenodo.3359619)
 
-[New Orleans Dataset](https://doi.org/10.5281/zenodo.3359642)
+[New Orleans Dataset](https://zenodo.org/doi/10.5281/zenodo.3359641)
 
 ---
 
 ## <i class="ms ms-qgis"></i> QGIS Datasets
 
-[Governor's Island Dataset for QGIS](https://zenodo.org/record/5248629)
+[Governor's Island Dataset for QGIS](https://zenodo.org/doi/10.5281/zenodo.4044663)
 
-[The Hills of Governor's Island Dataset for QGIS](https://zenodo.org/record/5249091)
+[The Hills of Governor's Island Dataset for QGIS](https://zenodo.org/doi/10.5281/zenodo.5249090)
 
 ---
 
 ## <i class="ms ms-shp"></i> ArcGIS Datasets
 
-[Governor's Island Dataset for ArcGIS](https://zenodo.org/record/5249356)
+[Governor's Island Dataset for ArcGIS](https://zenodo.org/doi/10.5281/zenodo.5249355)
 
-[The Hills of Governor's Island Dataset for ArcGIS](https://zenodo.org/record/5249790)
+[The Hills of Governor's Island Dataset for ArcGIS](https://zenodo.org/doi/10.5281/zenodo.5249789)
 
-[Louisiana Geodatabase](https://doi.org/10.5281/zenodo.3484055)
+[Louisiana Geodatabase](https://zenodo.org/doi/10.5281/zenodo.3484054)
 
-[New Orleans Geodatabase](https://doi.org/10.5281/zenodo.3484059)
+[New Orleans Geodatabase](https://zenodo.org/doi/10.5281/zenodo.3483790)
 
 
 <!--
