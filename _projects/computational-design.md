@@ -7,6 +7,9 @@ featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.gith
 
 ![Gaussian Planting](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/computational-design/gaussian-planting-2.jpg)
 
+Here are resources for learning about computational design
+including my recent book and tutorials. 
+
 ---
 
 **Contents**
@@ -37,7 +40,7 @@ This book is a guide to computational design for landscape architects replete wi
 
 ![CNC Milling](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/computational-design/cnc-milling.jpg)
 
-[**Generative Landscapes**](generative-landscapes)
+[**Computational Design**](generative-landscapes)
 &nbsp;
 A guide to visual programming for 3D modeling, geospatial modeling, and geospatial analysis of landscapes. Software covered includes Rhino and Grasshopper. Tutorials are posted on [<i class="fab fa-youtube"></i>](https://www.youtube.com/c/BrendanHarmon) Youtube.
 

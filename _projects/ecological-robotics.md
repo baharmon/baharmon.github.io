@@ -7,6 +7,8 @@ featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.gith
 
 ![Unmanned Ground Vehicle](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/ecological-robotics/warthog-1.jpg)
 
+My research in ecological robotics explores how robots can be used to plant and sense land- scapes. I have designed robotic processes for planting algorithmically generated designs and am experimenting with the use of unmanned ground vehicles for planting and sensing landscapes at scale. The aim of this research is to use robotics to catalyze emergent ecological processes.
+
 ---
 
 **Contents**

@@ -7,7 +7,7 @@ featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.gith
 
 ![Rosedown Landscape](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/heritage-preservation/rosedown-landscape.jpg)
 
-We are using lidar and photogrammetry to 3D scan 
+We are using lidar, photogrammetry, and radiance fields to 3D scan 
 historic landscapes, buildings, and artifacts.
 Our aim is to create 
 immersive, minutely detailed digital archives

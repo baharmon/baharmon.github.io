@@ -6,52 +6,36 @@ featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.gith
 useleaflet: true
 ---
 
-### Brendan Harmon
-Associate Professor of Landscape Architecture
+## Brendan Harmon
+**Associate Professor of Landscape Architecture**
 
-[<i class="fa fa-university"></i> Louisiana State University](https://design.lsu.edu/faculty/brendan-harmon/)
+<!--<i class="fa fa-university"></i>-->
+[Louisiana State University](https://design.lsu.edu/faculty/brendan-harmon/)
 
 [<i class="fa fa-graduation-cap"></i> Curriculum Vitae](https://github.com/baharmon/curriculum-vitae/raw/master/baharmon-cv.pdf)
 
- ---
-
-#### Research Interests
-
-* Geographic information systems
-* Geospatial modeling and simulation
-* Drone data analytics
-* Generative design
-* Digital fabrication
-* Ecological robotics
-
----
-
-#### Links
+Brendan is a spatial scientist and computational designer. His work explores the entanglement of ecology and technology. Brendan’s current research programs include the design of robotic processes for planting and sensing landscapes, experiments in the use of point cloud modeling as a new creative medium, and documentary projects that use emerging technologies to preserve a record of our disappearing natural and cultural heritage. His past research programs included building resilience to climate change, erosion and landscape evolution modeling, the geochemistry of tropical rivers, drone data analytics for computational ecology, and development of a tangible interface for geospatial modeling. He is committed to open science and open education as global foundations for equitable access to knowledge. Brendan hosts a collection of 3D scanned heritage landscapes at [https://xyz.cct.lsu.edu](https://xyz.cct.lsu.edu). 
 
 <i class="fab fa-youtube"></i>
-[Youtube](https://www.youtube.com/c/BrendanHarmon)
-
+[Youtube](youtube.com/@baharmon) 
+&middot; 
 <i class="fab fa-github"></i>
-[GitHub](https://github.com/baharmon/)
-
+[GitHub](https://github.com/baharmon/) 
+&middot; 
 <i class="ai ai-orcid"></i>
-[OrcID](http://orcid.org/0000-0002-6218-9318)
-
+[OrcID](http://orcid.org/0000-0002-6218-9318) 
+&middot; 
 <i class="ai ai-researchgate"></i>
-[ResearchGate](https://www.researchgate.net/profile/Brendan_Harmon2)
-
+[ResearchGate](https://www.researchgate.net/profile/Brendan_Harmon2) 
+&middot; 
 <i class="ai ai-osf"></i>
-[Open Science Framework](https://osf.io/xhvp4/)
+[Open Science Framework](https://osf.io/xhvp4/) 
 
 <i class="fas fa-cube"></i>
-[Sketchfab](https://sketchfab.com/lsu-landscape-architecture)
-
-<!--
-<i class="ai ai-academia"></i>
-[Academia](http://lsu.academia.edu/BrendanHarmon)
--->
-
----
+[Sketchfab](https://sketchfab.com/baharmon) 
+&middot; 
+<i class="fa fa-cloud"></i>
+[XYZ Point Cloud Collection](https://xyz.cct.lsu.edu)
 
 &nbsp;
 <style>

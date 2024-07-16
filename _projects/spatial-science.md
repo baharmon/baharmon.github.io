@@ -7,6 +7,10 @@ featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.gith
 
 ![Hilltop Meadow Point Cloud Rendering](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/spatial-science/hilltop-1.jpg)
 
+My research in spatial science focuses on the interaction between physical and ecological form and process. I model hydrology and erosion, develop computational models and simulations, and use remote sensing to record and analyze landscape dynamics.
+
+---
+
 **Contents**
 * TOC
 {:toc}
