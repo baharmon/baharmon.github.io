@@ -27,7 +27,7 @@ for further sources of urban data.
 Download a digital elevation model (DEM)
 and digital surface model (DSM)
 for Governor's Island, New York, NY, USA from
-[GIS.NY.GOV](http://gis.ny.gov/elevation/NYC-topobathymetric-DEM.htm).
+[GIS.NY.GOV](https://gis.ny.gov/nys-dem).
 NYC commissioned a airborne lidar survey in 2017 and created
 a 1 ft resolution bare earth DEM and a DSM from the lidar data.
 The DEM represents the shape of the bare ground
@@ -37,10 +37,16 @@ and everything on it.
 Large rasters such as these are often divided
 into tiles for easier downloading.
 For Governor's Island download DEM and DSM tiles
+using an **FTP client**:
 [be_NYC_020.tif](ftp://ftp.gis.ny.gov/elevation/DEM/NYC_TopoBathymetric2017/be_NYC_020.tif) and
 [hh_NYC_020.tif](ftp://ftp.gis.ny.gov/elevation/DEM/NYC_TopoBathymetric2017_DSM/hh_NYC_020.tif).
-Extract both zip archives.
-Download and extract either
+Alternatively
+to download with your browser,
+use these Google Drive links:
+[be_NYC_020.tif](https://drive.google.com/file/d/1Nh54gz86yZbH1l4e2dly3XmyXvyxinJo/view?usp=drive_link)
+and
+[hh_NYC_020.tif](https://drive.google.com/file/d/1J4FAFElGytkwqFOfrqhZCMooJS6ufvEu/view?usp=drive_link).
+Also download and extract either
 [Tidally Coordinated Shoreline](https://data.cityofnewyork.us/Environment/Tidally-Coordinated-Shoreline/pawq-tjb4)
 or [Shoreline](https://data.cityofnewyork.us/Recreation/Shoreline/2qj2-cctx)
 data from NYC Open Data.
