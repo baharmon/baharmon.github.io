@@ -70,16 +70,20 @@ Topics include terrain modeling, hydrology, landscape ecology, and urban analyti
 
 ---
 
+## Theory
+
+* <i class="fa fa-book"></i> [Geomorphometry](/data/geomorphometry.pdf)
+
+---
+
 ## Lectures
 * [<i class="fa fa-comment"></i> Geodesy](https://baharmon.github.io/lectures/geodesy)
 * [<i class="fa fa-comment"></i> Cartography](https://baharmon.github.io/lectures/cartography)
 * [<i class="fa fa-comment"></i> Decolonizing Cartography](https://baharmon.github.io/lectures/decolonizing-cartography/)
 
+<!--
 ---
-
 ## Readings
 * <i class="fa fa-book"></i> Jorge Luis Borges, [On Exactitude in Science](/data/on-exactitude-in-science.pdf)
 * <i class="fa fa-book"></i> Umberto Eco, [On The Impossibility of Drawing a Map...](/data/eco-impossibility-of-drawing-a-map.pdf)
-
-<!-- Minard System -->
-<!-- Decolonizing Cartography -->
+-->
