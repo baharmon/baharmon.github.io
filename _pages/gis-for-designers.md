@@ -29,20 +29,12 @@ Topics include terrain modeling, hydrology, landscape ecology, and urban analyti
 
 ---
 
-## GRASS Datasets
+## Datasets
 * [<i class="ms ms-grass-gis"></i> Natural Earth Dataset for GRASS GIS](https://zenodo.org/record/3968936/files/natural-earth-dataset.zip?download=1)
 * [<i class="ms ms-grass-gis"></i> Governor's Island Dataset for GRASS GIS](https://zenodo.org/record/5248419/files/governors_island_for_grass.zip?download=1)
 * [<i class="ms ms-grass-gis"></i> The Hills of Governor's Island Dataset for GRASS GIS](https://zenodo.org/record/5248688/files/governors_island_hills_for_grass.zip?download=1)
-
----
-
-## QGIS Datasets
 * [<i class="ms ms-qgis"></i> Governor's Island Dataset for QGIS](https://zenodo.org/record/5701115/files/governors_island_for_qgis.zip?download=1)
 * [<i class="ms ms-qgis"></i> The Hills of Governor's Island Dataset for QGIS](https://zenodo.org/record/5701112/files/governors_island_hills_for_qgis.zip?download=1)
-
----
-
-## ArcGIS Datasets
 * [<i class="ms ms-shp"></i> Governor's Island Dataset for ArcGIS](https://zenodo.org/record/5249356/files/governors_island_for_arcgis.zip?download=1)
 * [<i class="ms ms-shp"></i> The Hills of Governor's Island Dataset for ArcGIS](https://zenodo.org/record/5249790/files/governors_island_hills_for_arcgis.zip?download=1)
 
@@ -55,7 +47,7 @@ Topics include terrain modeling, hydrology, landscape ecology, and urban analyti
 * [<i class="fab fa-youtube"></i>](https://youtu.be/ZpGkTR02--s)[ Cartography in GRASS](cartography-in-grass)
 * [<i class="fab fa-youtube"></i>](https://youtu.be/LVwwqYV5p58)[ Terrain Analysis in GRASS GIS](terrain-analysis-in-grass)
 * [<i class="fab fa-youtube"></i>](https://youtu.be/HPjr00gEk98)[ Map Algebra in GRASS GIS](map-algebra-in-grass)
-* [<i class="fab fa-youtube"></i>](https://youtu.be/bgH-E38tnUc)[ Geomorphometry in GRASS GIS](geomorphometry-in-grass)
+* [<i class="fab fa-youtube"></i>](https://youtu.be/bgH-E38tnUc)[ <i class="fa fa-book"></i>](https://github.com/baharmon/baharmon.github.io/raw/refs/heads/master/data/geomorphometry.pdf)[ Geomorphometry in GRASS GIS](geomorphometry-in-grass)
 * [<i class="fab fa-youtube"></i>](https://youtu.be/DNyyrVY6Pas)[ An Introduction to QGIS](intro-to-qgis)
 * [<i class="fab fa-youtube"></i>](https://youtu.be/wuc4skU8aP0)[ Cartography in QGIS](cartography-in-qgis)
 * [<i class="fab fa-youtube"></i>](https://youtu.be/vr5uZSQoZ4s)[ GRASS in QGIS](grass-in-qgis)
@@ -72,7 +64,7 @@ Topics include terrain modeling, hydrology, landscape ecology, and urban analyti
 
 ## Theory
 
-* <i class="fa fa-book"></i> [Geomorphometry](/data/geomorphometry.pdf)
+* <i class="fa fa-book"></i> [Geomorphometry](https://github.com/baharmon/baharmon.github.io/raw/refs/heads/master/data/geomorphometry.pdf)
 
 ---
 
