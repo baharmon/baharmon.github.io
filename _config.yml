@@ -3,13 +3,13 @@ site: Brendan Harmon
 collections:
   pages:
     output: true
-    permalink: /:name
+    permalink: /:collection/:name
   posts:
     output: true
     permalink: /blog/:slug
   projects:
     output: true
-    permalink: /:name
+    permalink: /:collection/:name
 
 defaults:
   -
