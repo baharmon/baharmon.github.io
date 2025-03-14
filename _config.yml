@@ -3,7 +3,7 @@ site: Brendan Harmon
 collections:
   pages:
     output: true
-    permalink: /:collection/:name
+    permalink: /:name
   posts:
     output: true
     permalink: /blog/:slug
