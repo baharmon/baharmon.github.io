@@ -18,6 +18,20 @@ Petrasova, Anna, Brendan Harmon, Vaclav Petras, and Helena Mitasova. 2015. *Tang
 
 ## Papers
 
+Brooks, Joseph, Carlos Roman, Harmon, Brendan, Annicia Streete, and Nicholas Serrano (2025b).
+“Visualizing Spatial Audio in Digital Landscapes”. In: Journal of Digital Landscape Architecture
+10, pages 547–554. doi: [10.14627/537754051](https://doi.org/10.14627/537754051).
+
+Nam, Hye Yeon, JaNiece Campbell, Brendan Harmon, and Andrew M Webb (2025). “FloraWear:
+Crafting Living Wearables with Sustainable Materials”. In: Proceedings of the Extended Abstracts
+of the CHI Conference on Human Factors in Computing Systems. CHI EA ’25. Yokohama, Japan:
+Association for Computing Machinery. doi: [10.1145/3706599.3721188](https://doi.org/10.1145/3706599.3721188).
+
+Streete, Annicia, Nicholas Serrano, and Brendan Harmon (2025). “Endangered African American
+Burial Grounds of the Lower Mississippi: Acts of Reparation and Preservation”. In: 2025 ACSA
+113th Annual Meeting Paper and Project Proceedings. New Orleans, Louisiana, USA: Association
+of Collegiate Schools of Architecture.
+
 Harmon, Brendan and Hye Yeon Nam. 2024. “3D Printing Heritage Trees”. In: Journal of Digital Landscape Architecture 9, pp. 605–613. doi: [10.14627/537752055](https://doi.org/10.14627/537752055).
 
 Harmon, Brendan and Hye Yeon Nam. 2023. “Ecological Robotics”. In: Journal of Digital Landscape
@@ -79,31 +93,15 @@ Tateosian, Laura, Helena Mitasova, Brendan A Harmon, Brent Fogleman, Katherine W
 
 ---
 
-## Reports
-
-Black, Josh, Peihong Han, Chadd Hippensteel, Xiaoman Ji, Sophie Lott, Murong Xu, Yue Zhang, and Brendan A Harmon. 2019. “Spring Up! Denham Springs Masterplan.” LSU Coastal Sustainability Studio, Baton Rouge, LA. url: [https://www.blurb.com/b/9534482-spring-up-denham-springs-masterplan](https://www.blurb.com/b/9534482-spring-up-denham-springs-masterplan).
-
-Hammons, Hayden, Taylor Jacobson, Nguyet Nguyen, Elizabeth Peterson, Tanvi Shah, Xi Stich, Andrew Wright, and Brendan A Harmon. 2019. “The Hungry River: Designing a Future for the Amite River’s Former Sand and Gravel Mines.” LSU Coastal Sustainability Studio, Baton Rouge, LA.
-
-Levine, Jay, Christopher Eads, Karl Wegmann, Helena Mitasova, Nathan Lyons, Brendan A Harmon, Chanelle McCarther, Samantha Peart, Nicholas Oberle, and Mike Walter. 2018. “Freshwater Bivalve Survey for Endangered Species Branch Fort Bragg, NC.” Technical Report. US Army Corps of Engineers. doi: [10.13140/RG.2.2.17512.11521](https://doi.org/10.13140/RG.2.2.17512.11521).
-
-Meentemeyer, Ross K, Francesco Tonini, Douglas Shoemaker, Richard C Cobb, Brendan A Harmon, Vaclav Petras, Anna Petrasova, Helena Mitasova. 2017. "Collaboratively Managing Sudden Oak Death Using Tangible Geospatial Modeling." Proceedings of the sudden oak death sixth science symposium. General Technical Report GTR-PSW-255. US Forest Service, Pacific Southwest Research Station. eds. Susan J. Frankel and Katharine M. Harrell. url: [https://www.fs.usda.gov/treesearch/pubs/53992](https://www.fs.usda.gov/treesearch/pubs/53992).
-
----
-
-## Workshops
-
-Jeziorska, Justyna and Brendan Harmon. 2018. "Unmanned Aerial Systems Workshop". Hilltop Arboretum, Baton Rouge, LA.
-
-Petrasova, Anna, Vaclav Petras, Brendan A Harmon, and Helena Mitasova. 2016. "Using GRASS GIS through Python and Tangible Interfaces." In FOSS4G NA 2016. Raleigh, NC. [https://grasswiki.osgeo.org/](https://grasswiki.osgeo.org/wiki/Using_GRASS_GIS_through_Python_and_tangible_interfaces_(workshop_at_FOSS4G_NA_2016)).
-
----
-
 ## Presentations
 
-Geymonat, Ludovico and Brendan Harmon. 2024. “Hard Stone, Artificial Intelligence and the Chancel Screen in St Mark’s, Venice”. 36th Congress of the Comité International d’Histoire de l’Art. Lyon, France.
+Brooks, Joseph, Carlos Roman, Harmon, Brendan, Annicia Streete, and Nicholas Serrano (2025a). “Visualizing Spatial Audio in Digital Landscapes”. Digital Landscape Architecture 2025. Anhalt University of Applied Sciences, Dessau, Germany.
 
-Harmon, Brendan and Hye Yeon Nam. 2024. “3D Printing Heritage Trees”. Digital Landscape Architecture 2024. Vienna University of Technology, Austria.
+Geymonat, Ludovico and Brendan Harmon (2024). “Hard Stone, Artificial Intelligence and the Chancel Screen in St Mark’s, Venice”. 36th Congress of the Comité International d’Histoire de l’Art. Lyon, France.
+
+Harmon, Brendan and Hye Yeon Nam (2024a). “3D Printing Heritage Trees”. Digital Landscape Architecture 2024. Vienna University of Technology, Austria.
+
+Serrano, Nicholas, Annicia Streete, and Brendan Harmon (2024). “Endangered African American Burial Grounds of the Lower Mississippi: Acts of Reparation and Preservation ”. Southeast Chapter of the Society of Architectural Historians 2024 Annual Conference. Marietta, Georgia.
 
 Harmon, Brendan and Hye Yeon Nam. 2023. “Ecological Robotics”. Digital Landscape Architecture 2023. Harvard Graduate School of Design, Massachusetts, USA.
 
@@ -131,6 +129,9 @@ Harmon, Brendan, Anna Petrasova, Vaclav Petras, Helena Mitasova, Jelena Vukomano
 
 Harmon, Brendan, Anna Petrasova, and Vaclav Petras. 2016. “Serious Gaming with Tangible Landscape.” In Coffee & Viz. Raleigh, NC. [http://ncsu-geoforall-lab.github.io/coffee-and-viz/hunt.html#/9](http://ncsu-geoforall-lab.github.io/coffee-and-viz/hunt.html#/9).
 
+Petrasova, Anna, Vaclav Petras, Brendan Harmon, and Helena Mitasova (2016). “Using GRASS GIS through Python and tangible interfaces”. FOSS4G NA 2016. Raleigh, NC. URL: https://g
+rasswiki.osgeo.org/wiki/Using_GRASS_GIS_through_Python_and_tangible_interfaces_(workshop_at_FOSS4G_NA_2016).
+
 Mitasova, Helena, Anna Petrasova, Vaclav Petras, and Brendan Harmon. 2015. “Dynamic Landscapes in Open Source GIS.” In Coffee & Viz. Raleigh, NC. [https://geospatial.ncsu.edu/osgeorel/publications/coffeeandviz/#/](https://geospatial.ncsu.edu/osgeorel/publications/coffeeandviz/#/).
 
 Petrasova, Anna, Brendan Harmon, and Helena Mitasova. 2014. “GIS-Based Modeling with Tangible Interaction.” In FOSS4G 2014. [https://vimeo.com/106854721](https://vimeo.com/106854721).
@@ -141,28 +142,68 @@ Mitasova, Helena, Brendan A Harmon, and Stephen B Blundell. 2013. “Exploring T
 
 ---
 
+## Reports
+
+Black, Josh, Peihong Han, Chadd Hippensteel, Xiaoman Ji, Sophie Lott, Murong Xu, Yue Zhang, and Brendan A Harmon. 2019. “Spring Up! Denham Springs Masterplan.” LSU Coastal Sustainability Studio, Baton Rouge, LA. url: [https://www.blurb.com/b/9534482-spring-up-denham-springs-masterplan](https://www.blurb.com/b/9534482-spring-up-denham-springs-masterplan).
+
+Hammons, Hayden, Taylor Jacobson, Nguyet Nguyen, Elizabeth Peterson, Tanvi Shah, Xi Stich, Andrew Wright, and Brendan A Harmon. 2019. “The Hungry River: Designing a Future for the Amite River’s Former Sand and Gravel Mines.” LSU Coastal Sustainability Studio, Baton Rouge, LA.
+
+Levine, Jay, Christopher Eads, Karl Wegmann, Helena Mitasova, Nathan Lyons, Brendan A Harmon, Chanelle McCarther, Samantha Peart, Nicholas Oberle, and Mike Walter. 2018. “Freshwater Bivalve Survey for Endangered Species Branch Fort Bragg, NC.” Technical Report. US Army Corps of Engineers. doi: [10.13140/RG.2.2.17512.11521](https://doi.org/10.13140/RG.2.2.17512.11521).
+
+Meentemeyer, Ross K, Francesco Tonini, Douglas Shoemaker, Richard C Cobb, Brendan A Harmon, Vaclav Petras, Anna Petrasova, Helena Mitasova. 2017. "Collaboratively Managing Sudden Oak Death Using Tangible Geospatial Modeling." Proceedings of the sudden oak death sixth science symposium. General Technical Report GTR-PSW-255. US Forest Service, Pacific Southwest Research Station. eds. Susan J. Frankel and Katharine M. Harrell. url: [https://www.fs.usda.gov/treesearch/pubs/53992](https://www.fs.usda.gov/treesearch/pubs/53992).
+
+---
+
+## Software
+
+Harmon, Brendan, r.earthworks version 1.1.0, 2025. doi: [10.5281/zenodo.15507391](https://doi.org/10.5281/zenodo.15507391).
+
+Harmon, Brendan, Helena Mitasova, and Vaclav Petras, r.sim.terrain version v1.2.0, 2021. doi:
+[10.5281/zenodo.5076592](https://doi.org/10.5281/zenodo.5076592).
+
+---
+
+## Datasets
+
+Harmon, Brendan (2023a). Atlas of Heritage Trees. Version 3.0.0. Zenodo. DOI: [10.5281/zenodo.8353292](https://doi.org/10.5281/zenodo.8353292).
+
+– (2023b). Cloud Forest. Version 1.0.2. Zenodo. DOI: [10.5281/zenodo.8194066](https://doi.org/10.5281/zenodo.8194066).
+
+– (2023c). Computational Design Dataset. Version 1.1.0. Zenodo. DOI: [10.5281/zenodo.8191264](https://doi.org/10.5281/zenodo.8191264).
+
+– (2020h). Governor’s Island Dataset for GRASS GIS. Version 2.0.0. Zenodo. DOI: [10.5281/zenodo.3940779](https://doi.org/10.5281/zenodo.3940779).
+
+– (2020i). Governor’s Island Dataset for QGIS. Version 2.0.0. Zenodo. DOI: [10.5281/zenodo.4044663](https://doi.org/10.5281/zenodo.4044663).
+
+– (2020m). Natural Earth Dataset for GRASS GIS. Version 2.0.0. Zenodo. DOI: [10.5281/zenodo.3762773](https://doi.org/10.5281/zenodo.3762773).
+
+– (2019a). Global Dataset for GRASS GIS. Version 2.0.0. Zenodo. DOI: [10.5281/zenodo.3359631](https://doi.org/10.5281/zenodo.3359631).
+
+– (2019b). Landscape Evolution Dataset. Version 1.2.0. Zenodo. DOI: [10.5281/zenodo.2542928](https://doi.org/10.5281/zenodo.2542928).
+
+---
+
 ## Exhibitions
 
-Nam, Hye Yeon, Brendan Harmon, Michael Pasquier, and Ka Hei Cheng. Shifting Datum. Remember Earth? July
-30 - September 25, 2022. Contemporary Arts Center, New Orleans, Louisiana, USA,
-url: [https://cacno.org/visual-arts/remember-earth](https://cacno.org/visual-arts/remember-earth).
+Harmon, Brendan and XYZ Collective (2025). Field Recordings. LSU Museum of Art. Baton Rouge, Louisiana, USA. April 24 – August 3, 2025.
 
-Nam, Hye Yeon, Brendan Harmon, and Michael Pasquier. Shifting Datum. June 22, 2022. ACM Creativity & Cognition 2022. Venice, Italy.
-url: [https://cc.acm.org/2022/art-exhibition-2/](https://cc.acm.org/2022/art-exhibition-2/)
+Nam, Hye Yeon and Brendan Harmon (2025). Heritage Trees. SIGGRAPH 2025 Art Gallery. Vancouver, British Columbia, Canada. August 10 – 14, 2025.
 
-Nam, Hye Yeon and Brendan Harmon. Contingent Dreams. October 2021. 404 International Festival of Art & Technology.
-url: [https://youtu.be/z6zmj4uzvTg](https://youtu.be/z6zmj4uzvTg).
+Nam, Hye Yeon, Brendan Harmon, Ka Hei Cheng, and Samira Awad (2023b). Contingent Dreams. ACM TEI Art & Performance. Copernicus Science Centre, Warsaw, Poland. February 26 – March 1, 2023.
 
-Nam, Hye Yeon and Brendan Harmon. Shifting Datum. May 2019. Baton Rouge Gallery, Baton Rouge, Louisiana,
-USA, url: [https://www.batonrougegallery.org/nam-may2019](https://www.batonrougegallery.org/nam-may2019).
+Nam, Hye Yeon, Brendan Harmon, and Michael Pasquier (2022). Shifting Datum. ACM Creativity & Cognition Art Exhibition. Istituzione Fondazione Bevilacqua la Masa, Venice, Italy. URL: https://cc.acm.org/2022. June 22, 2022.
+
+Nam, Hye Yeon, Brendan Harmon, Michael Pasquier, and Ka Hei Cheng (2022). Shifting Datum. 9th Annual Gulf South Open Call Exhibition: Remember Earth? Contemporary Arts Center of New Orleans, New Orleans, Louisiana, USA. URL: https://cacno.org/visual-arts/remember-earth. July 30 – September 25, 2022.
+
+Nam, Hye Yeon and Brendan Harmon (2021). Contingent Dreams. 404 International Festival of Art & Technology. URL: https://youtu.be/z6zmj4uzvTg. June 22, 2022.
+
+Nam, Hye Yeon and Brendan Harmon (2019b). Shifting Datum. Baton Rouge Gallery, Baton Rouge, Louisiana, USA. URL: https://www.batonrougegallery.org/nam-may2019. May, 2019.
 
 ---
 
 ## Grants
 
 Streete, Annicia, Brendan Harmon, Brent Fortenberry, Hye Yeon Nam, and Farzaneh Oghazian. Digital Futures: Emerging Technology for Coastal Preservation. Louisiana State University, Big Idea Research Grant. 2024-2025. $75,000.
-
-Douthat, Thomas, Carol Friedland, Robert Rohli, Rubayet Bin Mostafiz, Md Adil Rahim, Ayat Al Assi, Sabarethinam Kameshwar, George Xue, Supratik Mukopadhyay, Nina Lam, Kevin Smiley, Jerrod Penn, Niki Pace, Melissa Daigle, J Matthew Fannin, Kelley Pace, Traci Birch, Haley Blakeman, Brendan Harmon, Brent Fortenberry, Fabio Capra Ribeiro, Richie Roberts, Kristen Stairs, and Meggan Franks. Advancing Integrative Systems Based Approaches to Risk and Resilience: the Louisiana Social, Environmental, and Economic Resilience (LA-SEER) Center. Louisiana State University, Big Idea Research Grant. 2024-2026. $250,000.
 
 Harmon, Brendan. The Atlas of Heritage Trees: Digitizing the Big Cypress on Cat Island. Louisiana State University, Arts & Humanities Project Support Fund. 2023. $3,000.
 
