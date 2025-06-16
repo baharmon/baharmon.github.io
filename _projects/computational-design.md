@@ -5,7 +5,7 @@ description:
 featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/computational-design/cnc-parallel-1.jpg
 ---
 
-![Gaussian Planting](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/computational-design/cloud-garden-2.webp)
+![Gaussian Garden](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/computational-design/cloud-garden-2.webp)
 
 Here are resources for learning about computational design
 including my recent book and tutorials. 
@@ -47,7 +47,7 @@ A guide to visual programming for 3D modeling, geospatial modeling, and geospati
 ---
 
 ## Designs
-![Cloud Forest](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/computational-design/cloud-garden-1.webp)
+![Cloud Garden](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/computational-design/cloud-garden-1.webp)
 
 **Cloud Garden** is a computational design for a garden generated from procedural noise and modeled as a point cloud. All of the plants in the garden are either laser scanned or neural rendered specimens collected in the wild.
 
