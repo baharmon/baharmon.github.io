@@ -5,7 +5,7 @@ description:
 featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/computational-design/cnc-parallel-1.jpg
 ---
 
-![Gaussian Planting](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/computational-design/gaussian-planting-2.jpg)
+![Gaussian Planting](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/computational-design/cloud-garden-2.webp)
 
 Here are resources for learning about computational design
 including my recent book and tutorials. 
@@ -46,6 +46,17 @@ A guide to visual programming for 3D modeling, geospatial modeling, and geospati
 
 ---
 
+## Designs
+![Cloud Forest](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/computational-design/cloud-garden-1.webp)
+
+**Cloud Garden** is a computational design for a garden generated from procedural noise and modeled as a point cloud. All of the plants in the garden are either laser scanned or neural rendered specimens collected in the wild.
+
+<i class="ms ms-cloud"></i> [Sketchfab](https://skfb.ly/pyp9U)
+
+<i class="ai ai-doi"></i> [Dataset](https://doi.org/10.5281/zenodo.15670830)
+
+---
+
 ## Datasets
 
 ![Cloud Forest](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/computational-design/cloud-forest.jpg)
@@ -53,12 +64,12 @@ A guide to visual programming for 3D modeling, geospatial modeling, and geospati
 [**Cloud Forest**](https://xyz.cct.lsu.edu/cloud-forest/)
 is a collection of laser scanned trees and other plants.
 Each plant is available as 
-``laz``, ``e57``, ``pcd``, ``xyz``, and ``3dm`` 
+``laz``, ``e57``, ``ply``, ``pcd``, ``xyz``, and ``3dm`` 
 format point clouds released under the
 <i class="fab fa-creative-commons"></i>
 Creative Commons Zero
 public domain dedication.
 
-<i class="ms ms-cloud"></i> [Cloud Forest Point Clouds](https://xyz.cct.lsu.edu/cloud-forest/)
+<i class="ms ms-cloud"></i> [Cloud Forest Viewer](https://xyz.cct.lsu.edu/cloud-forest/)
 
 <i class="ai ai-doi"></i> [Cloud Forest Dataset](https://doi.org/10.5281/zenodo.8194067)
