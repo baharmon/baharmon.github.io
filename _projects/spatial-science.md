@@ -17,19 +17,72 @@ My research in spatial science focuses on the interaction between physical and e
 
 ---
 
+## Earthworks
+
+![Hilltop Meadow Point Cloud Rendering](images/earthworks-01.png)
+
+`r.earthworks` is a terrain modeling tool
+for the `GRASS` geocomputation engine. 
+It models topographic change as cut or fill operations 
+that add to or subtract from a topographic surface. 
+It can be used to model both natural 
+and constructed landforms
+such as hills, pits, ridges, valleys,
+roads, mines, dams, and levees.
+License: GPL-3.0.
+
+<i class="fab fa-github"></i> Development version:
+[`r.earthworks`](https://github.com/baharmon/r.earthworks)
+
+<i class="ms ms-grass-gis"></i> Addon tool:
+[`r.earthworks 1.2.0`](https://grass.osgeo.org/grass-stable/manuals/addons/r.earthworks.html)
+
+<i class="fa fa-wrench"></i> Tutorials:
+[Earthworks](https://grass-tutorials.osgeo.org/content/tutorials/earthworks/earthworks.html)
+
+<i class="fa fa-book"></i> Paper: 
+Harmon, Brendan A, Anna Petrasova, and Vaclav Petras. [r.earthworks: a GRASS tool for terrain modeling](https://github.com/baharmon/r.earthworks/blob/main/paper/paper.pdf).
+
+---
+
+## Landscape Evolution
+
+A short term landscape evolution 
+using a path sampling method to solve 
+water and sediment flow continuity equations 
+and model mass flows over complex topographies.
+Implemented as an addon tool 
+for the GRASS geocomputation engine. 
+License: GPL-2.0.
+
+<i class="ms ms-grass-gis"></i> Addon tool:
+[`r.sim.terrain 2.0.0`](https://grass.osgeo.org/grass-stable/manuals/addons/r.sim.terrain.html)
+
+<i class="fab fa-github"></i> Development version:
+[`r.sim.terrain 3.0.0`](https://github.com/baharmon/landscape_evolution)
+
+<i class="fa fa-book"></i> Paper: 
+Harmon, Brendan A, Helena Mitasova, Anna Petrasova, and Vaclav Petras. 2019. [r.sim.terrain 1.0: a landscape evolution model with dynamic hydrology](](https://doi.org/10.5194/gmd-12-2837-2019)). Geoscientific Model Development, 12(7), 2837–2854..
+
+
+---
+
 ## Hilltop Time Series Analysis
 
 ![Hilltop Meadow Point Cloud Rendering](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/spatial-science/hilltop-transect-biomass-2020.png)
 
 [Hilltop Arboretum](https://xyz.cct.lsu.edu/hilltop/)
 &nbsp;
-A Cajun Prairie Wildflower Meadow was established in 2020 at the
-[LSU Hilltop Arboretum](https://www.lsu.edu/hilltop/)
+A Cajun Prairie Wildflower Meadow
+was established in 2020 at the
+LSU Hilltop Arboretum
 in Baton Rouge, Louisiana.
-Five fields have been restored as coastal tallgrass prairie,
-a highly endangered ecosystem of which only one percent remains intact.
-The evolution of the newly established meadow was recorded
-with a series of monthly aerial surveys
+Five fields have been restored 
+as coastal tallgrass prairie,
+a highly endangered ecosystem 
+of which only one percent remains intact.
+The evolution of the newly established meadow
+was recorded with a series of monthly aerial surveys
 by a drone with a multispectral sensor.
 Net annual biomass and carbon
 were computed from the time series of point clouds.
@@ -128,3 +181,17 @@ Goldsmith, S. T., R. S. Harmon, W. B. Lyons, B. A. Harmon, F. L. Ogden, and C. B
 [GIS for Designers](gis-for-designers)
 &nbsp;
 A guide to Geographic Information Systems for landscape architects, urban planners, and other designers. Topics include terrain modeling, geomorphometry, hydrology, landscape ecology, and urban analytics. Software covered includes GRASS GIS and QGIS. Tutorials are posted on [<i class="fab fa-youtube"></i>](https://www.youtube.com/c/BrendanHarmon) Youtube.
+
+---
+
+## [GRASS Tutorials](https://grass-tutorials.osgeo.org/)
+
+![GRASS Tutorials](images/map_algebra_01.webp)
+
+* <i class="ms ms-grass-gis"></i> [Basics of map algebra](https://grass-tutorials.osgeo.org/content/tutorials/map_algebra/basic_map_algebra.html)
+* <i class="ms ms-grass-gis"></i> [Procedural noise](https://grass-tutorials.osgeo.org/content/tutorials/noise/noise.html)
+* <i class="ms ms-grass-gis"></i> [Earthworks](https://grass-tutorials.osgeo.org/content/tutorials/earthworks/earthworks.html)
+* <i class="ms ms-grass-gis"></i> [Earthworks: Basics](https://grass-tutorials.osgeo.org/content/tutorials/earthworks/basics.html)
+* <i class="ms ms-grass-gis"></i> [Earthworks: Modeling Coastal Infrastructure](https://grass-tutorials.osgeo.org/content/tutorials/earthworks/levees.html)
+* <i class="ms ms-grass-gis"></i> [Earthworks: Gully Modeling](https://grass-tutorials.osgeo.org/content/tutorials/earthworks/gullies.html)
+* <i class="ms ms-grass-gis"></i> [Earthworks: Terrain Synthesis](https://grass-tutorials.osgeo.org/content/tutorials/earthworks/synthesis.html)

@@ -74,9 +74,13 @@ $.getJSON("data/datasets.geojson",function(data){
 
 [XYZ Server](https://xyz.cct.lsu.edu/) for point cloud visualization
 
-[Atlas of Heritage Trees](https://zenodo.org/doi/10.5281/zenodo.8353292)
+[Cloud Garden](https://xyz.cct.lsu.edu/cloud-garden/) +
+[<i class="ms ms-cloud"></i> Sketchfab](https://skfb.ly/pyp9U) +
+[<i class="ai ai-doi"></i> Dataset](https://doi.org/10.5281/zenodo.15670829)
 
 [Cloud Forest](https://zenodo.org/doi/10.5281/zenodo.8194066)
+
+[Atlas of Heritage Trees](https://zenodo.org/doi/10.5281/zenodo.8353292)
 
 ---
 

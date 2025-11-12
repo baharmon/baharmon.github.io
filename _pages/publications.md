@@ -18,14 +18,16 @@ Petrasova, Anna, Brendan Harmon, Vaclav Petras, and Helena Mitasova. 2015. *Tang
 
 ## Papers
 
+Harmon, Brendan and Hye Yeon Nam (2025). “Cloud Garden: Neural Rendering and Point Cloud
+Modeling of Landscapes”. In: ACADIA 2025: Proceedings of the 45th Annual Conference of the
+Association for Computer Aided Design in Architecture.
+
 Brooks, Joseph, Carlos Roman, Harmon, Brendan, Annicia Streete, and Nicholas Serrano (2025b).
 “Visualizing Spatial Audio in Digital Landscapes”. In: Journal of Digital Landscape Architecture
 10, pages 547–554. DOI: [10.14627/537754051](https://doi.org/10.14627/537754051).
 
 Streete, Annicia, Nicholas Serrano, and Brendan Harmon (2025). “Endangered African American
-Burial Grounds of the Lower Mississippi: Acts of Reparation and Preservation”. In: 2025 ACSA
-113th Annual Meeting Paper and Project Proceedings. New Orleans, Louisiana, USA: Association
-of Collegiate Schools of Architecture. DOI: [10.35483/ACSA.AM.113.81](https://doi.org/10.35483/ACSA.AM.113.81)
+Burial Grounds of the Lower Mississippi: Acts of Reparation and Preservation”. In: 2025 ACSA 113th Annual Meeting Paper and Project Proceedings. New Orleans, Louisiana, USA: Association of Collegiate Schools of Architecture. DOI: [10.35483/ACSA.AM.113.81](https://doi.org/10.35483/ACSA.AM.113.81)
 
 Harmon, Brendan and Hye Yeon Nam. 2024. “3D Printing Heritage Trees”. In: Journal of Digital Landscape Architecture 9, pp. 605–613. DOI: [10.14627/537752055](https://doi.org/10.14627/537752055).
 
@@ -210,72 +212,77 @@ Nam, Hye Yeon and Brendan Harmon (2019b). Shifting Datum. Baton Rouge Gallery, B
 
 ## Grants
 
-Streete, Annicia, Brendan Harmon, Brent Fortenberry, Hye Yeon Nam, and Farzaneh Oghazian. Digital Futures: Emerging Technology for Coastal Preservation. Louisiana State University, Big Idea Research Grant. 2024-2025. $75,000.
+Harmon, Brendan, Jesse Allison, Hye Yeon Nam, Carlos Roman, and Joseph Brooks (2025). Welikia
+Soundscape Engine. The New York Botanical Garden (NYBG). $19,992.
 
-Harmon, Brendan. The Atlas of Heritage Trees: Digitizing the Big Cypress on Cat Island. Louisiana State University, Arts & Humanities Project Support Fund. 2023. $3,000.
+Streete, Annicia, Brendan Harmon, Brent Fortenberry, Hye Yeon Nam, and Farzaneh Oghazian
+(2024–2025). Digital Futures: Emerging Technology for Coastal Preservation. Louisiana State
+University, Big Idea Research Grant. $75,000.
 
-Streete, Annicia, Brendan Harmon, and Nicholas Serrano. Creating Digital Models of African American Burial Grounds in Southeastern Louisiana River Parishes. Architectural Research Centers Consortium. 2023-2024. $10,000.
+Harmon, Brendan (2023e). The Atlas of Heritage Trees: Digitizing the Big Cypress on Cat Island.
+Louisiana State University, Arts & Humanities Project Support Fund. $3,000.
 
-Streete, Annicia, Brendan Harmon, and Nicholas Serrano. Recording African American Burial Grounds as Points Clouds. National Park Ser- vice, Preservation Technology and Training Grants. 2023–2025. $20,469.
+Streete, Annicia, Brendan Harmon, and Nicholas Serrano (2023–2024). Creating Digital Models
+of African American Burial Grounds in Southeastern Louisiana River Parishes. Architectural
+Research Centers Consortium. $10,000.
 
-Harmon, Brendan, Hye Yeon Nam, and Carl Motsenbocker. Vertical Harvest: 3D Printed Ceramic Green Wall for the LSU Hill Farm. LSU Student Sustainability Fund. Louisiana State University.
-2022-2023. $16,016.00.
+– (2023–2025). Recording African American Burial Grounds as Points Clouds. National Park Service, Preservation Technology and Training Grants. $20,469.
 
-Harmon, Brendan, Hye Yeon Nam, Frederick Ostrenko, Jeff Kuehny, Hunter Gilbert, Marcio de Queiroz, and Corina Barbalata.
-Autonomous Construction of the Natural and Built Environment.
-LSU Student Technology Fee. Louisiana State University.
-2022-2023. $115,000.00.
+Harmon, Brendan (2022–2023). Vertical Harvest: 3D Printed Ceramic Green Wall for the LSU Hill
+Farm. Louisiana State University, Student Sustainability Fund. $16,016.
 
-Serrano, Nicholas and Brendan Harmon.
-Rosedown Plantation 3D Scan and Documentation.
-Historic Preservation Fund Grant. National Park Service.
-2020-2021. $39,903.
+Harmon, Brendan, Hye Yeon Nam, Frederick Ostrenko, Hunter Gilbert, Marcio de Querioz, and
+Corina Barbalata (2022–2023). Autonomous Construction of the Natural and Built Environment.
+Louisiana State University, Student Technology Fee. $115,000.
 
-Nam, Hye Yeon, Corina Barbalata, Brendan Harmon, Hunter Gilbert, and Marcio de Queiroz.
-Robots in Nature: Creative Environmental Applications for Robotics.
-Collaborative Seminar Grant. LSU Center for Collaborative Knowledge.
-2020-2021. $3,500.
+Jafari, Navid, Marcio de Queiroz, Tracy Quirk, Traci Birch, and Sam Bentley (2021–2023). Center
+for Coastal Deltaic Innovation, Research, & Technology. National Science Foundation, Industry-
+University Cooperative Research Centers Planning Grant. $20,000. Senior Personnel: 4.5%
+Credit.
 
-Serrano, Nicholas, Brendan Harmon, Christopher Cox, Amy Luther, and Kory Konsoer.
-Tangibly Teaching Terrain with Mixed Reality Terrain Models.
-Collaborative Seminar Grant. LSU Center for Collaborative Knowledge.
-2020-2021. $3,500.
+Zhu, Yimin and Brendan Harmon (2021). A pilot study on indoor living walls: Developing an integrated model for indoor comfort and stress reduction. Louisiana Board of Regents, Research
+Competitiveness Subprogram. $20,000.
 
-Harmon, Brendan, Hye Yeon Nam, Corina Barbalata, Hunter Gilbert, and Marcio de Queiroz.
-Ecological Robotics.
-LSU Student Technology Fee. Louisiana State University.
-2019-2020. $77,000.
+Nam, Hye Yeon, Corina Barbalata, Brendan Harmon, Hunter Gilbert, and Marcio de Querioz (2020–
+2021). 
 
-Harmon, Brendan, Hye Yeon Nam, Marcio de Queiroz, Hunter Gilbert, Tracy Quirk.
-Robots in Nature: Human-Robot-Environment Interaction for Advanced Ecosystem Services.
-LSU Faculty Research Grant. Louisiana State University.
-2019-2021. $72,500.
+Robots in Nature: Creative Environmental Applications for Robotics. LSU Center for Collaborative Knowledge, Collaborative Seminar Grant. $3,500.
 
-Berkowitz, Zak et al. Navigate, Fabricate, Simulate.
-LSU Student Technology Fee. Louisiana State University.
-2018-2019. $120,000.
+Serrano, Nicholas and Brendan Harmon (2020–2021). Rosedown Plantation 3D Scan and Documentation.
+National Park Service, Historic Preservation Fund Grant. $39,903.
 
-Birch, Traci, Kris Palagi, and Brendan Harmon.
-[Improving Quality of Life in the Amite River Watershed through Strategic Community-level Green Infrastructure Planning](https://css.lsu.edu/project/strategic-community-level-green-infrastructure-planning-for-the-amite-river-watershed/).
-Lamar Family Foundation.
-2018-2019. $100,000.
+Serrano, Nicholas, Brendan Harmon, Christopher Cox, Amy Luther, and Kory Konsoer (2020–
+2021). 
 
-Brendan Harmon. Dynamic Landscape Evolution.
-LSU Council on Research Summer Stipend.
-Louisiana State University. 2018. $5,000.
+Tangibly Teaching Terrain with Mixed Reality Terrain Models. LSU Center for Collaborative
+Knowledge, Collaborative Seminar Grant. $3,500.
 
-Berkowitz, Zak et al.
-The Mixed Reality Garage: Labs for the Future of Art and Design.
-LSU Student Technology Fee. Louisiana State University.
-2017-2018. $116,559.
+Harmon, Brendan, Hye Yeon Nam, Corina Barbalata, Hunter Gilbert, and Marcio de Querioz (2019–
+2020). Ecological Robotics. Louisiana State University, Student Technology Fee. $77,000.
 
-de Queiroz, Marcio, Hunter Gilbert, Jason Crow, Derick Ostrenko, Brendan Harmon, and Hye Yeon Nam.
-LSU Robotics = Engineering + Art + Design.
-LSU Student Technology Fee. Louisiana State University.
-2017-2018. $83,325.
+Harmon, Brendan, Hye Yeon Nam, Marcio de Querioz, Hunter Gilbert, and Tracy Quirk (2019–
+2021). Robots in Nature: Human-Robot-Environment Interaction for Advanced Ecosystem Services.
+Louisiana State University, Faculty Research Grant. $72,500.
 
-Carney, Jeff et al.
-[Inland from the Coast: A multi-scalar approach to regional climate change responses](https://css.lsu.edu/project/inland-from-the-coast/).
-Gulf Research Program.
-National Academy of Science & Robert Wood Johnson Foundation.
-2017-2020. $2,936,000. Award: 2000008299.
+Berkowitz, Zachary, Vincent Cellucci, Brendan Harmon, Niloufar Emami, Marc Aubanel, Hye Yeon
+Nam, Jun Zou, Phillip Tebbutt, and Marsha Cuddeback (2018–2019). Navigate, Fabricate, Simulate.
+Louisiana State University, Student Technology Fee. $120,000.
+
+Birch, Traci, Kris Palagi, and Brendan Harmon (2018–2019). Improving Quality of Life in the Amite River Watershed through Strategic Community-level Green Infrastructure. Lamar Family Foundation.
+$100,000.
+
+Harmon, Brendan (2018b). Dynamic Landscape Evolution. Louisiana State University, Council on
+Research Summer Stipend. $5,000.
+
+Berkowitz, Zachary, Vincent Cellucci, Frederick Ostrenko, Jason Crow, Brendan Harmon, Johanna
+Warwick, and Philip Tebbutt (2017–2018). The Mixed Reality Garage: Labs for the Future of Art
+and Design. Louisiana State University, Student Technology Fee. $116,559.
+
+Birch, Traci, Clinton Willson, Robert Twilley, Niki Pace, Aimee Moles, Brendan Harmon, and Katie
+Cherry (2017–2021). Inland from the Coast: A multi-scalar approach to regional climate change
+responses. National Academy of Science and Robert Wood Johnson Foundation, Gulf Research
+Program. $3,068,610.
+
+Queiroz, Marcio de, Hunter Gilbert, Jason Crow, Frederick Ostrenko, Brendan Harmon, and Hye
+Yeon Nam (2017–2018). LSU Robotics = Engineering + Art + Design. Louisiana State University,
+Student Technology Fee. $83,325.

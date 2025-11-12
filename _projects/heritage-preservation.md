@@ -27,44 +27,6 @@ for interative point cloud rendering.
 
 ---
 
-## Rosedown
-
-![Rosedown Dining Room](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/heritage-preservation/rosedown-dining-room.jpg)
-
-[Rosedown](https://xyz.cct.lsu.edu/rosedown/)
-is a two hundred acre site in St. Francisville, Louisiana
-with the well preserved remains of an antebellum plantation dating from 1834
-including the main house, ancillary buildings, and formal gardens.
-The plantation was documented
-using terrestrial laser scanning with a Faro Focus
-and drone photogrammetry with a DJI Matrice 600 Pro with Zenmuse X5 camera.
-The project was lead by
-Brendan Harmon and
-Nicholas Serrano.
-The team included Josef Horacek, Sasha Matthieu, William Conrad,
-Javier Zamora, Matthew Cranney, and Ming Li.
-This project was supported by the
-LSU Center for GeoInformatics and
-LSU Coastal Sustainability Studio
-and funded by the National Park Service's Historic Preservation Fund.
-The point clouds are licensed 
-<i class="fab fa-creative-commons"></i>
-Creative Commons Zero
-public domain dedication.
-
-**Datasets**
-
-<i class="ms ms-cloud"></i> [Rosedown Point Clouds](https://xyz.cct.lsu.edu/rosedown/)
-
-<i class="ai ai-doi"></i> [Rosedown Dataset]()
-
-**Papers**
-
-Harmon, Brendan A and Nicholas Serrano. 2022. “Point Cloud Aesthetics”. In: Journal of Digital Landscape Architecture 7, pp. 335–344.
-[<i class="ai ai-doi"></i>](https://doi.org/10.14627/537724033)https://doi.org/10.14627/537724033.
-
----
-
 ## Atlas of Heritage Trees
 
 ![Heritage Trees](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/heritage-preservation/heritage-trees.jpg)
@@ -96,11 +58,18 @@ public domain dedication.
 
 <i class="ai ai-doi"></i> [Atlas of Heritage Trees Dataset](https://zenodo.org/doi/10.5281/zenodo.8353292)
 
+**Papers**
+
+<i class="fa fa-book"></i>
+Harmon, Brendan and Hye Yeon Nam. 2024. [3D Printing Heritage Trees](https://doi.org/10.14627/537752055). In: Journal of Digital Landscape Architecture 9, pp. 605–613.
+
 ---
 
 ## African American Burial Grounds
 
-![Alford Cemetery Crypt](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/heritage-preservation/alford-1.jpg)
+![Mulatto Bend Drone Lidar](images/mulatto-bend-lidar-2024.webp)
+
+<!-- ![Alford Cemetery Crypt](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/heritage-preservation/alford-1.jpg) -->
 
 [African American Burial Grounds](https://xyz.cct.lsu.edu/african-american-burial-grounds/)
 &nbsp;
@@ -136,12 +105,54 @@ public domain dedication.
 
 <i class="ms ms-cloud"></i> [African American Burial Grounds Point Clouds](https://xyz.cct.lsu.edu/african-american-burial-grounds/)
 
+**Papers**
 
-<!-- ## Venice -->
+<i class="fa fa-book"></i>
+Brooks, Joseph, Carlos Roman, Harmon, Brendan, Annicia Streete, and Nicholas Serrano (2025b).
+[Visualizing Spatial Audio in Digital Landscapes](https://doi.org/10.14627/537754051). In: Journal of Digital Landscape Architecture
+10, pages 547–554.
 
+<i class="fa fa-book"></i>
+Streete, Annicia, Nicholas Serrano, and Brendan Harmon (2025). [Endangered African American
+Burial Grounds of the Lower Mississippi: Acts of Reparation and Preservation](https://doi.org/10.35483/ACSA.AM.113.81). In: 2025 ACSA 113th Annual Meeting Paper and Project Proceedings. New Orleans, Louisiana, USA: Association of Collegiate Schools of Architecture.
 
+---
 
+## Rosedown
 
+![Rosedown Dining Room](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/heritage-preservation/rosedown-dining-room.jpg)
+
+[Rosedown](https://xyz.cct.lsu.edu/rosedown/)
+is a two hundred acre site in St. Francisville, Louisiana
+with the well preserved remains of an antebellum plantation dating from 1834
+including the main house, ancillary buildings, and formal gardens.
+The plantation was documented
+using terrestrial laser scanning with a Faro Focus
+and drone photogrammetry with a DJI Matrice 600 Pro with Zenmuse X5 camera.
+The project was lead by
+Brendan Harmon and
+Nicholas Serrano.
+The team included Josef Horacek, Sasha Matthieu, William Conrad,
+Javier Zamora, Matthew Cranney, and Ming Li.
+This project was supported by the
+LSU Center for GeoInformatics and
+LSU Coastal Sustainability Studio
+and funded by the National Park Service's Historic Preservation Fund.
+The point clouds are licensed 
+<i class="fab fa-creative-commons"></i>
+Creative Commons Zero
+public domain dedication.
+
+**Datasets**
+
+<i class="ms ms-cloud"></i> [Rosedown Point Clouds](https://xyz.cct.lsu.edu/rosedown/)
+
+<i class="ai ai-doi"></i> [Rosedown Dataset]()
+
+**Papers**
+
+<i class="fa fa-book"></i>
+Harmon, Brendan A and Nicholas Serrano. 2022. [Point Cloud Aesthetics]((https://doi.org/10.14627/537724033)https://doi.org/10.14627/537724033). In: Journal of Digital Landscape Architecture 7, pp. 335–344.
 
 
 
