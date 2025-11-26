@@ -39,7 +39,7 @@ Harmon, Brendan and XYZ Collective (2025). Field Recordings. LSU College of Art 
 Harmon, Brendan and XYZ Collective (2025). Field Recordings: African American Burial Grounds in the River Parishes. American Anthropological Association 2025 Annual Meeting. Treme Market, New Orleans, Louisiana, USA. November 19 – 23, 2025.
 
 <i class="fa fa-university"></i>
-Harmon, Brendan and XYZ Collective (2025). The Atlas of Heritage Trees. Spectral Remix. Merchant House Gallery, New Orleans, Louisiana, USA. November 19 – 22, 2025.
+Harmon, Brendan and XYZ Collective (2025). The Atlas of Heritage Trees. [Spectral Remix](https://www.spectralremix.org/). Merchant House Gallery, New Orleans, Louisiana, USA. November 19 – 22, 2025.
 
 <i class="fa fa-university"></i>
 Nam, Hye Yeon and Brendan Harmon (2025). [Heritage Trees](https://doi.org/10.1145/3721249.3731629). SIGGRAPH Art Gallery ’25. Vancouver, British Columbia, Canada. August 10 – 14, 2025.

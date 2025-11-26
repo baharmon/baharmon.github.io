@@ -5,7 +5,7 @@ description: Open educational materials for spatial science and computational de
 featured_image: https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/earthworks-04.png
 ---
 
-![Earthworking tutorial](images/earthworks-04.png)
+![Earthworking tutorial](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/earthworks-04.png)
 
 ## Courses
 

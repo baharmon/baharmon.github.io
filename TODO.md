@@ -12,13 +12,10 @@
     * [x] Heritage tree 3D printing
     * [x] Burial grounds drone lidar
     * [ ] Burial grounds neural renderings
-* [x] Spatial Science
+* [x] Spatial Science > Geocomputation
     * [x] Earthworks
     * [x] GRASS tutorials
     * [x] Landscape evolution
-* Geocomputation
-    * [ ] Earthworks
-    * [ ] Landscape evolution
 * [x] Field Recordings
     * [x] Exhibitions 
 * [x] Soundscapes

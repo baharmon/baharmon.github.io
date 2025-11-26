@@ -19,7 +19,7 @@ My research in spatial science focuses on the interaction between physical and e
 
 ## Earthworks
 
-![Hilltop Meadow Point Cloud Rendering](images/earthworks-01.png)
+![Earthworks](https://media.githubusercontent.com/media/baharmon/baharmon.github.io/master/images/earthworks-01.png)
 
 `r.earthworks` is a terrain modeling tool
 for the `GRASS` geocomputation engine. 
