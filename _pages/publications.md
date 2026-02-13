@@ -18,6 +18,10 @@ Petrasova, Anna, Brendan Harmon, Vaclav Petras, and Helena Mitasova. 2015. *Tang
 
 ## Papers
 
+Harmon, Brendan, Anna Petrasova, and Vaclav Petras (2026). “r.earthworks: a GRASS tool for
+terrain modeling”. In: Journal of Open Source Software 11.118, page 9270. DOI: [10.21105/jo
+ss.09270](https://doi.org/10.21105/joss.09270).
+
 Harmon, Brendan and Hye Yeon Nam (2025). “Cloud Garden: Neural Rendering and Point Cloud
 Modeling of Landscapes”. In: ACADIA 2025: Proceedings of the 45th Annual Conference of the
 Association for Computer Aided Design in Architecture.
@@ -146,6 +150,10 @@ Mitasova, Helena, Brendan A Harmon, and Stephen B Blundell. 2013. “Exploring T
 
 ## Reports
 
+Harmon, Brendan, Nicholas Serrano, and Annicia Streete (Dec. 2025). African American Burial
+Grounds in the Louisiana River Parishes. Technical report. Version 1.0.0. National Park Service.
+DOI: [10.5281/zenodo.18009933](https://doi.org/10.5281/zenodo.18009933).
+
 Black, Josh, Peihong Han, Chadd Hippensteel, Xiaoman Ji, Sophie Lott, Murong Xu, Yue Zhang, and Brendan A Harmon. 2019. “Spring Up! Denham Springs Masterplan.” LSU Coastal Sustainability Studio, Baton Rouge, LA. url: [https://www.blurb.com/b/9534482-spring-up-denham-springs-masterplan](https://www.blurb.com/b/9534482-spring-up-denham-springs-masterplan).
 
 Hammons, Hayden, Taylor Jacobson, Nguyet Nguyen, Elizabeth Peterson, Tanvi Shah, Xi Stich, Andrew Wright, and Brendan A Harmon. 2019. “The Hungry River: Designing a Future for the Amite River’s Former Sand and Gravel Mines.” LSU Coastal Sustainability Studio, Baton Rouge, LA.
@@ -158,7 +166,7 @@ Meentemeyer, Ross K, Francesco Tonini, Douglas Shoemaker, Richard C Cobb, Brenda
 
 ## Software
 
-Harmon, Brendan, r.earthworks version 1.1.0, 2025. DOI: [10.5281/zenodo.15507391](https://doi.org/10.5281/zenodo.15507391).
+Harmon, Brendan, r.earthworks version 3.0.0, 2026. DOI: [10.5281/zenodo.15507391](https://doi.org/10.5281/zenodo.15507391).
 
 Harmon, Brendan, Helena Mitasova, and Vaclav Petras, r.sim.terrain version v1.2.0, 2021. DOI:
 [10.5281/zenodo.5076592](https://doi.org/10.5281/zenodo.5076592).
@@ -166,6 +174,11 @@ Harmon, Brendan, Helena Mitasova, and Vaclav Petras, r.sim.terrain version v1.2.
 ---
 
 ## Datasets
+
+Harmon, Brendan, Nicholas Serrano, Streete Annicia, Roman Carlos, Brooks Joseph, Chapman
+Cecil, Robertson Caroline, Baos Christos, and Hargis Graham (2025). African American Burial
+Grounds in the Louisiana River Parishes. Version 1.0.0. Zenodo. DOI: [10.5281/zenodo.17613
+647](https://doi.org/10.5281/zenodo.17613647).
 
 Harmon, Brendan (2025a). Bayou L’Ours Dataset for GRASS. Version 1.0.0. Zenodo. DOI: [10.5281/zenodo.15870441](https://doi.org/10.5281/zenodo.15870441).
 
@@ -191,8 +204,23 @@ Harmon, Brendan (2025a). Bayou L’Ours Dataset for GRASS. Version 1.0.0. Zenodo
 
 ## Exhibitions
 
+Martin, Debbie, Jazz Bishop, Brendan Harmon, and XYZ Collective (2026). Gone But Not Forgotten:
+Black Cemeteries of West Baton Rouge. West Baton Rouge Museum, Port Allen, Louisiana,
+USA. January 10 – March 7, 2026.
+
+Harmon, Brendan and XYZ Collective (2025b). Field Recordings. LSU College of Art & Design Boyce Gallery. Louisiana State University, Baton Rouge, Louisiana, USA. September 4 – October 3, 2025.
+
+Nam, Hye Yeon and Brendan Harmon (2025c). Particle Forest. Sympoiesis. Fort Hayes Tower Shot Gallery, Columbus, Ohio, USA.
+October 24 – December 11, 2025.
+
+Harmon, Brendan and XYZ Collective (2025c). Field Recordings: African American Burial Grounds in the River Parishes. American Anthropological Association 2025 Annual Meeting. Treme Market, New Orleans, Louisiana, USA.
+November 19 – 23, 2025.
+
 Harmon, Brendan, Hye Yeon Nam, Carlos Roman, Joseph Brooks, and XYZ Collective (2025). The
-Atlas of Heritage Trees. Spectral Remix. New Orleans, Louisiana, USA. November 19 – 22, 2025.
+Atlas of Heritage Trees. Spectral Remix. Merchant House Gallery, New Orleans, Louisiana, USA. November 19 – 22, 2025.
+
+Nam, Hye Yeon and Brendan Harmon (2025b). Particle Forest. 404 International Festival of Art & Technology. Gallery MC & The
+Players Club, New York City, New York, USA. October 7 – 9, 2025.
 
 Nam, Hye Yeon and Brendan Harmon (2025). Heritage Trees. SIGGRAPH 2025 Art Gallery. Vancouver, British Columbia, Canada. DOI: [10.1145/3721249.3731629](https://doi.org/10.1145/3721249.3731629). August 10 – 14, 2025.
 
